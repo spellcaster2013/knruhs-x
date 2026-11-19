@@ -17,8 +17,19 @@
   },
   "2d37ede242": {
    "status": "new",
-   "posted": {},
-   "errors": {}
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      8,
+      9,
+      10
+     ],
+     "at": "2026-11-19T19:39:30+05:30",
+     "by": "you"
+    }
+   },
+   "errors": {},
+   "alerted": true
   },
   "28d2ba9d07": {
    "status": "new",
@@ -28,7 +39,10 @@
   "9051b64bbf": {
    "status": "new",
    "posted": {},
-   "errors": {}
+   "errors": {
+    "telegram": "network error: <urlopen error [Errno 104] Connection reset by peer>"
+   },
+   "alerted": true
   },
   "a637008271": {
    "status": "new",
@@ -37,18 +51,48 @@
   },
   "31b50c1fb6": {
    "status": "new",
-   "posted": {},
-   "errors": {}
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      14,
+      15
+     ],
+     "at": "2026-11-19T19:39:44+05:30",
+     "by": "you"
+    }
+   },
+   "errors": {},
+   "alerted": true
   },
   "6b76821012": {
    "status": "new",
-   "posted": {},
-   "errors": {}
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      16,
+      17
+     ],
+     "at": "2026-11-19T19:39:50+05:30",
+     "by": "you"
+    }
+   },
+   "errors": {},
+   "alerted": true
   },
   "3e58519ffd": {
    "status": "new",
-   "posted": {},
-   "errors": {}
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      18,
+      19
+     ],
+     "at": "2026-11-19T19:39:56+05:30",
+     "by": "you"
+    }
+   },
+   "errors": {},
+   "alerted": true
   }
  },
  "auto": {
