@@ -117,6 +117,17 @@ def main():
     if first:
         a["since"] = time.time()  # notices found on the very first run are NOT posted (no flood of old news)
         alert_owner(cfg, "KNRUHS bot is live on GitHub. From now on, new notices are " + ("posted automatically when clean; I will message you about the doubtful ones." if mode == "auto" else "sent to you first; reply /post CODE to publish."))
+    code = os.environ.get("POST_CODE", "").strip()
+    if code:
+        known = {p["id"]: p for p in d.packs()}
+        if code not in known:
+            bot.log(f"POST_CODE {code}: no such notice")
+        else:
+            st = d.item_state(code)
+            st["status"], st["errors"], st["alerted"] = "new", {}, True
+            r = d.post(code, a["targets"])
+            bot.log("manual post:", r)
+            alert_owner(cfg, ("Posted to the channel: " + known[code]["title"]) if r["posted"] else ("Could not post to the channel: " + "; ".join(r["errors"].values())))
     for pk in d.packs():
         st = d.item_state(pk["id"])
         if st.get("alerted") or st["status"] != "new" or st["posted"] or (mode == "auto" and d.eligible(pk)):

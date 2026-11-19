@@ -5,6 +5,10 @@ on:
     - cron: "*/15 * * * *"   # about every 15 minutes (GitHub may run it a few minutes late)
   workflow_dispatch:           # lets you press "Run workflow" by hand
     inputs:
+      post_code:
+        description: "Publish this notice code to the channel now (optional)"
+        type: string
+        default: ""
       send_test:
         description: "Send a test message to my private Telegram chat"
         type: boolean
@@ -34,6 +38,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
           SEND_TEST: ${{ inputs.send_test }}
+          POST_CODE: ${{ inputs.post_code }}
         run: python cloud.py
       - name: Save memory (so old notices are never posted twice)
         run: |

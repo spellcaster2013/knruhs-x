@@ -382,11 +382,18 @@ def rule_draft(item, text, pages, published, meta_title=""):
             j += 1
             sub += " " + lines[j]
     title = tidy_title(sub) if len(sub) > 20 else ""
-    if not title and len(meta_title) > 20:
-        title = tidy_title(smart_case(meta_title))
+    # the link text on the KNRUHS page is the human title; the PDF's hidden "title" is often junk (a file name like "Vacancies_P4 (1).xlsx")
+    a = re.sub(r"^\s*\d{1,2}\s+[A-Za-z]{3}[a-z]*\.?\s*:\s*", "", item.get("anchor") or "")
+    a = re.sub(r"^KNRUHS\s*[-:–]\s*", "", a, flags=re.I)
+    anchor_ok = len(a) > 18 and not GENERIC_ANCHOR.match(a)
+    mt = meta_title.strip()
+    meta_ok = len(mt) > 20 and not re.search(r"\.(xlsx?|docx?|pdf|pptx?|csv)\s*$", mt, re.I) and "_" not in mt and not re.search(r"\w-\w+-\w+-\w+", mt)
+    if not title and anchor_ok:
+        title = tidy_title(smart_case(a))
+    if not title and meta_ok:
+        title = tidy_title(smart_case(mt))
     if not title:
-        a = re.sub(r"^\s*\d{1,2}\s+[A-Za-z]{3}[a-z]*\.?\s*:\s*", "", item.get("anchor") or "")
-        title = tidy_title(smart_case(a)) if len(a) > 18 and not GENERIC_ANCHOR.match(a) else clean_name(item["url"])
+        title = clean_name(item["url"])
     title = title[:1].upper() + title[1:]
     flags = []
     # a title about admissions/counselling is never a job advert, even if it says "vacancies" (e.g. "vacancies for additional mop up phase")
