@@ -2,10 +2,19 @@
  "items": {
   "bc60772dfa": {
    "status": "new",
-   "posted": {},
-   "errors": {
-    "telegram": "Telegram sendMediaGroup failed: Bad Request: chat not found"
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "at": "2026-11-19T19:25:14+05:30",
+     "by": "you"
+    }
    },
+   "errors": {},
    "alerted": true
   },
   "9051b64bbf": {
@@ -27,6 +36,12 @@
    "status": "new",
    "posted": {},
    "errors": {}
+  },
+  "3e58519ffd": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "alerted": true
   }
  },
  "auto": {
