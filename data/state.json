@@ -2,7 +2,17 @@
  "items": {
   "86d4ae80dc": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      26,
+      27,
+      28
+     ],
+     "at": "2026-11-20T00:45:28+05:30",
+     "by": "you"
+    }
+   },
    "errors": {}
   },
   "e0b0b2a7b1": {
@@ -33,15 +43,33 @@
   },
   "28d2ba9d07": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      24,
+      25
+     ],
+     "at": "2026-11-20T00:45:24+05:30",
+     "by": "you"
+    }
+   },
    "errors": {}
   },
   "9051b64bbf": {
    "status": "new",
-   "posted": {},
-   "errors": {
-    "telegram": "network error: <urlopen error [Errno 104] Connection reset by peer>"
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      20,
+      21,
+      22,
+      23
+     ],
+     "at": "2026-11-20T00:45:21+05:30",
+     "by": "you"
+    }
    },
+   "errors": {},
    "alerted": true
   },
   "a637008271": {
@@ -106,5 +134,5 @@
   ],
   "log": []
  },
- "tg_offset": 882662826
+ "tg_offset": 882662829
 }
