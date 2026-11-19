@@ -267,7 +267,7 @@ TYPE_RULES = {
     "recruitment": r"RECRUIT|WALK[- ]?IN|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
     "result": r"RESULTS?\b|DECLARED|PASSED|SUCCESSFUL",
     "exam": r"TIME ?TABLE|HALL TICKET|EXAMINATIONS?|SUPPLEMENTARY|EXAM FEE",
-    "counselling": r"COUNSEL+ING|ALLOTMENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST",
+    "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
 BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
@@ -389,8 +389,12 @@ def rule_draft(item, text, pages, published, meta_title=""):
         title = tidy_title(smart_case(a)) if len(a) > 18 and not GENERIC_ANCHOR.match(a) else clean_name(item["url"])
     title = title[:1].upper() + title[1:]
     flags = []
-    stream, sconf = classify(STREAM_RULES, title, text)
-    typ, tconf = classify(TYPE_RULES, title, text)
+    # a title about admissions/counselling is never a job advert, even if it says "vacancies" (e.g. "vacancies for additional mop up phase")
+    admissionish = re.search(r"ADMISSIONS?|COUNSEL|MOP[- ]?UP|WEB[- ]?OPTIONS?|ALLO?T?MENT|MERIT LIST|SEAT", title, re.I) and not re.search(r"RECRUIT|WALK[- ]?IN|ASSISTANT PROFESSOR|APPLICATIONS ARE INVITED", title, re.I)
+    srules = {k: v for k, v in STREAM_RULES.items() if not (admissionish and k == "jobs")}
+    trules = {k: v for k, v in TYPE_RULES.items() if not (admissionish and k == "recruitment")}
+    stream, sconf = classify(srules, title, text)
+    typ, tconf = classify(trules, title, text)
     if stream == "jobs" or (typ == "recruitment" and not stream):
         stream, typ = "jobs", "recruitment"
     if not stream:

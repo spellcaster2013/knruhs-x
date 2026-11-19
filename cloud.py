@@ -6,7 +6,7 @@ Secrets come from environment variables, never from files in the repo:
   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID (your channel, e.g. @knruhsx), OWNER_CHAT_ID (optional, your own Telegram user id),
   IG_USER_ID, IG_ACCESS_TOKEN, SLIDES_REPO, SLIDES_TOKEN (optional, Instagram)
 """
-import argparse, json, os, sys, time, urllib.parse, urllib.request
+import argparse, json, os, sys, time, urllib.error, urllib.parse, urllib.request
 import bot, desk, publish
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -33,9 +33,16 @@ def tg_call(cfg, method, fields):
         with urllib.request.urlopen(urllib.request.Request(url, data=urllib.parse.urlencode(fields).encode()), timeout=30) as r:
             js = json.loads(r.read())
         return js.get("result") if js.get("ok") else None
+    except urllib.error.HTTPError as ex:
+        try:
+            why = json.loads(ex.read()).get("description", "")
+        except Exception:
+            why = ""
+        hint = {401: "the bot token is wrong or was revoked", 400: "check the chat id (for the owner: press Start on the bot; for the channel: the @name must match and the bot must be an admin)", 403: "the bot is blocked or not allowed to write there", 404: "the bot token is wrong"}.get(ex.code, "")
+        bot.log(f"telegram {method} failed: HTTP {ex.code} {why} -> {hint}")
     except Exception as ex:
         bot.log(f"telegram {method} failed:", type(ex).__name__)
-        return None
+    return None
 
 
 def alert_owner(cfg, text):
@@ -99,6 +106,9 @@ def main():
     a["delay_minutes"] = int(cfg.get("cloud", {}).get("delay_minutes", 0))
     a["targets"] = [t for t in ("telegram", "instagram") if conf.get(t)]
     a["on"] = True
+    if os.environ.get("SEND_TEST") == "true":
+        bot.log("sending a test message to the owner chat")
+        alert_owner(cfg, "Test message from your KNRUHS bot. If you can read this, private alerts work.")
     mode = cfg.get("cloud", {}).get("mode", "auto")  # "auto": clean notices post themselves. "approve": everything waits for your /post
     read_commands(cfg, d, a["targets"], skip=first)  # first run: ignore old chat messages
     d.check_now()

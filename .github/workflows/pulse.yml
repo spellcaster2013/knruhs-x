@@ -3,7 +3,12 @@ name: KNRUHS notice bot
 on:
   schedule:
     - cron: "*/15 * * * *"   # about every 15 minutes (GitHub may run it a few minutes late)
-  workflow_dispatch: {}        # lets you press "Run workflow" by hand
+  workflow_dispatch:           # lets you press "Run workflow" by hand
+    inputs:
+      send_test:
+        description: "Send a test message to my private Telegram chat"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,6 +33,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+          SEND_TEST: ${{ inputs.send_test }}
         run: python cloud.py
       - name: Save memory (so old notices are never posted twice)
         run: |
