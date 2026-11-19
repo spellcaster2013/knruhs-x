@@ -1,0 +1,40 @@
+{
+ "items": {
+  "bc60772dfa": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "9051b64bbf": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "a637008271": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "31b50c1fb6": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "6b76821012": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  }
+ },
+ "auto": {
+  "on": true,
+  "min_conf": 0.85,
+  "delay_minutes": 10,
+  "max_per_hour": 6,
+  "since": 1795094347.807277,
+  "targets": [
+   "telegram"
+  ],
+  "log": []
+ }
+}
