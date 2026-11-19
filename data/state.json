@@ -1,0 +1,66 @@
+{
+ "items": {
+  "86d4ae80dc": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "e0b0b2a7b1": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "38c2cb5176": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "2d37ede242": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "28d2ba9d07": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "9051b64bbf": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "a637008271": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "31b50c1fb6": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "6b76821012": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "3e58519ffd": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  }
+ },
+ "auto": {
+  "on": true,
+  "min_conf": 0.85,
+  "delay_minutes": 10,
+  "max_per_hour": 6,
+  "since": 1795097256.2093384,
+  "targets": [
+   "telegram"
+  ],
+  "log": []
+ },
+ "tg_offset": 882662824
+}
