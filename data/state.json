@@ -1,0 +1,44 @@
+{
+ "items": {
+  "bc60772dfa": {
+   "status": "new",
+   "posted": {},
+   "errors": {
+    "telegram": "Telegram sendMediaGroup failed: Bad Request: chat not found"
+   },
+   "alerted": true
+  },
+  "9051b64bbf": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "a637008271": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "31b50c1fb6": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  },
+  "6b76821012": {
+   "status": "new",
+   "posted": {},
+   "errors": {}
+  }
+ },
+ "auto": {
+  "on": true,
+  "min_conf": 0.85,
+  "delay_minutes": 10,
+  "max_per_hour": 6,
+  "since": 1795095288.402718,
+  "targets": [
+   "telegram"
+  ],
+  "log": []
+ },
+ "tg_offset": 882662823
+}
