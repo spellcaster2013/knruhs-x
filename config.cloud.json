@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {"name": "Home (latest)", "url": "https://www.knruhs.telangana.gov.in/"},
+    {"name": "Admission notifications", "url": "https://www.knruhs.telangana.gov.in/admission-notification/"},
+    {"name": "Exam notifications", "url": "https://www.knruhs.telangana.gov.in/exam-notifications/"},
+    {"name": "Results", "url": "https://www.knruhs.telangana.gov.in/results/"}
+  ],
+  "link_patterns": ["/wp-content/uploads/notifications/.*\\.pdf($|\\?)"],
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 5,
+  "respect_robots": true,
+  "data_dir": "data",
+  "brand": {"name": "KNRUHS X", "tagline": "Updates in plain words", "handle": "@knruhsx"},
+  "cloud": {"delay_minutes": 10}
+}

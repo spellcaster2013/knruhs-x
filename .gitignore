@@ -1,0 +1,6 @@
+data/outbox/
+data/pdfs/
+data/review.html
+__pycache__/
+config.json
+*.zip

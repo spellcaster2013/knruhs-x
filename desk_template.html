@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Channel Desk</title>
+<style>
+:root { --bg:#F3F7FA; --card:#fff; --ink:#0D2030; --muted:#5E7384; --line:#DCE5EC; --brand:#0B6E7A; --brand2:#18A7B0; --navy:#0B3C5D; --warn:#B45309; --warnbg:#FEF3C7; --bad:#B42318; --ok:#067647; --okbg:#DCFAE6; --soft:#EEF3F7; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0A1722; --card:#10212F; --ink:#E8F1F7; --muted:#8FA6B8; --line:#1F3547; --brand:#3CC3CC; --brand2:#18A7B0; --warn:#FBBF24; --warnbg:#3A2A06; --bad:#FDA29B; --ok:#75E0A7; --okbg:#0B2F20; --soft:#152A3A; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; }
+header { position:sticky; top:0; z-index:20; display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding:12px 28px; background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+.logo { display:flex; align-items:center; gap:10px; font-weight:800; font-size:18px; }
+.mark { width:34px; height:34px; border-radius:10px; background:var(--brand2); display:grid; place-items:center; }
+.grow { flex:1; }
+button { font:inherit; cursor:pointer; border:1px solid var(--line); background:var(--card); color:var(--ink); padding:8px 14px; border-radius:10px; font-weight:600; }
+button:hover:not(:disabled) { border-color:var(--brand); }
+button:disabled { opacity:.5; cursor:not-allowed; }
+button.primary { background:var(--brand); border-color:var(--brand); color:#fff; }
+@media (prefers-color-scheme: dark) { button.primary { color:#04222A; } }
+button.ghost { background:transparent; border-color:transparent; color:var(--muted); }
+button.sm { padding:5px 10px; font-size:13px; }
+.autotop { display:inline-flex; align-items:center; gap:10px; border-radius:99px; padding:8px 16px 8px 12px; }
+.autotop .dot { width:11px; height:11px; border-radius:99px; background:var(--muted); }
+.autotop.on { border-color:var(--brand); background:color-mix(in srgb, var(--brand) 14%, var(--card)); }
+.autotop.on .dot { background:var(--brand2); box-shadow:0 0 0 4px color-mix(in srgb, var(--brand2) 30%, transparent); }
+main { max-width:1180px; margin:0 auto; padding:22px 28px 80px; }
+.muted { color:var(--muted); } .sm { font-size:13px; }
+.chips { display:flex; flex-wrap:wrap; gap:8px; margin:4px 0 18px; }
+.chip { display:inline-flex; align-items:center; gap:6px; padding:4px 11px; border-radius:99px; font-size:12.5px; font-weight:700; background:var(--soft); color:var(--muted); border:1px solid var(--line); }
+.chip.ok { background:var(--okbg); color:var(--ok); border-color:transparent; }
+.chip.warn { background:var(--warnbg); color:var(--warn); border-color:transparent; }
+.chip.urgent { background:#F59E0B; color:#2A1800; border-color:transparent; }
+.tabs { display:inline-flex; background:var(--soft); border:1px solid var(--line); border-radius:12px; padding:4px; margin-bottom:18px; }
+.tabs button { border:0; background:transparent; padding:7px 16px; border-radius:9px; color:var(--muted); }
+.tabs button.on { background:var(--card); color:var(--ink); box-shadow:0 1px 3px rgba(0,0,0,.12); }
+.panel { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; }
+.post { display:grid; grid-template-columns:340px minmax(0,1fr); gap:22px; margin-bottom:18px; }
+@media (max-width:860px) { .post { grid-template-columns:1fr; } }
+.strip { display:flex; gap:8px; overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:6px; }
+.strip img { width:200px; height:250px; object-fit:cover; border-radius:12px; border:1px solid var(--line); cursor:zoom-in; scroll-snap-align:start; flex:0 0 auto; background:var(--soft); }
+.notes { background:var(--soft); border:1px solid var(--line); border-radius:14px; padding:12px 14px; margin:10px 0; }
+.notes ul { margin:6px 0 0; padding-left:20px; }
+h3 { margin:6px 0 8px; font-size:18px; line-height:1.3; }
+.row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.cap { white-space:pre-wrap; background:var(--soft); border:1px solid var(--line); border-radius:12px; padding:10px 12px; font-size:13.5px; max-height:150px; overflow:auto; margin-top:8px; }
+.seg { display:inline-flex; gap:4px; }
+.seg button { padding:4px 11px; font-size:13px; border-radius:8px; }
+.seg button.on { background:var(--navy); color:#fff; border-color:var(--navy); }
+.err { color:var(--bad); font-size:13px; margin-top:6px; }
+.empty { text-align:center; padding:50px 20px; }
+#toast { position:fixed; left:50%; bottom:26px; transform:translateX(-50%); background:#0B3C5D; color:#fff; padding:11px 18px; border-radius:12px; font-weight:600; box-shadow:0 8px 30px rgba(0,0,0,.3); opacity:0; pointer-events:none; transition:opacity .2s; z-index:60; max-width:90vw; }
+#toast.on { opacity:1; }
+#lb { position:fixed; inset:0; background:rgba(5,12,18,.88); display:none; align-items:center; justify-content:center; z-index:50; }
+#lb.on { display:flex; } #lb img { max-height:92vh; max-width:92vw; border-radius:10px; }
+#lb button { position:absolute; top:50%; background:rgba(255,255,255,.14); color:#fff; border:0; font-size:26px; padding:12px 16px; }
+#lb .prev { left:18px; } #lb .next { right:18px; } #lb .x { top:18px; right:18px; }
+.pop { position:absolute; right:28px; top:62px; width:340px; z-index:30; display:none; box-shadow:0 14px 40px rgba(0,0,0,.25); }
+.pop.on { display:block; } .pop label { display:block; margin:10px 0 4px; font-weight:600; font-size:13px; }
+.pop select, .pop input[type=number] { width:100%; padding:7px 9px; border-radius:8px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><span class="mark"><svg width="22" height="22" viewBox="0 0 32 32"><path d="M4 17h6l3-8 5 15 3-7h7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span id="brandName">Channel Desk</span><span class="muted sm" style="font-weight:600">Desk</span></div>
+  <div class="grow"></div>
+  <span class="muted sm" id="status"></span>
+  <button id="checkNow" class="sm">Check now</button>
+  <button id="autoTop" class="autotop" role="switch" aria-checked="false" title="When on, clean updates are posted to your connected channels automatically after a short delay. Flagged ones always wait for you."><span class="dot"></span><span>Auto-post <b id="autoLbl">Off</b></span></button>
+  <button id="autoSet" class="ghost sm" aria-label="Auto-post settings">Settings</button>
+</header>
+<div class="panel pop" id="pop"></div>
+<main>
+  <div class="chips" id="channels"></div>
+  <div class="tabs" id="tabs"></div>
+  <div id="list"></div>
+</main>
+<div id="lb"><button class="x" id="lbx">✕</button><button class="prev" id="lbp">‹</button><img alt=""><button class="next" id="lbn">›</button></div>
+<div id="toast" role="status"></div>
+<script>
+var TOKEN = "__TOKEN__", S = null, tab = 'new', capTab = {}, last = '', lbList = [], lbI = 0;
+var $ = function (s) { return document.querySelector(s); };
+function esc(t) { return String(t == null ? '' : t).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+function toast(m, ms) { var t = $('#toast'); t.textContent = m; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(function () { t.classList.remove('on'); }, ms || 3200); }
+function ago(iso) { if (!iso) return 'not yet'; var s = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000); return s < 60 ? 'just now' : s < 3600 ? Math.round(s / 60) + ' min ago' : s < 86400 ? Math.round(s / 3600) + ' h ago' : Math.round(s / 86400) + ' d ago'; }
+function dt(ms) { var d = new Date(ms); return d.toLocaleString('en-IN', { day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: '2-digit' }); }
+function api(path, body) { return fetch(path, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Desk-Token': TOKEN }, body: JSON.stringify(body || {}) }).then(function (r) { return r.json(); }); }
+function load(force) { return fetch('/api/state').then(function (r) { return r.json(); }).then(function (j) { var s = JSON.stringify(j.items) + JSON.stringify(j.auto) + JSON.stringify(j.channels); S = j; header(); if (force || s !== last) { last = s; render(); } }).catch(function () { $('#status').textContent = 'Desk stopped. Start it again in Terminal.'; }); }
+function header() {
+  $('#brandName').textContent = S.brand.name; document.title = S.brand.name + ' Desk';
+  $('#status').textContent = S.checking ? 'Checking KNRUHS…' : 'Bot checked ' + ago(S.last_check) + (S.last_error ? ' · problem: ' + S.last_error.slice(0, 60) : '');
+  $('#autoTop').classList.toggle('on', S.auto.on); $('#autoTop').setAttribute('aria-checked', S.auto.on); $('#autoLbl').textContent = S.auto.on ? 'On' : 'Off';
+  var c = S.channels;
+  $('#channels').innerHTML = chip('Instagram', c.instagram, 'posts by itself') + chip('Telegram', c.telegram, 'posts by itself') + '<span class="chip">WhatsApp: copy &amp; paste (no official API)</span>';
+  var n = S.items.filter(isNew).length, h = S.items.filter(function (i) { return i.status === 'held'; }).length, d = S.items.length - n - h;
+  $('#tabs').innerHTML = [['new', 'New (' + n + ')'], ['held', 'On hold (' + h + ')'], ['done', 'Done (' + d + ')']].map(function (t) { return '<button data-t="' + t[0] + '" class="' + (tab === t[0] ? 'on' : '') + '">' + t[1] + '</button>'; }).join('');
+  [].forEach.call(document.querySelectorAll('#tabs button'), function (b) { b.onclick = function () { tab = b.dataset.t; render(); header(); }; });
+  document.title = (n ? '(' + n + ') ' : '') + document.title.replace(/^\(\d+\)\s*/, '');
+}
+function chip(n, ok, what) { return '<span class="chip ' + (ok ? 'ok' : 'warn') + '">' + n + ': ' + (ok ? 'connected, ' + what : 'not connected yet') + '</span>'; }
+function anyPosted(i) { return Object.keys(i.posted || {}).length > 0; }
+function isNew(i) { return i.status === 'new' && !anyPosted(i); }
+function render() {
+  var L = S.items.filter(function (i) { return tab === 'new' ? isNew(i) : tab === 'held' ? i.status === 'held' : (i.status === 'dismissed' || (i.status !== 'held' && anyPosted(i))); });
+  $('#list').innerHTML = L.length ? L.map(card).join('') : '<div class="panel empty"><b>' + (tab === 'new' ? 'Nothing waiting. You are all caught up.' : 'Nothing here yet.') + '</b><div class="muted sm" style="margin-top:6px">The bot checks KNRUHS every ' + Math.round(S.interval / 60) + ' minutes.</div></div>';
+  bind();
+}
+function card(p) {
+  var c = S.channels, ct = capTab[p.id] || 'instagram', ps = p.posted || {}, er = p.errors || {};
+  var strip = p.slides.map(function (s, i) { return '<img loading="lazy" data-lb="' + p.id + '" data-i="' + i + '" src="/packs/' + p.id + '/' + s + '" alt="Slide ' + (i + 1) + '">'; }).join('');
+  var fl = (p.flags || []).map(function (f) { return '<span class="chip warn">' + esc(f === 'no-text-scanned-pdf' ? 'Scanned PDF: the bot could not read it' : f === 'stream-unsure' ? 'Topic unsure: check the category' : f) + '</span>'; }).join('');
+  var done = ['instagram', 'telegram', 'whatsapp'].map(function (t) { return ps[t] ? '<span class="chip ok">' + t[0].toUpperCase() + t.slice(1) + ' ✓ ' + (ps[t].by === 'auto' ? 'auto ' : '') + ago(ps[t].at) + '</span>' : ''; }).join('');
+  var errs = Object.keys(er).map(function (t) { return '<div class="err"><b>' + t + ':</b> ' + esc(er[t]) + '</div>'; }).join('');
+  var live = p.status !== 'dismissed';
+  var btns = '';
+  if (live) {
+    var left = ['instagram', 'telegram'].filter(function (t) { return !ps[t]; });
+    ['instagram', 'telegram'].forEach(function (t) { if (!ps[t]) btns += '<button data-act="post" data-t="' + t + '" data-id="' + p.id + '" ' + (c[t] ? '' : 'disabled title="Not connected yet"') + '>Post to ' + t[0].toUpperCase() + t.slice(1) + '</button>'; });
+    var conn = left.filter(function (t) { return c[t]; });
+    if (conn.length > 1) btns = '<button class="primary" data-act="post" data-t="' + conn.join(',') + '" data-id="' + p.id + '">Post to all connected</button>' + btns;
+    else if (conn.length === 1) btns = btns.replace('<button data-act', '<button class="primary" data-act');
+    btns += '<button data-act="copywa" data-id="' + p.id + '">Copy WhatsApp text</button><a href="/api/zip/' + p.id + '"><button type="button">Download slides</button></a>';
+    btns += ps.whatsapp ? '<button class="ghost sm" data-act="unmark_whatsapp" data-id="' + p.id + '">Undo WhatsApp ✓</button>' : '<button data-act="mark_whatsapp" data-id="' + p.id + '">Mark WhatsApp posted</button>';
+    btns += p.status === 'held' ? '<button class="ghost" data-act="restore" data-id="' + p.id + '">Move back to New</button>' : '<button class="ghost" data-act="hold" data-id="' + p.id + '">Hold</button>';
+    btns += '<button class="ghost" data-act="dismiss" data-id="' + p.id + '">Dismiss</button>';
+  } else btns = '<button data-act="restore" data-id="' + p.id + '">Move back to New</button>';
+  return '<article class="panel post"><div><div class="strip">' + strip + '</div><div class="muted sm" style="margin-top:6px">' + p.slides.length + ' slides · 1080×1350 · ready for Instagram</div></div><div>' +
+    '<div class="row"><span class="chip">' + esc(p.stream.toUpperCase()) + '</span><span class="chip">' + esc(p.type) + '</span>' + (p.urgent ? '<span class="chip urgent">URGENT</span>' : '') + (p.deadline ? '<span class="chip">Last date ' + esc(dt(p.deadline)) + '</span>' : '') + (p.eligible && isNew(p) ? '<span class="chip ok">Clean: auto-post eligible</span>' : '') + '<span class="grow"></span><span class="muted sm">found ' + ago(p.detected_at) + '</span></div>' +
+    '<h3>' + esc(p.title) + '</h3>' +
+    '<div class="notes"><div class="row"><b class="sm">Bot notes</b><span class="grow"></span><span class="muted sm">Confidence ' + Math.round((p.confidence || 0) * 100) + '%</span></div>' +
+    (p.summary ? '<div style="margin-top:4px">' + esc(p.summary) + '</div>' : '<i class="muted">No summary: open the original and check.</i>') +
+    ((p.points || []).length ? '<ul>' + p.points.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
+    (fl ? '<div class="row" style="margin-top:8px">' + fl + '</div>' : '') + (p.ref ? '<div class="muted sm" style="margin-top:6px">Ref: ' + esc(p.ref) + '</div>' : '') + '</div>' +
+    '<div class="row"><a href="' + esc(p.source_url) + '" target="_blank" rel="noopener"><button type="button">Open original on KNRUHS ↗</button></a>' + done + '</div>' +
+    '<div style="margin-top:12px"><div class="seg">' + ['instagram', 'whatsapp', 'telegram'].map(function (t) { return '<button data-act="cap" data-t="' + t + '" data-id="' + p.id + '" class="' + (ct === t ? 'on' : '') + '">' + t[0].toUpperCase() + t.slice(1) + ' caption</button>'; }).join('') + '<button class="sm" data-act="copycap" data-id="' + p.id + '">Copy</button></div><div class="cap">' + esc(p.captions[ct === 'telegram' ? 'telegram' : ct]).replace(/&lt;\/?(b|i|a)[^&]*?&gt;/g, '') + '</div></div>' +
+    errs + '<div class="row" style="margin-top:14px">' + btns + '</div></div></article>';
+}
+function copy(t, msg) { (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { toast(msg || 'Copied'); }).catch(function () { var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); toast(msg || 'Copied'); }); }
+function item(id) { return S.items.filter(function (i) { return i.id === id; })[0]; }
+function bind() {
+  [].forEach.call(document.querySelectorAll('[data-act]'), function (b) { b.onclick = function () {
+    var id = b.dataset.id, a = b.dataset.act, p = item(id);
+    if (a === 'cap') { capTab[id] = b.dataset.t; render(); return; }
+    if (a === 'copycap') { var ct = capTab[id] || 'instagram'; copy(p.captions[ct], ct[0].toUpperCase() + ct.slice(1) + ' caption copied'); return; }
+    if (a === 'copywa') { copy(p.captions.whatsapp, 'WhatsApp text copied. Paste it into your channel and attach the slides.'); return; }
+    if (a === 'post') { b.disabled = true; toast('Posting…', 12000); api('/api/act', { id: id, action: 'post', targets: b.dataset.t.split(',') }).then(function (r) { toast(r.error ? r.error : (r.posted && r.posted.length ? 'Posted to ' + r.posted.join(' and ') : (Object.keys(r.errors || {}).length ? 'Could not post: ' + Object.values(r.errors)[0] : 'Nothing to post')), 6000); load(true); }); return; }
+    api('/api/act', { id: id, action: a }).then(function () { if (a === 'hold') toast('On hold'); load(true); });
+  }; });
+  [].forEach.call(document.querySelectorAll('[data-lb]'), function (im) { im.onclick = function () { var p = item(im.dataset.lb); lbList = p.slides.map(function (s) { return '/packs/' + p.id + '/' + s; }); lbI = +im.dataset.i; lbShow(); }; });
+}
+function lbShow() { $('#lb img').src = lbList[lbI]; $('#lb').classList.add('on'); }
+$('#lbx').onclick = function () { $('#lb').classList.remove('on'); };
+$('#lbp').onclick = function () { lbI = (lbI + lbList.length - 1) % lbList.length; lbShow(); };
+$('#lbn').onclick = function () { lbI = (lbI + 1) % lbList.length; lbShow(); };
+document.addEventListener('keydown', function (e) { if (!$('#lb').classList.contains('on')) return; if (e.key === 'Escape') $('#lbx').click(); if (e.key === 'ArrowLeft') $('#lbp').click(); if (e.key === 'ArrowRight') $('#lbn').click(); });
+$('#checkNow').onclick = function () { toast('Checking KNRUHS…'); api('/api/check').then(function () { setTimeout(function () { load(true); }, 2500); }); };
+$('#autoTop').onclick = function () {
+  var on = !S.auto.on, c = S.channels;
+  api('/api/auto', { on: on }).then(function () { toast(on ? ((c.instagram || c.telegram) ? 'Auto-post is on. Clean updates go out ' + S.auto.delay_minutes + ' min after they are found; flagged ones wait for you.' : 'Auto-post is on, but no channel is connected yet, so nothing will be posted.') : 'Auto-post is off. Everything waits for you.', 6000); load(true); });
+};
+$('#autoSet').onclick = function () {
+  var p = $('#pop'); if (p.classList.contains('on')) { p.classList.remove('on'); return; }
+  var a = S.auto, c = S.channels;
+  p.innerHTML = '<b>Auto-post settings</b><div class="muted sm">Applies to every update from now on.</div>' +
+    '<label>Only post automatically if the bot confidence is at least</label><select id="aMin">' + [0.8, 0.85, 0.9, 0.95].map(function (v) { return '<option value="' + v + '"' + (a.min_conf === v ? ' selected' : '') + '>' + Math.round(v * 100) + '%</option>'; }).join('') + '</select>' +
+    '<label>Wait this many minutes first (your chance to press Hold)</label><input id="aDelay" type="number" min="0" max="120" value="' + a.delay_minutes + '">' +
+    '<label>Post to</label><label style="font-weight:500"><input type="checkbox" id="aIg" ' + (a.targets.indexOf('instagram') >= 0 ? 'checked' : '') + ' ' + (c.instagram ? '' : 'disabled') + '> Instagram ' + (c.instagram ? '' : '(not connected)') + '</label><label style="font-weight:500"><input type="checkbox" id="aTg" ' + (a.targets.indexOf('telegram') >= 0 ? 'checked' : '') + ' ' + (c.telegram ? '' : 'disabled') + '> Telegram ' + (c.telegram ? '' : '(not connected)') + '</label>' +
+    '<div class="muted sm" style="margin-top:10px">Posts with warnings (scanned PDF, unsure topic) are never posted automatically. At most ' + a.max_per_hour + ' per hour.</div><div class="row" style="margin-top:12px"><button class="primary" id="aSave">Save</button></div>';
+  p.classList.add('on');
+  $('#aSave').onclick = function () { var t = []; if ($('#aIg').checked) t.push('instagram'); if ($('#aTg').checked) t.push('telegram'); api('/api/auto', { min_conf: $('#aMin').value, delay_minutes: $('#aDelay').value, targets: t }).then(function () { p.classList.remove('on'); toast('Saved'); load(true); }); };
+};
+load(true); setInterval(function () { load(false); }, 5000);
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bot drafts — review before publishing</title>
+<style>
+  :root { --bg:#F3F6FB; --s:#fff; --ink:#0B1B2E; --mut:#66788E; --line:#E2E8F0; --brand:#0E7C86; --warn:#B9740A; --warnbg:#FFF4DC; --ok:#1FA971; --okbg:#DFF5EA; --bad:#E5484D; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0A1220; --s:#111C2E; --ink:#EAF1FA; --mut:#8DA2BA; --line:#1F2F47; --brand:#2CC4CF; --warn:#F8C14A; --warnbg:#33280F; --okbg:#10301F; } }
+  * { box-sizing: border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,Segoe UI,Roboto,sans-serif; }
+  header { padding:22px 20px 8px; max-width:900px; margin:0 auto; } h1 { margin:0; font-size:24px; letter-spacing:-.02em; } .sub { color:var(--mut); margin-top:4px; }
+  main { max-width:900px; margin:0 auto; padding:8px 20px 60px; display:grid; gap:14px; }
+  .bar { display:flex; gap:8px; flex-wrap:wrap; padding:6px 0 4px; } .chip { border:1px solid var(--line); background:var(--s); color:var(--ink); border-radius:999px; padding:6px 14px; font:inherit; font-size:13px; font-weight:600; cursor:pointer; } .chip.on { background:var(--brand); color:#fff; border-color:var(--brand); }
+  .card { background:var(--s); border:1px solid var(--line); border-radius:16px; padding:18px 20px; box-shadow:0 1px 3px rgba(11,27,46,.06); }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:8px; } .tag { font-size:12px; font-weight:700; padding:3px 10px; border-radius:999px; background:color-mix(in srgb,var(--brand) 14%,transparent); color:var(--brand); }
+  .tag.warn { background:var(--warnbg); color:var(--warn); } .tag.ok { background:var(--okbg); color:var(--ok); } .tag.bad { background:#FDE8E9; color:var(--bad); }
+  h3 { margin:0 0 6px; font-size:18px; letter-spacing:-.01em; line-height:1.25; } p { margin:0 0 8px; color:var(--ink); } ul { margin:6px 0 10px; padding-left:20px; color:var(--ink); } li { margin:2px 0; }
+  .meta { color:var(--mut); font-size:13px; display:flex; gap:14px; flex-wrap:wrap; } .acts { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
+  button.b, a.b { height:36px; padding:0 14px; border-radius:10px; border:1px solid var(--line); background:var(--s); color:var(--ink); font:inherit; font-size:13px; font-weight:600; cursor:pointer; text-decoration:none; display:inline-flex; align-items:center; }
+  button.b.primary { background:var(--brand); color:#fff; border-color:transparent; } .empty { text-align:center; color:var(--mut); padding:40px; }
+  .toast { position:fixed; left:50%; bottom:24px; transform:translateX(-50%); background:var(--ink); color:var(--bg); padding:10px 16px; border-radius:12px; font-weight:600; }
+</style>
+</head>
+<body>
+<header><h1>Bot drafts — review before publishing</h1><div class="sub" id="sub"></div></header>
+<main><div class="bar" id="bar"></div><div id="list" style="display:grid;gap:14px"></div></main>
+<script id="data" type="application/json">/*__DATA__*/[]</script>
+<script>
+(function () {
+  var data = JSON.parse(document.getElementById('data').textContent.replace(/^\/\*__DATA__\*\//, '') || '[]');
+  var names = { mbbs: 'MBBS', bds: 'BDS', mdms: 'MD / MS', mds: 'MDS', ss: 'DM / MCh', ayush: 'BHMS / Ayush', nursing: 'Nursing', allied: 'Allied Health', jobs: 'Jobs' };
+  var flagText = { 'stream-unsure': 'Check the stream', 'no-text-scanned-pdf': 'Scanned PDF — read it yourself', 'deadline-words-but-no-date': 'Mentions a last date — no date found' };
+  var filter = 'all', esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  document.getElementById('sub').textContent = data.length + ' draft' + (data.length === 1 ? '' : 's') + ' · the bot never publishes by itself — a person checks every line against the PDF.';
+  function bar() {
+    var streams = ['all'].concat(Object.keys(names).filter(function (k) { return data.some(function (d) { return d.stream === k; }); }));
+    document.getElementById('bar').innerHTML = streams.map(function (k) { return '<button class="chip' + (k === filter ? ' on' : '') + '" data-k="' + k + '">' + (k === 'all' ? 'All' : names[k]) + '</button>'; }).join('');
+    document.querySelectorAll('.chip').forEach(function (c) { c.onclick = function () { filter = c.dataset.k; bar(); list(); }; });
+  }
+  function list() {
+    var items = data.filter(function (d) { return filter === 'all' || d.stream === filter; });
+    document.getElementById('list').innerHTML = items.length ? items.map(function (d, i) {
+      var m = d.meta, conf = Math.round(m.confidence * 100);
+      var flags = (m.flags || []).map(function (f) { return '<span class="tag warn">' + esc(flagText[f] || f) + '</span>'; }).join('');
+      return '<article class="card"><div class="row"><span class="tag">' + esc(names[d.stream] || d.stream) + '</span><span class="tag">' + esc(d.type) + '</span>' +
+        (d.urgent ? '<span class="tag bad">Urgent</span>' : '') + '<span class="tag ' + (conf >= 60 ? 'ok' : 'warn') + '">Confidence ' + conf + '%</span>' + flags + '</div>' +
+        '<h3>' + esc(d.title) + '</h3><p>' + esc(d.summary) + '</p>' +
+        (d.points.length ? '<ul>' + d.points.map(function (p) { return '<li>' + esc(p) + '</li>'; }).join('') + '</ul>' : '') +
+        '<div class="meta"><span>Ref: ' + esc(d.ref || '—') + '</span><span>Deadline: ' + (d.deadline ? new Date(d.deadline).toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' }) : '—') + '</span><span>' + d.pages + ' page' + (d.pages === 1 ? '' : 's') + '</span><span>Drafted by ' + esc(m.drafted_by) + '</span></div>' +
+        '<div class="acts"><a class="b" href="' + esc(m.pdf_path) + '" target="_blank">Open PDF</a><a class="b" href="' + esc(m.source_url) + '" target="_blank">Source link</a>' +
+        '<button class="b primary" data-i="' + data.indexOf(d) + '">Copy as post JSON</button></div></article>';
+    }).join('') : '<div class="empty">No drafts yet.</div>';
+    document.querySelectorAll('button.primary').forEach(function (b) { b.onclick = function () {
+      var d = JSON.parse(JSON.stringify(data[+b.dataset.i])); delete d.meta;
+      var t = JSON.stringify(d, null, 2);
+      (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(done, function () { var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); done(); });
+    }; });
+  }
+  function done() { var t = document.createElement('div'); t.className = 'toast'; t.textContent = 'Copied — paste into the admin app'; document.body.appendChild(t); setTimeout(function () { t.remove(); }, 1800); }
+  bar(); list();
+})();
+</script>
+</body>
+</html>
