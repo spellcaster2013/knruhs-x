@@ -2,7 +2,7 @@ name: KNRUHS notice bot
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # about every 15 minutes (GitHub may run it a few minutes late)
+    - cron: "7,22,37,52 * * * *"   # about every 15 minutes, off the busy :00/:15 marks (GitHub may run it late)
   workflow_dispatch:           # lets you press "Run workflow" by hand
     inputs:
       post_code:
