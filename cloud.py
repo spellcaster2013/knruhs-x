@@ -129,17 +129,22 @@ def main():
             bot.log("diagnostic: bot status in the channel:", (adm or {}).get("status", "unknown"), "| can post:", (adm or {}).get("can_post_messages"))
         else:
             bot.log("diagnostic: Telegram does NOT know a chat called", repr(cid))
-    code = os.environ.get("POST_CODE", "").strip()
-    if code:
+    codes = [c for c in os.environ.get("POST_CODE", "").replace(",", " ").split() if c]
+    if codes:
         known = {p["id"]: p for p in d.packs()}
-        if code not in known:
-            bot.log(f"POST_CODE {code}: no such notice")
-        else:
+        for n, code in enumerate(codes):
+            if code not in known:
+                bot.log(f"POST_CODE {code}: no such notice")
+                continue
+            if n:
+                time.sleep(4)  # be gentle with Telegram's rate limit
             st = d.item_state(code)
             st["status"], st["errors"], st["alerted"] = "new", {}, True
             r = d.post(code, a["targets"])
-            bot.log("manual post:", r)
-            alert_owner(cfg, ("Posted to the channel: " + known[code]["title"]) if r["posted"] else ("Could not post to the channel: " + "; ".join(r["errors"].values())))
+            bot.log("manual post:", code, r)
+            if not r["posted"] and r["errors"]:
+                alert_owner(cfg, "Could not post to the channel: " + "; ".join(r["errors"].values()))
+        d.save()
     for pk in d.packs():
         st = d.item_state(pk["id"])
         if st.get("alerted") or st["status"] != "new" or st["posted"] or (mode == "auto" and d.eligible(pk)):
