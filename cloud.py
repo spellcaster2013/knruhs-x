@@ -15,7 +15,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 def apply_env(cfg):
     e = os.environ.get
     if e("TELEGRAM_BOT_TOKEN"):
-        cfg["telegram"] = {"bot_token": e("TELEGRAM_BOT_TOKEN"), "chat_id": e("TELEGRAM_CHAT_ID", "")}
+        cfg["telegram"] = {"bot_token": e("TELEGRAM_BOT_TOKEN").strip(), "chat_id": e("TELEGRAM_CHAT_ID", "").strip().replace("https://t.me/", "@").replace("t.me/", "@")}
         if e("TELEGRAM_API_BASE"):
             cfg["telegram"]["api_base"] = e("TELEGRAM_API_BASE")
     if e("IG_USER_ID") and e("IG_ACCESS_TOKEN") and e("SLIDES_REPO"):
@@ -117,6 +117,18 @@ def main():
     if first:
         a["since"] = time.time()  # notices found on the very first run are NOT posted (no flood of old news)
         alert_owner(cfg, "KNRUHS bot is live on GitHub. From now on, new notices are " + ("posted automatically when clean; I will message you about the doubtful ones." if mode == "auto" else "sent to you first; reply /post CODE to publish."))
+    if os.environ.get("POST_CODE", "").strip() or os.environ.get("SEND_TEST") == "true":
+        me = tg_call(cfg, "getMe", {})
+        cid = (cfg.get("telegram") or {}).get("chat_id", "")
+        bot.log("diagnostic: token belongs to bot", ("@" + me.get("username", "?")) if me else "UNKNOWN (token rejected)")
+        bot.log("diagnostic: channel id the bot is using:", repr(cid), "| length", len(cid))
+        chat = tg_call(cfg, "getChat", {"chat_id": cid})
+        if chat:
+            bot.log("diagnostic: Telegram found the channel:", chat.get("title"), "| type", chat.get("type"), "| id", chat.get("id"))
+            adm = tg_call(cfg, "getChatMember", {"chat_id": cid, "user_id": (me or {}).get("id", 0)})
+            bot.log("diagnostic: bot status in the channel:", (adm or {}).get("status", "unknown"), "| can post:", (adm or {}).get("can_post_messages"))
+        else:
+            bot.log("diagnostic: Telegram does NOT know a chat called", repr(cid))
     code = os.environ.get("POST_CODE", "").strip()
     if code:
         known = {p["id"]: p for p in d.packs()}
