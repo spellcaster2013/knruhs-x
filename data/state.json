@@ -210,12 +210,32 @@
   },
   "ccc8588b21": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      57,
+      58,
+      59
+     ],
+     "at": "2026-11-20T18:31:02+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {}
   },
   "217ec4fed7": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      54,
+      55,
+      56
+     ],
+     "at": "2026-11-20T18:31:00+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {}
   }
  },
@@ -229,7 +249,8 @@
    "telegram"
   ],
   "log": [
-   1795175197.36955
+   1795179658.2322936,
+   1795179660.6881967
   ],
   "all": true
  },
