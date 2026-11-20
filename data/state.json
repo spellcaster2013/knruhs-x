@@ -196,7 +196,16 @@
   },
   "df7f17639d": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      52,
+      53
+     ],
+     "at": "2026-11-20T17:16:39+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {}
   }
  },
@@ -209,7 +218,9 @@
   "targets": [
    "telegram"
   ],
-  "log": [],
+  "log": [
+   1795175197.36955
+  ],
   "all": true
  },
  "tg_offset": 882662832
