@@ -83,6 +83,8 @@ class Desk:
 
     def eligible(self, pk):
         a = self.state["auto"]
+        if a.get("all"):  # post everything new, even the doubtful ones
+            return bool(pk.get("title")) and bool(pk.get("source_url"))
         return (not pk.get("flags")) and (pk.get("confidence") or 0) >= a["min_conf"] and bool(pk.get("summary")) and bool(pk.get("points")) and bool(pk.get("stream")) and bool(pk.get("type"))
 
     def view(self):

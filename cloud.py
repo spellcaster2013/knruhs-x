@@ -109,14 +109,17 @@ def main():
     if os.environ.get("SEND_TEST") == "true":
         bot.log("sending a test message to the owner chat")
         alert_owner(cfg, "Test message from your KNRUHS bot. If you can read this, private alerts work.")
-    mode = cfg.get("cloud", {}).get("mode", "auto")  # "auto": clean notices post themselves. "approve": everything waits for your /post
+    mode = cfg.get("cloud", {}).get("mode", "auto_all")  # "auto_all": every new notice posts itself. "auto": only clean ones (doubtful wait for /post). "approve": everything waits for /post
+    a["all"] = (mode == "auto_all")
+    if mode == "auto_all":
+        mode = "auto"
     read_commands(cfg, d, a["targets"], skip=first)  # first run: ignore old chat messages
     d.check_now()
     if d.last_error:
         bot.log("check problem:", d.last_error)
     if first:
         a["since"] = time.time()  # notices found on the very first run are NOT posted (no flood of old news)
-        alert_owner(cfg, "KNRUHS bot is live on GitHub. From now on, new notices are " + ("posted automatically when clean; I will message you about the doubtful ones." if mode == "auto" else "sent to you first; reply /post CODE to publish."))
+        alert_owner(cfg, "KNRUHS bot is live on GitHub. From now on, new notices are " + ("posted automatically." if mode == "auto" else "sent to you first; reply /post CODE to publish."))
     if os.environ.get("POST_CODE", "").strip() or os.environ.get("SEND_TEST") == "true":
         me = tg_call(cfg, "getMe", {})
         cid = (cfg.get("telegram") or {}).get("chat_id", "")
@@ -159,7 +162,11 @@ def main():
         alert_owner(cfg, f"NEW NOTICE ({why})\n{pk['title']}\n\n{pk.get('summary') or ''}\n\nOriginal: {pk['source_url']}\n\nPublish: /post {pk['id']}\nDrop: /skip {pk['id']}")
         st["alerted"] = True
     if mode == "auto":
+        before = {pk["id"] for pk in d.packs() if d.item_state(pk["id"])["posted"]}
         d.auto_tick()
+        for pk in d.packs():
+            if pk["id"] not in before and d.item_state(pk["id"])["posted"] and (pk.get("flags") or (pk.get("confidence") or 0) < 0.85):
+                alert_owner(cfg, "Posted automatically (worth a quick look): " + pk["title"][:120] + "\nReason: " + (", ".join(pk.get("flags") or []) or "low confidence") + "\nOriginal: " + pk["source_url"])
     d.save()
     bot.log("run finished")
 
