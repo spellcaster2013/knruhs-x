@@ -153,10 +153,33 @@
   },
   "a9cf25b75a": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      47,
+      48
+     ],
+     "at": "2026-11-20T13:01:09+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {}
   },
   "1ce65c4a57": {
+   "status": "new",
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      45,
+      46
+     ],
+     "at": "2026-11-20T13:01:08+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
+  },
+  "a969d6201b": {
    "status": "new",
    "posted": {},
    "errors": {}
@@ -171,7 +194,10 @@
   "targets": [
    "telegram"
   ],
-  "log": [],
+  "log": [
+   1795159865.8716912,
+   1795159868.3928945
+  ],
   "all": true
  },
  "tg_offset": 882662831
