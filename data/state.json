@@ -240,7 +240,17 @@
   },
   "231f5aa303": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      60,
+      61,
+      62
+     ],
+     "at": "2026-11-21T12:00:49+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {}
   }
  },
@@ -253,7 +263,9 @@
   "targets": [
    "telegram"
   ],
-  "log": [],
+  "log": [
+   1795242647.005149
+  ],
   "all": true
  },
  "tg_offset": 882662834
