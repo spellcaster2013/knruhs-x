@@ -263,9 +263,7 @@
   "targets": [
    "telegram"
   ],
-  "log": [
-   1795242647.005149
-  ],
+  "log": [],
   "all": true
  },
  "tg_offset": 882662834
