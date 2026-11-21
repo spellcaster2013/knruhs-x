@@ -255,7 +255,16 @@
   },
   "4f33aea784": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      63,
+      64
+     ],
+     "at": "2026-11-21T17:30:56+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {}
   }
  },
@@ -268,7 +277,9 @@
   "targets": [
    "telegram"
   ],
-  "log": [],
+  "log": [
+   1795262454.6095324
+  ],
   "all": true
  },
  "tg_offset": 882662834
