@@ -418,6 +418,34 @@
    "alerted": true,
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-23T17:04:51+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b58906a6bc\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-23T18:08:45+05:30\", \"instagram\": \"2026-11-23T18:09:44+05:30\", \"telegram\": \"2026-11-23T18:08:34+05:30\"}, \"published_at\": \"2026-11-23T18:08:34+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b58906a6bc/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b58906a6bc/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b58906a6bc/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b58906a6bc/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b58906a6bc/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b58906a6bc/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-THIRD-SEMESTER-EXAMINATIONS-JULY-2026-REGULAR-CANDIDATES.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"NURSING (2022 NR) III SEMESTER EXAMINATIONS - July 2026 The following is the provisional list of registered numbers of all the successful candidates of B.SC. The statement of marks of passed and failed candidates are sent to respective colleges.\", \"title\": \"Examinations results of bsc nursing third semester examinations july 2026 regular candidates\", \"type\": \"result\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
+  },
+  "f594985021": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.88, \"deadline\": 1795519800000, \"detected_at\": \"2026-11-23T23:01:06+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f594985021\", \"points\": [\"Any grievance received after 05.00 PM on 24.11.2026 shall not be considered.\", \"Final merit list shall be notified after addressing all the grievances.\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BHMS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-PROVISIONAL-MERIT-LIST-OF-CANDIDATES-AFTER-REOPENING-OF-REGISTRATIONS.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"Any grievances with regard to the provisional merit list can be brought to the notice immediately to the email id: knruhsayush@gmail.com on or before 05.00 PM on 24.11.2026. Documents in support of grievances shall be mailed on or before 05.00 PM on 24.11.2026.\", \"title\": \"BHMS admissions under management quota for the AY 2026-27 - provisional merit list of candidates after reopening of registrations\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true
+  },
+  "f2cea979f6": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.78, \"deadline\": 0, \"detected_at\": \"2026-11-23T23:01:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f2cea979f6\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-ADDENDUM-TO-MERIT-LIST.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under competent authority quota for the AY 2026-27 - addendum to merit list\", \"title\": \"Medical PG degree diploma admissions under competent authority quota for the AY 2026-27 - addendum to merit list\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true
+  },
+  "cc86c21e1e": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-23T23:01:02+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"cc86c21e1e\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-FIRST-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under competent authority quota for the AY 2026-27 - list of not reported candidates in first phase of counsellin\", \"title\": \"Medical PG degree diploma admissions under competent authority quota for the AY 2026-27 - list of not reported candidates in first phase of counsellin\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true
+  },
+  "d6a3ea5278": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.93, \"deadline\": 1795588200000, \"detected_at\": \"2026-11-23T23:01:00+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"d6a3ea5278\", \"points\": [\"For eligibility criteria and regulations refer to notifications dated: 14.10.2026.\", \"The candidates who were allotted PG Medical seats in the first phase of counselling and joined the course and continuing in the course are\\u2026\", \"The candidates who have paid University fee in the first phase of counselling need not pay again.\", \"Candidates can exercise web options for PG Medical Degree / Diploma Courses in all Medical Colleges affiliated to KNRUHS through\\u2026\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"The candidates who were allotted seats in the first phase of counselling and have not reported/discontinued the course after joining at the respective colleges are not eligible for exercising web-options. 2. Candidates who have not exercised web-options in the first phase of counselling are also\\u2026\", \"title\": \"Medical PG degree diploma admissions under competent authority quota for the AY 2026-27 - notification for exercising web-options for second phase of\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true
   }
  },
  "auto": {
