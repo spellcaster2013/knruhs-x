@@ -22,7 +22,7 @@ FCM = f"https://fcm.googleapis.com/v1/projects/{PROJECT}/messages:send"
 STREAM_LABELS = {"mbbs": "MBBS", "bds": "BDS", "mdms": "MD / MS", "mds": "MDS", "ss": "DM / MCh", "ayush": "BHMS / Ayush",
                  "nursing": "Nursing", "allied": "Allied Health", "jobs": "Jobs"}
 TYPE_EMOJI = {"counselling": "🎓", "result": "📢", "exam": "📝", "recruitment": "💼", "admission": "🏫", "circular": "📌"}
-UNI_LABELS = {"knruhs": "KNRUHS", "ntruhs": "Dr. NTR UHS"}
+UNI_LABELS = {"knruhs": "KNRUHS", "ntruhs": "Dr. NTR UHS", "national": "All-India"}
 
 
 def merge_feeds(site, now):
@@ -91,6 +91,8 @@ def push_condition(stream, ntype, university="knruhs"):
     by its university and type alone."""
     u = f"'u_{university or 'knruhs'}' in topics"
     t = f"'t_{ntype or 'circular'}' in topics"
+    if university == "national":  # MCC / NMC notices are for students of every university
+        return f"'s_{stream}' in topics && {t}" if stream in KNOWN_STREAMS else t
     if stream in KNOWN_STREAMS:
         return f"{u} && 's_{stream}' in topics && {t}"
     return f"{u} && {t}"

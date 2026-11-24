@@ -7,3 +7,6 @@ config.json
 data-ntruhs/outbox/
 data-ntruhs/pdfs/
 data-ntruhs/review.html
+data-national/outbox/
+data-national/pdfs/
+data-national/review.html

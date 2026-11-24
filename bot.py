@@ -133,11 +133,14 @@ def robots_ok(url, cfg):
 
 
 STAMP_IN_IST = False  # set per university from the config: KNRUHS file names carry UTC time, Dr. NTR UHS file names carry Indian time
+FILE_STAMPS = True    # False where file names are not times (MCC / NMC): the date then comes from the link text or the server
 
 
 def file_stamp(url):
     """Real KNRUHS uploads start with a 14-digit UTC timestamp, e.g. 20261116122909_KNRUHS-... (matches Last-Modified).
     Dr. NTR UHS uploads are named like 20261124182505900.pdf (Indian time, with milliseconds)."""
+    if not FILE_STAMPS:
+        return None
     name = urllib.parse.unquote(os.path.basename(urllib.parse.urlsplit(url).path))
     m = re.match(r"(\d{14})", name)
     if m:
@@ -149,7 +152,13 @@ def file_stamp(url):
 
 
 def anchor_date(text):
-    """Home-page links look like '16 Nov: KNRUHS - ...' (no year)."""
+    """Home-page links look like '16 Nov: KNRUHS - ...' (no year). NMC links look like '22/11/2026 - ...'."""
+    m2 = re.match(r"\s*(\d{1,2})/(\d{1,2})/(20\d{2})\s*[-–:]", text or "")
+    if m2:
+        try:
+            return datetime(int(m2.group(3)), int(m2.group(2)), int(m2.group(1)), 12, tzinfo=IST)
+        except ValueError:
+            return None
     m = re.match(r"\s*(\d{1,2})\s+([A-Za-z]{3})[a-z]*\.?\s*:", text or "")
     if not m:
         return None
@@ -162,7 +171,8 @@ def anchor_date(text):
 
 
 ACRONYMS = {"MDS", "MBBS", "BDS", "MD", "MS", "PG", "BHMS", "BAMS", "BUMS", "BNYS", "AY", "KNRUHS", "DM", "MCH", "NMC", "CA", "CQ", "MQ",
-            "GNM", "ANM", "NEET", "CRRI", "NRI", "MLT", "BPT", "AHS", "MBA", "II", "III", "IV", "NIMS", "RTI", "SC", "ST", "BC", "EWS", "OBC"}
+            "GNM", "ANM", "NEET", "CRRI", "NRI", "MLT", "BPT", "AHS", "MBA", "II", "III", "IV", "NIMS", "RTI", "SC", "ST", "BC", "EWS", "OBC",
+            "UG", "DNB", "AIQ", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
 
 
 def smart_case(t):
@@ -174,6 +184,9 @@ def smart_case(t):
     out = []
     for w in t.split(" "):
         core = re.sub(r"[^A-Za-z]", "", w)
+        parts = [re.sub(r"[^A-Za-z]", "", x).upper() for x in re.split(r"[/]", w) if re.sub(r"[^A-Za-z]", "", x)]
+        if len(parts) > 1 and all(x in ACRONYMS for x in parts):  # MD/MS/DNB, BDS/B.SC
+            out.append(w); continue
         out.append(w if core.upper() in ACRONYMS or re.match(r"^[A-Z]\.?[A-Z]", w) and "." in w else w.lower())
     r = " ".join(out)
     return r[:1].upper() + r[1:]
@@ -211,7 +224,8 @@ def discover(cfg):
             absu = urllib.parse.urljoin(src["url"], html.unescape(href.strip()))
             if not any(re.search(pat, absu, re.I) for pat in cfg["link_patterns"]):
                 continue
-            item = found.setdefault(absu, {"url": absu, "anchor": "", "source": src["name"], "hint": None})
+            item = found.setdefault(absu, {"url": absu, "anchor": "", "source": src["name"], "hint": None, "stream_hint": src.get("stream"),
+                                              "prefer_anchor": bool(src.get("prefer_anchor"))})
             if text and not GENERIC_ANCHOR.match(text) and len(text) > len(item["anchor"]):
                 item["anchor"] = text
             item["hint"] = item["hint"] or anchor_date(text)
@@ -259,7 +273,7 @@ def pdf_text(path):
 STREAM_RULES = {
     "mds": r"\bMDS\b|\bM\.D\.S\b|MASTER OF DENTAL|PG \(DENTAL\)",
     "ss": r"\bDM\b|\bM\.?CH\b|SUPER ?SPECI",
-    "mdms": r"MD\s*/\s*MS|\bMD\b(?!\s*\((?i:A|H|HOMOEO|AYURVEDA|UNANI)\))|\bMS\b|(?i:PG MEDICAL|PG \(MEDICAL\)|POST ?GRADUATE MEDICAL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
+    "mdms": r"MD\s*/\s*MS|\bMD\b(?!\s*\((?i:A|H|HOMOEO|AYURVEDA|UNANI)\))|\bMS\b|(?i:PG MEDICAL|PG \(MEDICAL\)|POST ?GRADUATE|\(PG\)|PG COUNSEL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
     "bds": r"\bBDS\b|DENTAL",
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
@@ -271,7 +285,7 @@ TYPE_RULES = {
     "recruitment": r"RECRUIT|WALK[- ]?IN|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
     "result": r"RESULTS?\b|DECLARED|PASSED|SUCCESSFUL",
     "exam": r"TIME ?TABLE|HALL TICKET|EXAMINATIONS?|\bEXAMS?\b|SUPPLEMENTARY|EXAM FEE|\b(?:FINAL|PRELIMINARY) KEY\b|SEMESTER .*NOTIFICATION",
-    "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST",
+    "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST|CLEAR VACANC|STRAY|\bROUND[- ]?\d|\d(ST|ND|RD|TH) ROUND|RESIGNATION",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
 BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
@@ -288,7 +302,7 @@ def classify(rules, title, text):
         flags = 0 if k == "mdms" else re.I
         scores[k] = 3 * len(re.findall(pat, title, flags)) + len(re.findall(pat, head, flags))
     best = max(scores, key=lambda k: scores[k])
-    if "result" in rules and re.search(rules["result"], title, re.I) and not re.search(r"TIME ?TABLE|HALL TICKET|FEE", title, re.I):
+    if "result" in rules and re.search(rules["result"], title, re.I) and not re.search(r"TIME ?TABLE|HALL TICKET|FEE|ALLO?T?MENT|ROUND|COUNSEL", title, re.I):
         best, scores["result"] = "result", max(scores["result"], scores[best])
     total = sum(scores.values()) or 1
     return (best if scores[best] else None), round(scores[best] / total, 2)
@@ -389,6 +403,9 @@ def rule_draft(item, text, pages, published, meta_title=""):
     # the link text on the KNRUHS page is the human title; the PDF's hidden "title" is often junk (a file name like "Vacancies_P4 (1).xlsx")
     a = re.sub(r"^\s*\d{1,2}\s+[A-Za-z]{3}[a-z]*\.?\s*:\s*", "", item.get("anchor") or "")
     a = re.sub(r"^KNRUHS\s*[-:–]\s*", "", a, flags=re.I)
+    a = re.sub(r"^\s*\d{1,2}/\d{1,2}/20\d{2}\s*[-–:]\s*", "", a)  # NMC: '22/11/2026 - title'
+    if item.get("prefer_anchor") and len(a) > 18 and not GENERIC_ANCHOR.match(a):
+        title = ""  # MCC / NMC link texts are clean titles; use them instead of the PDF's subject line
     anchor_ok = len(a) > 18 and not GENERIC_ANCHOR.match(a)
     mt = meta_title.strip()
     meta_ok = len(mt) > 20 and not re.search(r"\.(xlsx?|docx?|pdf|pptx?|csv)\s*$", mt, re.I) and "_" not in mt and not re.search(r"\w-\w+-\w+-\w+", mt)
@@ -410,6 +427,8 @@ def rule_draft(item, text, pages, published, meta_title=""):
         stream, sconf = "mds", max(sconf, 0.9)  # a title about MDS / PG dental beats the many "dental" words in the body (which point to BDS)
     if stream == "jobs" or (typ == "recruitment" and not stream):
         stream, typ = "jobs", "recruitment"
+    if item.get("stream_hint") and (not stream or sconf < 0.5) and stream != "jobs":
+        stream, sconf = item["stream_hint"], 0.6  # e.g. a notice on MCC's PG page with no course in its title is a PG notice
     if not stream:
         stream = "mbbs"; flags.append("stream-unsure")
     if not typ:
@@ -532,8 +551,9 @@ def notify(title, body):
 
 
 def run_once(cfg, args):
-    global STAMP_IN_IST
+    global STAMP_IN_IST, FILE_STAMPS
     STAMP_IN_IST = bool(cfg.get("stamp_in_ist"))
+    FILE_STAMPS = cfg.get("file_stamps", True)
     data_dir = os.path.join(HERE, cfg["data_dir"]) if not os.path.isabs(cfg["data_dir"]) else cfg["data_dir"]
     os.makedirs(os.path.join(data_dir, "pdfs"), exist_ok=True)
     db = open_db(data_dir)
