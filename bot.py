@@ -313,7 +313,7 @@ STREAM_RULES = {
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
     "nursing": r"NURSING|\bGNM\b|\bANM\b",
-    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS",
+    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB",
     "jobs": r"RECRUIT|WALK[- ]?IN|DATA ENTRY OPERATOR|JUNIOR (?:OFFICE )?ASSISTANT|SYSTEM ADMINISTRATOR|COMPUTER OPERATOR|\bDEOS?\b|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
 }
 TYPE_RULES = {
@@ -465,7 +465,9 @@ def rule_draft(item, text, pages, published, meta_title=""):
     if item.get("stream_hint") and (not stream or sconf < 0.5) and stream != "jobs":
         stream, sconf = item["stream_hint"], 0.6  # e.g. a notice on MCC's PG page with no course in its title is a PG notice
     if not stream:
-        stream = "mbbs"; flags.append("stream-unsure")
+        # no course named anywhere (holidays, calendar of events, sports meet): it is for every course.
+        # The app shows it to everyone who follows its alert type, and phones are alerted the same way.
+        stream = "general"; flags.append("stream-unsure")
     if not typ:
         typ = "circular"
     if sconf < 0.5 and "stream-unsure" not in flags: flags.append("stream-unsure")
