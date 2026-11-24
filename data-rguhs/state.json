@@ -1,0 +1,189 @@
+{
+ "items": {
+  "f7b99a4f8d": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"f7b99a4f8d\", \"points\": [\"Guard file *** All the Theory Examination Centres must ensure that Audio and Video Cameras are enabled for web streaming during the entire\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"4 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1793771093434-94350573.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"LIST OF EXAM CENTRES AND ATTACHED COLLEGES FOR NURSING EXAMS NOV_2026 03-11-2026 CENTRE NAME & ADDRESSSl. GIRI 9845022057 N016 NO.1, MOTHER THERESA ROAD, VIVEKNAGAR PO,08025575705,08025575705,0802557570 5 ST.\", \"title\": \"7th Sem Nursing Theory Exam Centres for November-2026 Examination\", \"type\": \"exam\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "624ddfd759": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.8, \"deadline\": 1793816940000, \"detected_at\": \"2026-11-25T01:36:37+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"624ddfd759\", \"points\": [\"Applications are invited from eligible and interested institutions/ organizations for Fresh course/Additional courses/Increase in intake (UG & PG)\\u2026\", \"All application shall be uploaded as per new proforma prescribed in the online format only within stipulated time.\", \"The applications submitted in the old proforma /submitted by hand will not be considered. 2.\", \"The colleges shall pay full affiliation fees as per RGUHS Fees Notification along with the application within the prescribed dates. 3.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"4 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1793795282530-257227216.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"1 RGUHS/AFF/Physio/COA/01/2026-27 Date: 3/11/2026 NOTIFICATION Sub: Inviting applications for \\u201cFresh/Additional courses/Increase intake (Ug & PG)/continuation of Affiliation and Change of college name and address\\u201d for the Academic Year 2027-28 in Physiotherapy courses under RGUHS. Affiliation\\u2026\", \"title\": \"Inviting applications for \\u201cFresh/Additional courses/Increase intake (Ug & PG)/continuation of Affiliation and Change of college name and address\\u201d for\", \"type\": \"admission\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "34bd2aa2f8": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:34+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"34bd2aa2f8\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"5 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1793878734084-619097983.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Revised Fee Notification and Revised Time table for the Conduct of Supplementary Examinations for MBBS Phase I (CBME) (RS4, RS5, RS6 And RS7) and MBBS\", \"title\": \"Revised Fee Notification and Revised Time table for the Conduct of Supplementary Examinations for MBBS Phase I (CBME) (RS4, RS5, RS6 And RS7) and MBBS\", \"type\": \"exam\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "b7ee0f1298": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.8, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:31+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"b7ee0f1298\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"7 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794046141962-38572862.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"CORRIGENDUM - Conduct of Supplementary (Resit) examination for First Year Pharm.D (RS3) for Academic Year 2025-26\", \"title\": \"CORRIGENDUM - Conduct of Supplementary (Resit) examination for First Year Pharm.D (RS3) for Academic Year 2025-26\", \"type\": \"exam\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "293085ece3": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.92, \"deadline\": 1794248940000, \"detected_at\": \"2026-11-25T01:36:29+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"293085ece3\", \"points\": [\"Applications are invited for Fresh/Additional/Increase in Intake in Allied Health Science courses as per NCAHP from eligible\\u2026\", \"All application shall be submitted as per new proforma in the prescribed format only within stipulated time.\", \"The applications submitted in the old proforma will not be considered. 2.\", \"The colleges shall pay full affiliation fees online along with the application within the prescribed dates as applicable as per latest RGUHS\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"7 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794049704608-41763486.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"1 RGUHS/AFF/AHS/COA/01/2027-28 NOTIFICATION Sub: Inviting applications for Affiliation for the Academic Year 2027-28 in Allied Health Science courses under RGUHS as per NCAHP. 1. Continuation of Affiliation: (ONLINE)\", \"title\": \"Inviting applications for Affiliation for the Academic Year 2027-28 in Allied Health Science courses under RGUHS as per NCAHP. 1. Continuation of Affi\", \"type\": \"admission\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "75680b3ccd": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:26+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"75680b3ccd\", \"points\": [\"Guard file *** All the Theory Examination Centres must ensure that Audio and Video Cameras are enabled for web streaming during the entire\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"9 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794203897546-174230792.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"REVISED LIST OF EXAM CENTRES AND ATTACHED COLLEGES FOR NURSING EXAMS NOV_2026 07-11-2026 CENTRE NAME & ADDRESSSl. JULIET K 9019284555 N016 NO.1, MOTHER THERESA ROAD, VIVEKNAGAR PO,08025575705,08025575705,0802557570 5 ST.\", \"title\": \"Revised 7Th Sem Nursing Theory Exam Centres for Nov 2026 Examination\", \"type\": \"exam\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "cc3f35b34a": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.89, \"deadline\": 1794248940000, \"detected_at\": \"2026-11-25T01:36:22+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"cc3f35b34a\", \"points\": [\"Applications are invited for Fresh/Additional/Increase Intake in all courses not under NCAHP (See List below) from eligible\\u2026\", \"All application shall be submitted as per new proforma in the prescribed format only within stipulated time.\", \"The applications submitted in the old proforma will not be considered. 2.\", \"All those courses which are under Rehabilitation council of India, necessary approvals are must and apex body guidelines shall be followed for\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"9 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794204682692-352232513.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"1 RGUHS/AFF/AHS/Physio/COA/01/2027-28 NOTIFICATION Sub: Inviting applications for Affiliation for the Academic Year 2027-28 for all Allied Health Courses NOT under NCAHP (See list below). 1. Inviting online applications for Continuation of Affiliation of all courses not under NCAHP (See List\\u2026\", \"title\": \"Inviting applications for Affiliation for the Academic Year 2027-28 for all Allied Health Courses NOT under NCAHP (See list below). 1. Continuation of\", \"type\": \"admission\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "35566d6cab": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.2, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:19+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"35566d6cab\", \"points\": [\"Email: sadashiv.h369@gmail.com Mb: 9901151243 3rd & 4th Oct 2026 5 INTER ZONE TOURNAMENTS CUM SELECTION TRIALS \\u2013 2026-27 SN Events Date of the\\u2026\", \"Email: adityasports527@gmail.com Mb:9742558942 2 Table Tennis (Men & Women) 16.10.2026 17.10.2026 Dr.\", \"Email: drshantveer@gmail.com Mb: 9845394735 3 Chess (Men & Women) 17.10.2026 18.10.2026 Dr.\", \"S M Suresh Physical Education Director Mandya Institute of Medical Sciences, Mandya-571401 Email: sureshmmandya1980@gmail.com Mb:9980937430 4\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794570074643-831184622.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Suresh S M Physical Education Director Mandya Institute of Medical Sciences, Mandya Mb: 99809 37430 Sri. Harish Gowda Physical Education Director A J Institute of Medical Sciences, Mangalore Mb:9448300527 Sri.\", \"title\": \"Revised Calendar of Events 2026\\u201327\", \"type\": \"circular\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "0c53e4b631": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:15+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"0c53e4b631\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794570134612-266353086.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Applications are invited for the academic year 2027-28 a. Continuation of affiliation for Medical PG BS courses and PG SS courses b. Fresh and increas\", \"title\": \"Applications are invited for the academic year 2027-28 a. Continuation of affiliation for Medical PG BS courses and PG SS courses b. Fresh and increas\", \"type\": \"recruitment\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "5aee1e2e0f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:13+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"5aee1e2e0f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795174320806-718765747.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Rguhs 24th annual inter collegiate athletic meet 2026-2027\", \"title\": \"Rguhs 24th annual inter collegiate athletic meet 2026-2027\", \"type\": \"circular\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "244674fa67": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:10+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"244674fa67\", \"points\": [\"Colleges found engaging or showing CHOs/Ghost Faculties as teaching faculty shall make the Principal and concerned authorities liable for strict\\u2026\", \"Colleges deliberately facilitating such practices shall be liable for strict regulatory action, including withdrawal of RGUHS affiliation, as per\\u2026\", \"RGUHS shall request the Government to constitute an appropriate enquiry and initiate necessary legal action against the CHOs, Ghost Faculties,\\u2026\", \"All affiliated nursing colleges shall ensure genuine, qualified and duly registered faculty with verifiable attendance and academic engagement.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795262825830-11349032.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"All Principals and institutional authorities are hereby directed to ensure that no CHO or \\u201cGhost Faculty\\u201d is engaged, shown or certified as teaching faculty in their respective institutions. Action Against Principals and Institutional Authorities:\", \"title\": \"Strict Action against CHOs and Others for \\u201cGhost Faculty\\u201d Practices in Affiliated Nursing Colleges. ****** It has come to the notice of the University\", \"type\": \"circular\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "a92bf73034": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T01:36:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:07+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a92bf73034\", \"points\": [\"Guard file *** All the Theory Examination Centres must ensure that Audio and Video Cameras are enabled for web streaming during the entire\\u2026\", \"Accordingly, these colleges are presently under verification and have not yet been confirmed as examination centres.\", \"The colleges will be considered for identification as examination centres only after successful verification of audio-enabled CCTV cameras and\\u2026\", \"Following are the colleges previously attached to the above examination centres which will be informed about their respective examination centres\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795524469010-451695206.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"List of Theory Examination Centre for Pharm.D, UG & PG Nursing Examination DEC/JAN - 2026-27 24-11-2026 CENTRE NAME & ADDRESSSl. ATTACHED COLLEGES 1 CHAMUNDESHWARI MEDICAL COLLEGE HOSPITAL & RESEARCH INSTITUTE, CHANNAPATNA TALUK, RAMANAGARA.\", \"title\": \"List of Theory Examination Centre for Pharm.D, UG & PG Nursing Examination DEC/JAN - 2026-27\", \"type\": \"exam\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  }
+ },
+ "auto": {
+  "on": true,
+  "min_conf": 0.85,
+  "delay_minutes": 0,
+  "max_per_hour": 60,
+  "since": 0,
+  "targets": [
+   "app"
+  ],
+  "log": [
+   1795550803.2068355,
+   1795550803.2074962,
+   1795550803.2083437,
+   1795550803.2095852,
+   1795550803.2105584,
+   1795550803.2114017,
+   1795550803.2122633,
+   1795550803.2130854,
+   1795550803.2139585,
+   1795550803.2147672,
+   1795550803.2156265,
+   1795550803.2165082
+  ],
+  "target_since": {
+   "app": 1795550743.5431905
+  },
+  "all": true
+ },
+ "fb_init": "2026-11-25T01:36:43+05:30"
+}
