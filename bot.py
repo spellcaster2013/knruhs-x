@@ -172,7 +172,7 @@ def anchor_date(text):
 
 ACRONYMS = {"MDS", "MBBS", "BDS", "MD", "MS", "PG", "BHMS", "BAMS", "BUMS", "BNYS", "AY", "KNRUHS", "DM", "MCH", "NMC", "CA", "CQ", "MQ",
             "GNM", "ANM", "NEET", "CRRI", "NRI", "MLT", "BPT", "AHS", "MBA", "II", "III", "IV", "NIMS", "RTI", "SC", "ST", "BC", "EWS", "OBC",
-            "UG", "DNB", "AIQ", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
+            "UG", "DNB", "AIQ", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
 
 
 def smart_case(t):
