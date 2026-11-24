@@ -406,6 +406,8 @@ def rule_draft(item, text, pages, published, meta_title=""):
     trules = {k: v for k, v in TYPE_RULES.items() if not (admissionish and k == "recruitment")}
     stream, sconf = classify(srules, title, text)
     typ, tconf = classify(trules, title, text)
+    if re.search(r"\bMDS\b|PG ?\(?DENTAL\)?|MASTER OF DENTAL", title, re.I):
+        stream, sconf = "mds", max(sconf, 0.9)  # a title about MDS / PG dental beats the many "dental" words in the body (which point to BDS)
     if stream == "jobs" or (typ == "recruitment" and not stream):
         stream, typ = "jobs", "recruitment"
     if not stream:
