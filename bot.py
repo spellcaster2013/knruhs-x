@@ -207,6 +207,32 @@ def clean_name(url):
 GENERIC_ANCHOR = re.compile(r"^(pdf|view( document)?|download|click here|read more|more)$", re.I)
 
 
+RGUHS_COURSES = {"medical": "mbbs", "dental": "bds", "nursing": "nursing", "ayurveda": "ayush", "unani": "ayush", "homeopathy": "ayush",
+                 "naturopathy & yogic sciences": "ayush", "pharmacy": "allied", "allied health sciences": "allied", "physiotherapy": "allied"}
+
+
+def json_items(src, body, found):
+    """RGUHS lists its notices through a JSON feed (the web page fills itself from it): title, PDF link, date, courses.
+    Only the title, the PDF link, the date and the course are used; nothing about the staff who posted it."""
+    try:
+        rows = json.loads(body.decode("utf-8", "ignore"))["data"]["notifications"]
+    except Exception as e:
+        log(f"could not read the notice list of {src['name']}: {e}")
+        return
+    for n in rows:
+        url = (n.get("attachment_url") or "").strip()
+        if not url.lower().endswith(".pdf"):
+            continue  # a link to another portal, or no PDF at all
+        hint = None
+        try:
+            hint = datetime.strptime((n.get("created_at") or "")[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc).astimezone(IST)
+        except ValueError:
+            pass
+        streams = {RGUHS_COURSES.get(str(c).strip().lower()) for c in (n.get("courses") or [])} - {None}
+        found.setdefault(url, {"url": url, "anchor": " ".join(str(n.get("title") or "").split()), "source": src["name"], "hint": hint,
+                               "stream_hint": streams.pop() if len(streams) == 1 else None, "prefer_anchor": False, "include": None})
+
+
 def discover(cfg):
     found = {}
     for src in cfg["sources"]:
@@ -217,6 +243,10 @@ def discover(cfg):
             body, _ = http_get(src["url"], cfg)
         except Exception as e:
             log(f"could not open {src['url']}: {e}")
+            continue
+        if src.get("json") == "rguhs":
+            json_items(src, body, found)
+            time.sleep(cfg["delay_seconds"])
             continue
         p = LinkParser()
         p.feed(body.decode("utf-8", "ignore"))
@@ -290,7 +320,7 @@ TYPE_RULES = {
     "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST|CLEAR VACANC|STRAY|\bROUND[- ]?\d|\d(ST|ND|RD|TH) ROUND|RESIGNATION",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
-BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
+BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
 DATE_RE = re.compile(r"\b(\d{1,2})[./-](\d{1,2})[./-](20\d{2})\b")
 TIME_RE = re.compile(r"(\d{1,2})[.:](\d{2})\s*(AM|PM|noon)|(\d{1,2})\s*(AM|PM)", re.I)
 DEADLINE_WORDS = re.compile(r"last date|on or before|up ?to|not later than|till|until|before|by\b|from .* to", re.I)
