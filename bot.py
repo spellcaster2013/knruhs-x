@@ -225,12 +225,14 @@ def discover(cfg):
             if not any(re.search(pat, absu, re.I) for pat in cfg["link_patterns"]):
                 continue
             item = found.setdefault(absu, {"url": absu, "anchor": "", "source": src["name"], "hint": None, "stream_hint": src.get("stream"),
-                                              "prefer_anchor": bool(src.get("prefer_anchor"))})
+                                              "prefer_anchor": bool(src.get("prefer_anchor")),
+                                              "include": src.get("include")})
             if text and not GENERIC_ANCHOR.match(text) and len(text) > len(item["anchor"]):
                 item["anchor"] = text
             item["hint"] = item["hint"] or anchor_date(text)
         time.sleep(cfg["delay_seconds"])
-    items = list(found.values())
+    # a source with "include" keeps only notices whose link text matches it (NMC posts much that is not for students)
+    items = [i for i in found.values() if not i.get("include") or re.search(i["include"], i["anchor"] or "", re.I)]
     floor = datetime.min.replace(tzinfo=IST)
     items.sort(key=lambda l: file_stamp(l["url"]) or l["hint"] or floor, reverse=True)
     return items

@@ -3,9 +3,12 @@
   "app_only": true,
   "file_stamps": false,
   "sources": [
-    {"name": "MCC - UG medical counselling", "url": "https://mcc.nic.in/ug-medical-counselling/", "stream": "mbbs", "prefer_anchor": true},
-    {"name": "MCC - PG medical counselling", "url": "https://mcc.nic.in/pg-medical-counselling/", "stream": "mdms", "prefer_anchor": true},
-    {"name": "NMC - What's new", "url": "https://www.nmc.org.in/whats-new", "prefer_anchor": true}
+    {
+      "name": "NMC - What's new",
+      "url": "https://www.nmc.org.in/whats-new",
+      "prefer_anchor": true,
+      "include": "STUDENT|\\bMBBS\\b|\\bPG\\b|POST ?GRADUATE|NEET|\\bNEXT\\b|EXAMINATION|SEAT MATRIX|COUNSEL|INTERN|FMGE|STIPEND|ATTEMPT|CURRICULUM|RESIDENT|\\bDNB\\b|SUPER ?SPECIAL|RAGGING|ELECTIVE"
+    }
   ],
   "link_patterns": [
     "cdnbbsr\\.s3waas\\.gov\\.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/.+\\.pdf($|\\?)",
@@ -16,6 +19,14 @@
   "max_new_per_run": 25,
   "respect_robots": true,
   "data_dir": "data-national",
-  "brand": {"name": "KNRUHS Updates", "tagline": "", "handle": ""},
-  "cloud": {"delay_minutes": 0, "max_per_hour": 60}
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  },
+  "_mcc_note": "MCC (mcc.nic.in) refuses GitHub's servers (HTTP 403, 24 Nov 2026). Its UG/PG pages list PDFs on cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/. Needs a checker running from India."
 }
