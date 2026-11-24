@@ -97,11 +97,21 @@
      ],
      "at": "2026-11-20T00:45:21+05:30",
      "by": "you"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103745575554374",
+     "at": "2026-11-24T07:30:36+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "17879180913650534",
+     "at": "2026-11-24T07:31:35+05:30",
+     "by": "you"
     }
    },
    "errors": {},
    "alerted": true,
-   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795167000000, \"detected_at\": \"2026-11-19T19:37:27+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9051b64bbf\", \"points\": [\"Candidates who have not exercised web options in the first phase of counseling under Management Quota are also not eligible to exercise web\\u2026\", \"All the eligible candidates can exercise web options from 10.00 AM on 20.11.2026 to 03.00 PM on 20.11.2026 as per the candidate\\u2019s registration and\\u2026\", \"The Candidates who were allotted seats in the previous phases of counseling under Management Quota and have not reported/discontinued the course\\u2026\", \"If a candidate is allotted a seat in this phase of counselling and does not join the course, he will be liable for payment of penalty of Rs.\\u2026\"], \"posted\": {\"telegram\": \"2026-11-20T00:45:21+05:30\"}, \"published_at\": \"2026-11-20T00:45:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Candidates whose names are notified in the final merit list of Management Quota for MDS Admissions on the KNRUHS website are eligible to exercise web - options through online from computer with internet connection subject to following conditions; 1. The candidates who were allotted MDS seats in\\u2026\", \"title\": \"MDS admissions under management quota for the AY 2026-27 - notification for exercising web options for additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795167000000, \"detected_at\": \"2026-11-19T19:37:27+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9051b64bbf\", \"points\": [\"Candidates who have not exercised web options in the first phase of counseling under Management Quota are also not eligible to exercise web\\u2026\", \"All the eligible candidates can exercise web options from 10.00 AM on 20.11.2026 to 03.00 PM on 20.11.2026 as per the candidate\\u2019s registration and\\u2026\", \"The Candidates who were allotted seats in the previous phases of counseling under Management Quota and have not reported/discontinued the course\\u2026\", \"If a candidate is allotted a seat in this phase of counselling and does not join the course, he will be liable for payment of penalty of Rs.\\u2026\"], \"posted\": {\"facebook\": \"2026-11-24T07:30:36+05:30\", \"instagram\": \"2026-11-24T07:31:35+05:30\", \"telegram\": \"2026-11-20T00:45:21+05:30\"}, \"published_at\": \"2026-11-20T00:45:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9051b64bbf/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Candidates whose names are notified in the final merit list of Management Quota for MDS Admissions on the KNRUHS website are eligible to exercise web - options through online from computer with internet connection subject to following conditions; 1. The candidates who were allotted MDS seats in\\u2026\", \"title\": \"MDS admissions under management quota for the AY 2026-27 - notification for exercising web options for additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "before-app"
   },
   "a637008271": {
@@ -114,11 +124,22 @@
      ],
      "at": "2026-11-20T09:17:25+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103744765554374",
+     "at": "2026-11-24T07:29:21+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18177581143455009",
+     "at": "2026-11-24T07:30:18+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:25+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"a637008271\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-20T09:17:25+05:30\"}, \"published_at\": \"2026-11-20T09:17:25+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a637008271/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a637008271/slide-2.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/MD-HOMOEO-AIQ-P1.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"MD homoeopathy course admissions under all india quota for the academic year 2026-27- college wise alloment list in first phase\", \"title\": \"MD homoeopathy course admissions under all india quota for the academic year 2026-27- college wise alloment list in first phase\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:25+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"a637008271\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:29:21+05:30\", \"instagram\": \"2026-11-24T07:30:18+05:30\", \"telegram\": \"2026-11-20T09:17:25+05:30\"}, \"published_at\": \"2026-11-20T09:17:25+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a637008271/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a637008271/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a637008271/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a637008271/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a637008271/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/MD-HOMOEO-AIQ-P1.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"MD homoeopathy course admissions under all india quota for the academic year 2026-27- college wise alloment list in first phase\", \"title\": \"MD homoeopathy course admissions under all india quota for the academic year 2026-27- college wise alloment list in first phase\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "31b50c1fb6": {
    "status": "new",
@@ -130,11 +151,21 @@
      ],
      "at": "2026-11-19T19:39:44+05:30",
      "by": "you"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103744225554374",
+     "at": "2026-11-24T07:28:30+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18019226957752878",
+     "at": "2026-11-24T07:29:08+05:30",
+     "by": "you"
     }
    },
    "errors": {},
    "alerted": true,
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:22+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"31b50c1fb6\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-19T19:39:44+05:30\"}, \"published_at\": \"2026-11-19T19:39:44+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31b50c1fb6/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31b50c1fb6/slide-2.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:22+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"31b50c1fb6\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:28:30+05:30\", \"instagram\": \"2026-11-24T07:29:08+05:30\", \"telegram\": \"2026-11-19T19:39:44+05:30\"}, \"published_at\": \"2026-11-19T19:39:44+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31b50c1fb6/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31b50c1fb6/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31b50c1fb6/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "6b76821012": {
@@ -147,11 +178,21 @@
      ],
      "at": "2026-11-19T19:39:50+05:30",
      "by": "you"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103743589554374",
+     "at": "2026-11-24T07:27:42+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18143292652538362",
+     "at": "2026-11-24T07:28:19+05:30",
+     "by": "you"
     }
    },
    "errors": {},
    "alerted": true,
-   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:21+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6b76821012\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-19T19:39:50+05:30\"}, \"published_at\": \"2026-11-19T19:39:50+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6b76821012/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6b76821012/slide-2.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"MDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:21+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6b76821012\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:27:42+05:30\", \"instagram\": \"2026-11-24T07:28:19+05:30\", \"telegram\": \"2026-11-19T19:39:50+05:30\"}, \"published_at\": \"2026-11-19T19:39:50+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6b76821012/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6b76821012/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6b76821012/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"MDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "3e58519ffd": {
@@ -164,11 +205,21 @@
      ],
      "at": "2026-11-19T19:39:56+05:30",
      "by": "you"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103743073554374",
+     "at": "2026-11-24T07:26:57+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18131813903485784",
+     "at": "2026-11-24T07:27:31+05:30",
+     "by": "you"
     }
    },
    "errors": {},
    "alerted": true,
-   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:20+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3e58519ffd\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-19T19:39:56+05:30\"}, \"published_at\": \"2026-11-19T19:39:56+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3e58519ffd/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3e58519ffd/slide-2.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"MDS admissions under management quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"title\": \"MDS admissions under management quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-19T19:37:20+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3e58519ffd\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:26:57+05:30\", \"instagram\": \"2026-11-24T07:27:31+05:30\", \"telegram\": \"2026-11-19T19:39:56+05:30\"}, \"published_at\": \"2026-11-19T19:39:56+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3e58519ffd/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3e58519ffd/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3e58519ffd/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"MDS admissions under management quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"title\": \"MDS admissions under management quota for the AY 2026-27 - vacancies for additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "a9cf25b75a": {
@@ -197,11 +248,22 @@
      ],
      "at": "2026-11-20T13:01:08+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103746403554374",
+     "at": "2026-11-24T07:31:46+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18078722396771326",
+     "at": "2026-11-24T07:32:23+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.78, \"deadline\": 0, \"detected_at\": \"2026-11-20T12:45:40+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1ce65c4a57\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-20T13:01:08+05:30\"}, \"published_at\": \"2026-11-20T13:01:08+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-2.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST1-1.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 0.78, \"deadline\": 0, \"detected_at\": \"2026-11-20T12:45:40+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1ce65c4a57\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:31:46+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-20T13:01:08+05:30\"}, \"published_at\": \"2026-11-20T13:01:08+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST1-1.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "a969d6201b": {
    "status": "new",
