@@ -22,6 +22,22 @@ FCM = f"https://fcm.googleapis.com/v1/projects/{PROJECT}/messages:send"
 STREAM_LABELS = {"mbbs": "MBBS", "bds": "BDS", "mdms": "MD / MS", "mds": "MDS", "ss": "DM / MCh", "ayush": "BHMS / Ayush",
                  "nursing": "Nursing", "allied": "Allied Health", "jobs": "Jobs"}
 TYPE_EMOJI = {"counselling": "🎓", "result": "📢", "exam": "📝", "recruitment": "💼", "admission": "🏫", "circular": "📌"}
+UNI_LABELS = {"knruhs": "KNRUHS", "ntruhs": "Dr. NTR UHS"}
+
+
+def merge_feeds(site, now):
+    """The app reads one feed: site/feed.json = every university's feed-<uni>.json, newest first."""
+    allx = []
+    for name in sorted(os.listdir(site)):
+        if name.startswith("feed-") and name.endswith(".json"):
+            try:
+                with open(os.path.join(site, name), encoding="utf-8") as f:
+                    allx += json.load(f).get("notices", [])
+            except Exception:
+                pass
+    allx.sort(key=lambda n: n.get("published_at") or n.get("detected_at") or "", reverse=True)
+    with open(os.path.join(site, "feed.json"), "w", encoding="utf-8") as f:
+        json.dump({"updated_at": now, "notices": allx}, f, ensure_ascii=False, separators=(",", ":"))
 
 
 # ----------------------------------------------------------------------------- Firestore value encoding
@@ -68,18 +84,19 @@ def fields_of(doc):
 KNOWN_STREAMS = {"mbbs", "bds", "mdms", "mds", "ss", "nursing", "ayush", "allied", "jobs"}
 
 
-def push_condition(stream, ntype):
-    """Phones get a notice only if they follow its course AND its alert type.
-    The app subscribes to s_<course> for each course and t_<type> for each type it follows
+def push_condition(stream, ntype, university="knruhs"):
+    """Phones get a notice only if they follow its university AND its course AND its alert type.
+    The app subscribes to u_<university>, s_<course> and t_<type> for each one it follows
     (every course / every type when the list is empty). A notice with no known course goes
-    by its type alone. 'all' is kept for older test installs."""
+    by its university and type alone."""
+    u = f"'u_{university or 'knruhs'}' in topics"
     t = f"'t_{ntype or 'circular'}' in topics"
     if stream in KNOWN_STREAMS:
-        return f"'all' in topics || ('s_{stream}' in topics && {t})"
-    return f"'all' in topics || {t}"
+        return f"{u} && 's_{stream}' in topics && {t}"
+    return f"{u} && {t}"
 
 class FirebaseSync:
-    def __init__(self, sa_json, log, repo, here):
+    def __init__(self, sa_json, log, repo, here, university="knruhs", slides=True):
         from google.oauth2 import service_account
         from google.auth.transport.requests import AuthorizedSession
         info = json.loads(sa_json)
@@ -94,6 +111,8 @@ class FirebaseSync:
         self.edits = {}     # notice id -> {"title":..., "summary":..., "points": [...]}
         self.manual = {}    # notice id -> fields of a notice written by hand in the admin console
         self.ok = True
+        self.uni = university or "knruhs"   # which university this run is for; every notice carries it
+        self.slides = slides                # app-only universities have no slide pictures
 
     # ------------------------------------------------------------------ low level
     def get(self, path, params=None):
@@ -160,6 +179,8 @@ class FirebaseSync:
         added = 0
         for nid, f in self.manual.items():
             if nid in have or not str(f.get("title") or "").strip():
+                continue
+            if (f.get("university") or "knruhs") != self.uni:
                 continue
             d = {"title": str(f["title"]).strip(), "summary": str(f.get("summary") or "").strip(),
                  "points": [str(x) for x in (f.get("points") or []) if x], "stream": f.get("stream") or "mbbs", "type": f.get("type") or "circular",
@@ -237,7 +258,7 @@ class FirebaseSync:
         for pk in packs[:300]:
             st = desk.item_state(pk["id"])
             status = self._status(st)
-            slides = self._export_slides(pk, os.path.join(outbox, pk["id"])) if status == "published" else []
+            slides = self._export_slides(pk, os.path.join(outbox, pk["id"])) if status == "published" and self.slides else []
             first_post = min((v.get("at", "") for v in st.get("posted", {}).values()), default="")
             doc = {
                 "id": pk["id"], "title": pk["title"], "summary": pk.get("summary") or "", "points": pk.get("points") or [],
@@ -246,7 +267,7 @@ class FirebaseSync:
                 "detected_at": pk.get("detected_at") or "", "published_at": first_post, "status": status,
                 "posted": {k: v.get("at", "") for k, v in st.get("posted", {}).items()},
                 "errors": st.get("errors") or {}, "flags": pk.get("flags") or [], "confidence": float(pk.get("confidence") or 0),
-                "slides": slides, "updated_at": now, "action": None,
+                "slides": slides, "updated_at": now, "action": None, "university": self.uni,
             }
             sig = json.dumps(doc, sort_keys=True, default=str).replace(now, "")
             if st.get("fs_sig") != sig or pk["id"] in self.actions:
@@ -258,7 +279,7 @@ class FirebaseSync:
                     self.log("firebase:", e)
             if status == "published":
                 feed.append({k: doc[k] for k in ("id", "title", "summary", "points", "stream", "type", "urgent", "deadline", "source_url",
-                                                 "published_day", "detected_at", "published_at", "slides")})
+                                                 "published_day", "detected_at", "published_at", "slides", "university")})
                 if not st.get("pushed"):
                     if first_sync:
                         st["pushed"] = "before-app"
@@ -266,9 +287,11 @@ class FirebaseSync:
                         st["pushed"] = "skipped-old"  # do not alert phones about old notices
                     else:
                         try:
-                            label = STREAM_LABELS.get(pk.get("stream"), "KNRUHS")
+                            label = STREAM_LABELS.get(pk.get("stream"), UNI_LABELS.get(self.uni, "KNRUHS"))
+                            if self.uni != "knruhs":
+                                label = f"{UNI_LABELS.get(self.uni, self.uni.upper())} · {label}"
                             emoji = TYPE_EMOJI.get(pk.get("type"), "📌")
-                            cond = push_condition(pk.get("stream"), pk.get("type"))
+                            cond = push_condition(pk.get("stream"), pk.get("type"), self.uni)
                             self._send_push(pk, cond, f"{emoji} {label} update", pk["title"])
                             st["pushed"] = now
                             self.log("firebase: alert sent:", pk["title"][:60])
@@ -282,10 +305,11 @@ class FirebaseSync:
                 st["admin_alerted"] = True
         self.log("firebase: notices written:", written, "| public feed:", len(feed))
         os.makedirs(self.site, exist_ok=True)
-        with open(os.path.join(self.site, "feed.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(self.site, f"feed-{self.uni}.json"), "w", encoding="utf-8") as f:
             json.dump({"updated_at": now, "notices": feed}, f, ensure_ascii=False, separators=(",", ":"))
+        merge_feeds(self.site, now)
         try:
-            self.patch("status/bot", dict(bot_info, last_run=now))
+            self.patch("status/bot" if self.uni == "knruhs" else f"status/bot_{self.uni}", dict(bot_info, last_run=now))
         except Exception as e:
             self.log("firebase:", e)
         desk.save()

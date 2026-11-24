@@ -443,6 +443,8 @@ def build_pack(draft, cfg, out_root, force=False):
         "published_day": fmt_day(datetime.fromisoformat(m["published"])) if m.get("published") else "",
     }
     sig = hashlib.sha1(json.dumps(["v3", p, cfg["brand_name"], cfg["handle"], cfg["brand_tagline"]], sort_keys=True, default=str).encode()).hexdigest()[:12]
+    if cfg.get("no_slides"):  # a university that only goes to the app: no pictures, no captions, nothing to render
+        return dict(p, sig=sig, slides=[], captions={}, flags=m.get("flags", []), confidence=m.get("confidence"))
     meta_path = os.path.join(folder, "pack.json")
     if not force and os.path.exists(meta_path):
         try:

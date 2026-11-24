@@ -4,3 +4,6 @@ data/review.html
 __pycache__/
 config.json
 *.zip
+data-ntruhs/outbox/
+data-ntruhs/pdfs/
+data-ntruhs/review.html

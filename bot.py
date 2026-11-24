@@ -132,13 +132,17 @@ def robots_ok(url, cfg):
     return rp.can_fetch(cfg["user_agent"], url)
 
 
+STAMP_IN_IST = False  # set per university from the config: KNRUHS file names carry UTC time, Dr. NTR UHS file names carry Indian time
+
+
 def file_stamp(url):
-    """Real KNRUHS uploads start with a 14-digit UTC timestamp, e.g. 20261116122909_KNRUHS-... (matches Last-Modified)."""
+    """Real KNRUHS uploads start with a 14-digit UTC timestamp, e.g. 20261116122909_KNRUHS-... (matches Last-Modified).
+    Dr. NTR UHS uploads are named like 20261124182505900.pdf (Indian time, with milliseconds)."""
     name = urllib.parse.unquote(os.path.basename(urllib.parse.urlsplit(url).path))
     m = re.match(r"(\d{14})", name)
     if m:
         try:
-            return datetime.strptime(m.group(1), "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc).astimezone(IST)
+            return datetime.strptime(m.group(1), "%Y%m%d%H%M%S").replace(tzinfo=IST if STAMP_IN_IST else timezone.utc).astimezone(IST)
         except ValueError:
             pass
     return None
@@ -253,24 +257,24 @@ def pdf_text(path):
 
 # ----------------------------------------------------------------------------- drafting (rules)
 STREAM_RULES = {
-    "mds": r"\bMDS\b|\bM\.D\.S\b|MASTER OF DENTAL",
+    "mds": r"\bMDS\b|\bM\.D\.S\b|MASTER OF DENTAL|PG \(DENTAL\)",
     "ss": r"\bDM\b|\bM\.?CH\b|SUPER ?SPECI",
-    "mdms": r"MD\s*/\s*MS|\bMD\b|\bMS\b|(?i:PG MEDICAL|POST ?GRADUATE MEDICAL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
+    "mdms": r"MD\s*/\s*MS|\bMD\b(?!\s*\((?i:A|H|HOMOEO|AYURVEDA|UNANI)\))|\bMS\b|(?i:PG MEDICAL|PG \(MEDICAL\)|POST ?GRADUATE MEDICAL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
     "bds": r"\bBDS\b|DENTAL",
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
-    "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH",
+    "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
     "nursing": r"NURSING|\bGNM\b|\bANM\b",
-    "allied": r"ALLIED HEALTH|PARA ?MEDICAL|\bBPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS",
-    "jobs": r"RECRUIT|WALK[- ]?IN|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
+    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS",
+    "jobs": r"RECRUIT|WALK[- ]?IN|DATA ENTRY OPERATOR|JUNIOR (?:OFFICE )?ASSISTANT|SYSTEM ADMINISTRATOR|COMPUTER OPERATOR|\bDEOS?\b|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
 }
 TYPE_RULES = {
     "recruitment": r"RECRUIT|WALK[- ]?IN|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
     "result": r"RESULTS?\b|DECLARED|PASSED|SUCCESSFUL",
-    "exam": r"TIME ?TABLE|HALL TICKET|EXAMINATIONS?|SUPPLEMENTARY|EXAM FEE",
+    "exam": r"TIME ?TABLE|HALL TICKET|EXAMINATIONS?|\bEXAMS?\b|SUPPLEMENTARY|EXAM FEE|\b(?:FINAL|PRELIMINARY) KEY\b|SEMESTER .*NOTIFICATION",
     "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
-BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
+BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
 DATE_RE = re.compile(r"\b(\d{1,2})[./-](\d{1,2})[./-](20\d{2})\b")
 TIME_RE = re.compile(r"(\d{1,2})[.:](\d{2})\s*(AM|PM|noon)|(\d{1,2})\s*(AM|PM)", re.I)
 DEADLINE_WORDS = re.compile(r"last date|on or before|up ?to|not later than|till|until|before|by\b|from .* to", re.I)
@@ -526,6 +530,8 @@ def notify(title, body):
 
 
 def run_once(cfg, args):
+    global STAMP_IN_IST
+    STAMP_IN_IST = bool(cfg.get("stamp_in_ist"))
     data_dir = os.path.join(HERE, cfg["data_dir"]) if not os.path.isabs(cfg["data_dir"]) else cfg["data_dir"]
     os.makedirs(os.path.join(data_dir, "pdfs"), exist_ok=True)
     db = open_db(data_dir)

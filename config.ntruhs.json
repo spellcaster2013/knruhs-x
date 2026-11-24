@@ -1,0 +1,28 @@
+{
+  "university": "ntruhs",
+  "app_only": true,
+  "stamp_in_ist": true,
+  "sources": [
+    {
+      "name": "Dr. NTR UHS home (latest notifications)",
+      "url": "https://drntr.uhsap.in/index/"
+    }
+  ],
+  "link_patterns": [
+    "/index/notification/\\d+\\.pdf($|\\?)"
+  ],
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 15,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "data_dir": "data-ntruhs",
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  }
+}

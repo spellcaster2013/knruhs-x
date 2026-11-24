@@ -139,7 +139,9 @@ def main():
     a = d.state["auto"]
     first = not os.path.exists(d.state_path)
     a["delay_minutes"] = int(cfg.get("cloud", {}).get("delay_minutes", 0))
-    a["targets"] = [t for t in ("telegram", "facebook", "instagram") if conf.get(t)]
+    a["targets"] = [t for t in ("telegram", "facebook", "instagram", "app") if conf.get(t)]
+    if cfg.get("cloud", {}).get("max_per_hour"):
+        a["max_per_hour"] = int(cfg["cloud"]["max_per_hour"])
     ts = a.setdefault("target_since", {})
     for t in a["targets"]:
         ts.setdefault(t, 0 if t == "telegram" else time.time())  # a newly connected channel starts from now: no flood of old notices
@@ -151,7 +153,8 @@ def main():
     if os.environ.get("FIREBASE_SA", "").strip():
         try:
             import firebase_sync
-            fb = firebase_sync.FirebaseSync(os.environ["FIREBASE_SA"], bot.log, os.environ.get("GITHUB_REPOSITORY"), HERE)
+            fb = firebase_sync.FirebaseSync(os.environ["FIREBASE_SA"], bot.log, os.environ.get("GITHUB_REPOSITORY"), HERE,
+                                            university=cfg.get("university", "knruhs"), slides=not cfg.get("app_only"))
             fb.read_controls()
         except Exception as ex:
             bot.log("firebase: not connected:", type(ex).__name__, str(ex)[:150])
@@ -170,14 +173,19 @@ def main():
     if fb:
         fb.import_manual(data_dir, studio.pack_id)
         fb.apply_edits(data_dir, studio.pack_id)
+        mine = {pk["id"] for pk in d.packs()}
         for nid, act in fb.actions.items():
+            if nid not in mine:
+                continue  # a notice of another university
             if act == "hold":
                 d.item_state(nid)["status"] = "held"
             elif act == "dismiss":
                 d.item_state(nid)["status"] = "dismissed"
         d.save()
-    if first:
+    if first and not cfg.get("app_only"):
         a["since"] = time.time()  # notices found on the very first run are NOT posted (no flood of old news)
+    if first and cfg.get("app_only"):
+        bot.log("first run of an app-only university: its newest notices go into the app (phones are not alerted for them)")
         alert_owner(cfg, "KNRUHS bot is live on GitHub. From now on, new notices are " + ("posted automatically." if mode == "auto" else "sent to you first; reply /post CODE to publish."))
     if os.environ.get("POST_CODE", "").strip() or os.environ.get("SEND_TEST") == "true":
         me = tg_call(cfg, "getMe", {})
@@ -195,7 +203,8 @@ def main():
         meta_check(cfg)
     codes = [c for c in os.environ.get("POST_CODE", "").replace(",", " ").split() if c]
     if fb and not paused:
-        codes += [nid for nid, act in fb.actions.items() if act == "publish" and nid not in codes]  # "Publish" pressed in the admin app
+        mine = {pk["id"] for pk in d.packs()}
+        codes += [nid for nid, act in fb.actions.items() if act == "publish" and nid not in codes and nid in mine]  # "Publish" pressed in the admin app
     if codes:
         known = {p["id"]: p for p in d.packs()}
         for n, code in enumerate(codes):

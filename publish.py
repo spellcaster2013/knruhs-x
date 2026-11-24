@@ -204,11 +204,17 @@ def post_facebook(cfg, pack, folder):
     return {"post_id": call(f"{page}/feed", fields)}
 
 
-TARGETS = {"telegram": post_telegram, "facebook": post_facebook, "instagram": post_instagram}
+def post_app(cfg, pack, folder):
+    """App-only universities: 'posting' just marks the notice published, so it goes into the app's feed and phone alerts."""
+    return {"to": "app"}
+
+
+TARGETS = {"telegram": post_telegram, "facebook": post_facebook, "instagram": post_instagram, "app": post_app}
 
 
 def configured(cfg):
     tg, ig, fb = cfg.get("telegram") or {}, cfg.get("instagram") or {}, cfg.get("facebook") or {}
     return {"telegram": bool(tg.get("bot_token") and tg.get("chat_id")),
             "facebook": bool(fb.get("page_id") and fb.get("access_token")),
-            "instagram": bool(ig.get("user_id") and ig.get("access_token") and (ig.get("host") or {}).get("type"))}
+            "instagram": bool(ig.get("user_id") and ig.get("access_token") and (ig.get("host") or {}).get("type")),
+            "app": bool(cfg.get("app_only"))}
