@@ -457,7 +457,8 @@ def build_pack(draft, cfg, out_root, force=False):
     originals = []
     try:  # only fresh notices get pictures of the original PDF (old ones are already published; avoids re-downloading every run)
         det = datetime.fromisoformat((draft.get("meta") or {}).get("detected_at", ""))
-        if (datetime.now(IST) - det).total_seconds() < 3 * 86400:
+        # (a notice being posted by hand with POST_CODE also gets them, e.g. a one-time catch-up of older notices)
+        if (datetime.now(IST) - det).total_seconds() < 3 * 86400 or pid in os.environ.get("POST_CODE", ""):
             originals = slides_original(p, draft, cfg)
     except Exception:
         pass
