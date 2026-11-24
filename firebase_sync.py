@@ -64,6 +64,20 @@ def fields_of(doc):
     return {k: dec(v) for k, v in (doc.get("fields") or {}).items()}
 
 
+
+KNOWN_STREAMS = {"mbbs", "bds", "mdms", "mds", "ss", "nursing", "ayush", "allied", "jobs"}
+
+
+def push_condition(stream, ntype):
+    """Phones get a notice only if they follow its course AND its alert type.
+    The app subscribes to s_<course> for each course and t_<type> for each type it follows
+    (every course / every type when the list is empty). A notice with no known course goes
+    by its type alone. 'all' is kept for older test installs."""
+    t = f"'t_{ntype or 'circular'}' in topics"
+    if stream in KNOWN_STREAMS:
+        return f"'all' in topics || ('s_{stream}' in topics && {t})"
+    return f"'all' in topics || {t}"
+
 class FirebaseSync:
     def __init__(self, sa_json, log, repo, here):
         from google.oauth2 import service_account
@@ -254,7 +268,7 @@ class FirebaseSync:
                         try:
                             label = STREAM_LABELS.get(pk.get("stream"), "KNRUHS")
                             emoji = TYPE_EMOJI.get(pk.get("type"), "📌")
-                            cond = f"'all' in topics || 's_{pk.get('stream') or 'other'}' in topics || 't_{pk.get('type') or 'circular'}' in topics"
+                            cond = push_condition(pk.get("stream"), pk.get("type"))
                             self._send_push(pk, cond, f"{emoji} {label} update", pk["title"])
                             st["pushed"] = now
                             self.log("firebase: alert sent:", pk["title"][:60])
