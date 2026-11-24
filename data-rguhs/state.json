@@ -103,7 +103,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:13+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"5aee1e2e0f\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T01:36:43+05:30\"}, \"published_at\": \"2026-11-25T01:36:43+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795174320806-718765747.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Rguhs 24th annual inter collegiate athletic meet 2026-2027\", \"title\": \"Rguhs 24th annual inter collegiate athletic meet 2026-2027\", \"type\": \"circular\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:13+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"5aee1e2e0f\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T01:36:43+05:30\"}, \"published_at\": \"2026-11-25T01:36:43+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795174320806-718765747.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Rguhs 24th annual inter collegiate athletic meet 2026-2027\", \"title\": \"RGUHS 24th annual inter collegiate athletic meet 2026-2027\", \"type\": \"circular\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "244674fa67": {
