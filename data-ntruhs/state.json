@@ -1,0 +1,231 @@
+{
+ "items": {
+  "00c38753ac": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.9, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"00c38753ac\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261123191018410.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Bds-mq-2026-27-provisional merit position of applied candidates -after verification of uploaded certificates vide this office notification DT.20-11-20\", \"title\": \"Bds-mq-2026-27-provisional merit position of applied candidates -after verification of uploaded certificates vide this office notification DT.20-11-20\", \"type\": \"admission\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "3be00f3849": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795595400000, \"detected_at\": \"2026-11-24T21:07:42+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3be00f3849\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261123191032260.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Classes already commenced on 01/10/2026 Sl.No. NEET RANK NEET Roll No NEET Score Name of the Candidate Gender Category Local Area Allotment Details Phase 1 4248 2655125515 516 GANTALA LUKE SOLOMON RAJ M BCC AU ANDV - CONS - UR - OC - G --- 1 Stray S.No.\", \"title\": \"MDS CQ 2026-27 - Stray Round College wise Allotments List\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "fff8e3076e": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795595400000, \"detected_at\": \"2026-11-24T21:07:39+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"fff8e3076e\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261123191032261.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Classes already commenced on 01/10/2026 Sl.No. NEET RANK NEET Roll No NEET Score Name of the Candidate Gender Category Local Area Allotment Details Branch Name Phase 1 14816 2655101210 313 KARRI PRIYANKA F OC AP ANDV - PHD - S1 --- 1 Public Health Dentistry Stray S.No.\", \"title\": \"MDS MQ 2026-27 - Stray Round College wise Allotments List\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "778975fddd": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.57, \"deadline\": 1795534200000, \"detected_at\": \"2026-11-24T21:07:37+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"778975fddd\", \"points\": [\"Refundable Security Deposit of candidates who do not join the seats allotted to them in Stray Vacancy Round or subsequent rounds, if any, will be\\u2026\", \"If the candidate joins the allotted seat, the Security Deposit amount will be refunded to the candidate after closure of admissions. iii.\", \"If the candidate is not allotted seat, the Security Deposit amount will be refunded to the candidate after closure of admissions. iv.\", \"Candidates who have paid the security deposit during the Phase-III (Mop Up) round and not allotted any seat will be eligible to exercise web\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261123194339697.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"SCHEDULE Date of issue of Notification 23-11-2026 Availability of online Application forms (With a Late fee) refer Page No.3 From 09:00 PM on 23-11-2026 up to 09:00 PM on 24-11-2026 University website https://drntr.uhsap.in Security Deposit Amount: To prevent seat blocking and ensure that\\u2026\", \"title\": \"PG (Dental) CQ 2026-27 - Notification for Inviting online application forms for Stray Vacancy Round-1\", \"type\": \"admission\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "db9579c2a2": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.56, \"deadline\": 1795534200000, \"detected_at\": \"2026-11-24T21:07:25+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"db9579c2a2\", \"points\": [\"Refundable Security Deposit of candidates who do not join the seats allotted to them in Stray Vacancy Round or subsequent rounds, if any, will be\\u2026\", \"If the candidate joins the allotted seat, the Security Deposit amount will be refunded to the candidate after closure of admissions. iii.\", \"If the candidate is not allotted seat, the Security Deposit amount will be refunded to the candidate after closure of admissions. iv.\", \"Candidates who have paid the security deposit during the Phase-III (Mop Up) round and not allotted any seat will be eligible to exercise web\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261123194339710.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"SCHEDULE Date of issue of Notification 23-11-2026 Availability of online Application forms (With a Late fee) refer Page No.3 From 09:00 PM on 23-11-2026 up to 09:00 PM on 24-11-2026 University website https://drntr.uhsap.in Security Deposit Amount: To prevent seat blocking and ensure that\\u2026\", \"title\": \"PG (Dental) MQ 2026-27 - Notification for Inviting online application forms for Stray Vacancy Round-1\", \"type\": \"admission\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "ac0c28e1e8": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-24T21:07:18+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"ac0c28e1e8\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124113938710.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"PG (Medical) MQ 2026-27 - List of Not Reported & Free Exit candidates after Phase-I Counselling\", \"title\": \"PG (Medical) MQ 2026-27 - List of Not Reported & Free Exit candidates after Phase-I Counselling\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "b8189471bf": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-24T21:07:16+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b8189471bf\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124113938727.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"PG (Medical) CQ 2026-27 - List of Not Reported & Free Exit candidates after Phase-I Counselling (Non-service)\", \"title\": \"PG (Medical) CQ 2026-27 - List of Not Reported & Free Exit candidates after Phase-I Counselling (Non-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "9526f51839": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-24T21:07:13+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9526f51839\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124113938743.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"PG (Medical) CQ 2026-27 - List of Not Reported & Free Exit candidates after Phase-I Counselling (In-service)\", \"title\": \"PG (Medical) CQ 2026-27 - List of Not Reported & Free Exit candidates after Phase-I Counselling (In-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "080a382a44": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795804140000, \"detected_at\": \"2026-11-24T21:07:02+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"080a382a44\", \"points\": [\"Registration ID DOB UG Score Service Type Name of the Candidate Gender Category Local Area Allotment Details Phase 1 PG26CQ16000186 27-05-2001\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124125924710.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Registration ID DOB UG Score Service Type Name of the Candidate Gender Category Local Area Allotment Details Phase 1 PG26CQ16000314 09-08-2001 65.81 NS KATTUBADI SAI DEVIKA F BCA SVU BCNN - NS - OGN - UR - OC - F --- 1 MOP UP Round S.No. Registration ID DOB UG Score Service Type Name of the\\u2026\", \"title\": \"Msc-nursing-college wise allotments-mop up round-2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "2078527767": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795631340000, \"detected_at\": \"2026-11-24T21:07:00+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"2078527767\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124170510680.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"NEET RANK NEET Roll No Score Name of the Candidate Gender Category Local Area Allotment Details Phase 1 205916 1204104507 430 VAAKYA YADLA F OC SVU LIDR - BDS - UR - OC - F --- 1 Special Stray Round -2 S.No. NEET RANK NEET Roll No Score Name of the Candidate Gender Category Local Area Allotment\\u2026\", \"title\": \"BDS-2026-27-CQ- College Wise Alloments under Special Stray Round-2\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "8c6be97bb6": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-24T21:06:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8c6be97bb6\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124174557993.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"PG (Medical) MQ 2026-27 - Corrigendum\", \"title\": \"PG (Medical) MQ 2026-27 - Corrigendum\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "afb7a2909f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-24T21:06:57+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"afb7a2909f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124174558027.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"NO SUBJECTS GMCE GMCM GMCR GMCV GMCN 1 1 MD (Gen.Med) 2 MD (Paed) 3 MD (Anes) 4 MD (P.M.) T. PESKPSIM MAHA GEMS NRVP GVPT NARN 2 1 MD (Gen.Med) 2 MD (Paed) 3 MD (Anes) 4 MD (P.M.) T.\", \"title\": \"PG (Medical) MQ Seat Matrix 2026-27 (including Enhanced&Newly Sanctioned Seats)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "806f1b3ae9": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795681800000, \"detected_at\": \"2026-11-24T21:06:54+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"806f1b3ae9\", \"points\": [\"Date of issue of Notification for exercising web options 24.11.2026 2.\", \"Exercising of web options From 08.00 PM on 24.11.2026 Up to 02.00 PM on 26.11.2026 3.\", \"As per G.O.Ms.No.102, HM&FW (C1) Dept., dated 15-07-2023 in Non-minority Medical Colleges:\", \"All the eligible candidates whose names are in the provisional final Merit Position notified in the University Website are only eligible to\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124174602930.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"NTR UHS FOR THE ACADEMIC YEAR 2026-27. In continuation to this Office Notifications, dt.17-10-2026 & 14-11-2026 Dr.\", \"title\": \"PG (Medical) MQ 2026-27 - Phase-II Web Options Notification\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "747754feb0": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795606200000, \"detected_at\": \"2026-11-24T21:06:52+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"747754feb0\", \"points\": [\"In continuation of earlier notification dated 17.09.2026 the University hereby notifies the Stray Vacancy Round of web-based counselling for BHMS\\u2026\", \"Date of issue of Notification for exercising web options. 24.11.2026 2.\", \"Exercising of web options for MQ website: https://apuhs- ugadmissions.aptonline.in/UGAYUSHMQ/ From 08.00 PM on 24.11.2026 to 05.00 PM on 25.11.2026 3.\", \"The vacant seats after Phase-III of counselling and the seats that may fall vacant due to non-reporting after Phase-III will be filled in this\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124182505867.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Notification for exercising web options for Stray Vacancy Round of web-based counseling for admission into BHMS Courses under Management Quota and All India Quota Seats in Private Un-aided Non-Minority BHMS colleges under Dr. NTR UHS for the academic year 2026-27.\", \"title\": \"UG AYUSH Courses 2026-27 - AIQ & MQ - Stray Vacancy Round Web Options Notification\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "ae81dd316f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-24T21:07:44+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795678200000, \"detected_at\": \"2026-11-24T21:06:50+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"ae81dd316f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124182505900.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Homoeopathic College, Tadepalligudem Dr. A.R.Government Homoeo Medical College, Rajahmundry S.No.\", \"title\": \"UG AYUSH Courses 2026-27 - CQ - Stray Vacancy Round College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  }
+ },
+ "auto": {
+  "on": true,
+  "min_conf": 0.85,
+  "delay_minutes": 0,
+  "max_per_hour": 60,
+  "since": 0,
+  "targets": [
+   "app"
+  ],
+  "log": [
+   1795534664.2795691,
+   1795534664.2803626,
+   1795534664.2812765,
+   1795534664.2821717,
+   1795534664.2830677,
+   1795534664.2839627,
+   1795534664.2849112,
+   1795534664.2858555,
+   1795534664.2867854,
+   1795534664.2877247,
+   1795534664.2886684,
+   1795534664.2895977,
+   1795534664.2906082,
+   1795534664.29158,
+   1795534664.2925565
+  ],
+  "target_since": {
+   "app": 1795534573.20719
+  },
+  "all": true
+ },
+ "fb_init": "2026-11-24T21:07:44+05:30"
+}
