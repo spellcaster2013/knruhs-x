@@ -30,7 +30,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      # Always start from the newest saved memory. (A run that waited in the queue would otherwise start
+      # from the copy at the moment it was triggered, and could post a notice a second time.)
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
