@@ -14,14 +14,8 @@
    "pushed": "before-app"
   },
   "624ddfd759": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T01:36:43+05:30",
-     "by": "auto"
-    }
-   },
+   "status": "dismissed",
+   "posted": {},
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.8, \"deadline\": 1793816940000, \"detected_at\": \"2026-11-25T01:36:37+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"624ddfd759\", \"points\": [\"Applications are invited from eligible and interested institutions/ organizations for Fresh course/Additional courses/Increase in intake (UG & PG)\\u2026\", \"All application shall be uploaded as per new proforma prescribed in the online format only within stipulated time.\", \"The applications submitted in the old proforma /submitted by hand will not be considered. 2.\", \"The colleges shall pay full affiliation fees as per RGUHS Fees Notification along with the application within the prescribed dates. 3.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"4 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1793795282530-257227216.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"1 RGUHS/AFF/Physio/COA/01/2026-27 Date: 3/11/2026 NOTIFICATION Sub: Inviting applications for \\u201cFresh/Additional courses/Increase intake (Ug & PG)/continuation of Affiliation and Change of college name and address\\u201d for the Academic Year 2027-28 in Physiotherapy courses under RGUHS. Affiliation\\u2026\", \"title\": \"Inviting applications for \\u201cFresh/Additional courses/Increase intake (Ug & PG)/continuation of Affiliation and Change of college name and address\\u201d for\", \"type\": \"admission\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "before-app"
@@ -53,14 +47,8 @@
    "pushed": "before-app"
   },
   "293085ece3": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T01:36:43+05:30",
-     "by": "auto"
-    }
-   },
+   "status": "dismissed",
+   "posted": {},
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.92, \"deadline\": 1794248940000, \"detected_at\": \"2026-11-25T01:36:29+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"293085ece3\", \"points\": [\"Applications are invited for Fresh/Additional/Increase in Intake in Allied Health Science courses as per NCAHP from eligible\\u2026\", \"All application shall be submitted as per new proforma in the prescribed format only within stipulated time.\", \"The applications submitted in the old proforma will not be considered. 2.\", \"The colleges shall pay full affiliation fees online along with the application within the prescribed dates as applicable as per latest RGUHS\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"7 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794049704608-41763486.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"1 RGUHS/AFF/AHS/COA/01/2027-28 NOTIFICATION Sub: Inviting applications for Affiliation for the Academic Year 2027-28 in Allied Health Science courses under RGUHS as per NCAHP. 1. Continuation of Affiliation: (ONLINE)\", \"title\": \"Inviting applications for Affiliation for the Academic Year 2027-28 in Allied Health Science courses under RGUHS as per NCAHP. 1. Continuation of Affi\", \"type\": \"admission\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "before-app"
@@ -79,14 +67,8 @@
    "pushed": "before-app"
   },
   "cc3f35b34a": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T01:36:43+05:30",
-     "by": "auto"
-    }
-   },
+   "status": "dismissed",
+   "posted": {},
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.89, \"deadline\": 1794248940000, \"detected_at\": \"2026-11-25T01:36:22+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"cc3f35b34a\", \"points\": [\"Applications are invited for Fresh/Additional/Increase Intake in all courses not under NCAHP (See List below) from eligible\\u2026\", \"All application shall be submitted as per new proforma in the prescribed format only within stipulated time.\", \"The applications submitted in the old proforma will not be considered. 2.\", \"All those courses which are under Rehabilitation council of India, necessary approvals are must and apex body guidelines shall be followed for\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"9 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794204682692-352232513.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"1 RGUHS/AFF/AHS/Physio/COA/01/2027-28 NOTIFICATION Sub: Inviting applications for Affiliation for the Academic Year 2027-28 for all Allied Health Courses NOT under NCAHP (See list below). 1. Inviting online applications for Continuation of Affiliation of all courses not under NCAHP (See List\\u2026\", \"title\": \"Inviting applications for Affiliation for the Academic Year 2027-28 for all Allied Health Courses NOT under NCAHP (See list below). 1. Continuation of\", \"type\": \"admission\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "before-app"
@@ -105,14 +87,8 @@
    "pushed": "before-app"
   },
   "0c53e4b631": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T01:36:43+05:30",
-     "by": "auto"
-    }
-   },
+   "status": "dismissed",
+   "posted": {},
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:15+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"0c53e4b631\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1794570134612-266353086.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Applications are invited for the academic year 2027-28 a. Continuation of affiliation for Medical PG BS courses and PG SS courses b. Fresh and increas\", \"title\": \"Applications are invited for the academic year 2027-28 a. Continuation of affiliation for Medical PG BS courses and PG SS courses b. Fresh and increas\", \"type\": \"recruitment\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
@@ -131,14 +107,8 @@
    "pushed": "before-app"
   },
   "244674fa67": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T01:36:43+05:30",
-     "by": "auto"
-    }
-   },
+   "status": "dismissed",
+   "posted": {},
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:10+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"244674fa67\", \"points\": [\"Colleges found engaging or showing CHOs/Ghost Faculties as teaching faculty shall make the Principal and concerned authorities liable for strict\\u2026\", \"Colleges deliberately facilitating such practices shall be liable for strict regulatory action, including withdrawal of RGUHS affiliation, as per\\u2026\", \"RGUHS shall request the Government to constitute an appropriate enquiry and initiate necessary legal action against the CHOs, Ghost Faculties,\\u2026\", \"All affiliated nursing colleges shall ensure genuine, qualified and duly registered faculty with verifiable attendance and academic engagement.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795262825830-11349032.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"All Principals and institutional authorities are hereby directed to ensure that no CHO or \\u201cGhost Faculty\\u201d is engaged, shown or certified as teaching faculty in their respective institutions. Action Against Principals and Institutional Authorities:\", \"title\": \"Strict Action against CHOs and Others for \\u201cGhost Faculty\\u201d Practices in Affiliated Nursing Colleges. ****** It has come to the notice of the University\", \"type\": \"circular\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"

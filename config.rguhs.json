@@ -6,15 +6,25 @@
     {
       "name": "RGUHS notifications",
       "url": "https://www.rguhs.ac.in/api/notifications/organization?page=1&per_page=40&organization_id=fa4c9354-888f-44d7-91ad-2d607e16c2e3&is_active=true",
-      "json": "rguhs"
+      "json": "rguhs",
+      "exclude": "AFFILIATION|GHOST FACULTY|INTAKE|TEACHERS DATABASE|TENDER"
     }
   ],
-  "link_patterns": ["rguhs\\.ac\\.in/uploads/notifications/.+\\.pdf$"],
+  "link_patterns": [
+    "rguhs\\.ac\\.in/uploads/notifications/.+\\.pdf$"
+  ],
   "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
   "first_run_limit": 12,
   "max_new_per_run": 25,
   "respect_robots": true,
   "data_dir": "data-rguhs",
-  "brand": {"name": "KNRUHS Updates", "tagline": "", "handle": ""},
-  "cloud": {"delay_minutes": 0, "max_per_hour": 60}
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  }
 }

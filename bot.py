@@ -230,7 +230,8 @@ def json_items(src, body, found):
             pass
         streams = {RGUHS_COURSES.get(str(c).strip().lower()) for c in (n.get("courses") or [])} - {None}
         found.setdefault(url, {"url": url, "anchor": " ".join(str(n.get("title") or "").split()), "source": src["name"], "hint": hint,
-                               "stream_hint": streams.pop() if len(streams) == 1 else None, "prefer_anchor": False, "include": None})
+                               "stream_hint": streams.pop() if len(streams) == 1 else None, "prefer_anchor": False, "include": None,
+                               "exclude": src.get("exclude")})
 
 
 def discover(cfg):
@@ -256,13 +257,15 @@ def discover(cfg):
                 continue
             item = found.setdefault(absu, {"url": absu, "anchor": "", "source": src["name"], "hint": None, "stream_hint": src.get("stream"),
                                               "prefer_anchor": bool(src.get("prefer_anchor")),
-                                              "include": src.get("include")})
+                                              "include": src.get("include"), "exclude": src.get("exclude")})
             if text and not GENERIC_ANCHOR.match(text) and len(text) > len(item["anchor"]):
                 item["anchor"] = text
             item["hint"] = item["hint"] or anchor_date(text)
         time.sleep(cfg["delay_seconds"])
     # a source with "include" keeps only notices whose link text matches it (NMC posts much that is not for students)
-    items = [i for i in found.values() if not i.get("include") or re.search(i["include"], i["anchor"] or "", re.I)]
+    # and "exclude" drops notices meant for colleges, not students (affiliation applications and the like)
+    items = [i for i in found.values() if (not i.get("include") or re.search(i["include"], i["anchor"] or "", re.I))
+             and not (i.get("exclude") and re.search(i["exclude"], i["anchor"] or "", re.I))]
     floor = datetime.min.replace(tzinfo=IST)
     items.sort(key=lambda l: file_stamp(l["url"]) or l["hint"] or floor, reverse=True)
     return items
