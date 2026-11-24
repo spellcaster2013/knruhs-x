@@ -232,11 +232,22 @@
      ],
      "at": "2026-11-20T13:01:09+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103748365554374",
+     "at": "2026-11-24T07:35:12+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18226263862341701",
+     "at": "2026-11-24T07:35:49+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.78, \"deadline\": 0, \"detected_at\": \"2026-11-20T12:45:42+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a9cf25b75a\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-20T13:01:09+05:30\"}, \"published_at\": \"2026-11-20T13:01:09+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a9cf25b75a/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a9cf25b75a/slide-2.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST2.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 0.78, \"deadline\": 0, \"detected_at\": \"2026-11-20T12:45:42+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a9cf25b75a\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:35:12+05:30\", \"instagram\": \"2026-11-24T07:35:49+05:30\", \"telegram\": \"2026-11-20T13:01:09+05:30\"}, \"published_at\": \"2026-11-20T13:01:09+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a9cf25b75a/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a9cf25b75a/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a9cf25b75a/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST2.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "1ce65c4a57": {
    "status": "new",
@@ -261,7 +272,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.78, \"deadline\": 0, \"detected_at\": \"2026-11-20T12:45:40+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1ce65c4a57\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:31:46+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-20T13:01:08+05:30\"}, \"published_at\": \"2026-11-20T13:01:08+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST1-1.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.78, \"deadline\": 0, \"detected_at\": \"2026-11-20T12:45:40+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1ce65c4a57\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:31:46+05:30\", \"instagram\": \"2026-11-24T07:32:23+05:30\", \"telegram\": \"2026-11-20T13:01:08+05:30\"}, \"published_at\": \"2026-11-20T13:01:08+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1ce65c4a57/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-CORRIGENDUM-TO-MERIT-LIST1-1.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list\", \"type\": \"admission\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app",
    "alerted": true
   },
@@ -276,11 +287,22 @@
      ],
      "at": "2026-11-20T13:15:38+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103749043554374",
+     "at": "2026-11-24T07:36:07+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18109727375290770",
+     "at": "2026-11-24T07:37:08+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.81, \"deadline\": 1795429800000, \"detected_at\": \"2026-11-20T13:01:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a969d6201b\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-20T13:15:38+05:30\"}, \"published_at\": \"2026-11-20T13:15:38+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENT-LIST-IN-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Last Date of Reporting at the allotted College is 04.00 PM on 23.11.2026. 2. Candidates are informed that if they did not join the course after allotment, they are not eligible for further phases of counselling. 3.\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - college wise allotment list in additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 0.81, \"deadline\": 1795429800000, \"detected_at\": \"2026-11-20T13:01:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a969d6201b\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:36:07+05:30\", \"instagram\": \"2026-11-24T07:37:08+05:30\", \"telegram\": \"2026-11-20T13:15:38+05:30\"}, \"published_at\": \"2026-11-20T13:15:38+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/a969d6201b/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENT-LIST-IN-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Last Date of Reporting at the allotted College is 04.00 PM on 23.11.2026. 2. Candidates are informed that if they did not join the course after allotment, they are not eligible for further phases of counselling. 3.\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - college wise allotment list in additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "df7f17639d": {
    "status": "new",
@@ -292,11 +314,22 @@
      ],
      "at": "2026-11-20T17:16:39+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103749919554374",
+     "at": "2026-11-24T07:37:24+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18653313721050240",
+     "at": "2026-11-24T07:38:14+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-20T17:01:29+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"df7f17639d\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-20T17:16:39+05:30\"}, \"published_at\": \"2026-11-20T17:16:39+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df7f17639d/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df7f17639d/slide-2.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-NOTIFICATION-FOR-THIRD-PROFESSIONAL-BHMS-NEW-REGULATIONS-SUPPLEMENTARY-EXAMINATIONS-DECEMBER-2026.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Notification for third professional BHMS (new regulations) supplementary examinations - december 2026\", \"title\": \"Notification for third professional BHMS (new regulations) supplementary examinations - december 2026\", \"type\": \"exam\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-20T17:01:29+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"df7f17639d\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:37:24+05:30\", \"instagram\": \"2026-11-24T07:38:14+05:30\", \"telegram\": \"2026-11-20T17:16:39+05:30\"}, \"published_at\": \"2026-11-20T17:16:39+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df7f17639d/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df7f17639d/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df7f17639d/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df7f17639d/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df7f17639d/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-NOTIFICATION-FOR-THIRD-PROFESSIONAL-BHMS-NEW-REGULATIONS-SUPPLEMENTARY-EXAMINATIONS-DECEMBER-2026.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Notification for third professional BHMS (new regulations) supplementary examinations - december 2026\", \"title\": \"Notification for third professional BHMS (new regulations) supplementary examinations - december 2026\", \"type\": \"exam\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "ccc8588b21": {
    "status": "new",
@@ -309,11 +342,22 @@
      ],
      "at": "2026-11-20T18:31:02+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103752187554374",
+     "at": "2026-11-24T07:39:48+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18579912442074041",
+     "at": "2026-11-24T07:40:50+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.81, \"deadline\": 1795429800000, \"detected_at\": \"2026-11-20T18:15:52+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"ccc8588b21\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-20T18:31:02+05:30\"}, \"published_at\": \"2026-11-20T18:31:02+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Last Date of Reporting at the allotted College is 04.00 PM on 23.11.2026. 2. Candidates are informed that if they did not join the course after allotment, they are not eligible for further phases of counselling. 3.\", \"title\": \"MDS admissions under management quota for the AY 2026-27 - college wise allotments in additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 0.81, \"deadline\": 1795429800000, \"detected_at\": \"2026-11-20T18:15:52+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"ccc8588b21\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:39:48+05:30\", \"instagram\": \"2026-11-24T07:40:50+05:30\", \"telegram\": \"2026-11-20T18:31:02+05:30\"}, \"published_at\": \"2026-11-20T18:31:02+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/ccc8588b21/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Last Date of Reporting at the allotted College is 04.00 PM on 23.11.2026. 2. Candidates are informed that if they did not join the course after allotment, they are not eligible for further phases of counselling. 3.\", \"title\": \"MDS admissions under management quota for the AY 2026-27 - college wise allotments in additional mop up phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "217ec4fed7": {
    "status": "new",
@@ -326,11 +370,22 @@
      ],
      "at": "2026-11-20T18:31:00+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103750585554374",
+     "at": "2026-11-24T07:38:31+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18140294608634669",
+     "at": "2026-11-24T07:39:32+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1795199340000, \"detected_at\": \"2026-11-20T18:15:50+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"217ec4fed7\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-20T18:31:00+05:30\"}, \"published_at\": \"2026-11-20T18:31:00+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-FIRST-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Last Date of Reporting at the allotted College is 04.00 PM on or before 26.11.2026. 2. Commencement of Academic Session for PG courses: From 20.11.2026.\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - college wise allotments in first phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1795199340000, \"detected_at\": \"2026-11-20T18:15:50+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"217ec4fed7\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:38:31+05:30\", \"instagram\": \"2026-11-24T07:39:32+05:30\", \"telegram\": \"2026-11-20T18:31:00+05:30\"}, \"published_at\": \"2026-11-20T18:31:00+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/217ec4fed7/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-FIRST-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Last Date of Reporting at the allotted College is 04.00 PM on or before 26.11.2026. 2. Commencement of Academic Session for PG courses: From 20.11.2026.\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - college wise allotments in first phase of counselling\", \"type\": \"counselling\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "231f5aa303": {
    "status": "new",
@@ -343,11 +398,22 @@
      ],
      "at": "2026-11-21T12:00:49+05:30",
      "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122103753147554374",
+     "at": "2026-11-24T07:41:10+05:30",
+     "by": "you"
+    },
+    "instagram": {
+     "media_id": "18112829372615315",
+     "at": "2026-11-24T07:42:06+05:30",
+     "by": "you"
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-21T11:46:08+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"231f5aa303\", \"points\": [], \"posted\": {\"telegram\": \"2026-11-21T12:00:49+05:30\"}, \"published_at\": \"2026-11-21T12:00:49+05:30\", \"published_day\": \"21 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-SIXTH-SEMESTER-EXAMINATIONS-JULY-2026-BACKLOG-CANDIDATES.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"NURSING (2022 NR) VI SEMESTER EXAMINATIONS - July 2026 (BACKLOG CANDIDATES) The following is the provisional list of registered numbers of all the successful backlog candidates of B.SC.\", \"title\": \"Examinations results of bsc nursing sixth semester examinations july 2026 backlog candidates\", \"type\": \"result\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-21T11:46:08+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"231f5aa303\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-24T07:41:10+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-21T12:00:49+05:30\"}, \"published_at\": \"2026-11-21T12:00:49+05:30\", \"published_day\": \"21 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/231f5aa303/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-SIXTH-SEMESTER-EXAMINATIONS-JULY-2026-BACKLOG-CANDIDATES.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"NURSING (2022 NR) VI SEMESTER EXAMINATIONS - July 2026 (BACKLOG CANDIDATES) The following is the provisional list of registered numbers of all the successful backlog candidates of B.SC.\", \"title\": \"Examinations results of bsc nursing sixth semester examinations july 2026 backlog candidates\", \"type\": \"result\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app",
+   "alerted": true
   },
   "4f33aea784": {
    "status": "new",
