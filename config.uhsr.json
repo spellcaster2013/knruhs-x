@@ -1,0 +1,48 @@
+{
+  "university": "uhsr",
+  "app_only": true,
+  "file_stamps": false,
+  "sources": [
+    {
+      "name": "UHSR academic notifications",
+      "url": "https://uhsr.ac.in/notifications/academic",
+      "rows": true,
+      "exclude": "RECRUIT|ADVT\\.? ?NO|POST OF|SENIOR RESIDENT|INTERVIEW|PH\\.?\\s?D|TENDER|\\bUMC\\b|UNFAIR MEANS|WEBINAR|RESEARCH PRESENTATION|MEETING"
+    },
+    {
+      "name": "UHSR examination notifications",
+      "url": "https://uhsr.ac.in/notifications/examination",
+      "rows": true,
+      "exclude": "RECRUIT|ADVT\\.? ?NO|POST OF|SENIOR RESIDENT|INTERVIEW|PH\\.?\\s?D|TENDER|\\bUMC\\b|UNFAIR MEANS|WEBINAR|RESEARCH PRESENTATION|MEETING"
+    },
+    {
+      "name": "UHSR date sheets",
+      "url": "https://uhsr.ac.in/examination",
+      "rows": true,
+      "exclude": "RECRUIT|ADVT\\.? ?NO|POST OF|SENIOR RESIDENT|INTERVIEW|PH\\.?\\s?D|TENDER|\\bUMC\\b|UNFAIR MEANS|WEBINAR|RESEARCH PRESENTATION|MEETING"
+    },
+    {
+      "name": "UHSR results",
+      "url": "https://uhsr.ac.in/result",
+      "rows": true,
+      "exclude": "RECRUIT|ADVT\\.? ?NO|POST OF|SENIOR RESIDENT|INTERVIEW|PH\\.?\\s?D|TENDER|\\bUMC\\b|UNFAIR MEANS|WEBINAR|RESEARCH PRESENTATION|MEETING"
+    }
+  ],
+  "link_patterns": [
+    "uhsr\\.ac\\.in/sites/default/files/20\\d\\d-\\d\\d/[^?#]+\\.pdf$"
+  ],
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 15,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "data_dir": "data-uhsr",
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  }
+}

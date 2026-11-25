@@ -1,8 +1,0 @@
-name: probe
-on: workflow_dispatch
-jobs:
-  p:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: python tools/probe.py https://uhsr.ac.in/notifications/academic https://uhsr.ac.in/examination https://uhsr.ac.in/result > probe.log 2>&1; cat probe.log

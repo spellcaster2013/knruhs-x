@@ -174,7 +174,7 @@ def anchor_date(text):
 
 ACRONYMS = {"MDS", "MBBS", "BDS", "MD", "MS", "PG", "BHMS", "BAMS", "BUMS", "BNYS", "AY", "KNRUHS", "DM", "MCH", "NMC", "CA", "CQ", "MQ",
             "GNM", "ANM", "NEET", "CRRI", "NRI", "MLT", "BPT", "AHS", "MBA", "II", "III", "IV", "NIMS", "RTI", "SC", "ST", "BC", "EWS", "OBC",
-            "UG", "DNB", "AIQ", "ABVMU", "RUHS", "WBUHS", "BFUHS", "MLS", "APB", "AOTT", "DAOTT", "BASLP", "MASLP", "DMLT", "DMRIT", "GNM", "ANM", "MHHA", "JEMAS", "PDCC", "PDF", "BPT", "MPH", "TNMGRMU", "EC", "AISHE", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
+            "UG", "DNB", "AIQ", "ABVMU", "RUHS", "WBUHS", "BFUHS", "UHSR", "PGIMS", "PGIDS", "UMC", "ANM", "RLA", "MDS", "BDS", "MBBS", "MLS", "APB", "AOTT", "DAOTT", "BASLP", "MASLP", "DMLT", "DMRIT", "GNM", "ANM", "MHHA", "JEMAS", "PDCC", "PDF", "BPT", "MPH", "TNMGRMU", "EC", "AISHE", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
 
 
 def smart_case(t):
@@ -273,6 +273,34 @@ def grid_items(src, body, found):
                                "prefer_anchor": True, "include": src.get("include"), "exclude": src.get("exclude"), "link_only": True})
 
 
+def row_items(src, body, found, cfg):
+    """Drupal-style tables (UHSR): the link only says "Click to View", the title and the date sit in other cells of
+    the same row. Each row with a PDF link becomes a notice titled from its longest text cell."""
+    page = body.decode("utf-8", "ignore")
+    for row in re.findall(r"(?is)<tr[^>]*>(.*?)</tr>", page):
+        hrefs = [urllib.parse.urljoin(src["url"], html.unescape(h)) for h in re.findall(r'(?i)href="([^"]+)"', row)]
+        hrefs = [h for h in hrefs if any(re.search(p, h, re.I) for p in cfg["link_patterns"])]
+        if not hrefs:
+            continue
+        hint = None
+        m = re.search(r'datetime="(\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d)', row)
+        if m:
+            hint = datetime.strptime(m.group(1), "%Y-%m-%dT%H:%M:%S").replace(tzinfo=IST)
+        else:
+            m = re.search(r"\b(\d\d)/(\d\d)/(\d\d(?:\d\d)?)\b", re.sub(r"(?s)<[^>]+>", " ", row))
+            if m:
+                y = int(m.group(3)); y = y + 2000 if y < 100 else y
+                try: hint = datetime(y, int(m.group(2)), int(m.group(1)), 12, tzinfo=IST)
+                except ValueError: pass
+        cells = [" ".join(html.unescape(re.sub(r"(?s)<[^>]+>", " ", re.sub(r"(?s)<!--.*?-->", "", c))).split())
+                 for c in re.findall(r"(?is)<td[^>]*>(.*?)</td>", row)]
+        cells = [c for c in cells if not re.search(r"(?i)click to view|download pdf", c) and not re.fullmatch(r"[\d/ :.-]*", c)]
+        title = max(cells, key=len) if cells else ""
+        for h in hrefs[:1]:
+            found.setdefault(h, {"url": h, "anchor": title, "source": src["name"], "hint": hint, "stream_hint": src.get("stream"),
+                                 "prefer_anchor": True, "include": src.get("include"), "exclude": src.get("exclude")})
+
+
 def upload_month(url):
     """WordPress / S3WaaS sites file uploads under /uploads/2026/11/ - at least the month is known."""
     m = re.search(r"/uploads/(20\d\d)/(\d\d)/", url)
@@ -294,6 +322,10 @@ def discover(cfg):
             body, _ = http_get(src["url"], cfg)
         except Exception as e:
             log(f"could not open {src['url']}: {e}")
+            continue
+        if src.get("rows"):
+            row_items(src, body, found, cfg)
+            time.sleep(cfg["delay_seconds"])
             continue
         if src.get("grid"):
             grid_items(src, body, found)
@@ -366,7 +398,7 @@ STREAM_RULES = {
     "bds": r"\bBDS\b|DENTAL",
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
-    "nursing": r"NURSING|\bGNM\b|\bANM\b|\bB\.?SC\.? ?\(N\)|\bM\.?SC\.? ?\(N\)",
+    "nursing": r"NURSING|\bGNM\b|ANMGNM|\bANM\b|\bB\.?SC\.? ?\(N\)|\bM\.?SC\.? ?\(N\)",
     "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|\bJEMAS\b|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB|\bB?MLS\b|\bD?MLT\b|\bAPB\b|\bB?\.?SC\.? ?AOTT\b|\bDAOTT\b|\bBASLP\b|\bMASLP\b|NUCLEAR MEDICINE|\bDMRIT\b",
     "jobs": r"RECRUIT|WALK[- ]?IN|DATA ENTRY OPERATOR|JUNIOR (?:OFFICE )?ASSISTANT|SYSTEM ADMINISTRATOR|COMPUTER OPERATOR|\bDEOS?\b|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
 }
@@ -377,7 +409,7 @@ TYPE_RULES = {
     "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST|CLEAR VACANC|STRAY|\bROUND[- ]?\d|\d(ST|ND|RD|TH) ROUND|RESIGNATION",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
-BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|TAMIL NADU|M\.?G\.?R\.? MEDICAL|CHENNAI|GUINDY|ATAL BIHARI|VAJPAYEE|UTTAR PRADESH|LUCKNOW|RAJASTHAN|JAIPUR|WEST BENGAL|KOLKATA|SALT LAKE|BABA FARID|FARIDKOT|PUNJAB|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
+BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|TAMIL NADU|M\.?G\.?R\.? MEDICAL|CHENNAI|GUINDY|ATAL BIHARI|VAJPAYEE|UTTAR PRADESH|LUCKNOW|RAJASTHAN|JAIPUR|WEST BENGAL|KOLKATA|SALT LAKE|BABA FARID|FARIDKOT|PUNJAB|HARYANA|ROHTAK|BHAGWAT DAYAL|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
 DATE_RE = re.compile(r"\b(\d{1,2})[./-](\d{1,2})[./-](20\d{2})\b")
 TIME_RE = re.compile(r"(\d{1,2})[.:](\d{2})\s*(AM|PM|noon)|(\d{1,2})\s*(AM|PM)", re.I)
 DEADLINE_WORDS = re.compile(r"last date|on or before|up ?to|not later than|till|until|before|by\b|from .* to", re.I)
