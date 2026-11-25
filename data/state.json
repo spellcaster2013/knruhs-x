@@ -968,9 +968,67 @@
   },
   "513b632474": {
    "status": "new",
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      154,
+      155,
+      156,
+      157,
+      158
+     ],
+     "at": "2026-11-25T17:32:36+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105133591554374",
+     "at": "2026-11-25T17:32:52+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "17915856534561532",
+     "at": "2026-11-25T17:33:49+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1796027400000, \"detected_at\": \"2026-11-25T17:16:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"513b632474\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-25T17:32:52+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-25T17:32:36+05:30\"}, \"published_at\": \"2026-11-25T17:32:36+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/513b632474/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/513b632474/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/513b632474/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/513b632474/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/513b632474/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Medical PG degree diploma admissions under competent authority quota for the AY 2026-27 - college wise allotments in second phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-25T17:33:49+05:30"
+  },
+  "890792e458": {
+   "status": "new",
    "posted": {},
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1796027400000, \"detected_at\": \"2026-11-25T17:16:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"513b632474\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Medical PG degree diploma admissions under competent authority quota for the AY 2026-27 - college wise allotments in second phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795689000000, \"detected_at\": \"2026-11-25T17:31:20+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"890792e458\", \"points\": [\"Counseling for admission to ASU&H UG-courses for the A.Y 2026-27, communicated by Ayush Admissions Central Counseling Committee (AACCC) are not\\u2026\", \"Candidates who were allotted UG AYUSH (BAMS, BHMS, BUMS and BNYS) courses seats in the previous phases of counseling under Competent Authority\\u2026\", \"Candidates who are admitted into BHMS course under All India Quota & Management Quota in the previous phases of counseling and continuing in the\\u2026\", \"Candidates who have discontinued the UG AYUSH (BAMS, BHMS, BUMS and BNYS) courses after joining in the previous phases of counselling under CQ,\\u2026\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG-AYUSH-CQ-SPECIAL-STRAY-VACANCY-PHASE-NOTIFICATION-2026-27.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"Candidates who have already been admitted into MBBS & BDS courses under Competent Authority Quota (CQ), Management Quota (MQ) & All India Quota (AIQ) in affiliated colleges of KNRUHS are not eligible to exercise web options. 2. Candidates who are included in the List of In-eligible candidates to\\u2026\", \"title\": \"UG ayush admissions under competent authority quota for the A.Y. 2026-27 - notification for exercising web-options for special stray vacancy of counse\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true
+  },
+  "ce4da2d818": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:31:18+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"ce4da2d818\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-ADDITIONAL-MOP-UP-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mds\", \"summary\": \"MDS admissions under competent authority quota for the AY 2026-27 - list of not reported candidates in additional mop up phase of counselling\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - list of not reported candidates in additional mop up phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true
+  },
+  "0c37cb1a4b": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:31:17+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0c37cb1a4b\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mds\", \"summary\": \"MDS admissions under competent authority quota for the AY 2026-27 - vacancies for stray vacancy phase of counselling\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - vacancies for stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true
+  },
+  "43a1118628": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1795667400000, \"detected_at\": \"2026-11-25T17:31:15+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"43a1118628\", \"points\": [\"Candidates who have not exercised web options in the first phase of counseling for Competent Authority quota are also not eligible to exercise web\\u2026\", \"Candidates who were allotted seats in the previous phases of counseling and have not reported/discontinued the course for MDS admissions under\\u2026\", \"Candidates who are admitted in MDS courses under All India Quota Counseling (AIQ)/in other states as per the data on MCC portal are not eligible\\u2026\", \"The password consists of SIX letter code with English capitals A to Z (for details read instructions to the candidates before giving options.\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mds\", \"summary\": \"Candidates whose names are notified in the final merit list of MDS Admissions on the KNRUHS website are eligible to exercise web - options online from computer with internet connection subject to following conditions. 1. Candidates who were allotted seats in the previous phases of counseling and\\u2026\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - notification for exercising web options for stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true
+  },
+  "821e64f343": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.9, \"deadline\": 1795667400000, \"detected_at\": \"2026-11-25T17:31:13+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"821e64f343\", \"points\": [\"Candidates who were allotted BHMS seats under All India Quota & Management Quota in the previous phases of counseling and who did not join the\\u2026\", \"Candidates who have paid University fee in the previous phases need not to pay again.\", \"Eligible candidates as per final merit list can exercise web options for vacant seats in all Private Homoeo colleges as per their interest and\\u2026\", \"Allotments will be made according to the order of preference in the web options exercised by the candidate. 4) Candidates are informed that they\\u2026\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG-AYUSH-MQ-NOTIFICATION-STRAY-VACANCY-PHASE-2026-27.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"Candidates who have already been admitted into MBBS & BDS courses under Competent Authority Quota (CQ), Management Quota (MQ) & All India Quota (AIQ) in affiliated colleges of KNRUHS are not eligible to exercise web options. 2. Candidates who are admitted into BHMS course under All India Quota &\\u2026\", \"title\": \"BHMS course admissions under management quota for the academic year 2026-27- notification for exercising web-options for stray vacancy phase of counse\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "admin_alerted": true
   }
  },
@@ -986,12 +1044,12 @@
    "instagram"
   ],
   "log": [
-   1795604518.8723328,
    1795604590.609714,
    1795604658.4711747,
    1795604700.7965405,
    1795604738.723785,
-   1795604776.1741607
+   1795604776.1741607,
+   1795608153.0561974
   ],
   "all": true,
   "target_since": {
