@@ -1176,7 +1176,27 @@
   },
   "d6dc39ead6": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      184,
+      185,
+      186
+     ],
+     "at": "2026-11-25T18:47:20+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105199159554374",
+     "at": "2026-11-25T18:47:29+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18078281531468488",
+     "at": "2026-11-25T18:48:12+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:45:54+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"d6dc39ead6\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG_CQ_Phase_4_Not_Reported.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"UG ayush admissions under competent authority quota for the A.Y. 2026-27 -list of not reported candidates in stray vacancy phase\", \"title\": \"UG ayush admissions under competent authority quota for the A.Y. 2026-27 -list of not reported candidates in stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
    "admin_alerted": true
@@ -1199,12 +1219,12 @@
    "instagram"
   ],
   "log": [
-   1795608153.0561974,
    1795609043.566297,
    1795609120.612768,
    1795609209.1851132,
    1795609256.752206,
-   1795609308.865174
+   1795609308.865174,
+   1795612638.1376066
   ],
   "all": true,
   "target_since": {
