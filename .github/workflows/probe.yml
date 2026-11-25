@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python tools/probe.py https://examination.bfuhs.ac.in/ https://examination.bfuhs.ac.in/servicesonline/maintest.aspx https://www.bfuhs.ac.in/ https://bfuhs.ggsmch.org/exam-date-sheet/ > probe.log 2>&1; cat probe.log
+      - run: python tools/probe.py https://bfuhs.ggsmch.org/exam-date-sheet/ https://bfuhs.ggsmch.org/university-regular-exam/ https://bfuhs.ggsmch.org/mbbs-bds-courses/ https://bfuhs.ggsmch.org/md-ms-pg-diploma-mds-courses/ https://bfuhs.ggsmch.org/download-exam-branch/ > probe.log 2>&1; cat probe.log
