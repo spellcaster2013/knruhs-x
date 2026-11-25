@@ -1,0 +1,44 @@
+{
+  "university": "bfuhs",
+  "app_only": true,
+  "file_stamps": false,
+  "sources": [
+    {
+      "name": "BFUHS circulars and notices",
+      "url": "https://bfuhs.ggsmch.org/public-notice/",
+      "prefer_anchor": true,
+      "exclude": "ANTI-?RAGGING|RECRUIT|ADVT\\.? ?NO|POST OF|PH\\.?\\s?D|TENDER|INTERVIEW|DOCUMENT VERIFICATION|ULTRASONOGRAPHY|SKILL DEVELOPMENT|QAI|CAREGIVING|WIRE TRANSFER|GERIA?TRIC CARE|MPTET"
+    },
+    {
+      "name": "BFUHS date sheets",
+      "url": "https://examination.bfuhsonline.ac.in/eos/datesheetviewx.aspx",
+      "grid": "bfuhs_datesheet",
+      "open_url": "https://bfuhs.ggsmch.org/exam-date-sheet/",
+      "exclude": "ANTI-?RAGGING|RECRUIT|ADVT\\.? ?NO|POST OF|PH\\.?\\s?D|TENDER|INTERVIEW|DOCUMENT VERIFICATION|ULTRASONOGRAPHY|SKILL DEVELOPMENT|QAI|CAREGIVING|WIRE TRANSFER|GERIA?TRIC CARE|MPTET"
+    },
+    {
+      "name": "BFUHS results",
+      "url": "https://examination.bfuhsonline.ac.in/eos/resultwebx.aspx",
+      "grid": "bfuhs_result",
+      "open_url": "https://bfuhs.ggsmch.org/university-regular-exam/",
+      "exclude": "ANTI-?RAGGING|RECRUIT|ADVT\\.? ?NO|POST OF|PH\\.?\\s?D|TENDER|INTERVIEW|DOCUMENT VERIFICATION|ULTRASONOGRAPHY|SKILL DEVELOPMENT|QAI|CAREGIVING|WIRE TRANSFER|GERIA?TRIC CARE|MPTET"
+    }
+  ],
+  "link_patterns": [
+    "bfuhs\\.ggsmch\\.org/wp-content/uploads/20\\d\\d/\\d\\d/[^?#]+\\.pdf$"
+  ],
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 15,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "data_dir": "data-bfuhs",
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  }
+}

@@ -174,7 +174,7 @@ def anchor_date(text):
 
 ACRONYMS = {"MDS", "MBBS", "BDS", "MD", "MS", "PG", "BHMS", "BAMS", "BUMS", "BNYS", "AY", "KNRUHS", "DM", "MCH", "NMC", "CA", "CQ", "MQ",
             "GNM", "ANM", "NEET", "CRRI", "NRI", "MLT", "BPT", "AHS", "MBA", "II", "III", "IV", "NIMS", "RTI", "SC", "ST", "BC", "EWS", "OBC",
-            "UG", "DNB", "AIQ", "ABVMU", "RUHS", "WBUHS", "JEMAS", "PDCC", "PDF", "BPT", "MPH", "TNMGRMU", "EC", "AISHE", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
+            "UG", "DNB", "AIQ", "ABVMU", "RUHS", "WBUHS", "BFUHS", "MLS", "APB", "AOTT", "DAOTT", "BASLP", "MASLP", "DMLT", "DMRIT", "GNM", "ANM", "MHHA", "JEMAS", "PDCC", "PDF", "BPT", "MPH", "TNMGRMU", "EC", "AISHE", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
 
 
 def smart_case(t):
@@ -236,6 +236,43 @@ def json_items(src, body, found):
                                "exclude": src.get("exclude")})
 
 
+def grid_items(src, body, found):
+    """BFUHS lists date sheets and results in an ASP.NET grid whose "View" buttons post the page back, so there is
+    no PDF address to give students. Each row (number, date, course, session) becomes a link-only notice that opens
+    the university's own date-sheet or result page, where the student presses View."""
+    page = body.decode("utf-8", "ignore")
+    open_url = src.get("open_url") or src["url"]
+    for row in re.findall(r"(?is)<tr[^>]*>(.*?)</tr>", page):
+        if "__doPostBack" not in row:
+            continue
+        cells = [" ".join(html.unescape(re.sub(r"(?s)<[^>]+>", " ", c)).split()) for c in re.findall(r"(?is)<td[^>]*>(.*?)</td>", row)]
+        cells = [c for c in cells if c and c.lower() not in ("view", "view result")]
+        if len(cells) < 3 or not cells[0].isdigit():
+            continue
+        sr, rest = cells[0], cells[1:]
+        hint = None
+        for c in rest:
+            try:
+                hint = datetime.strptime(c, "%d-%m-%Y").replace(hour=12, tzinfo=IST); break
+            except ValueError:
+                pass
+        words = [c for c in rest if not re.fullmatch(r"\d\d-\d\d-\d{4}", c)]
+        if src["grid"] == "bfuhs_result":
+            # columns: course, year/prof, session, notification no.
+            course, year, session, nno = (words + ["", "", "", ""])[:4]
+            title = f"{course} {year} result, {session} session" + (f" (notification {nno})" if nno and nno != "1" else "")
+        else:
+            # columns: session, title
+            title = words[-1] if words else ""
+            title = re.sub(r"(?i)\bdate ?sheet", "Date sheet", title)
+        title = " ".join(re.sub(r"\((?:NS|OS)\d+\)", " ", title).split())  # "(NS21)" = new-scheme code, means nothing to students
+        if not title:
+            continue
+        url = f"{open_url}#{src['grid']}-{sr}"
+        found.setdefault(url, {"url": url, "anchor": title, "source": src["name"], "hint": hint, "stream_hint": src.get("stream"),
+                               "prefer_anchor": True, "include": src.get("include"), "exclude": src.get("exclude"), "link_only": True})
+
+
 def upload_month(url):
     """WordPress / S3WaaS sites file uploads under /uploads/2026/11/ - at least the month is known."""
     m = re.search(r"/uploads/(20\d\d)/(\d\d)/", url)
@@ -257,6 +294,10 @@ def discover(cfg):
             body, _ = http_get(src["url"], cfg)
         except Exception as e:
             log(f"could not open {src['url']}: {e}")
+            continue
+        if src.get("grid"):
+            grid_items(src, body, found)
+            time.sleep(cfg["delay_seconds"])
             continue
         if src.get("json") == "rguhs":
             json_items(src, body, found)
@@ -326,17 +367,17 @@ STREAM_RULES = {
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
     "nursing": r"NURSING|\bGNM\b|\bANM\b|\bB\.?SC\.? ?\(N\)|\bM\.?SC\.? ?\(N\)",
-    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|\bJEMAS\b|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB",
+    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|\bJEMAS\b|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB|\bB?MLS\b|\bD?MLT\b|\bAPB\b|\bB?\.?SC\.? ?AOTT\b|\bDAOTT\b|\bBASLP\b|\bMASLP\b|NUCLEAR MEDICINE|\bDMRIT\b",
     "jobs": r"RECRUIT|WALK[- ]?IN|DATA ENTRY OPERATOR|JUNIOR (?:OFFICE )?ASSISTANT|SYSTEM ADMINISTRATOR|COMPUTER OPERATOR|\bDEOS?\b|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
 }
 TYPE_RULES = {
     "recruitment": r"RECRUIT|WALK[- ]?IN|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
     "result": r"RESULTS?\b|DECLARED|PASSED|SUCCESSFUL",
-    "exam": r"TIME ?TABLE|HALL TICKET|EXAMINATIONS?|\bEXAMS?\b|SUPPLEMENTARY|EXAM FEE|\b(?:FINAL|PRELIMINARY) KEY\b|SEMESTER .*NOTIFICATION|RESCHEDULED|POSTPONED",
+    "exam": r"TIME ?TABLE|DATE ?SHEET|EXAMINATION CENTRE|HALL TICKET|EXAMINATIONS?|\bEXAMS?\b|SUPPLEMENTARY|EXAM FEE|\b(?:FINAL|PRELIMINARY) KEY\b|SEMESTER .*NOTIFICATION|RESCHEDULED|POSTPONED",
     "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST|CLEAR VACANC|STRAY|\bROUND[- ]?\d|\d(ST|ND|RD|TH) ROUND|RESIGNATION",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
-BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|TAMIL NADU|M\.?G\.?R\.? MEDICAL|CHENNAI|GUINDY|ATAL BIHARI|VAJPAYEE|UTTAR PRADESH|LUCKNOW|RAJASTHAN|JAIPUR|WEST BENGAL|KOLKATA|SALT LAKE|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
+BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|TAMIL NADU|M\.?G\.?R\.? MEDICAL|CHENNAI|GUINDY|ATAL BIHARI|VAJPAYEE|UTTAR PRADESH|LUCKNOW|RAJASTHAN|JAIPUR|WEST BENGAL|KOLKATA|SALT LAKE|BABA FARID|FARIDKOT|PUNJAB|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
 DATE_RE = re.compile(r"\b(\d{1,2})[./-](\d{1,2})[./-](20\d{2})\b")
 TIME_RE = re.compile(r"(\d{1,2})[.:](\d{2})\s*(AM|PM|noon)|(\d{1,2})\s*(AM|PM)", re.I)
 DEADLINE_WORDS = re.compile(r"last date|on or before|up ?to|not later than|till|until|before|by\b|from .* to", re.I)
@@ -350,7 +391,7 @@ def classify(rules, title, text):
         flags = 0 if k == "mdms" else re.I
         scores[k] = 3 * len(re.findall(pat, title, flags)) + len(re.findall(pat, head, flags))
     best = max(scores, key=lambda k: scores[k])
-    if "result" in rules and re.search(rules["result"], title, re.I) and not re.search(r"TIME ?TABLE|HALL TICKET|FEE|ALLO?T?MENT|ROUND|COUNSEL", title, re.I):
+    if "result" in rules and re.search(rules["result"], title, re.I) and not re.search(r"TIME ?TABLE|DATE ?SHEET|HALL TICKET|FEE|ALLO?T?MENT|ROUND|COUNSEL", title, re.I):
         best, scores["result"] = "result", max(scores["result"], scores[best])
     total = sum(scores.values()) or 1
     return (best if scores[best] else None), round(scores[best] / total, 2)
@@ -626,7 +667,7 @@ def run_once(cfg, args):
     drafts = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
     for item in new:
         log("NEW ->", item["anchor"] or clean_name(item["url"]))
-        if cfg.get("link_only"):
+        if cfg.get("link_only") or item.get("link_only"):
             # sites that list notices openly but refuse to hand the PDFs to servers (RUHS): the app gets the title
             # from the link text and the student opens the original PDF on the university's website
             published = item.get("hint") or datetime.now(IST)
