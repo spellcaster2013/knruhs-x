@@ -125,6 +125,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T01:36:07+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a92bf73034\", \"points\": [\"Guard file *** All the Theory Examination Centres must ensure that Audio and Video Cameras are enabled for web streaming during the entire\\u2026\", \"Accordingly, these colleges are presently under verification and have not yet been confirmed as examination centres.\", \"The colleges will be considered for identification as examination centres only after successful verification of audio-enabled CCTV cameras and\\u2026\", \"Following are the colleges previously attached to the above examination centres which will be informed about their respective examination centres\\u2026\"], \"posted\": {\"app\": \"2026-11-25T01:36:43+05:30\"}, \"published_at\": \"2026-11-25T01:36:43+05:30\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795524469010-451695206.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"List of Theory Examination Centre for Pharm.D, UG & PG Nursing Examination DEC/JAN - 2026-27 24-11-2026 CENTRE NAME & ADDRESSSl. ATTACHED COLLEGES 1 CHAMUNDESHWARI MEDICAL COLLEGE HOSPITAL & RESEARCH INSTITUTE, CHANNAPATNA TALUK, RAMANAGARA.\", \"title\": \"List of Theory Examination Centre for Pharm.D, UG & PG Nursing Examination DEC/JAN - 2026-27\", \"type\": \"exam\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
+  },
+  "3cfeb4b938": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:54:32+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795717740000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"3cfeb4b938\", \"points\": [\"Guard file *** All the Theory Examination Centres must ensure that Audio and Video Cameras are enabled for web streaming during the entire\\u2026\", \"The following colleges have not rectificed the deficiencies in examination centre facilities, particularly the non-availability of audio-enabled\\u2026\", \"Accordingly, these colleges are presently under verification and have not yet been confirmed as examination centres.\", \"The colleges will be considered for identification as examination centres only after successful verification of audio-enabled CCTV cameras and\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://rguhs.ac.in/uploads/notifications/1795602246661-717201946.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Second List of Theory Examination Centre for Pharm.D, UG & PG Nursing after rectification of deficiency of Audio enabled cameras. Examination DEC/JAN - 2026-27 25-11-2026 CENTRE NAME & ADDRESSSl.\", \"title\": \"Second List of Theory Examination Centre for Pharm.D, UG & PG Nursing after rectification of deficiency of Audio enabled cameras. Examination DEC/JAN\", \"type\": \"exam\", \"university\": \"rguhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-25T17:54:32+05:30"
   }
  },
  "auto": {
@@ -136,7 +149,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795609472.3095572
+  ],
   "target_since": {
    "app": 1795550743.5431905
   },

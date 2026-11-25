@@ -402,6 +402,58 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:02:28+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"7747d46ca6\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:02:43+05:30\"}, \"published_at\": \"2026-11-25T17:02:43+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125165100413.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Mptcet 2026-27 - rank wise results\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T17:02:43+05:30"
+  },
+  "2f6fe75c19": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:54:04+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.79, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"2f6fe75c19\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125173930223.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"PG (Dental) MQ 2026-27 - Addendum to Stray Eligible candidates List\", \"title\": \"PG (Dental) MQ 2026-27 - Addendum to Stray Eligible candidates List\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T17:54:04+05:30"
+  },
+  "fa1a4dc26e": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:54:04+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.85, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:53:51+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"fa1a4dc26e\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125173930240.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"NEET Roll No NEET RANK NEET Score Name of the Candidate Gender Category Area Admission Details 1 2655100272 6272 462 DUDEKULA BHOOMIKA F BC-B APNL VDCB - PERIO - UR - OC - G Dr.\", \"title\": \"PG (Dental) CQ 2026-27 - List of Not Reported Candidates after Stray Vacancy Round Counselling\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T17:54:04+05:30"
+  },
+  "de4d405c7c": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:54:04+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795681800000, \"detected_at\": \"2026-11-25T17:53:44+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"de4d405c7c\", \"points\": [\"Exercising of web options for Stray vacancy round-1 Counselling From 06.00 PM on 25-11-2026 Up to 02.00 PM on 26-11-2026 3.\", \"To prevent seat blocking and ensure that valuable seats are effectively utilized during the Stray Vacancy Round-1, the Competent Authority has\\u2026\", \"Refundable Security Deposit of candidates who do not join the seats allotted to them in Stray Vacancy Round-1 will be forfeited and such\\u2026\", \"If the candidate joins the allotted seat, the Security Deposit amount will be refunded to the candidate after closure of admissions. iii.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125173937897.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"NTR UHS (available seats at the end of Stray vacancy round). Date of issue of Notification 25.11.2026 2.\", \"title\": \"MDS CQ 2026-27 - Web Options Notification for Stray vacancy Round-1\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-25T17:54:04+05:30"
+  },
+  "92f8dbcd58": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:54:04+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795681800000, \"detected_at\": \"2026-11-25T17:53:40+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"92f8dbcd58\", \"points\": [\"Exercising of web options for Stray vacancy round-1 Counselling From 06.00 PM on 25-11-2026 Up to 02.00 PM on 26-11-2026 3.\", \"To prevent seat blocking and ensure that valuable seats are effectively utilized during the Stray Vacancy Round-1, the Competent Authority has\\u2026\", \"Refundable Security Deposit of candidates who do not join the seats allotted to them in Stray Vacancy Round-1 will be forfeited and such\\u2026\", \"If the candidate joins the allotted seat, the Security Deposit amount will be refunded to the candidate after closure of admissions. iii.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125173937910.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"NTR UHS (available seats at the end of Stray vacancy round) Date of issue of Notification 25.11.2026 2.\", \"title\": \"MDS MQ 2026-27 - Web Options Notification for Stray vacancy Round-1\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-25T17:54:04+05:30"
   }
  },
  "auto": {
@@ -416,7 +468,11 @@
   "log": [
    1795606363.0363467,
    1795606363.037382,
-   1795606363.0385966
+   1795606363.0385966,
+   1795609444.0900033,
+   1795609444.0910811,
+   1795609444.0921974,
+   1795609444.09333
   ],
   "target_since": {
    "app": 1795534573.20719

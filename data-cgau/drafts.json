@@ -1,5 +1,30 @@
 [
   {
+    "title": "Result of M.D.S. Part-II Examination Oct-2026 (04 Subjects)",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "mds",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "947e5b60_1795608586_qrsRdnQp.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://results.ddumhsaucg.ac.in/storage/files/result/1795608586_qrsRdnQp.pdf",
+      "published": "2026-11-25T17:39:46+05:30",
+      "confidence": 0.75,
+      "flags": [
+        "no-text-scanned-pdf"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T17:56:27+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/947e5b60_1795608586_qrsRdnQp.pdf"
+    }
+  },
+  {
     "title": "Retotalling Result of MD/MS Medical Exam Aug-Sep-2026",
     "summary": "Result list released. Open the PDF and search for your register number.",
     "points": [],

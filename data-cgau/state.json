@@ -233,6 +233,17 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:19:42+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"8bf38615b4\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:19:42+05:30\"}, \"published_at\": \"2026-11-25T17:19:42+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795606557_7UwQf767.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Retotalling Result of MD/MS Medical Exam Aug-Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T17:19:42+05:30"
+  },
+  "5343ac0441": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:56:27+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
   }
  },
  "auto": {
@@ -245,8 +256,8 @@
    "app"
   ],
   "log": [
-   1795604971.1998038,
-   1795607382.3046646
+   1795607382.3046646,
+   1795609587.1274588
   ],
   "target_since": {
    "app": 1795589751.5500526
