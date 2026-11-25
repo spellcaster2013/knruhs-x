@@ -10,7 +10,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"52bf9372ec\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5027\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"MBBS 2nd Prof result, ND-26 session (notification 2)\", \"title\": \"MBBS 2nd Prof result, ND-26 session (notification 2)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"52bf9372ec\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5027\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"MBBS 2nd Prof result, ND-26 session (notification 2)\", \"title\": \"MBBS 2nd Prof result, ND-26 session (notification 2)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "fb5725329d": {
@@ -23,7 +23,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"fb5725329d\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5026\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 5th Semester result, ND-25 session\", \"title\": \"BSc Nursing 5th Semester result, ND-25 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"fb5725329d\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5026\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 5th Semester result, ND-25 session\", \"title\": \"BSc Nursing 5th Semester result, ND-25 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "fc94ede2d0": {
@@ -36,7 +36,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"fc94ede2d0\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5025\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"MBBS 2nd Prof result, ND-26 session\", \"title\": \"MBBS 2nd Prof result, ND-26 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"fc94ede2d0\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5025\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"MBBS 2nd Prof result, ND-26 session\", \"title\": \"MBBS 2nd Prof result, ND-26 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "7553a53313": {
@@ -49,7 +49,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"7553a53313\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5024\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"BPT 4th year result, MJ-26 session\", \"title\": \"BPT 4th year result, MJ-26 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"7553a53313\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5024\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"BPT 4th year result, MJ-26 session\", \"title\": \"BPT 4th year result, MJ-26 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "b5ef1f513b": {
@@ -62,7 +62,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"b5ef1f513b\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5023\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"BPT 4th year result, MJ-26 session\", \"title\": \"BPT 4th year result, MJ-26 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"b5ef1f513b\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5023\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"BPT 4th year result, MJ-26 session\", \"title\": \"BPT 4th year result, MJ-26 session\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "bdb625ea22": {
@@ -75,7 +75,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"bdb625ea22\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5022\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 6th Semester result, ND-25 session (notification 2)\", \"title\": \"BSc Nursing 6th Semester result, ND-25 session (notification 2)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"bdb625ea22\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5022\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 6th Semester result, ND-25 session (notification 2)\", \"title\": \"BSc Nursing 6th Semester result, ND-25 session (notification 2)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "6a1f3e04a1": {
@@ -88,7 +88,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"6a1f3e04a1\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5021\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 3rd Semester result, ND-25 session (notification 3)\", \"title\": \"BSc Nursing 3rd Semester result, ND-25 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"6a1f3e04a1\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5021\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 3rd Semester result, ND-25 session (notification 3)\", \"title\": \"BSc Nursing 3rd Semester result, ND-25 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "89d14b215f": {
@@ -101,7 +101,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"89d14b215f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5020\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"PG Nursing 2nd Year result, ND-25 session (notification 3)\", \"title\": \"PG Nursing 2nd Year result, ND-25 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"89d14b215f\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5020\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"PG Nursing 2nd Year result, ND-25 session (notification 3)\", \"title\": \"PG Nursing 2nd Year result, ND-25 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "ee6d806501": {
@@ -114,7 +114,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"ee6d806501\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5019\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 3rd Semester result, MJ-24 session (notification 11)\", \"title\": \"BSc Nursing 3rd Semester result, MJ-24 session (notification 11)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"ee6d806501\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5019\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing 3rd Semester result, MJ-24 session (notification 11)\", \"title\": \"BSc Nursing 3rd Semester result, MJ-24 session (notification 11)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "36c3ef3b8d": {
@@ -127,7 +127,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"36c3ef3b8d\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5018\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (Post Basic) 2nd Year result, ND-25 session (notification 7)\", \"title\": \"BSc Nursing (Post Basic) 2nd Year result, ND-25 session (notification 7)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"36c3ef3b8d\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5018\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (Post Basic) 2nd Year result, ND-25 session (notification 7)\", \"title\": \"BSc Nursing (Post Basic) 2nd Year result, ND-25 session (notification 7)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "ce2e03cb79": {
@@ -140,7 +140,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"ce2e03cb79\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3757\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Date sheet of DAOTT theory examination for session MJ 2026\", \"title\": \"Date sheet of DAOTT theory examination for session MJ 2026\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"ce2e03cb79\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3757\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Date sheet of DAOTT theory examination for session MJ 2026\", \"title\": \"Date sheet of DAOTT theory examination for session MJ 2026\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "8f1604c38a": {
@@ -153,7 +153,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"8f1604c38a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3756\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Date sheet of BASLP theory examination for session May/June 2026\", \"title\": \"Date sheet of BASLP theory examination for session May/June 2026\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"8f1604c38a\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3756\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Date sheet of BASLP theory examination for session May/June 2026\", \"title\": \"Date sheet of BASLP theory examination for session May/June 2026\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "274fd96f32": {
@@ -166,7 +166,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"274fd96f32\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3755\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Date sheet of B.Sc.AOTT theory examination for session MJ 2026\", \"title\": \"Date sheet of B.Sc.AOTT theory examination for session MJ 2026\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"274fd96f32\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3755\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Date sheet of B.Sc.AOTT theory examination for session MJ 2026\", \"title\": \"Date sheet of B.Sc.AOTT theory examination for session MJ 2026\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "15e3354344": {
@@ -179,7 +179,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"15e3354344\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3754\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Theory examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"title\": \"Theory examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"15e3354344\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3754\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Theory examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"title\": \"Theory examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "57c4b208c2": {
@@ -192,7 +192,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"57c4b208c2\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3753\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Revised Date sheet of theory examination for MBBS 3rd Prof. Part-I Session Feb/March 2027\", \"title\": \"Revised Date sheet of theory examination for MBBS 3rd Prof. Part-I Session Feb/March 2027\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"57c4b208c2\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3753\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Revised Date sheet of theory examination for MBBS 3rd Prof. Part-I Session Feb/March 2027\", \"title\": \"Revised Date sheet of theory examination for MBBS 3rd Prof. Part-I Session Feb/March 2027\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   }
  },
