@@ -278,7 +278,7 @@ def discover(cfg):
     # a source with "include" keeps only notices whose link text matches it (NMC posts much that is not for students)
     # and "exclude" drops notices meant for colleges, not students (affiliation applications and the like)
     items = [i for i in found.values() if (not i.get("include") or re.search(i["include"], i["anchor"] or "", re.I))
-             and not (i.get("exclude") and re.search(i["exclude"], i["anchor"] or "", re.I))]
+             and not (i.get("exclude") and re.search(i["exclude"], (i["anchor"] or "") + " " + clean_name(i["url"]), re.I))]
     floor = datetime.min.replace(tzinfo=IST)
     items.sort(key=lambda l: file_stamp(l["url"]) or l["hint"] or floor, reverse=True)
     return items
@@ -321,7 +321,7 @@ def pdf_text(path):
 STREAM_RULES = {
     "mds": r"\bMDS\b|\bM\.D\.S\b|MASTER OF DENTAL|PG \(DENTAL\)",
     "ss": r"\bDM\b|\bM\.?CH\b|SUPER ?SPECI",
-    "mdms": r"MD\s*/\s*MS|\bMD\b(?!\s*\((?i:A|H|HOMOEO|AYURVEDA|UNANI)\))|\bMS\b|(?i:PG MEDICAL|PG \(MEDICAL\)|POST ?GRADUATE|\(PG\)|PG COUNSEL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
+    "mdms": r"MD\s*/\s*MS|\bMD\b(?!\s*\((?i:A|H|HOMOEO|AYURVEDA|UNANI)\))(?!\s*-\s*(?i:HOMOEO|AYURVED|UNANI))|\bMS\b|(?i:PG MEDICAL|PG \(MEDICAL\)|POST ?GRADUATE|\(PG\)|PG COUNSEL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
     "bds": r"\bBDS\b|DENTAL",
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
@@ -663,6 +663,15 @@ def run_once(cfg, args):
         d.setdefault("drafted_by", "rules")
         post = post_shape(d, item, published, os.path.basename(pdf_path))
         post["meta"]["pdf_path"] = os.path.relpath(pdf_path, data_dir)
+        if post["type"] == "result":
+            # result PDFs are tables of students; a summary cut from them would print a student's name and marks
+            post["summary"] = "Result list released. Open the PDF and search for your register number."
+            post["points"] = []
+        if item.get("exclude") and re.search(item["exclude"], post["title"] or "", re.I):
+            # the link only said "Download", so the exclude list is checked again once the PDF gave us a real title
+            log("   not for students (matched the exclude list by its title), skipping")
+            db.execute("INSERT INTO seen VALUES(?,?,?,?,?,1)", (item["url"], sha, datetime.now(IST).isoformat(), post["title"], pdf_path)); db.commit()
+            continue
         drafts.append(post)
         db.execute("INSERT INTO seen VALUES(?,?,?,?,?,1)", (item["url"], sha, datetime.now(IST).isoformat(), post["title"], pdf_path)); db.commit()
         log(f"   drafted: [{post['stream']}/{post['type']}] conf={d['confidence']} flags={d['flags']} deadline={d['deadline']}")
