@@ -454,6 +454,28 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795681800000, \"detected_at\": \"2026-11-25T17:53:40+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"92f8dbcd58\", \"points\": [\"Exercising of web options for Stray vacancy round-1 Counselling From 06.00 PM on 25-11-2026 Up to 02.00 PM on 26-11-2026 3.\", \"To prevent seat blocking and ensure that valuable seats are effectively utilized during the Stray Vacancy Round-1, the Competent Authority has\\u2026\", \"Refundable Security Deposit of candidates who do not join the seats allotted to them in Stray Vacancy Round-1 will be forfeited and such\\u2026\", \"If the candidate joins the allotted seat, the Security Deposit amount will be refunded to the candidate after closure of admissions. iii.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125173937910.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"NTR UHS (available seats at the end of Stray vacancy round) Date of issue of Notification 25.11.2026 2.\", \"title\": \"MDS MQ 2026-27 - Web Options Notification for Stray vacancy Round-1\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-25T17:54:04+05:30"
+  },
+  "7c91b465bf": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T19:08:24+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
+  },
+  "197cb179dd": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T19:08:24+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
   }
  },
  "auto": {
@@ -466,10 +488,8 @@
    "app"
   ],
   "log": [
-   1795609444.0900033,
-   1795609444.0910811,
-   1795609444.0921974,
-   1795609444.09333
+   1795613904.8988447,
+   1795613904.9007618
   ],
   "target_since": {
    "app": 1795534573.20719
