@@ -205,7 +205,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d0c385b228\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795597819_rVxN6pvZ.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of P.B.B.Sc. Nursing Second (2nd) Year Examination Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T14:49:18+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d0c385b228\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T14:49:18+05:30\"}, \"published_at\": \"2026-11-25T14:49:18+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795597819_rVxN6pvZ.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of P.B.B.Sc. Nursing Second (2nd) Year Examination Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T14:49:18+05:30"
   }
  },
