@@ -8,6 +8,9 @@ for url in sys.argv[1:]:
             body = r.read(6_000_000).decode("utf-8", "ignore"); print("STATUS", r.status, "FINAL", r.geturl(), "BYTES", len(body))
     except Exception as e:
         print("ERROR", type(e).__name__, str(e)[:200]); continue
+    if url.endswith(".js"):
+        for m in sorted(set(re.findall(r'["\'`]((?:https?:)?/?/?[A-Za-z0-9_./:-]*(?:api|Api|API|notification|Notification|circular|Circular|news|News)[A-Za-z0-9_./?=&{}$-]{0,90})["\'`]', body)))[:150]: print("JSURL", m)
+        continue
     if "--raw" in sys.argv[0:1] or len(body) < 20000:
         print("RAW", body[:6000].replace("\n", " "))
         for m in sorted(set(re.findall(r'(?:src|href)=["\']([^"\']+\.js[^"\']*)', body))): print("SCRIPT", m)
