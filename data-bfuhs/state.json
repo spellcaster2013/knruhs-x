@@ -207,6 +207,45 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:48:58+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"31184933b0\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T15:48:58+05:30\"}, \"published_at\": \"2026-11-25T15:48:58+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3758\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Practical examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"title\": \"Practical examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T15:48:58+05:30"
+  },
+  "f4b91d924e": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T16:19:24+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"f4b91d924e\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5030\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 4)\", \"title\": \"BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 4)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T16:19:24+05:30"
+  },
+  "19faa008d1": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T16:19:24+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"19faa008d1\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5029\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 2)\", \"title\": \"BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 2)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T16:19:24+05:30"
+  },
+  "884c453a70": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T16:19:24+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"884c453a70\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5028\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 3)\", \"title\": \"BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T16:19:24+05:30"
   }
  },
  "auto": {
@@ -219,7 +258,10 @@
    "app"
   ],
   "log": [
-   1795601938.4204655
+   1795601938.4204655,
+   1795603764.115828,
+   1795603764.116547,
+   1795603764.1173236
   ],
   "target_since": {
    "app": 1795588135.1644757
