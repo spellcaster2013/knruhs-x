@@ -1,0 +1,8 @@
+name: probe
+on: workflow_dispatch
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/probe.py  https://ssuhs.in/robots.txt https://ssuhs.in/ https://ssuhs.ac.in/robots.txt https://ssuhs.ac.in/ https://cghsuniversity.ac.in/robots.txt https://cghsuniversity.ac.in/ https://ouhs.ac.in/robots.txt https://ouhs.ac.in/ https://buhs.ac.in/robots.txt https://buhs.ac.in/ https://amruhp.ac.in/robots.txt https://amruhp.ac.in/ https://hnbumu.ac.in/robots.txt https://hnbumu.ac.in/ https://ouhs.ac.in/notice-circular-archive > probe.log 2>&1; cat probe.log
