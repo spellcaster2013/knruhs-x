@@ -1,10 +1,15 @@
 """One-off check (removed again after use): can GitHub reach a site, and which notice links does it show? Prints only."""
 import re, sys, urllib.request, urllib.parse, html, ssl
 UA = "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)"
+import base64
 for url in sys.argv[1:]:
-    print("=" * 90); print("URL", url)
+    data = None
+    if url.startswith("POST|"):
+        _, url, b64 = url.split("|", 2); data = base64.b64decode(b64)
+    print("=" * 90); print("URL", url, "POST" if data else "")
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=40) as r:
+        req = urllib.request.Request(url, data=data, headers={"User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=40) as r:
             body = r.read(6_000_000).decode("utf-8", "ignore"); print("STATUS", r.status, "FINAL", r.geturl(), "BYTES", len(body))
     except Exception as e:
         print("ERROR", type(e).__name__, str(e)[:200]); continue
