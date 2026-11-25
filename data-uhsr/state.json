@@ -194,6 +194,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.8, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:08:25+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f663b1f05a\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:08:58+05:30\"}, \"published_at\": \"2026-11-25T12:08:58+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/251126allocationmerit.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Provisional Allotment of seats of the Candidates who have applied for MD/MS/Post MBBS DNB/Post MBBS Diploma Round-2\", \"type\": \"counselling\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
+  },
+  "738f82f010": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:34:00+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"738f82f010\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/251126provisionalallotmentbds.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Round-6 Provisional Allotment of seats of the Candidates who have applied for admission to BDS Course 2026-27\", \"type\": \"counselling\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T12:34:00+05:30"
   }
  },
  "auto": {
@@ -220,7 +233,8 @@
    1795588738.1836894,
    1795588738.1846046,
    1795588738.185522,
-   1795588738.1865244
+   1795588738.1865244,
+   1795590240.03292
   ],
   "target_since": {
    "app": 1795588683.4377007
