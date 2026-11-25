@@ -1,0 +1,18 @@
+"""One-off check (removed again after use): can GitHub reach a site, and which notice links does it show? Prints only."""
+import re, sys, urllib.request, urllib.parse, html, ssl
+UA = "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)"
+for url in sys.argv[1:]:
+    print("=" * 90); print("URL", url)
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=40) as r:
+            body = r.read(6_000_000).decode("utf-8", "ignore"); print("STATUS", r.status, "FINAL", r.geturl(), "BYTES", len(body))
+    except Exception as e:
+        print("ERROR", type(e).__name__, str(e)[:200]); continue
+    links = re.findall(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', body, re.S | re.I)
+    print("LINKS", len(links)); n = 0
+    for href, txt in links:
+        t = " ".join(re.sub(r"<[^>]+>", " ", html.unescape(txt)).split())[:100]
+        u = urllib.parse.urljoin(url, html.unescape(href))
+        if re.search(r"\.pdf|notice|notification|circular|news|upload", u + t, re.I):
+            print("  ", t, "->", u[:160]); n += 1
+            if n >= 50: break
