@@ -1,231 +1,231 @@
 {
- "items": {
-  "064e62dac7": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
+  "items": {
+    "064e62dac7": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1795066200000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"064e62dac7\", \"points\": [\"Any discrepancy in the merit/allocation may be immediately informed on counselling.amruhp@gmail.com upto 11:00 AM 19.11.2026.\", \"The candidates are further informed that the Provisional Allocation is only indicative in nature and subject to change.\", \"The candidates cannot claim any right over the allotted seat on the basis of provisional allocation and it cannot be challenged before the court\\u2026\", \"Candidates claiming the benefit of any reserved category/quota are required to ensure that all the certificates/documents submitted by them are\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Provisional-Seat-Allocation-of-BAMS-BHMS-Stray-Round-Counselling-2026-merged.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"AMRU/(COE)-Admission-131/2026-27(BAMS/BHMS)-7231 Dated: 18.11.2026 NOTICE Urgent Attention: It is for information to all candidates that the Provisional Seat Allocation list of BAMS/BHMS Stray round Counselling 2026 is released.\", \"title\": \"Provisional Seat Allocation of BAMS BHMS Stray Round Counselling 2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+      "pushed": "before-app"
+    },
+    "e9d024fd11": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.79, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:11+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"e9d024fd11\", \"points\": [\"Candidates are required to report at their respective allotted institutes on 25.11.2026.\", \"Candidates claiming the benefit of any reserved category/quota are required to ensure that all the certificates/documents submitted by them are\\u2026\", \"Candidates are advised to get their certificates/documents updated or prepared in the prescribed format, wherever required, before the\\u2026\", \"In case of any discrepancy, outdated/invalid certificate, or non-submission of the prescribed document, the candidate shall not be entitled to\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Final-Seat-Allocation-of-BAMS-BHMS-stray-round-counselling-2026-merged.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"AMRU/COE-Admission-131/2026-27(BAMS/BHMS)- 7311 Dated: 23.11.2026 NOTICE Urgent Attention: It is for information to all candidates that the Final Seat Allocation of BAMS/BHMS Stray round counselling based on NEET UG- 2026 is now available.\", \"title\": \"Final Seat Allocation of BAMS BHMS stray round counselling 2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+      "pushed": "before-app"
+    },
+    "3b970b08f4": {
+      "status": "dismissed",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.59, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:10+05:30\", \"errors\": {}, \"flags\": [\"deadline-words-but-no-date\"], \"id\": \"3b970b08f4\", \"points\": [\"Submission of online application with successful transaction of fee. 07-11-2026 to 09-11-2026 2 Resolving the issues if any in the form for which\\u2026\", \"Filling of choices/preferences of course/ colleges and quota for provisional allocation of seats through online counseling 11.11.2026 4.\", \"Display of general combined state merit list of 1st round of online Common/Centralized Counseling for admissions to MD/MS (Ayu) courses in\\u2026\", \"Colleges of the state. 16.11.2026 7.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"9 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Revised-merged-pg-md-ms-ayurd-prospectus-2026.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"AND SHIVA AYURVEDIC COLLEGE & HOSPITAL CHANDPUR, DISTT. BILASPUR -174004 ONLINE Application Fee: i) For General & Other Categories Rs. 2200 ii) For SC/ST/PWD Categories Rs. 1100 Released on : 07.11.2026 (Entire application and counseling process shall be in online mode)\", \"title\": \"Divisional Magistrate/Executive Magistrate/Tehsildar of the area concerned of the Himachal Pradesh to which the father/Mather belongs. It should be si\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+      "pushed": "before-app"
+    },
+    "c8d5462ecc": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"c8d5462ecc\", \"points\": [\"The following precautions are advised:\", \"Verify Admission Procedure: Admissions must be made strictly in accordance with the eligibility criteria, entrance examination requirements and\\u2026\", \"Beware of Unauthorised Admission Offers: Students and parents aroadvised not to rely upon agents, middlemen or any unauthorised persons offering\\u2026\", \"Exercise Caution Before Making Payments: Do not make admission- related payments to unauthorised agents, personal bank accounts or unverified\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"12 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Advisory-to-students-parentsguardians-and-general-public-reg-admission.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Medical College & Hospital Campus, Nerchowk, Distt. Throu h E-mail PUBLIC ADVISORY Advisory to students, parents/guardians and general public regarding verification of authenticity, statutory approval and affiliation of Medical, Dental, AYUSH, Nursing, Allied & Healthcare and other professional\\u2026\", \"title\": \"\\u2022 Advisory to students, parents,guardians and general public regarding verification of authenticity, statutory approval and affiliation of Medical, De\", \"type\": \"admission\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "9a506dda4f": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:02+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"9a506dda4f\", \"points\": [\"HFW-B-B()15/66/2021 clatecl 16.1 1.2026 regarding ensuring transparency in the fee structure and preventing the collection of any excess or\\u2026\", \"In this regard, all the principals of affiliated colleges are hereby directed to ensure strict cotnpliance with the following instructions in\\u2026\", \"Display of Approved Fee Structure: All affiliated colleges shall ensure that the connplete approved stream/course-wise fee structure, including\\u2026\", \"The fee structure shall be displayed in such a Inanner that it is easily accessible and visible to all students and parents.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Regarding-ensuring-transparency-and-adherence-to-Govt-approved-fee-structure-19.11.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Su bj ect:- BY EMAIL MOST URGENT No. I am directed to invite your attention to the directions received from the Secretary (Health), Government of I-lilliachal Pradesh vide letter No.\", \"title\": \"\\u2022 Regarding ensuring transparency and adherence to Government- approved fee structure by affiliated colleges in various streams/courses\", \"type\": \"circular\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+      "pushed": "before-app"
+    },
+    "15cedf5106": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:59+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"15cedf5106\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"2 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/7th-Sem-supply-Result_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 7th Semester Supplementary Examination Held in Sept 2026 Batch 2021- 2022,\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "a79c3540d6": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.7, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:57+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a79c3540d6\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Result-Notification-MBBS-Phase-3-Part-I.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of MBBS Phase III Part I University Annual & Supplementary Examination held in the month of August, 2026 [Date of Result: 13-11-\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "5b7f3738b9": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:53+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5b7f3738b9\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"16 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/3rd-supply-result-2026_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 3rd Semester Supplementary Examination Held in Sept 2026 Batch 2023- 2024\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "a5afb5112a": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:51+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"a5afb5112a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/5th-sem-result-21-batch_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 5th Semester Supplementary Examination Held in Sept 2026 Batch 2021\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "5226361e91": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:49+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5226361e91\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/5th-sem-result-22-batch_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 5th Semester Supplementary Examination Held in Sept 2026 Batch 2022\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "fa3ce42695": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:47+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"fa3ce42695\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/5th-sem-result-23-batch_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 5th Semester Supplementary Examination Held in Sept 2026 Batch 2023\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "8e85874100": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:45+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8e85874100\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Result-Notification-of-Retotalling-MBBS-Phase-1.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of Retotalling in R/o MBBS Phase -I University Annual & Supplementary Examination held in the month of August, 2026 (Batch 2025\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "b719374813": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.84, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:43+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b719374813\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Result-Notification-of-Retotalling-MD.MS_.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of Retotalling in R/o MD/ MS (Medical) University Final Year Examination held in the month of August, 2026 (Batch 2023) [Date of\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
+    },
+    "dcadb6a4e9": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1794248940000, \"detected_at\": \"2026-11-25T12:27:41+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"dcadb6a4e9\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/MD-MS-Retotalling-notification-.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Fee for retotaling is Rs.1000/- per subject. Mand-175021 Dated: 06\\u20141 Copy forwarded to the PA to Vice Chancellor, AMRU information please. (Dr.\", \"title\": \"\\u2022 Schedule for Retotalling of MD/ MS (Medical) held in the month of August ,2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+      "pushed": "before-app"
+    },
+    "234aca115f": {
+      "status": "new",
+      "posted": {
+        "app": {
+          "to": "app",
+          "at": "2026-11-25T12:28:13+05:30",
+          "by": "auto"
+        }
+      },
+      "errors": {},
+      "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:39+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"234aca115f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/signed-notice-pages-1.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"\\u2022 Notice regarding Commencement of B.Pharmacy (Ayu) Examinations & Admit Cards \\u2013 November 2026\", \"title\": \"\\u2022 Notice regarding Commencement of B.Pharmacy (Ayu) Examinations & Admit Cards \\u2013 November 2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+      "pushed": "before-app"
     }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1795066200000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"064e62dac7\", \"points\": [\"Any discrepancy in the merit/allocation may be immediately informed on counselling.amruhp@gmail.com upto 11:00 AM 19.11.2026.\", \"The candidates are further informed that the Provisional Allocation is only indicative in nature and subject to change.\", \"The candidates cannot claim any right over the allotted seat on the basis of provisional allocation and it cannot be challenged before the court\\u2026\", \"Candidates claiming the benefit of any reserved category/quota are required to ensure that all the certificates/documents submitted by them are\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Provisional-Seat-Allocation-of-BAMS-BHMS-Stray-Round-Counselling-2026-merged.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"AMRU/(COE)-Admission-131/2026-27(BAMS/BHMS)-7231 Dated: 18.11.2026 NOTICE Urgent Attention: It is for information to all candidates that the Provisional Seat Allocation list of BAMS/BHMS Stray round Counselling 2026 is released.\", \"title\": \"Provisional Seat Allocation of BAMS BHMS Stray Round Counselling 2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
   },
-  "e9d024fd11": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.79, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:11+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"e9d024fd11\", \"points\": [\"Candidates are required to report at their respective allotted institutes on 25.11.2026.\", \"Candidates claiming the benefit of any reserved category/quota are required to ensure that all the certificates/documents submitted by them are\\u2026\", \"Candidates are advised to get their certificates/documents updated or prepared in the prescribed format, wherever required, before the\\u2026\", \"In case of any discrepancy, outdated/invalid certificate, or non-submission of the prescribed document, the candidate shall not be entitled to\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Final-Seat-Allocation-of-BAMS-BHMS-stray-round-counselling-2026-merged.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"AMRU/COE-Admission-131/2026-27(BAMS/BHMS)- 7311 Dated: 23.11.2026 NOTICE Urgent Attention: It is for information to all candidates that the Final Seat Allocation of BAMS/BHMS Stray round counselling based on NEET UG- 2026 is now available.\", \"title\": \"Final Seat Allocation of BAMS BHMS stray round counselling 2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
+  "auto": {
+    "on": true,
+    "min_conf": 0.85,
+    "delay_minutes": 0,
+    "max_per_hour": 60,
+    "since": 0,
+    "targets": [
+      "app"
+    ],
+    "log": [
+      1795589893.6276877,
+      1795589893.6285622,
+      1795589893.638707,
+      1795589893.6397421,
+      1795589893.6407824,
+      1795589893.6418018,
+      1795589893.6428764,
+      1795589893.6438856,
+      1795589893.6449227,
+      1795589893.6459863,
+      1795589893.6470363,
+      1795589893.6480892,
+      1795589893.6492453,
+      1795589893.6503348,
+      1795589893.651373
+    ],
+    "target_since": {
+      "app": 1795589839.0614133
+    },
+    "all": true
   },
-  "3b970b08f4": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.59, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:10+05:30\", \"errors\": {}, \"flags\": [\"deadline-words-but-no-date\"], \"id\": \"3b970b08f4\", \"points\": [\"Submission of online application with successful transaction of fee. 07-11-2026 to 09-11-2026 2 Resolving the issues if any in the form for which\\u2026\", \"Filling of choices/preferences of course/ colleges and quota for provisional allocation of seats through online counseling 11.11.2026 4.\", \"Display of general combined state merit list of 1st round of online Common/Centralized Counseling for admissions to MD/MS (Ayu) courses in\\u2026\", \"Colleges of the state. 16.11.2026 7.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"9 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Revised-merged-pg-md-ms-ayurd-prospectus-2026.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"AND SHIVA AYURVEDIC COLLEGE & HOSPITAL CHANDPUR, DISTT. BILASPUR -174004 ONLINE Application Fee: i) For General & Other Categories Rs. 2200 ii) For SC/ST/PWD Categories Rs. 1100 Released on : 07.11.2026 (Entire application and counseling process shall be in online mode)\", \"title\": \"Divisional Magistrate/Executive Magistrate/Tehsildar of the area concerned of the Himachal Pradesh to which the father/Mather belongs. It should be si\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
-  },
-  "c8d5462ecc": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"c8d5462ecc\", \"points\": [\"The following precautions are advised:\", \"Verify Admission Procedure: Admissions must be made strictly in accordance with the eligibility criteria, entrance examination requirements and\\u2026\", \"Beware of Unauthorised Admission Offers: Students and parents aroadvised not to rely upon agents, middlemen or any unauthorised persons offering\\u2026\", \"Exercise Caution Before Making Payments: Do not make admission- related payments to unauthorised agents, personal bank accounts or unverified\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"12 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Advisory-to-students-parentsguardians-and-general-public-reg-admission.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Medical College & Hospital Campus, Nerchowk, Distt. Throu h E-mail PUBLIC ADVISORY Advisory to students, parents/guardians and general public regarding verification of authenticity, statutory approval and affiliation of Medical, Dental, AYUSH, Nursing, Allied & Healthcare and other professional\\u2026\", \"title\": \"\\u2022 Advisory to students, parents,guardians and general public regarding verification of authenticity, statutory approval and affiliation of Medical, De\", \"type\": \"admission\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "9a506dda4f": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:28:02+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"9a506dda4f\", \"points\": [\"HFW-B-B()15/66/2021 clatecl 16.1 1.2026 regarding ensuring transparency in the fee structure and preventing the collection of any excess or\\u2026\", \"In this regard, all the principals of affiliated colleges are hereby directed to ensure strict cotnpliance with the following instructions in\\u2026\", \"Display of Approved Fee Structure: All affiliated colleges shall ensure that the connplete approved stream/course-wise fee structure, including\\u2026\", \"The fee structure shall be displayed in such a Inanner that it is easily accessible and visible to all students and parents.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Regarding-ensuring-transparency-and-adherence-to-Govt-approved-fee-structure-19.11.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Su bj ect:- BY EMAIL MOST URGENT No. I am directed to invite your attention to the directions received from the Secretary (Health), Government of I-lilliachal Pradesh vide letter No.\", \"title\": \"\\u2022 Regarding ensuring transparency and adherence to Government- approved fee structure by affiliated colleges in various streams/courses\", \"type\": \"circular\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
-  },
-  "15cedf5106": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:59+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"15cedf5106\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"2 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/7th-Sem-supply-Result_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 7th Semester Supplementary Examination Held in Sept 2026 Batch 2021- 2022,\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "a79c3540d6": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.7, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:57+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a79c3540d6\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Result-Notification-MBBS-Phase-3-Part-I.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of MBBS Phase III Part I University Annual & Supplementary Examination held in the month of August, 2026 [Date of Result: 13-11-\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "5b7f3738b9": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:53+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5b7f3738b9\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"16 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/3rd-supply-result-2026_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 3rd Semester Supplementary Examination Held in Sept 2026 Batch 2023- 2024\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "a5afb5112a": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:51+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"a5afb5112a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/5th-sem-result-21-batch_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 5th Semester Supplementary Examination Held in Sept 2026 Batch 2021\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "5226361e91": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:49+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5226361e91\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/5th-sem-result-22-batch_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 5th Semester Supplementary Examination Held in Sept 2026 Batch 2022\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "fa3ce42695": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:47+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"fa3ce42695\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/5th-sem-result-23-batch_0001.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of B.Sc. Nursing 5th Semester Supplementary Examination Held in Sept 2026 Batch 2023\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "8e85874100": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:45+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8e85874100\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Result-Notification-of-Retotalling-MBBS-Phase-1.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of Retotalling in R/o MBBS Phase -I University Annual & Supplementary Examination held in the month of August, 2026 (Batch 2025\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "b719374813": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.84, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:43+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b719374813\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Result-Notification-of-Retotalling-MD.MS_.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"\\u2022 Result Notification of Retotalling in R/o MD/ MS (Medical) University Final Year Examination held in the month of August, 2026 (Batch 2023) [Date of\", \"type\": \"result\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  },
-  "dcadb6a4e9": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1794248940000, \"detected_at\": \"2026-11-25T12:27:41+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"dcadb6a4e9\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/MD-MS-Retotalling-notification-.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Fee for retotaling is Rs.1000/- per subject. Mand-175021 Dated: 06\\u20141 Copy forwarded to the PA to Vice Chancellor, AMRU information please. (Dr.\", \"title\": \"\\u2022 Schedule for Retotalling of MD/ MS (Medical) held in the month of August ,2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
-   "pushed": "before-app"
-  },
-  "234aca115f": {
-   "status": "new",
-   "posted": {
-    "app": {
-     "to": "app",
-     "at": "2026-11-25T12:28:13+05:30",
-     "by": "auto"
-    }
-   },
-   "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:39+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"234aca115f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/signed-notice-pages-1.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"\\u2022 Notice regarding Commencement of B.Pharmacy (Ayu) Examinations & Admit Cards \\u2013 November 2026\", \"title\": \"\\u2022 Notice regarding Commencement of B.Pharmacy (Ayu) Examinations & Admit Cards \\u2013 November 2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
-   "pushed": "before-app"
-  }
- },
- "auto": {
-  "on": true,
-  "min_conf": 0.85,
-  "delay_minutes": 0,
-  "max_per_hour": 60,
-  "since": 0,
-  "targets": [
-   "app"
-  ],
-  "log": [
-   1795589893.6276877,
-   1795589893.6285622,
-   1795589893.638707,
-   1795589893.6397421,
-   1795589893.6407824,
-   1795589893.6418018,
-   1795589893.6428764,
-   1795589893.6438856,
-   1795589893.6449227,
-   1795589893.6459863,
-   1795589893.6470363,
-   1795589893.6480892,
-   1795589893.6492453,
-   1795589893.6503348,
-   1795589893.651373
-  ],
-  "target_since": {
-   "app": 1795589839.0614133
-  },
-  "all": true
- },
- "fb_init": "2026-11-25T12:28:13+05:30"
+  "fb_init": "2026-11-25T12:28:13+05:30"
 }
