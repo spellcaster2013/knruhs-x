@@ -1,231 +1,231 @@
 {
-  "items": {
-    "9d1cf4bde5": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.72, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"9d1cf4bde5\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/ReviewResultList-4.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Position Medicine Surgery Obstetrics & Gynaecolog y Paediatrics (including Neonatolog y) REMARKS 1 ANUPAM ARYA 201802891 26016040008 CALCUTTA NATIONAL MEDICAL COLLEGE Before Review F F N.A.\", \"title\": \"Review/Scrutiny Result of MBBS 3rd Professional Part-II (Old Regulation) June \\u2013 July, 2026 Examination\", \"type\": \"result\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
-      "pushed": "before-app"
-    },
-    "6ca73f2666": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.71, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:36:09+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6ca73f2666\", \"points\": [\"P P 4 ANISH KUNDU 202309269 26389010362 BANKURA SAMMILANI MEDICAL COLLEGE Before Review H P P After Review N.A.\", \"H P 5 ANKAN ROY 202308581 26389010471 BANKURA SAMMILANI MEDICAL COLLEGE Before Review P P P After Review P N.A.\", \"P 6 ANKUR MISHRA 202309296 26389010390 BANKURA SAMMILANI MEDICAL COLLEGE Before Review P P P After Review P N.A.\", \"Position Community Medicine Forensic Medicine & Toxicology REMARKS 7 ANSARUL ISLAM 202205246 26389010354 BANKURA SAMMILANI MEDICAL COLLEGE After\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/ReviewResultList-5.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Position Community Medicine Forensic Medicine & Toxicology REMARKS 1 ABHINAV KUMAR 202308619 26389010453 BANKURA SAMMILANI MEDICAL COLLEGE Before Review F F F After Review F P F 2 ABU REHAN REZA 202308479 26389010458 BANKURA SAMMILANI MEDICAL COLLEGE Before Review P P P After Review N.A. P P 3\\u2026\", \"title\": \"Review/Scrutiny Result of MBBS 3rd Professional Part-I (Session 2023-2024) August \\u2013 September, 2026 Examination\", \"type\": \"result\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
-      "pushed": "before-app"
-    },
-    "dc8c708abd": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.25, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:36:05+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"dc8c708abd\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"2 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Circular_Synopsis_MD-Homoeopathy_2025-2028.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Circular Synopsis MD-Homoeopathy 2025-2028\", \"title\": \"Circular Synopsis MD-Homoeopathy 2025-2028\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "4ea892be8e": {
-      "status": "dismissed",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:36:03+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"4ea892be8e\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"3 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice-regarding-Observance-of-Swachchta-Shramdaan-Programme.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"The initiative is intended to promote cleanliness, environmental awareness and a sense of collective responsibility among students, faculty members, officers, non-teaching staff and other stakeholders. The programme may be organised with active participation of students, teachers, non-teaching\\u2026\", \"title\": \"Observance of \\\"Swachchta Shramdaan\\\" Programme In pursuance of the communication issued by the Governor's Secretariat, West Bengal, Lok Bhavan, Kolkata\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
-      "pushed": "before-app"
-    },
-    "1bf84b0c01": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:57+05:30\", \"errors\": {}, \"flags\": [\"deadline-words-but-no-date\"], \"id\": \"1bf84b0c01\", \"points\": [\"Tentative Schedule of the Counseling: \\uf0b7 Registration and Choice Filling: 06.11.26. \\u2013 10.11.2026. \\uf0b7 Declaration of Allotment of seat: 12.11.2026. \\uf0b7\\u2026\", \"Labr/85 Emp/EC/ IM-OI 12025 dated 25.05.2026 of the Labour Department.\", \"Eligibility to avail OBC reservation in State Quota seats may be determined as per Notification No.945- BCW/MR-23/2026 dated 18.05.2026 for the\\u2026\", \"Eligibility to participate in the counseling: Candidates who were registered in WBJEEB rounds or counseling but could not be allotted any seat in\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"5 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice_Mop_UP-JENPAS_UG_2026.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"OG/WBUHS/2026/1714 Date: 05.11.2026 N O T I C E F O R M O P \\u2013 U P C O U N S E L I N G : J E N P A S U G 2 0 2 6 In continuation with the WBJEEB notification No. The interested candidates for the allied health sciences courses only are hereby instructed to visit the University website and click\\u2026\", \"title\": \"Notice Mop UP-JENPAS UG 2026\", \"type\": \"counselling\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
-      "pushed": "before-app"
-    },
-    "94a9a4d668": {
-      "status": "dismissed",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:51+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"94a9a4d668\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-Pre-PhD-Seminar-of-Ms.-Moitreyee-Choudhuri-held-on-11.12.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for Pre PhD Seminar of Ms. Moitreyee Choudhuri held on 11.12.2026\", \"title\": \"Notification for Pre PhD Seminar of Ms. Moitreyee Choudhuri held on 11.12.2026\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "a844ef93ba": {
-      "status": "dismissed",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:47+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"a844ef93ba\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-PhD-Committee-Meeting-held-on-11.12.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for PhD Committee Meeting held on 11.12.2026\", \"title\": \"Notification for PhD Committee Meeting held on 11.12.2026\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "a1b9067ad9": {
-      "status": "dismissed",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:43+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"a1b9067ad9\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-PhD-Viva-voce-examintion-of-Dr.-Sunita-Sharma-held-on-11.12.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for PhD Viva voce examintion of Dr. Sunita Sharma held on 11.12.2026\", \"title\": \"Notification for PhD Viva voce examintion of Dr. Sunita Sharma held on 11.12.2026\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "d89b9a8de8": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:39+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d89b9a8de8\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-Submission-of-MDS-Dissertation-for-the-Academic-Year-2024-2027.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Notification for Submission of (MDS) Dissertation for the Academic Year 2024-2027\", \"title\": \"Notification for Submission of (MDS) Dissertation for the Academic Year 2024-2027\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "a6fab76453": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:37+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"a6fab76453\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-Submission-of-Synopsis-MDS-for-Academic-Year-2026-2029.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Notification for Submission of Synopsis (MDS) for Academic Year 2026-2029\", \"title\": \"Notification for Submission of Synopsis (MDS) for Academic Year 2026-2029\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "0f4ae44ba7": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:36+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"0f4ae44ba7\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Submission-of-Synopsis-Research-Proposal-of-DM-Mch-for-Academic-year-2025-2028.pdf\", \"status\": \"published\", \"stream\": \"ss\", \"summary\": \"Submission of Synopsis (Research Proposal) of DM & Mch for Academic year 2025-2028\", \"title\": \"Submission of Synopsis (Research Proposal) of DM & Mch for Academic year 2025-2028\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "0ed94a38ab": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.43, \"deadline\": 1795026540000, \"detected_at\": \"2026-11-25T11:35:30+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"0ed94a38ab\", \"points\": [\"If it is found that the declaration is not true, s/he can be debarred for admission at any stage before or even after admission. 3.\", \"It will be required at the time of counselling.\", \"In case the candidates do not receive admit card by the date mentioned in the schedule of activities; or there is any objection to any information\\u2026\", \"Ten Thousand only) for the PDF and PDCC courses based on Page4 the information provided by them.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Inf_Bklt_PDF_PDCC_Courses_2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Post Doctoral Fellowship in Onco-Anaesthesia 1.2. Post Doctoral Certificate Course in Nephropathology 1.3.\", \"title\": \"Information Booklet for admission to PDF PDCC Courses, 2026\", \"type\": \"admission\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
-      "pushed": "before-app"
-    },
-    "1b0e1d1f7b": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.65, \"deadline\": 1797741000000, \"detected_at\": \"2026-11-25T11:35:24+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"1b0e1d1f7b\", \"points\": [\"Mere payment of registration processing fee does not entitle a student to have registration with WBUHS.\", \"If all the relevant documents are not in order or if there is any falsification then registration number will not be provided and registration\\u2026\", \"All concerned are requested to refer to the \\\"I Need Help Section\\\" available online on the same page, before proceeding with the form fill-up /\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice-Regarding-Opening-of-Online-Registration-Portal-for-BPharm-Fresh-2026-lateral-2025.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Simultaneously, college approval can be done by the college authorities. Those who are unable to complete the online registration during the above mentioned time for them the portal will be available till 20/02/2027 11:59 PM with applicable late fee.\", \"title\": \"Notice Regarding Opening of Online Registration Portal for BPharm New 2026 & Lateral 2025\", \"type\": \"admission\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
-    },
-    "58529c050c": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.34, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:20+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"58529c050c\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification_-2.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification of non-JELET students\", \"title\": \"Notification of non-JELET students\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
-      "pushed": "before-app"
-    },
-    "897eb2314c": {
-      "status": "new",
-      "posted": {
-        "app": {
-          "to": "app",
-          "at": "2026-11-25T11:36:10+05:30",
-          "by": "auto"
-        }
-      },
-      "errors": {},
-      "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:16+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"897eb2314c\", \"points\": [\"Registration and, Payment: 24.11.2026 to 27.11.2026, 16.00..\", \"Registration and Choice filling: 24.11.2026 to 28.11.2026, 14.00 Hrs: 3.\", \"Publication of Allocation Results: 01.12.2026 4.\", \"OG/WBUHS/2026/1626 dated 15.10.2026 and WBUHS Memo No.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice_JEMAS_PG_2025_Counseling_Round-2-1.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"No. : OG/ WB UH S/2 02 6/ 1 75 2 Date : 23rd Nov em ber20 26 N O T I C E F O R C O U N S E L I N G O F J E M A S P G 2 0 2 5 \\u2013 R O U N D 2 This is in continuation of the WBUHS Memo No. OG/WBUHS/2026/1626 dated 15.10.2026 about JEMAS PG 2025 counseling that the second round of the counseling will\\u2026\", \"title\": \"Notice for JEMAS PG Counseling 2025 Round 2\", \"type\": \"counselling\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
-      "pushed": "before-app"
+ "items": {
+  "9d1cf4bde5": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
     }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.72, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:36:10+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9d1cf4bde5\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/ReviewResultList-4.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Review/Scrutiny Result of MBBS 3rd Professional Part-II (Old Regulation) June \\u2013 July, 2026 Examination\", \"type\": \"result\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
   },
-  "auto": {
-    "on": true,
-    "min_conf": 0.85,
-    "delay_minutes": 0,
-    "max_per_hour": 60,
-    "since": 0,
-    "targets": [
-      "app"
-    ],
-    "log": [
-      1795586770.3101468,
-      1795586770.310726,
-      1795586770.3115253,
-      1795586770.3122914,
-      1795586770.313046,
-      1795586770.3137941,
-      1795586770.3145723,
-      1795586770.3153362,
-      1795586770.3160632,
-      1795586770.3168244,
-      1795586770.317617,
-      1795586770.3183906,
-      1795586770.3191848,
-      1795586770.3199582,
-      1795586770.320758
-    ],
-    "target_since": {
-      "app": 1795586684.093776
-    },
-    "all": true
+  "6ca73f2666": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.71, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:36:09+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6ca73f2666\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/ReviewResultList-5.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Review/Scrutiny Result of MBBS 3rd Professional Part-I (Session 2023-2024) August \\u2013 September, 2026 Examination\", \"type\": \"result\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
   },
-  "fb_init": "2026-11-25T11:36:10+05:30"
+  "dc8c708abd": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.25, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:36:05+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"dc8c708abd\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"2 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Circular_Synopsis_MD-Homoeopathy_2025-2028.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Circular Synopsis MD-Homoeopathy 2025-2028\", \"title\": \"Circular Synopsis MD-Homoeopathy 2025-2028\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "4ea892be8e": {
+   "status": "dismissed",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:36:03+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"4ea892be8e\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"3 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice-regarding-Observance-of-Swachchta-Shramdaan-Programme.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"The initiative is intended to promote cleanliness, environmental awareness and a sense of collective responsibility among students, faculty members, officers, non-teaching staff and other stakeholders. The programme may be organised with active participation of students, teachers, non-teaching\\u2026\", \"title\": \"Observance of \\\"Swachchta Shramdaan\\\" Programme In pursuance of the communication issued by the Governor's Secretariat, West Bengal, Lok Bhavan, Kolkata\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "1bf84b0c01": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:57+05:30\", \"errors\": {}, \"flags\": [\"deadline-words-but-no-date\"], \"id\": \"1bf84b0c01\", \"points\": [\"Tentative Schedule of the Counseling: \\uf0b7 Registration and Choice Filling: 06.11.26. \\u2013 10.11.2026. \\uf0b7 Declaration of Allotment of seat: 12.11.2026. \\uf0b7\\u2026\", \"Labr/85 Emp/EC/ IM-OI 12025 dated 25.05.2026 of the Labour Department.\", \"Eligibility to avail OBC reservation in State Quota seats may be determined as per Notification No.945- BCW/MR-23/2026 dated 18.05.2026 for the\\u2026\", \"Eligibility to participate in the counseling: Candidates who were registered in WBJEEB rounds or counseling but could not be allotted any seat in\\u2026\"], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"5 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice_Mop_UP-JENPAS_UG_2026.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"OG/WBUHS/2026/1714 Date: 05.11.2026 N O T I C E F O R M O P \\u2013 U P C O U N S E L I N G : J E N P A S U G 2 0 2 6 In continuation with the WBJEEB notification No. The interested candidates for the allied health sciences courses only are hereby instructed to visit the University website and click\\u2026\", \"title\": \"Notice Mop UP-JENPAS UG 2026\", \"type\": \"counselling\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "94a9a4d668": {
+   "status": "dismissed",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:51+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"94a9a4d668\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-Pre-PhD-Seminar-of-Ms.-Moitreyee-Choudhuri-held-on-11.12.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for Pre PhD Seminar of Ms. Moitreyee Choudhuri held on 11.12.2026\", \"title\": \"Notification for Pre PhD Seminar of Ms. Moitreyee Choudhuri held on 11.12.2026\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "a844ef93ba": {
+   "status": "dismissed",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:47+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"a844ef93ba\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-PhD-Committee-Meeting-held-on-11.12.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for PhD Committee Meeting held on 11.12.2026\", \"title\": \"Notification for PhD Committee Meeting held on 11.12.2026\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "a1b9067ad9": {
+   "status": "dismissed",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:43+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"a1b9067ad9\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-PhD-Viva-voce-examintion-of-Dr.-Sunita-Sharma-held-on-11.12.2026.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for PhD Viva voce examintion of Dr. Sunita Sharma held on 11.12.2026\", \"title\": \"Notification for PhD Viva voce examintion of Dr. Sunita Sharma held on 11.12.2026\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "d89b9a8de8": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:39+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d89b9a8de8\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-Submission-of-MDS-Dissertation-for-the-Academic-Year-2024-2027.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Notification for Submission of (MDS) Dissertation for the Academic Year 2024-2027\", \"title\": \"Notification for Submission of (MDS) Dissertation for the Academic Year 2024-2027\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "a6fab76453": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:37+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"a6fab76453\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification-for-Submission-of-Synopsis-MDS-for-Academic-Year-2026-2029.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Notification for Submission of Synopsis (MDS) for Academic Year 2026-2029\", \"title\": \"Notification for Submission of Synopsis (MDS) for Academic Year 2026-2029\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "0f4ae44ba7": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:36+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"0f4ae44ba7\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Submission-of-Synopsis-Research-Proposal-of-DM-Mch-for-Academic-year-2025-2028.pdf\", \"status\": \"published\", \"stream\": \"ss\", \"summary\": \"Submission of Synopsis (Research Proposal) of DM & Mch for Academic year 2025-2028\", \"title\": \"Submission of Synopsis (Research Proposal) of DM & Mch for Academic year 2025-2028\", \"type\": \"circular\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "0ed94a38ab": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.43, \"deadline\": 1795026540000, \"detected_at\": \"2026-11-25T11:35:30+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"0ed94a38ab\", \"points\": [\"If it is found that the declaration is not true, s/he can be debarred for admission at any stage before or even after admission. 3.\", \"It will be required at the time of counselling.\", \"In case the candidates do not receive admit card by the date mentioned in the schedule of activities; or there is any objection to any information\\u2026\", \"Ten Thousand only) for the PDF and PDCC courses based on Page4 the information provided by them.\"], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Inf_Bklt_PDF_PDCC_Courses_2026.pdf\", \"status\": \"published\", \"stream\": \"ss\", \"summary\": \"Post Doctoral Fellowship in Onco-Anaesthesia 1.2. Post Doctoral Certificate Course in Nephropathology 1.3.\", \"title\": \"Information Booklet for admission to PDF PDCC Courses, 2026\", \"type\": \"admission\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "1b0e1d1f7b": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.65, \"deadline\": 1797741000000, \"detected_at\": \"2026-11-25T11:35:24+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"1b0e1d1f7b\", \"points\": [\"Mere payment of registration processing fee does not entitle a student to have registration with WBUHS.\", \"If all the relevant documents are not in order or if there is any falsification then registration number will not be provided and registration\\u2026\", \"All concerned are requested to refer to the \\\"I Need Help Section\\\" available online on the same page, before proceeding with the form fill-up /\\u2026\"], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"20 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice-Regarding-Opening-of-Online-Registration-Portal-for-BPharm-Fresh-2026-lateral-2025.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Simultaneously, college approval can be done by the college authorities. Those who are unable to complete the online registration during the above mentioned time for them the portal will be available till 20/02/2027 11:59 PM with applicable late fee.\", \"title\": \"Notice Regarding Opening of Online Registration Portal for BPharm New 2026 & Lateral 2025\", \"type\": \"admission\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "58529c050c": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.34, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:20+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\"], \"id\": \"58529c050c\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notification_-2.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification of non-JELET students\", \"title\": \"Notification of non-JELET students\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "before-app"
+  },
+  "897eb2314c": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T11:36:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:35:16+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"897eb2314c\", \"points\": [\"Registration and, Payment: 24.11.2026 to 27.11.2026, 16.00..\", \"Registration and Choice filling: 24.11.2026 to 28.11.2026, 14.00 Hrs: 3.\", \"Publication of Allocation Results: 01.12.2026 4.\", \"OG/WBUHS/2026/1626 dated 15.10.2026 and WBUHS Memo No.\"], \"posted\": {\"app\": \"2026-11-25T11:36:10+05:30\"}, \"published_at\": \"2026-11-25T11:36:10+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Notice_JEMAS_PG_2025_Counseling_Round-2-1.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"No. : OG/ WB UH S/2 02 6/ 1 75 2 Date : 23rd Nov em ber20 26 N O T I C E F O R C O U N S E L I N G O F J E M A S P G 2 0 2 5 \\u2013 R O U N D 2 This is in continuation of the WBUHS Memo No. OG/WBUHS/2026/1626 dated 15.10.2026 about JEMAS PG 2025 counseling that the second round of the counseling will\\u2026\", \"title\": \"Notice for JEMAS PG Counseling 2025 Round 2\", \"type\": \"counselling\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  }
+ },
+ "auto": {
+  "on": true,
+  "min_conf": 0.85,
+  "delay_minutes": 0,
+  "max_per_hour": 60,
+  "since": 0,
+  "targets": [
+   "app"
+  ],
+  "log": [
+   1795586770.3101468,
+   1795586770.310726,
+   1795586770.3115253,
+   1795586770.3122914,
+   1795586770.313046,
+   1795586770.3137941,
+   1795586770.3145723,
+   1795586770.3153362,
+   1795586770.3160632,
+   1795586770.3168244,
+   1795586770.317617,
+   1795586770.3183906,
+   1795586770.3191848,
+   1795586770.3199582,
+   1795586770.320758
+  ],
+  "target_since": {
+   "app": 1795586684.093776
+  },
+  "all": true
+ },
+ "fb_init": "2026-11-25T11:36:10+05:30"
 }
