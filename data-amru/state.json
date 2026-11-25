@@ -205,8 +205,21 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.53, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"24680968b1\", \"points\": [\"Those Candidates reporting upto 11 AM will be allotted seats as per combined merit of Combined Entrance Test for Allied and Healthcare Programs\\u2026\", \"All interested candidates who fulfill the eligibility criteria laid down in the prospectus issued by this university are directed to attend stray\\u2026\", \"Only in B.Pharmacy ayurved course Remaining seats will be offered to those candidates who did not appear in Combined Entrance Test (CET), Based on\\u2026\", \"Note: Candidates will be required to show the original documents and deposit full admission fee on the spot. (Facility for online Payment will be\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Notice-for-stray-walk-round-for-allied-and-Healthcare-programes-IGMC.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"P.M)- 43 9k - 10 Dated as 1)/2026 Notice for Stray vacancy Round (Walk-in) for Allied and Healthcare Programs and B. The latest vacancy status will be uploaded on the University's website.\", \"title\": \"Notice for stray walk round for allied and Healthcare programes IGMC\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.53, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:20:47+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"24680968b1\", \"points\": [\"Those Candidates reporting upto 11 AM will be allotted seats as per combined merit of Combined Entrance Test for Allied and Healthcare Programs\\u2026\", \"All interested candidates who fulfill the eligibility criteria laid down in the prospectus issued by this university are directed to attend stray\\u2026\", \"Only in B.Pharmacy ayurved course Remaining seats will be offered to those candidates who did not appear in Combined Entrance Test (CET), Based on\\u2026\", \"Note: Candidates will be required to show the original documents and deposit full admission fee on the spot. (Facility for online Payment will be\\u2026\"], \"posted\": {\"app\": \"2026-11-25T15:20:47+05:30\"}, \"published_at\": \"2026-11-25T15:20:47+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Notice-for-stray-walk-round-for-allied-and-Healthcare-programes-IGMC.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"P.M)- 43 9k - 10 Dated as 1)/2026 Notice for Stray vacancy Round (Walk-in) for Allied and Healthcare Programs and B. The latest vacancy status will be uploaded on the University's website.\", \"title\": \"Notice for stray walk round for allied and Healthcare programes IGMC\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T15:20:47+05:30"
+  },
+  "8b3660f10f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:34:53+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.91, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"deadline-words-but-no-date\"], \"id\": \"8b3660f10f\", \"points\": [\"Accordingly, candidates are advised to review their preferences and may exercise fresh choice filling or revise their already submitted choices,\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Notice-for-PG-MD-MS-first-round-choice-filling.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Phone No. 01905-243967, Fax: 01905-243964 Email: mail.com website: www.amruh ,ac.in No. PG (MD/MS) Dated: // .2026 NOTICE It is for Information of all concerned that, the newly added specialities in the respective colleges have now been reflected in the online counselling portal.\", \"title\": \"Notice for PG MD MS first round choice filling\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-25T15:34:53+05:30"
   }
  },
  "auto": {
@@ -219,7 +232,8 @@
    "app"
   ],
   "log": [
-   1795600247.1989214
+   1795600247.1989214,
+   1795601093.3310654
   ],
   "target_since": {
    "app": 1795589839.0614133
