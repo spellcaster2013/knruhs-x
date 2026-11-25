@@ -625,6 +625,19 @@ def run_once(cfg, args):
     drafts = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
     for item in new:
         log("NEW ->", item["anchor"] or clean_name(item["url"]))
+        if cfg.get("link_only"):
+            # sites that list notices openly but refuse to hand the PDFs to servers (RUHS): the app gets the title
+            # from the link text and the student opens the original PDF on the university's website
+            published = item.get("hint") or datetime.now(IST)
+            d = rule_draft(item, "", 0, published, "")
+            d["flags"] = [f for f in d["flags"] if f != "no-text-scanned-pdf"] + ["link-only"]
+            d.setdefault("drafted_by", "rules")
+            post = post_shape(d, item, published, "")
+            post["meta"]["pdf_path"] = ""
+            drafts.append(post)
+            db.execute("INSERT INTO seen VALUES(?,?,?,?,?,1)", (item["url"], "", datetime.now(IST).isoformat(), post["title"], "")); db.commit()
+            log(f"   drafted from the link text: [{post['stream']}/{post['type']}]")
+            continue
         try:
             blob, hdrs = http_get(item["url"], cfg)
         except Exception as e:

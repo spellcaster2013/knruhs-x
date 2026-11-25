@@ -3,15 +3,30 @@
   "app_only": true,
   "file_stamps": false,
   "sources": [
-    {"name": "RUHS home (latest notices)", "url": "https://ruhsraj.org/", "prefer_anchor": true,
-     "exclude": "WARNING LETTER|AFFILI?ATION|AFFILITION|ELECTION|VOTER|NOMINEE|EMPANELMENT|GUEST FACULTY|\\bFMS\\b|DISPATCH|DIPATCH|CANCELLATION ORDER|MANUAL|SPONSORSHIP|RESEARCH CENT|THESIS EVALUATOR|PH\\.?\\s?D|HOLIDAY CALENDAR|AUDIT"}
+    {
+      "name": "RUHS home (latest notices)",
+      "url": "https://ruhsraj.org/",
+      "prefer_anchor": true,
+      "exclude": "WARNING LETTER|AFFILI?ATION|AFFILITION|ELECTION|VOTER|NOMINEE|EMPANELMENT|GUEST FACULTY|\\bFMS\\b|DISPATCH|DIPATCH|CANCELLATION ORDER|MANUAL|SPONSORSHIP|RESEARCH CENT|THESIS EVALUATOR|PH\\.?\\s?D|HOLIDAY CALENDAR|AUDIT"
+    }
   ],
-  "link_patterns": ["old\\.ruhsraj\\.org/cms/uploads/20\\d\\d/\\d\\d/[^?#]+\\.pdf$"],
+  "link_patterns": [
+    "old\\.ruhsraj\\.org/cms/uploads/20\\d\\d/\\d\\d/[^?#]+\\.pdf$"
+  ],
   "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
   "first_run_limit": 12,
   "max_new_per_run": 25,
   "respect_robots": true,
   "data_dir": "data-ruhs",
-  "brand": {"name": "KNRUHS Updates", "tagline": "", "handle": ""},
-  "cloud": {"delay_minutes": 0, "max_per_hour": 60}
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  },
+  "link_only": true,
+  "_note": "RUHS's PDF server (old.ruhsraj.org) refuses GitHub's servers (HTTP 403), so notices are built from the link text only."
 }
