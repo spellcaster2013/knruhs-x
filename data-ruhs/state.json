@@ -166,7 +166,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"link-only\"], \"id\": \"61757df437\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"1 Nov 2026\", \"slides\": [], \"source_url\": \"https://old.ruhsraj.org/cms/uploads/2026/11/Notification_for_MO_2026_Exam_date_fix_dated_25_11_2026_8514.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for MO-2026 Exam date Dated 25-11-2026\", \"title\": \"Notification for MO-2026 Exam date Dated 25-11-2026\", \"type\": \"exam\", \"university\": \"ruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:03:36+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"link-only\"], \"id\": \"61757df437\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:03:36+05:30\"}, \"published_at\": \"2026-11-25T17:03:36+05:30\", \"published_day\": \"1 Nov 2026\", \"slides\": [], \"source_url\": \"https://old.ruhsraj.org/cms/uploads/2026/11/Notification_for_MO_2026_Exam_date_fix_dated_25_11_2026_8514.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notification for MO-2026 Exam date Dated 25-11-2026\", \"title\": \"Notification for MO-2026 Exam date Dated 25-11-2026\", \"type\": \"exam\", \"university\": \"ruhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T17:03:36+05:30"
   }
  },

@@ -1,5 +1,30 @@
 [
   {
+    "title": "Retotalling Result of MD/MS Medical Exam Aug-Sep-2026",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "c96c04c4_1795606557_7UwQf767.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://results.ddumhsaucg.ac.in/storage/files/result/1795606557_7UwQf767.pdf",
+      "published": "2026-11-25T17:05:57+05:30",
+      "confidence": 0.75,
+      "flags": [
+        "no-text-scanned-pdf"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T17:19:42+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/c96c04c4_1795606557_7UwQf767.pdf"
+    }
+  },
+  {
     "title": "Result of P.B.B.Sc. Nursing First (1st) Year Examination Sep-2026",
     "summary": "Result list released. Open the PDF and search for your register number.",
     "points": [],
