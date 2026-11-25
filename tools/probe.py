@@ -6,7 +6,7 @@ for u in sys.argv[1:]:
     except Exception as e:
         print("PAGE", u, "ERR", e); continue
     links = re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', b, re.S | re.I)
-    pdf = [(h, re.sub(r"\s+", " ", html.unescape(re.sub("<[^>]+>", "", t))).strip()) for h, t in links if re.search(r"\.(pdf|jpe?g|png)|uploads/|bfuhs\.ac\.in/|result|date", h, re.I)]
+    pdf = [(h, re.sub(r"\s+", " ", html.unescape(re.sub("<[^>]+>", "", t))).strip()) for h, t in links if True]
     print("PAGE", u, "bytes", len(b), "links", len(links), "pdfs", len(pdf))
-    for h, t in pdf[:400]:
+    for h, t in pdf[:120]:
         print("  ~", t[:110], "~", h)
