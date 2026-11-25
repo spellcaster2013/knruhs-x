@@ -1,0 +1,30 @@
+{
+  "app_only": true,
+  "file_stamps": false,
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 15,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  },
+  "university": "cgau",
+  "sources": [
+    {
+      "name": "Chhattisgarh health university results and time tables",
+      "url": "https://results.ddumhsaucg.ac.in/",
+      "prefer_anchor": true,
+      "exclude": "RECRUIT|ADVT\\.? ?NO|POST OF|INTERVIEW|PH\\.?\\s?D|TENDER|\\bUMC\\b|UNFAIR MEANS|MEMORANDUM OF UNDERSTANDING|\\bMOU\\b|UGC AFFILIATION|OFFICE ORDER|MEETING|VICE.?CHANCELLOR|TABULATION"
+    }
+  ],
+  "link_patterns": [
+    "results\\.ddumhsaucg\\.ac\\.in/storage/files/(?:result|timetable|notice)/[^?#]+\\.pdf$"
+  ],
+  "data_dir": "data-cgau"
+}

@@ -1,0 +1,36 @@
+{
+  "app_only": true,
+  "file_stamps": false,
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 15,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "brand": {
+    "name": "KNRUHS Updates",
+    "tagline": "",
+    "handle": ""
+  },
+  "cloud": {
+    "delay_minutes": 0,
+    "max_per_hour": 60
+  },
+  "university": "buhs",
+  "sources": [
+    {
+      "name": "BUHS latest news",
+      "url": "https://buhs.ac.in/buhs/BHUEDU/latestnews.aspx",
+      "rows": true,
+      "exclude": "RECRUIT|ADVT\\.? ?NO|POST OF|INTERVIEW|PH\\.?\\s?D|TENDER|\\bUMC\\b|UNFAIR MEANS|MEMORANDUM OF UNDERSTANDING|\\bMOU\\b|UGC AFFILIATION|OFFICE ORDER|MEETING|VICE.?CHANCELLOR"
+    },
+    {
+      "name": "BUHS notice board",
+      "url": "https://buhs.ac.in/buhs/BHUEDU/NoticeBoard.aspx",
+      "rows": true,
+      "exclude": "RECRUIT|ADVT\\.? ?NO|POST OF|INTERVIEW|PH\\.?\\s?D|TENDER|\\bUMC\\b|UNFAIR MEANS|MEMORANDUM OF UNDERSTANDING|\\bMOU\\b|UGC AFFILIATION|OFFICE ORDER|MEETING|VICE.?CHANCELLOR|MARKS ENTRY|AFFILIATION"
+    }
+  ],
+  "link_patterns": [
+    "buhs\\.ac\\.in/buhs/BHUEDU/(?:UploadedImage/NewsDoc|NoticePdf)/[^?#]+\\.pdf$"
+  ],
+  "data_dir": "data-buhs"
+}

@@ -110,6 +110,27 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
         run: python cloud.py --config config.uhsr.json
+      - name: Check Chhattisgarh health university (app only)
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: python cloud.py --config config.cgau.json
+      - name: Check BUHS Bihar (app only)
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: python cloud.py --config config.buhs.json
+      - name: Check AMRU Himachal (app only)
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: python cloud.py --config config.amru.json
       - name: Check all-India notices - MCC, NMC (app only)
         continue-on-error: true
         timeout-minutes: 8
@@ -121,5 +142,5 @@ jobs:
         run: |
           git config user.name "pulse-bot"
           git config user.email "pulse-bot@users.noreply.github.com"
-          git add -A data data-ntruhs data-national data-rguhs data-tnmgrmu data-abvmu data-ruhs data-wbuhs data-bfuhs data-uhsr site
+          git add -A data data-ntruhs data-national data-rguhs data-tnmgrmu data-abvmu data-ruhs data-wbuhs data-bfuhs data-uhsr data-cgau data-buhs data-amru site
           git diff --cached --quiet || (git commit -m "update notices" && git pull --rebase -q && git push -q)
