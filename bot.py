@@ -411,10 +411,10 @@ STREAM_RULES = {
     "ss": r"\bDM\b|\bM\.?CH\b|SUPER ?SPECI",
     "mdms": r"MD\s*/\s*MS|\bMD\b(?!\s*\((?i:A|H|HOMOEO|AYURVEDA|UNANI)\))(?!\s*-\s*(?i:HOMOEO|AYURVED|UNANI))|\bMS\b|(?i:PG MEDICAL|PG \(MEDICAL\)|POST ?GRADUATE|\(PG\)|PG COUNSEL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
     "bds": r"\bBDS\b|DENTAL",
-    "mbbs": r"\bMBBS\b|BACHELOR OF MEDICINE AND BACHELOR OF SURGERY|\bCRRI\b|CONVENER QUOTA",
-    "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
+    "mbbs": r"\bMBBS\b|M\.B\.B\.S|BACHELOR OF MEDICINE AND BACHELOR OF SURGERY|\bCRRI\b|CONVENER QUOTA",
+    "ayush": r"\bBHMS\b|B\.H\.M\.S|B\.A\.M\.S|PANCHA ?KARMA|AYURD\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
     "nursing": r"NURSING|\bGNM\b|ANMGNM|\bANM\b|\bB\.?SC\.? ?\(N\)|\bM\.?SC\.? ?\(N\)",
-    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|\bJEMAS\b|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB|\bB?MLS\b|\bD?MLT\b|\bAPB\b|\bB?\.?SC\.? ?AOTT\b|\bDAOTT\b|\bBASLP\b|\bMASLP\b|NUCLEAR MEDICINE|\bDMRIT\b",
+    "allied": r"ALLIED HEALTH|B\.P\.T|B\.A\.S\.L\.P|\bB\.? ?PHARM|\bD\.? ?PHARM|PHARMACY|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|\bJEMAS\b|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB|\bB?MLS\b|\bD?MLT\b|\bAPB\b|\bB?\.?SC\.? ?AOTT\b|\bDAOTT\b|\bBASLP\b|\bMASLP\b|NUCLEAR MEDICINE|\bDMRIT\b",
     "jobs": r"RECRUIT|WALK[- ]?IN|DATA ENTRY OPERATOR|JUNIOR (?:OFFICE )?ASSISTANT|SYSTEM ADMINISTRATOR|COMPUTER OPERATOR|\bDEOS?\b|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
 }
 TYPE_RULES = {
@@ -540,7 +540,8 @@ def rule_draft(item, text, pages, published, meta_title=""):
     a = re.sub(r"^\s*\d{1,2}\s+[A-Za-z]{3}[a-z]*\.?\s*:\s*", "", item.get("anchor") or "")
     a = re.sub(r"^KNRUHS\s*[-:–]\s*", "", a, flags=re.I)
     a = re.sub(r"^\s*\d{1,2}/\d{1,2}/20\d{2}\s*[-–:]\s*", "", a)  # NMC: '22/11/2026 - title'
-    a = re.sub(r"\s+new\s*$", "", a, flags=re.I)  # a blinking "new" badge inside the link (WBUHS)
+    a = re.sub(r"\s+new\s*$", "", a, flags=re.I)
+    a = re.sub(r"^[\s•·▪►*-]+", "", a)  # list bullets typed into the link text (AMRU)  # a blinking "new" badge inside the link (WBUHS)
     if item.get("prefer_anchor") and len(a) > 18 and not GENERIC_ANCHOR.match(a):
         title = ""  # MCC / NMC link texts are clean titles; use them instead of the PDF's subject line
     anchor_ok = len(a) > 18 and not GENERIC_ANCHOR.match(a)
@@ -751,7 +752,7 @@ def run_once(cfg, args):
         d.setdefault("drafted_by", "rules")
         post = post_shape(d, item, published, os.path.basename(pdf_path))
         post["meta"]["pdf_path"] = os.path.relpath(pdf_path, data_dir)
-        if post["type"] != "result" and re.search(r"MERIT LIST|ALLOTMENT|ALLOCATION LIST|SELECTED CANDIDATES|LIST OF (?:ELIGIBLE )?CANDIDATES", post["title"] or "", re.I):
+        if post["type"] != "result" and re.search(r"MERIT LIST|ALLOTMENT|ALLOCATION LIST|SEAT ALLOCATION|SELECTED CANDIDATES|LIST OF (?:ELIGIBLE )?CANDIDATES", post["title"] or "", re.I):
             # merit and allotment lists are tables of candidates too: keep their names out of the summary
             post["summary"] = "List released. Open the PDF and search for your name or roll number."
             post["points"] = []
