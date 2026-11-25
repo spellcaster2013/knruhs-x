@@ -11,8 +11,8 @@ for url in sys.argv[1:]:
     if url.endswith(".js"):
         for m in sorted(set(re.findall(r'["\'`]((?:https?:)?/?/?[A-Za-z0-9_./:-]*(?:api|Api|API|notification|Notification|circular|Circular|news|News)[A-Za-z0-9_./?=&{}$-]{0,90})["\'`]', body)))[:150]: print("JSURL", m)
         for m in sorted(set(re.findall(r'https?://[A-Za-z0-9.-]+(?::\d+)?(?:/[A-Za-z0-9_./-]{0,40})?', body)))[:80]: print("HOST", m)
-        for m in re.finditer(r'website-service\/[A-Za-z]|marquee', body):
-            print("CTX", body[max(0, m.start()-300):m.end()+200].replace("\n", " "))
+        for m in re.finditer(r'get14DaysBackData|uploadLink\/fetch|uploadLink\/get\/docs', body):
+            print("CTX", body[max(0, m.start()-700):m.end()+500].replace("\n", " "))
         continue
     if "--raw" in sys.argv[0:1] or len(body) < 20000:
         print("RAW", body[:6000].replace("\n", " "))
