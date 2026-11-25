@@ -4,8 +4,8 @@ UA = "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)"
 import base64
 for url in sys.argv[1:]:
     data = None
-    if url.startswith("POST|"):
-        _, url, b64 = url.split("|", 2); data = base64.b64decode(b64)
+    if url.startswith("POST~"):
+        _, url, b64 = url.split("~", 2); data = base64.b64decode(b64)
     print("=" * 90); print("URL", url, "POST" if data else "")
     try:
         req = urllib.request.Request(url, data=data, headers={"User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json"})
