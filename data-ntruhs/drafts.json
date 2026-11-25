@@ -1,5 +1,78 @@
 [
   {
+    "title": "PG (Medical) CQ 2026-27 - MRC List of Non-service Phase-II",
+    "summary": "Note: MRC - Meritorious Reserved Candidate. NEET RANK Name of the Candidate Gender Category Allotted seat in Open Category Slided to better option in Reservation category as MRC (Not reported seats if any will be filled in open category as per rules)",
+    "points": [
+      "Area Meritorious Reserved Category Candidates Movement Vacated open seat allotted to respective category (as per G.O.Rt.No.550, Higher Education…"
+    ],
+    "stream": "mdms",
+    "type": "circular",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "f2c992b2_880.pdf",
+    "pages": 5,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261125165051880.pdf",
+      "published": "2026-11-25T16:50:51+05:30",
+      "confidence": 0.5,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T17:02:43+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/f2c992b2_880.pdf"
+    }
+  },
+  {
+    "title": "PG (Medical) CQ 2026-27 - MRC List of In-service Phase-II",
+    "summary": "Note: MRC - Meritorious Reserved Candidate. NEET RANK Name of the Candidate Gender Category Allotted seat in Open Category Slided to better option in Reservation category as MRC (Not reported seats if any will be filled in open category as per rules)",
+    "points": [
+      "Area Meritorious Reserved Category Candidates Movement Vacated open seat allotted to respective category (as per G.O.Rt.No.550, Higher Education…"
+    ],
+    "stream": "mdms",
+    "type": "circular",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "46d772dd_897.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261125165051897.pdf",
+      "published": "2026-11-25T16:50:51+05:30",
+      "confidence": 0.5,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T17:02:40+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/46d772dd_897.pdf"
+    }
+  },
+  {
+    "title": "Mptcet 2026-27 - rank wise results",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "allied",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "58e4557c_413.pdf",
+    "pages": 10,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261125165100413.pdf",
+      "published": "2026-11-25T16:51:00+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T17:02:28+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/58e4557c_413.pdf"
+    }
+  },
+  {
     "title": "PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (In-service)",
     "summary": "Result list released. Open the PDF and search for your register number.",
     "points": [],

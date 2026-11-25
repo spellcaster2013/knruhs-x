@@ -1,5 +1,31 @@
 [
   {
+    "title": "Notification for MO-2026 Exam date Dated 25-11-2026",
+    "summary": "Notification for MO-2026 Exam date Dated 25-11-2026",
+    "points": [],
+    "stream": "general",
+    "type": "exam",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "",
+    "pages": 0,
+    "meta": {
+      "source_url": "https://old.ruhsraj.org/cms/uploads/2026/11/Notification_for_MO_2026_Exam_date_fix_dated_25_11_2026_8514.pdf",
+      "published": "2026-11-01T12:00:00+05:30",
+      "confidence": 0.5,
+      "flags": [
+        "stream-unsure",
+        "link-only"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T17:03:36+05:30",
+      "status": "needs-review",
+      "pdf_path": ""
+    }
+  },
+  {
     "title": "MD MS Supp Exam Time Table Janunary 2027",
     "summary": "MD MS Supp Exam Time Table Janunary 2027",
     "points": [],

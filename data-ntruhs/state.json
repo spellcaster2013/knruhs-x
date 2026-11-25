@@ -363,6 +363,45 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.92, \"deadline\": 1795663800000, \"detected_at\": \"2026-11-25T15:47:05+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f1d5485108\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T15:47:07+05:30\"}, \"published_at\": \"2026-11-25T15:47:07+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125153531997.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (Non-service)\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-25T15:47:07+05:30"
+  },
+  "40fdaea04c": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:02:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"40fdaea04c\", \"points\": [\"Area Meritorious Reserved Category Candidates Movement Vacated open seat allotted to respective category (as per G.O.Rt.No.550, Higher Education\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125165051880.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Note: MRC - Meritorious Reserved Candidate. NEET RANK Name of the Candidate Gender Category Allotted seat in Open Category Slided to better option in Reservation category as MRC (Not reported seats if any will be filled in open category as per rules)\", \"title\": \"PG (Medical) CQ 2026-27 - MRC List of Non-service Phase-II\", \"type\": \"circular\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T17:02:43+05:30"
+  },
+  "593f74758a": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:02:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:02:40+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"593f74758a\", \"points\": [\"Area Meritorious Reserved Category Candidates Movement Vacated open seat allotted to respective category (as per G.O.Rt.No.550, Higher Education\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125165051897.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Note: MRC - Meritorious Reserved Candidate. NEET RANK Name of the Candidate Gender Category Allotted seat in Open Category Slided to better option in Reservation category as MRC (Not reported seats if any will be filled in open category as per rules)\", \"title\": \"PG (Medical) CQ 2026-27 - MRC List of In-service Phase-II\", \"type\": \"circular\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T17:02:43+05:30"
+  },
+  "7747d46ca6": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T17:02:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:02:28+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"7747d46ca6\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125165100413.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Mptcet 2026-27 - rank wise results\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T17:02:43+05:30"
   }
  },
  "auto": {
@@ -374,7 +413,11 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795606363.0363467,
+   1795606363.037382,
+   1795606363.0385966
+  ],
   "target_since": {
    "app": 1795534573.20719
   },
