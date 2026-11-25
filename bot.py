@@ -396,7 +396,7 @@ STREAM_RULES = {
     "ss": r"\bDM\b|\bM\.?CH\b|SUPER ?SPECI",
     "mdms": r"MD\s*/\s*MS|\bMD\b(?!\s*\((?i:A|H|HOMOEO|AYURVEDA|UNANI)\))(?!\s*-\s*(?i:HOMOEO|AYURVED|UNANI))|\bMS\b|(?i:PG MEDICAL|PG \(MEDICAL\)|POST ?GRADUATE|\(PG\)|PG COUNSEL|MEDICAL PG|PG DEGREE|PG DIPLOMA|NEET[- ]PG)",
     "bds": r"\bBDS\b|DENTAL",
-    "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
+    "mbbs": r"\bMBBS\b|BACHELOR OF MEDICINE AND BACHELOR OF SURGERY|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
     "nursing": r"NURSING|\bGNM\b|ANMGNM|\bANM\b|\bB\.?SC\.? ?\(N\)|\bM\.?SC\.? ?\(N\)",
     "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|\bJEMAS\b|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB|\bB?MLS\b|\bD?MLT\b|\bAPB\b|\bB?\.?SC\.? ?AOTT\b|\bDAOTT\b|\bBASLP\b|\bMASLP\b|NUCLEAR MEDICINE|\bDMRIT\b",
@@ -736,6 +736,10 @@ def run_once(cfg, args):
         d.setdefault("drafted_by", "rules")
         post = post_shape(d, item, published, os.path.basename(pdf_path))
         post["meta"]["pdf_path"] = os.path.relpath(pdf_path, data_dir)
+        if post["type"] != "result" and re.search(r"MERIT LIST|ALLOTMENT|ALLOCATION LIST|SELECTED CANDIDATES|LIST OF (?:ELIGIBLE )?CANDIDATES", post["title"] or "", re.I):
+            # merit and allotment lists are tables of candidates too: keep their names out of the summary
+            post["summary"] = "List released. Open the PDF and search for your name or roll number."
+            post["points"] = []
         if post["type"] == "result":
             # result PDFs are tables of students; a summary cut from them would print a student's name and marks
             post["summary"] = "Result list released. Open the PDF and search for your register number."
