@@ -85,17 +85,22 @@ KNOWN_STREAMS = {"mbbs", "bds", "mdms", "mds", "ss", "nursing", "ayush", "allied
 
 
 def push_condition(stream, ntype, university="knruhs"):
-    """Phones get a notice only if they follow its university AND its course AND its alert type.
-    The app subscribes to u_<university>, s_<course> and t_<type> for each one it follows
-    (every course / every type when the list is empty). A notice with no known course goes
-    by its university and type alone."""
-    u = f"'u_{university or 'knruhs'}' in topics"
+    """Phones get a notice only if their plan covers its university AND course, and they follow its alert type.
+    Topics the app subscribes to (see the app's Topics.wanted()):
+      c_<uni>_<course>  a course plan (or the free course) at that university
+      a_<uni>           the university plan: every course there
+      g_<uni>           any plan at that university (for notices that name no course)
+      n_<course>        that course anywhere (for All-India notices)
+      t_<type>          the alert types they follow
+    u_<uni> + s_<course> are the older app's topics, kept until every phone has the new app.
+    Per-pair topics stop two cheap course plans at different universities unlocking every combination."""
+    uni = university or "knruhs"
     t = f"'t_{ntype or 'circular'}' in topics"
-    if university == "national":  # MCC / NMC notices are for students of every university
-        return f"'s_{stream}' in topics && {t}" if stream in KNOWN_STREAMS else t
+    if uni == "national":  # MCC / NMC notices are for students of every university
+        return f"('n_{stream}' in topics || 's_{stream}' in topics) && {t}" if stream in KNOWN_STREAMS else t
     if stream in KNOWN_STREAMS:
-        return f"{u} && 's_{stream}' in topics && {t}"
-    return f"{u} && {t}"
+        return f"('c_{uni}_{stream}' in topics || 'a_{uni}' in topics || ('u_{uni}' in topics && 's_{stream}' in topics)) && {t}"
+    return f"('g_{uni}' in topics || 'u_{uni}' in topics) && {t}"
 
 class FirebaseSync:
     def __init__(self, sa_json, log, repo, here, university="knruhs", slides=True):
