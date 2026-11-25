@@ -194,6 +194,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:59:29+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"57c4b208c2\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:59:29+05:30\"}, \"published_at\": \"2026-11-25T11:59:29+05:30\", \"published_day\": \"17 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3753\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Revised Date sheet of theory examination for MBBS 3rd Prof. Part-I Session Feb/March 2027\", \"title\": \"Revised Date sheet of theory examination for MBBS 3rd Prof. Part-I Session Feb/March 2027\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
+  },
+  "31184933b0": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:48:58+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"31184933b0\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3758\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Practical examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"title\": \"Practical examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:48:58+05:30"
   }
  },
  "auto": {
@@ -205,7 +218,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795601938.4204655
+  ],
   "target_since": {
    "app": 1795588135.1644757
   },

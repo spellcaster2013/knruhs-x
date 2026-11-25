@@ -337,6 +337,32 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795631340000, \"detected_at\": \"2026-11-25T15:16:56+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3c0f6dae33\", \"points\": [\"All the eligible candidates who are present in the Final Merit list notified in the website on 25.11.2026 are only eligible to exercise their\\u2026\", \"Date of issue of Notification for exercising web options 25.11.2026 2.\", \"Dept., dt.23.12.2004 as amended in G.O.Ms.No.13, HM & FW(F2) Dept., dt.05.02.2021.\", \"All the eligible candidates present in the Final Merit list displayed on 25.11.2026 are eligible to opt for Phase-I.\"], \"posted\": {\"app\": \"2026-11-25T15:17:50+05:30\"}, \"published_at\": \"2026-11-25T15:17:50+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150834457.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"\\u012c\\u0082. \\u0c2f\\u0234.\\u0c1f\\u008f.\\u0c06\\u023b. \\u0c06\\u0138\\u0106\\u0c17\\u016a \\u0207\\u0c1c\\u0087\\u015a \\u0c28 \\u0207\\u0c36\\u0175 \\u0207\\u0c26\\u016a\\u0c2f\\u0c32\\u0c2f\\u0c02, \\u0207\\u0c1c\\u0c2f\\u013a\\u0c3e\\u0c21 Dr. In continuation of earlier Notifications dated 06.11.2026 & 10.11.2026 the University hereby notifies the 1st Phase of web-based counselling for PG AYUSH i.e., MD (Homoeo) & MD/MS (Ayurveda) courses for the academic year 2026-27 in the colleges\\u2026\", \"title\": \"MD(Homoeo) & MD(Ayurveda) Phase-I Web options Notification 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "8a609e4101": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:47:07+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.9, \"deadline\": 1795663800000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"8a609e4101\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125153531983.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (In-service)\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-25T15:47:07+05:30"
+  },
+  "f1d5485108": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:47:07+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.92, \"deadline\": 1795663800000, \"detected_at\": \"2026-11-25T15:47:05+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f1d5485108\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125153531997.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (Non-service)\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-25T15:47:07+05:30"
   }
  },
  "auto": {
@@ -359,7 +385,9 @@
    1795600070.0194476,
    1795600070.0206215,
    1795600070.0218754,
-   1795600070.0231054
+   1795600070.0231054,
+   1795601827.7848527,
+   1795601827.7866602
   ],
   "target_since": {
    "app": 1795534573.20719

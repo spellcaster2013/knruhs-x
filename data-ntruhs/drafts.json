@@ -1,5 +1,51 @@
 [
   {
+    "title": "PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (In-service)",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "result",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795663800000,
+    "ref": "",
+    "pdf": "08ab9a61_983.pdf",
+    "pages": 13,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261125153531983.pdf",
+      "published": "2026-11-25T15:35:31+05:30",
+      "confidence": 0.9,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T15:47:07+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/08ab9a61_983.pdf"
+    }
+  },
+  {
+    "title": "PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (Non-service)",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "result",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795663800000,
+    "ref": "",
+    "pdf": "dad5b683_997.pdf",
+    "pages": 64,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261125153531997.pdf",
+      "published": "2026-11-25T15:35:31+05:30",
+      "confidence": 0.92,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T15:47:05+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/dad5b683_997.pdf"
+    }
+  },
+  {
     "title": "MD(Homoeo) AU Net 2026-27",
     "summary": "MD(Homoeo) AU Net 2026-27",
     "points": [],

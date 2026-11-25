@@ -1,5 +1,30 @@
 [
   {
+    "title": "Practical examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027",
+    "summary": "Practical examination centre for MBBS First Prof. Nov/Dec 2026 & MBBS 3rd Prof. Part-I, Feb/March 2027",
+    "points": [],
+    "stream": "mbbs",
+    "type": "exam",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "",
+    "pages": 0,
+    "meta": {
+      "source_url": "https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3758",
+      "published": "2026-11-25T12:00:00+05:30",
+      "confidence": 1.0,
+      "flags": [
+        "link-only"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-25T15:48:58+05:30",
+      "status": "needs-review",
+      "pdf_path": ""
+    }
+  },
+  {
     "title": "MBBS 2nd Prof result, ND-26 session (notification 2)",
     "summary": "MBBS 2nd Prof result, ND-26 session (notification 2)",
     "points": [],
