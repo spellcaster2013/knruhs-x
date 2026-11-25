@@ -8,12 +8,13 @@ for u in sys.argv[1:]:
     print("PAGE", u, len(b))
     for m in re.findall(r'<(?:iframe|embed|object)[^>]+(?:src|data)="([^"]+)"', b, re.I): print("  ~ FRAME ~", m)
     main = b.split('id="main"', 1)[-1]
+    print('  RAW', re.sub(r'\s+',' ',b[:300]))
     links = re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', main, re.S | re.I)
     seen = 0
     for h, t in links:
         t = re.sub(r"\s+", " ", html.unescape(re.sub("<[^>]+>", "", t))).strip()
-        if "ggsmch.org/" in h and not re.search(r"\.(pdf|jpe?g|png)|uploads/", h) : continue
+        if False and "ggsmch.org/" in h and not re.search(r"\.(pdf|jpe?g|png)|uploads/", h) : continue
         print("  ~", t[:110], "~", h); seen += 1
-        if seen > 45: break
+        if seen > 60: break
     txt = re.sub(r"\s+", " ", html.unescape(re.sub("<[^>]+>", " ", re.sub(r"(?s)<(script|style).*?</\1>", "", main))))
     print("  TEXT", txt[:600])
