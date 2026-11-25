@@ -265,7 +265,7 @@ def grid_items(src, body, found):
             # columns: session, title
             title = words[-1] if words else ""
             title = re.sub(r"(?i)\bdate ?sheet", "Date sheet", title)
-        title = " ".join(re.sub(r"\((?:NS|OS)\d+\)", " ", title).split())  # "(NS21)" = new-scheme code, means nothing to students
+        title = " ".join(re.sub(r"\(NS\d+\)", " (new scheme) ", title).split())  # "(NS21)" is the new-scheme code; students know it as the new scheme
         if not title:
             continue
         url = f"{open_url}#{src['grid']}-{sr}"
