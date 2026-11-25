@@ -348,7 +348,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.9, \"deadline\": 1795663800000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"8a609e4101\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125153531983.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (In-service)\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.9, \"deadline\": 1795663800000, \"detected_at\": \"2026-11-25T15:47:07+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8a609e4101\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T15:47:07+05:30\"}, \"published_at\": \"2026-11-25T15:47:07+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125153531983.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (In-service)\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-25T15:47:07+05:30"
   },
   "f1d5485108": {
@@ -361,7 +361,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.92, \"deadline\": 1795663800000, \"detected_at\": \"2026-11-25T15:47:05+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f1d5485108\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125153531997.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (Non-service)\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.92, \"deadline\": 1795663800000, \"detected_at\": \"2026-11-25T15:47:05+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f1d5485108\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T15:47:07+05:30\"}, \"published_at\": \"2026-11-25T15:47:07+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125153531997.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Provisional Allotments List (Non-service)\", \"type\": \"result\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-25T15:47:07+05:30"
   }
  },
