@@ -35,7 +35,7 @@ class Desk:
         self.state_path = os.path.join(data_dir, "state.json")
         self.token = secrets.token_urlsafe(16)
         self.scfg = {"brand_name": cfg["brand"]["name"], "brand_tagline": cfg["brand"]["tagline"], "handle": cfg["brand"]["handle"],
-                     "no_slides": bool(cfg.get("app_only"))}
+                     "no_slides": bool(cfg.get("app_only")), "university": cfg.get("university", "knruhs")}
         self.state = {"items": {}, "auto": {"on": False, "min_conf": 0.85, "delay_minutes": 5, "max_per_hour": 6, "since": 0, "targets": ["telegram", "instagram"], "log": []}}
         try:
             with open(self.state_path, encoding="utf-8") as f:
