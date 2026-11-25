@@ -1,0 +1,21 @@
+{
+  "university": "tnmgrmu",
+  "app_only": true,
+  "file_stamps": false,
+  "sources": [
+    {
+      "name": "TN Dr. MGR Medical University home (latest notices)",
+      "url": "https://www.tnmgrmu.ac.in/",
+      "prefer_anchor": true,
+      "exclude": "REMUNERATION|AISHE|INVITATION CARD|TENDER|QUOTATION|POST OF|WORKSHOP REPORT|AFFILIATION"
+    }
+  ],
+  "link_patterns": ["tnmgrmu\\.ac\\.in/wp-content/uploads/20\\d\\d/\\d\\d/[^/]+\\.pdf$"],
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 12,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "data_dir": "data-tnmgrmu",
+  "brand": {"name": "KNRUHS Updates", "tagline": "", "handle": ""},
+  "cloud": {"delay_minutes": 0, "max_per_hour": 60}
+}

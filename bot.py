@@ -172,7 +172,7 @@ def anchor_date(text):
 
 ACRONYMS = {"MDS", "MBBS", "BDS", "MD", "MS", "PG", "BHMS", "BAMS", "BUMS", "BNYS", "AY", "KNRUHS", "DM", "MCH", "NMC", "CA", "CQ", "MQ",
             "GNM", "ANM", "NEET", "CRRI", "NRI", "MLT", "BPT", "AHS", "MBA", "II", "III", "IV", "NIMS", "RTI", "SC", "ST", "BC", "EWS", "OBC",
-            "UG", "DNB", "AIQ", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
+            "UG", "DNB", "AIQ", "TNMGRMU", "EC", "AISHE", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
 
 
 def smart_case(t):
@@ -234,6 +234,17 @@ def json_items(src, body, found):
                                "exclude": src.get("exclude")})
 
 
+def upload_month(url):
+    """WordPress / S3WaaS sites file uploads under /uploads/2026/11/ - at least the month is known."""
+    m = re.search(r"/uploads/(20\d\d)/(\d\d)/", url)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), 1, 12, tzinfo=IST)
+        except ValueError:
+            return None
+    return None
+
+
 def discover(cfg):
     found = {}
     for src in cfg["sources"]:
@@ -260,7 +271,7 @@ def discover(cfg):
                                               "include": src.get("include"), "exclude": src.get("exclude")})
             if text and not GENERIC_ANCHOR.match(text) and len(text) > len(item["anchor"]):
                 item["anchor"] = text
-            item["hint"] = item["hint"] or anchor_date(text)
+            item["hint"] = item["hint"] or anchor_date(text) or upload_month(absu)
         time.sleep(cfg["delay_seconds"])
     # a source with "include" keeps only notices whose link text matches it (NMC posts much that is not for students)
     # and "exclude" drops notices meant for colleges, not students (affiliation applications and the like)
@@ -312,18 +323,18 @@ STREAM_RULES = {
     "bds": r"\bBDS\b|DENTAL",
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
-    "nursing": r"NURSING|\bGNM\b|\bANM\b",
-    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB",
+    "nursing": r"NURSING|\bGNM\b|\bANM\b|\bB\.?SC\.? ?\(N\)|\bM\.?SC\.? ?\(N\)",
+    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB",
     "jobs": r"RECRUIT|WALK[- ]?IN|DATA ENTRY OPERATOR|JUNIOR (?:OFFICE )?ASSISTANT|SYSTEM ADMINISTRATOR|COMPUTER OPERATOR|\bDEOS?\b|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
 }
 TYPE_RULES = {
     "recruitment": r"RECRUIT|WALK[- ]?IN|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
     "result": r"RESULTS?\b|DECLARED|PASSED|SUCCESSFUL",
-    "exam": r"TIME ?TABLE|HALL TICKET|EXAMINATIONS?|\bEXAMS?\b|SUPPLEMENTARY|EXAM FEE|\b(?:FINAL|PRELIMINARY) KEY\b|SEMESTER .*NOTIFICATION",
+    "exam": r"TIME ?TABLE|HALL TICKET|EXAMINATIONS?|\bEXAMS?\b|SUPPLEMENTARY|EXAM FEE|\b(?:FINAL|PRELIMINARY) KEY\b|SEMESTER .*NOTIFICATION|RESCHEDULED|POSTPONED",
     "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST|CLEAR VACANC|STRAY|\bROUND[- ]?\d|\d(ST|ND|RD|TH) ROUND|RESIGNATION",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
-BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
+BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|TAMIL NADU|M\.?G\.?R\.? MEDICAL|CHENNAI|GUINDY|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
 DATE_RE = re.compile(r"\b(\d{1,2})[./-](\d{1,2})[./-](20\d{2})\b")
 TIME_RE = re.compile(r"(\d{1,2})[.:](\d{2})\s*(AM|PM|noon)|(\d{1,2})\s*(AM|PM)", re.I)
 DEADLINE_WORDS = re.compile(r"last date|on or before|up ?to|not later than|till|until|before|by\b|from .* to", re.I)
