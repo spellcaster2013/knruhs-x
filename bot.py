@@ -174,7 +174,7 @@ def anchor_date(text):
 
 ACRONYMS = {"MDS", "MBBS", "BDS", "MD", "MS", "PG", "BHMS", "BAMS", "BUMS", "BNYS", "AY", "KNRUHS", "DM", "MCH", "NMC", "CA", "CQ", "MQ",
             "GNM", "ANM", "NEET", "CRRI", "NRI", "MLT", "BPT", "AHS", "MBA", "II", "III", "IV", "NIMS", "RTI", "SC", "ST", "BC", "EWS", "OBC",
-            "UG", "DNB", "AIQ", "ABVMU", "RUHS", "BPT", "MPH", "TNMGRMU", "EC", "AISHE", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
+            "UG", "DNB", "AIQ", "ABVMU", "RUHS", "WBUHS", "JEMAS", "PDCC", "PDF", "BPT", "MPH", "TNMGRMU", "EC", "AISHE", "RGUHS", "NTRUHS", "KNRUHS", "CBME", "RS3", "RS4", "MCC", "NMC", "NBEMS", "INI", "CET", "FMGE", "AIIMS", "NTA", "SS", "MSC", "BSC"}
 
 
 def smart_case(t):
@@ -326,7 +326,7 @@ STREAM_RULES = {
     "mbbs": r"\bMBBS\b|\bCRRI\b|CONVENER QUOTA",
     "ayush": r"\bBHMS\b|\bBAMS\b|\bBUMS\b|\bBNYS\b|AYUSH|HOMOEO|AYURVED|UNANI|NATUROPATH|\bMD ?\((?:A|H)\)",
     "nursing": r"NURSING|\bGNM\b|\bANM\b|\bB\.?SC\.? ?\(N\)|\bM\.?SC\.? ?\(N\)",
-    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB",
+    "allied": r"ALLIED HEALTH|ALLIED AND HEALTH|PARA ?MEDICAL|\bBPT\b|\bMPT\b|PHYSIOTHERAPY|\bMLT\b|\bB\.?SC\.? ?\(?AHS|\bAHS\b|ALLIED HEALTHCARE|\bJEMAS\b|DIALYSIS|RESPIRATORY THERAPY|OPTOMETRY|PERFUSION|OPERATION THEATRE|ANAESTHESIA TECHNOLOGY|IMAGING TECHNOLOGY|CARDIAC (CARE )?TECHNOLOGY|MEDICAL LAB",
     "jobs": r"RECRUIT|WALK[- ]?IN|DATA ENTRY OPERATOR|JUNIOR (?:OFFICE )?ASSISTANT|SYSTEM ADMINISTRATOR|COMPUTER OPERATOR|\bDEOS?\b|ASSISTANT PROFESSOR|\bTUTORS?\b|SENIOR RESIDENT|APPLICATIONS ARE INVITED|VACANC|POSTS? OF",
 }
 TYPE_RULES = {
@@ -336,7 +336,7 @@ TYPE_RULES = {
     "counselling": r"COUNSEL+ING|ALLO?T?MENTS?|WEB[- ]?OPTIONS?|MOP[- ]?UP|SEAT MATRIX|FREE EXIT|CHOICE FILLING|MERIT LIST|CLEAR VACANC|STRAY|\bROUND[- ]?\d|\d(ST|ND|RD|TH) ROUND|RESIGNATION",
     "admission": r"ADMISSIONS?|REGISTRATION|PROSPECTUS|ONLINE APPLICATION",
 }
-BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|TAMIL NADU|M\.?G\.?R\.? MEDICAL|CHENNAI|GUINDY|ATAL BIHARI|VAJPAYEE|UTTAR PRADESH|LUCKNOW|RAJASTHAN|JAIPUR|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
+BOILER = re.compile(r"KALOJI|UNIVERSITY OF HEALTH|TELANGANA|WARANGAL|VIJAYAWADA|ANDHRA PRADESH|RAJIV GANDHI|KARNATAKA|BENGALURU|BANGALORE|TAMIL NADU|M\.?G\.?R\.? MEDICAL|CHENNAI|GUINDY|ATAL BIHARI|VAJPAYEE|UTTAR PRADESH|LUCKNOW|RAJASTHAN|JAIPUR|WEST BENGAL|KOLKATA|SALT LAKE|^\s*(date|place)\s*:|REGISTRAR|CONTROLLER OF EXAM|^\s*sd/?-?\s*$", re.I)
 DATE_RE = re.compile(r"\b(\d{1,2})[./-](\d{1,2})[./-](20\d{2})\b")
 TIME_RE = re.compile(r"(\d{1,2})[.:](\d{2})\s*(AM|PM|noon)|(\d{1,2})\s*(AM|PM)", re.I)
 DEADLINE_WORDS = re.compile(r"last date|on or before|up ?to|not later than|till|until|before|by\b|from .* to", re.I)
@@ -452,6 +452,7 @@ def rule_draft(item, text, pages, published, meta_title=""):
     a = re.sub(r"^\s*\d{1,2}\s+[A-Za-z]{3}[a-z]*\.?\s*:\s*", "", item.get("anchor") or "")
     a = re.sub(r"^KNRUHS\s*[-:–]\s*", "", a, flags=re.I)
     a = re.sub(r"^\s*\d{1,2}/\d{1,2}/20\d{2}\s*[-–:]\s*", "", a)  # NMC: '22/11/2026 - title'
+    a = re.sub(r"\s+new\s*$", "", a, flags=re.I)  # a blinking "new" badge inside the link (WBUHS)
     if item.get("prefer_anchor") and len(a) > 18 and not GENERIC_ANCHOR.match(a):
         title = ""  # MCC / NMC link texts are clean titles; use them instead of the PDF's subject line
     anchor_ok = len(a) > 18 and not GENERIC_ANCHOR.match(a)

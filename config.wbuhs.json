@@ -1,0 +1,20 @@
+{
+  "university": "wbuhs",
+  "app_only": true,
+  "file_stamps": false,
+  "sources": [
+    {"name": "WBUHS home (latest)", "url": "https://wbuhs.ac.in/", "prefer_anchor": true,
+     "exclude": "TENDER|MAGAZINE|ANNUAL REPORT|PH\\.?\\s?D|M\\.?\\s?PHIL|RECRUITMENT|INTERVIEW|SENSITI[SZ]ATION|DIGITAL HEALTH AWARENESS|VICE.?CHANCELLOR|FEES STRUCTURE"},
+    {"name": "WBUHS notices and circulars", "url": "https://wbuhs.ac.in/notice-and-circular/", "prefer_anchor": true,
+     "exclude": "TENDER|MAGAZINE|ANNUAL REPORT|PH\\.?\\s?D|M\\.?\\s?PHIL|RECRUITMENT|INTERVIEW"},
+    {"name": "WBUHS examination results", "url": "https://wbuhs.ac.in/examination-results/", "prefer_anchor": true}
+  ],
+  "link_patterns": ["wbuhs\\.ac\\.in/wp-content/uploads/20\\d\\d/\\d\\d/[^?#]+\\.pdf$"],
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 15,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "data_dir": "data-wbuhs",
+  "brand": {"name": "KNRUHS Updates", "tagline": "", "handle": ""},
+  "cloud": {"delay_minutes": 0, "max_per_hour": 60}
+}
