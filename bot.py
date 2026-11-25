@@ -104,6 +104,8 @@ def ssl_context(cfg):
 
 
 def http_get(url, cfg, max_bytes=30_000_000):
+    # some sites link files with spaces or non-English letters in their names ("Letter No-4017.pdf"): escape them, keep what is already escaped
+    url = urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     req = urllib.request.Request(url, headers={"User-Agent": cfg["user_agent"], "Accept": "*/*"})
     last = None
     for attempt in range(3):
