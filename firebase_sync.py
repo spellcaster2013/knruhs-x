@@ -22,7 +22,7 @@ FCM = f"https://fcm.googleapis.com/v1/projects/{PROJECT}/messages:send"
 STREAM_LABELS = {"mbbs": "MBBS", "bds": "BDS", "mdms": "MD / MS", "mds": "MDS", "ss": "DM / MCh", "ayush": "BHMS / Ayush",
                  "nursing": "Nursing", "allied": "Allied Health", "jobs": "Jobs"}
 TYPE_EMOJI = {"counselling": "🎓", "result": "📢", "exam": "📝", "recruitment": "💼", "admission": "🏫", "circular": "📌"}
-UNI_LABELS = {"knruhs": "KNRUHS", "ntruhs": "Dr. NTR UHS", "rguhs": "RGUHS", "tnmgrmu": "TN Dr. MGR", "national": "All-India"}
+UNI_LABELS = {"knruhs": "KNRUHS", "ntruhs": "Dr. NTR UHS", "rguhs": "RGUHS", "tnmgrmu": "TN Dr. MGR", "abvmu": "ABVMU", "national": "All-India"}
 
 
 def merge_feeds(site, now):

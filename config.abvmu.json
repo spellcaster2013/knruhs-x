@@ -1,0 +1,18 @@
+{
+  "university": "abvmu",
+  "app_only": true,
+  "file_stamps": false,
+  "sources": [
+    {"name": "ABVMU home (latest news)", "url": "https://abvmuup.edu.in/", "prefer_anchor": true,
+     "exclude": "MEDAL|CRITERIA FOR AWARD|PROCEDURE/RULES|UNFAIR MEANS|COMMITTEE FOR FINALI[SZ]ATION|DRAFT"},
+    {"name": "ABVMU fee notifications", "url": "https://abvmuup.edu.in/fee-notification.php", "prefer_anchor": true}
+  ],
+  "link_patterns": ["abvmuup\\.edu\\.in/downloads/[^?#]+\\.pdf$"],
+  "user_agent": "KNRUHS-Pulse-Bot/0.1 (student notice alerts; unofficial)",
+  "first_run_limit": 12,
+  "max_new_per_run": 25,
+  "respect_robots": true,
+  "data_dir": "data-abvmu",
+  "brand": {"name": "KNRUHS Updates", "tagline": "", "handle": ""},
+  "cloud": {"delay_minutes": 0, "max_per_hour": 60}
+}
