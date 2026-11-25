@@ -194,6 +194,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:25:58+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"4b47dde783\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795434376_1uXpQBs8.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.Sc. Nursing First (1st) Year Examination Aug/Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
+  },
+  "d0c385b228": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T14:49:18+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d0c385b228\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795597819_rVxN6pvZ.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of P.B.B.Sc. Nursing Second (2nd) Year Examination Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T14:49:18+05:30"
   }
  },
  "auto": {
@@ -205,7 +218,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795598358.3180494
+  ],
   "target_since": {
    "app": 1795589751.5500526
   },
