@@ -194,6 +194,149 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795678200000, \"detected_at\": \"2026-11-24T21:06:50+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"ae81dd316f\", \"points\": [], \"posted\": {\"app\": \"2026-11-24T21:07:44+05:30\"}, \"published_at\": \"2026-11-24T21:07:44+05:30\", \"published_day\": \"24 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261124182505900.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Homoeopathic College, Tadepalligudem Dr. A.R.Government Homoeo Medical College, Rajahmundry S.No.\", \"title\": \"UG AYUSH Courses 2026-27 - CQ - Stray Vacancy Round College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "before-app"
+  },
+  "3d202f0eaa": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"3d202f0eaa\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150513633.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"MD(Homoeo) AU Net 2026-27\", \"title\": \"MD(Homoeo) AU Net 2026-27\", \"type\": \"circular\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "10229521b0": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.43, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:47+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"10229521b0\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150513650.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"MD(Homoeo) SVU Net 2026-27\", \"title\": \"MD(Homoeo) SVU Net 2026-27\", \"type\": \"circular\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "28d2355a80": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.96, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:41+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"28d2355a80\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150728343.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Homoeo Medical colleges, Gudivada Govt AU Repertory Dr. Homoeo Medical colleges, Gudivada Govt AU Organon & Homoeopathic Philosophy Dr.\", \"title\": \"MD(Homoeo) AU Region Seat Matrix 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "9f918a4827": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.89, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:39+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9f918a4827\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150728344.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Homoeo Medical College, Kadapa Govt. Homoeo Medical College, Kadapa Govt SVU SVU GHCK GHCK Homoeopathic pharmacy Govt1 Homoeopathic pharmacy Page 1 of 1\", \"title\": \"MD(Homoeo) SVU Region Seat Matrix 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "85b2e3156c": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:32+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"85b2e3156c\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150734250.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"MD(Ayurveda) AU Net 2026-27\", \"title\": \"MD(Ayurveda) AU Net 2026-27\", \"type\": \"circular\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "8385309cce": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:30+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8385309cce\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150734267.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"MD(Ayurveda) SVU Net 2026-27\", \"title\": \"MD(Ayurveda) SVU Net 2026-27\", \"type\": \"circular\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "f770578e4a": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:28+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f770578e4a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150739757.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"AU Kayachikitsa AU RASA - Rasashastra Evam Bhaishaiya Kalpana Kayachikitsa NRSA NRSA NRSA NRSA Dr.\", \"title\": \"MD(Ayurveda) AU region Seat Matrix 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "00ef03df1a": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.96, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:26+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"00ef03df1a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150739770.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"MD(Ayurveda) SVU Region Seat Matrix 2026-27\", \"title\": \"MD(Ayurveda) SVU Region Seat Matrix 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "7a83eacf79": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.88, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:11+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"7a83eacf79\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150810003.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Homoeo) Final Merit List 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "51803d78ab": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.88, \"deadline\": 0, \"detected_at\": \"2026-11-25T15:17:09+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"51803d78ab\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150810020.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Ayurveda) Final Merit List 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-25T15:17:50+05:30"
+  },
+  "3c0f6dae33": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T15:17:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.95, \"deadline\": 1795631340000, \"detected_at\": \"2026-11-25T15:16:56+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3c0f6dae33\", \"points\": [\"All the eligible candidates who are present in the Final Merit list notified in the website on 25.11.2026 are only eligible to exercise their\\u2026\", \"Date of issue of Notification for exercising web options 25.11.2026 2.\", \"Dept., dt.23.12.2004 as amended in G.O.Ms.No.13, HM & FW(F2) Dept., dt.05.02.2021.\", \"All the eligible candidates present in the Final Merit list displayed on 25.11.2026 are eligible to opt for Phase-I.\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125150834457.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"\\u012c\\u0082. \\u0c2f\\u0234.\\u0c1f\\u008f.\\u0c06\\u023b. \\u0c06\\u0138\\u0106\\u0c17\\u016a \\u0207\\u0c1c\\u0087\\u015a \\u0c28 \\u0207\\u0c36\\u0175 \\u0207\\u0c26\\u016a\\u0c2f\\u0c32\\u0c2f\\u0c02, \\u0207\\u0c1c\\u0c2f\\u013a\\u0c3e\\u0c21 Dr. In continuation of earlier Notifications dated 06.11.2026 & 10.11.2026 the University hereby notifies the 1st Phase of web-based counselling for PG AYUSH i.e., MD (Homoeo) & MD/MS (Ayurveda) courses for the academic year 2026-27 in the colleges\\u2026\", \"title\": \"MD(Homoeo) & MD(Ayurveda) Phase-I Web options Notification 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-25T15:17:50+05:30"
   }
  },
  "auto": {
@@ -205,7 +348,19 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795600070.0103338,
+   1795600070.0115623,
+   1795600070.0127912,
+   1795600070.0140429,
+   1795600070.0153766,
+   1795600070.0170026,
+   1795600070.0181959,
+   1795600070.0194476,
+   1795600070.0206215,
+   1795600070.0218754,
+   1795600070.0231054
+  ],
   "target_since": {
    "app": 1795534573.20719
   },
