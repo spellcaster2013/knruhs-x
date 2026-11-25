@@ -223,6 +223,8 @@ class FirebaseSync:
 
     # ------------------------------------------------------------------ 2. write notices, alerts, public feed
     def _status(self, st):
+        if st.get("status") == "dismissed":
+            return "dismissed"  # taken down after it went out (noise found later): drop it from the app too
         if st.get("posted"):
             return "published"
         return {"held": "held", "dismissed": "dismissed"}.get(st.get("status"), "pending")
