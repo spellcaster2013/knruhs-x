@@ -1,0 +1,231 @@
+{
+ "items": {
+  "63002d250d": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"63002d250d\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"1 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/01Oct202618003792.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Notice for Postponed of Examination Dates of B.Sc. Nursing 5th Semester, B.Sc. Nursing 3rd Semester and B.Pharm 3rd Semester Examinations\", \"title\": \"Notice for Postponed of Examination Dates of B.Sc. Nursing 5th Semester, B.Sc. Nursing 3rd Semester and B.Pharm 3rd Semester Examinations\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "fb049df146": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:12+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"fb049df146\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"1 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/01Oct202618012654.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Notice for Revised Rates for Examination Fee\", \"title\": \"Notice for Revised Rates for Examination Fee\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "8c0ce42c44": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:10+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"8c0ce42c44\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"1 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/01Oct202618024128.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Re-Examiantion Programme for the 2nd Professional MBBS Examination 2026(I) (Pharmacology, Paper-I)\", \"title\": \"Re-Examiantion Programme for the 2nd Professional MBBS Examination 2026(I) (Pharmacology, Paper-I)\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "828db5cd81": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:09+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"828db5cd81\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"8 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/08Oct202612062926.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Notice for Registration of UG Students of Pharmacy/Paramedical (Lateral Entry) from 08.10.2026 to 12.10.2026\", \"title\": \"Notice for Registration of UG Students of Pharmacy/Paramedical (Lateral Entry) from 08.10.2026 to 12.10.2026\", \"type\": \"admission\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "b9a07d4374": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:07+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"b9a07d4374\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"8 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/08Oct202612083442.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Notice for Examination Form Filling of Post Basic B.Sc. Nursing 1st Year Examination 2026 (Session 2025-27) from 13.10.2026 to 16.10.2026\", \"title\": \"Notice for Examination Form Filling of Post Basic B.Sc. Nursing 1st Year Examination 2026 (Session 2025-27) from 13.10.2026 to 16.10.2026\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "b726ce0ea0": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:05+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"b726ce0ea0\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"8 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/08Oct202612103739.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Rescheudle the Re-Examiantion Programme for the 2nd Professional MBBS Examination 2026(I) (Pharmacology, Paper-I)\", \"title\": \"Rescheudle the Re-Examiantion Programme for the 2nd Professional MBBS Examination 2026(I) (Pharmacology, Paper-I)\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "544491543d": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:03+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"544491543d\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"8 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/08Oct202612112707.pdf\", \"status\": \"published\", \"stream\": \"ss\", \"summary\": \"Revised Programme for MD/MS/M.Ch/Diploma Examination 2026(I)\", \"title\": \"Revised Programme for MD/MS/M.Ch/Diploma Examination 2026(I)\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "95f734128c": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:27:01+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"95f734128c\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"13 Oct 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/13Oct202615280091.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Examination Programme 1st Professional BDS Examination, 2025(II)\", \"title\": \"Examination Programme 1st Professional BDS Examination, 2025(II)\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "bcbf0361d3": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:59+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"bcbf0361d3\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"5 Nov 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/NoticePdf/05Nov202615472209.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Regarding Registration for Session 2025-26\", \"title\": \"Regarding Registration for Session 2025-26\", \"type\": \"admission\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "ef16bdf51f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:57+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"ef16bdf51f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/06Nov202615323228.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Examination Programme for B. Pharm 5th Semester Examination 2025 Session 2023-27\", \"title\": \"Examination Programme for B. Pharm 5th Semester Examination 2025 Session 2023-27\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "fa26dd9f4c": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:55+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"fa26dd9f4c\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/06Nov202615333027.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Examination Programme for B.Sc. Nursing 3rd Semester Examination 2025 Session 2024-28\", \"title\": \"Examination Programme for B.Sc. Nursing 3rd Semester Examination 2025 Session 2024-28\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "ff17d44225": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:53+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"ff17d44225\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"6 Nov 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/06Nov202615341584.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Examination Programme for B.Sc. Nursing 5th Semester Examination 2025 Session 2023-27\", \"title\": \"Examination Programme for B.Sc. Nursing 5th Semester Examination 2025 Session 2023-27\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "6eba8b4728": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:51+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"6eba8b4728\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"9 Nov 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/09Nov202612042979.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Examination Programme for Certificate Course in Panchakarma Technician, 2025 Session 2024-25\", \"title\": \"Examination Programme for Certificate Course in Panchakarma Technician, 2025 Session 2024-25\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "0e2a6b3fe1": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1797791340000, \"detected_at\": \"2026-11-25T12:26:48+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0e2a6b3fe1\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"11 Nov 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/11Nov202620280921.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Examination Programme for 1st Professional BHMS Examination 2025(II) Session 2023-24\", \"title\": \"Examination Programme for 1st Professional BHMS Examination 2025(II) Session 2023-24\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  },
+  "047ad6ec80": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-25T12:27:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:45+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"047ad6ec80\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"12 Nov 2026\", \"slides\": [], \"source_url\": \"https://buhs.ac.in/buhs/BHUEDU/UploadedImage/NewsDoc/12Nov202615213983.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"Examination Programme for B. Pharm 3rd Semester Examination 2025 Session 2024-28\", \"title\": \"Examination Programme for B. Pharm 3rd Semester Examination 2025 Session 2024-28\", \"type\": \"exam\", \"university\": \"buhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "before-app"
+  }
+ },
+ "auto": {
+  "on": true,
+  "min_conf": 0.85,
+  "delay_minutes": 0,
+  "max_per_hour": 60,
+  "since": 0,
+  "targets": [
+   "app"
+  ],
+  "log": [
+   1795589834.0881298,
+   1795589834.0888917,
+   1795589834.0897632,
+   1795589834.0906198,
+   1795589834.0914717,
+   1795589834.0922906,
+   1795589834.0931954,
+   1795589834.094084,
+   1795589834.094955,
+   1795589834.095879,
+   1795589834.096764,
+   1795589834.0976617,
+   1795589834.0985646,
+   1795589834.0994773,
+   1795589834.1004198
+  ],
+  "target_since": {
+   "app": 1795589789.5081966
+  },
+  "all": true
+ },
+ "fb_init": "2026-11-25T12:27:14+05:30"
+}
