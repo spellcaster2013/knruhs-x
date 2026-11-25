@@ -255,7 +255,8 @@ class FirebaseSync:
         packs = sorted(desk.packs(), key=lambda p: p.get("detected_at", ""), reverse=True)
         feed, now = [], datetime.now(IST).isoformat(timespec="seconds")
         first_sync = not desk.state.get("fb_init")
-        desk.state["fb_init"] = desk.state.get("fb_init") or now
+        if packs:  # the first sync that actually has notices: those are old news, so phones are not alerted for them
+            desk.state["fb_init"] = desk.state.get("fb_init") or now
         written = 0
         for pk in packs[:300]:
             st = desk.item_state(pk["id"])
