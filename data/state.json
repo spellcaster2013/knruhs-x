@@ -792,45 +792,179 @@
   },
   "9794bc700e": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      151,
+      152,
+      153
+     ],
+     "at": "2026-11-25T16:36:17+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105090739554374",
+     "at": "2026-11-25T16:36:24+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18098896475690242",
+     "at": "2026-11-25T16:36:52+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:11+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9794bc700e\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"bds\", \"summary\": \"BDS admissions under competent authority quota for the AY 2026 27 list of not reported candidates in special stray vacancy phase of counselling\", \"title\": \"BDS admissions under competent authority quota for the AY 2026 27 list of not reported candidates in special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:11+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9794bc700e\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-25T16:36:24+05:30\", \"instagram\": \"2026-11-25T16:36:52+05:30\", \"telegram\": \"2026-11-25T16:36:17+05:30\"}, \"published_at\": \"2026-11-25T16:36:17+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9794bc700e/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9794bc700e/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9794bc700e/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"BDS admissions under competent authority quota for the AY 2026 27 list of not reported candidates in special stray vacancy phase of counselling\", \"title\": \"BDS admissions under competent authority quota for the AY 2026 27 list of not reported candidates in special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-25T16:36:54+05:30"
   },
   "31fb85e853": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      148,
+      149,
+      150
+     ],
+     "at": "2026-11-25T16:35:40+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105090187554374",
+     "at": "2026-11-25T16:35:47+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18024543323730958",
+     "at": "2026-11-25T16:36:16+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.69, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:10+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"31fb85e853\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MBBS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mbbs\", \"summary\": \"MBBS BDS admissions under management quota for the AY 2026-27 - list of not reported candidates in special stray vacancy phase of counselling\", \"title\": \"MBBS BDS admissions under management quota for the AY 2026-27 - list of not reported candidates in special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.69, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:10+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"31fb85e853\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-25T16:35:47+05:30\", \"instagram\": \"2026-11-25T16:36:16+05:30\", \"telegram\": \"2026-11-25T16:35:40+05:30\"}, \"published_at\": \"2026-11-25T16:35:40+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31fb85e853/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31fb85e853/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/31fb85e853/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MBBS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"MBBS BDS admissions under management quota for the AY 2026-27 - list of not reported candidates in special stray vacancy phase of counselling\", \"title\": \"MBBS BDS admissions under management quota for the AY 2026-27 - list of not reported candidates in special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-25T16:36:54+05:30"
   },
   "4cb2a1efef": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      145,
+      146,
+      147
+     ],
+     "at": "2026-11-25T16:35:02+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105089347554374",
+     "at": "2026-11-25T16:35:10+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "17878663383637688",
+     "at": "2026-11-25T16:35:38+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:08+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"4cb2a1efef\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"bds\", \"summary\": \"BDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"title\": \"BDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:08+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"4cb2a1efef\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-25T16:35:10+05:30\", \"instagram\": \"2026-11-25T16:35:38+05:30\", \"telegram\": \"2026-11-25T16:35:02+05:30\"}, \"published_at\": \"2026-11-25T16:35:02+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4cb2a1efef/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4cb2a1efef/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4cb2a1efef/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"BDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"title\": \"BDS admissions under competent authority quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-25T16:36:54+05:30"
   },
   "1a1f5273cd": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      142,
+      143,
+      144
+     ],
+     "at": "2026-11-25T16:34:20+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105088591554374",
+     "at": "2026-11-25T16:34:28+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18182852881432773",
+     "at": "2026-11-25T16:35:00+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:06+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1a1f5273cd\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"bds\", \"summary\": \"BDS admissions under management quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"title\": \"BDS admissions under management quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:16:06+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1a1f5273cd\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-25T16:34:28+05:30\", \"instagram\": \"2026-11-25T16:35:00+05:30\", \"telegram\": \"2026-11-25T16:34:20+05:30\"}, \"published_at\": \"2026-11-25T16:34:20+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1a1f5273cd/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1a1f5273cd/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1a1f5273cd/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"BDS admissions under management quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"title\": \"BDS admissions under management quota for the AY 2026-27 - vacancies for additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-25T16:36:54+05:30"
   },
   "b0f976d6dd": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141
+     ],
+     "at": "2026-11-25T16:33:20+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105087583554374",
+     "at": "2026-11-25T16:33:31+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18122895284098982",
+     "at": "2026-11-25T16:34:18+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.97, \"deadline\": 1795667400000, \"detected_at\": \"2026-11-25T16:16:05+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b0f976d6dd\", \"points\": [\"For eligibility criteria and regulations refer to notifications dated: 12.08.2026.\", \"The allotment of seats will be made in accordance with the selection procedure notified in Government orders G.O.Ms.No. 115 &116, HM&FW(C1) Dept.,\\u2026\", \"No. 125, Health, Medical and Family Welfare (C1) Department Dated: 22.09.2022, G.O.\", \"No. 130, Health, Medical and Family Welfare (C1) Department Dated: 27-09-2022, G.O.\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"bds\", \"summary\": \"B & C/NRI CATEGORY FOR THE ACADEMIC YEAR 2026-27 Notification for exercising web-options for Additional Special Stray Vacancy Phase of Counseling for admission into BDS courses under Management Quota i.e. B & C/NRI Category for the AY 2026-27 into affiliated Private Dental Colleges & Army\\u2026\", \"title\": \"BDS admissions under management quota for the AY 2026-27 - notification for exercising web-options for additional special stray vacancy of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.97, \"deadline\": 1795667400000, \"detected_at\": \"2026-11-25T16:16:05+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b0f976d6dd\", \"points\": [\"For eligibility criteria and regulations refer to notifications dated: 12.08.2026.\", \"The allotment of seats will be made in accordance with the selection procedure notified in Government orders G.O.Ms.No. 115 &116, HM&FW(C1) Dept.,\\u2026\", \"No. 125, Health, Medical and Family Welfare (C1) Department Dated: 22.09.2022, G.O.\", \"No. 130, Health, Medical and Family Welfare (C1) Department Dated: 27-09-2022, G.O.\"], \"posted\": {\"facebook\": \"2026-11-25T16:33:31+05:30\", \"instagram\": \"2026-11-25T16:34:18+05:30\", \"telegram\": \"2026-11-25T16:33:20+05:30\"}, \"published_at\": \"2026-11-25T16:33:20+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b0f976d6dd/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b0f976d6dd/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b0f976d6dd/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b0f976d6dd/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b0f976d6dd/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b0f976d6dd/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"B & C/NRI CATEGORY FOR THE ACADEMIC YEAR 2026-27 Notification for exercising web-options for Additional Special Stray Vacancy Phase of Counseling for admission into BDS courses under Management Quota i.e. B & C/NRI Category for the AY 2026-27 into affiliated Private Dental Colleges & Army\\u2026\", \"title\": \"BDS admissions under management quota for the AY 2026-27 - notification for exercising web-options for additional special stray vacancy of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-25T16:36:54+05:30"
   },
   "8bc785baf9": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134
+     ],
+     "at": "2026-11-25T16:32:09+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105086503554374",
+     "at": "2026-11-25T16:32:20+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18120377575822402",
+     "at": "2026-11-25T16:33:10+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1795667400000, \"detected_at\": \"2026-11-25T16:16:02+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8bc785baf9\", \"points\": [\"For eligibility criteria and regulations refer to notifications dated: 04.08.2026.\", \"Tuition fee is to be paid at respective Private Dental Colleges as per G.O.Ms.No. 98, HM&FW(C1) Dept., Dated: 07.08.2026.\", \"The allotment of seats will be made in accordance with the selection procedure notified in Government orders G.O.Ms.No. 114, HM&FW(C1) Dept.,\\u2026\", \"No. 75, Health, Medical and Family Welfare (C1) Department Dated: 04-07-2023, G.O.\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"bds\", \"summary\": \"All the eligible candidates whose names are displayed in the final merit list under Competent Authority Quota on KNRUHS website can exercise web options for admission into BDS course from 04.00 PM on 25.11.2026 up to 10.00 AM on 26.11.2026 through website https://tsbdsadm.tsche.in/ subject to\\u2026\", \"title\": \"BDS admissions under competent authority quota for the AY 2026-27 - notification for exercising web-options for additional special stray vacancy of co\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.98, \"deadline\": 1795667400000, \"detected_at\": \"2026-11-25T16:16:02+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8bc785baf9\", \"points\": [\"For eligibility criteria and regulations refer to notifications dated: 04.08.2026.\", \"Tuition fee is to be paid at respective Private Dental Colleges as per G.O.Ms.No. 98, HM&FW(C1) Dept., Dated: 07.08.2026.\", \"The allotment of seats will be made in accordance with the selection procedure notified in Government orders G.O.Ms.No. 114, HM&FW(C1) Dept.,\\u2026\", \"No. 75, Health, Medical and Family Welfare (C1) Department Dated: 04-07-2023, G.O.\"], \"posted\": {\"facebook\": \"2026-11-25T16:32:20+05:30\", \"instagram\": \"2026-11-25T16:33:10+05:30\", \"telegram\": \"2026-11-25T16:32:09+05:30\"}, \"published_at\": \"2026-11-25T16:32:09+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8bc785baf9/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8bc785baf9/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8bc785baf9/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8bc785baf9/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8bc785baf9/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8bc785baf9/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-ADDITIONAL-SPECIAL-STRAY-VACANCY-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"All the eligible candidates whose names are displayed in the final merit list under Competent Authority Quota on KNRUHS website can exercise web options for admission into BDS course from 04.00 PM on 25.11.2026 up to 10.00 AM on 26.11.2026 through website https://tsbdsadm.tsche.in/ subject to\\u2026\", \"title\": \"BDS admissions under competent authority quota for the AY 2026-27 - notification for exercising web-options for additional special stray vacancy of co\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-25T16:36:54+05:30"
   }
  },
  "auto": {
@@ -844,7 +978,14 @@
    "facebook",
    "instagram"
   ],
-  "log": [],
+  "log": [
+   1795604518.8723328,
+   1795604590.609714,
+   1795604658.4711747,
+   1795604700.7965405,
+   1795604738.723785,
+   1795604776.1741607
+  ],
   "all": true,
   "target_since": {
    "telegram": 0,
