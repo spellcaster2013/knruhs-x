@@ -10,10 +10,15 @@ for url in sys.argv[1:]:
         print("ERROR", type(e).__name__, str(e)[:200]); continue
     if url.endswith(".js"):
         for m in sorted(set(re.findall(r'["\'`]((?:https?:)?/?/?[A-Za-z0-9_./:-]*(?:api|Api|API|notification|Notification|circular|Circular|news|News)[A-Za-z0-9_./?=&{}$-]{0,90})["\'`]', body)))[:150]: print("JSURL", m)
+        for m in sorted(set(re.findall(r'https?://[A-Za-z0-9.-]+(?::\d+)?(?:/[A-Za-z0-9_./-]{0,40})?', body)))[:80]: print("HOST", m)
+        for m in re.finditer(r'LatestUploadNews|university/notifications', body):
+            print("CTX", body[max(0, m.start()-300):m.end()+200].replace("\n", " "))
         continue
     if "--raw" in sys.argv[0:1] or len(body) < 20000:
         print("RAW", body[:6000].replace("\n", " "))
         for m in sorted(set(re.findall(r'(?:src|href)=["\']([^"\']+\.js[^"\']*)', body))): print("SCRIPT", m)
+    if body.lstrip()[:1] in "[{":
+        print("JSON", body[:3000].replace("\n", " ")); continue
     links = re.findall(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', body, re.S | re.I)
     print("LINKS", len(links)); n = 0
     for href, txt in links:
