@@ -690,6 +690,24 @@ def notify(title, body):
         subprocess.run(["osascript", "-e", f'display notification "{b}" with title "{t}"'], check=False)
 
 
+def note_health(data_dir, n_links):
+    """For the Boss bot: remember since when a website has given 0 notice links (a redesign or a block).
+    The file only changes when that state flips, so it does not add a commit to every run."""
+    p = os.path.join(data_dir, "health.json")
+    try:
+        h = json.load(open(p, encoding="utf-8"))
+    except Exception:
+        h = {}
+    was = h.get("zero_links_since")
+    if n_links == 0 and not was:
+        h["zero_links_since"] = datetime.now(IST).isoformat(timespec="minutes")
+    elif n_links > 0 and was:
+        h.pop("zero_links_since", None)
+    else:
+        return
+    json.dump(h, open(p, "w", encoding="utf-8"), indent=1)
+
+
 def run_once(cfg, args):
     global STAMP_IN_IST, FILE_STAMPS
     STAMP_IN_IST = bool(cfg.get("stamp_in_ist"))
@@ -700,6 +718,7 @@ def run_once(cfg, args):
     first_run = db.execute("SELECT COUNT(*) FROM seen").fetchone()[0] == 0
     links = discover(cfg)
     log(f"found {len(links)} notice links on the page(s)")
+    note_health(data_dir, len(links))
     new = [l for l in links if not db.execute("SELECT 1 FROM seen WHERE url=?", (l["url"],)).fetchone()]
     if first_run and not args.backfill:
         keep = cfg["first_run_limit"]
