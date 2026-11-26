@@ -173,6 +173,10 @@ def check_reports(reps, state):
         for t in r.get("duplicates_blocked") or []:
             out.append((f"dupblock-{uni}-{h(t)}", f"{label}: the duplicate guard stopped a repeat post (it was already on the channel): {t}. "
                                                   f"Nothing to do - a run lost its memory and the guard caught it."))
+        if r.get("db_ok") is False:
+            out.append(("db-reads", "The app database (Firestore) refused the workers' reads (429 Too Many Requests) - usually the "
+                                    "daily free limit is used up. Admin actions are ignored and students may fail to sign in or "
+                                    "save settings until it resets (around 1:30 PM IST)."))
         if r.get("meta_token_ok") is False:
             out.append(("meta-token", "The Facebook/Instagram key stopped working - nothing is being posted there until it is renewed."))
         dl = r.get("meta_token_days_left")

@@ -135,6 +135,17 @@ class FirebaseSync:
         if r.status_code >= 300:
             raise RuntimeError(f"Firestore write {path} failed: HTTP {r.status_code} {r.text[:200]}")
 
+    def query(self, coll, field, op, value):
+        """Only the documents that match (each match costs one read) - instead of reading the whole collection."""
+        if op == "IS_NOT_NULL":
+            where = {"unaryFilter": {"field": {"fieldPath": field}, "op": "IS_NOT_NULL"}}
+        else:
+            where = {"fieldFilter": {"field": {"fieldPath": field}, "op": op, "value": enc(value)}}
+        body = {"structuredQuery": {"from": [{"collectionId": coll}], "where": where}}
+        r = self.s.post(f"{FS}:runQuery", json=body, timeout=30)
+        r.raise_for_status()
+        return [x["document"] for x in r.json() if isinstance(x, dict) and x.get("document")]
+
     def list_all(self, coll):
         out, token = [], None
         while True:
@@ -155,7 +166,12 @@ class FirebaseSync:
                 self.settings.update(fields_of(doc))
             else:
                 self.patch("config/settings", self.settings)
-            for doc in self.list_all("notices"):
+            # Read only the notices the admin touched (an action or an edit), not every notice: reading the whole
+            # collection on every run of every worker used up Firestore's daily free reads (429 Too Many Requests).
+            touched = {}
+            for doc in self.query("notices", "action", "IN", ["publish", "hold", "dismiss"]) + self.query("notices", "edits", "IS_NOT_NULL", None):
+                touched[doc["name"]] = doc
+            for doc in touched.values():
                 f = fields_of(doc)
                 nid = doc["name"].rsplit("/", 1)[-1]
                 if f.get("action") in ("publish", "hold", "dismiss"):

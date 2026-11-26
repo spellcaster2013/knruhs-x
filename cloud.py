@@ -160,7 +160,8 @@ def report_to_boss(fb, cfg, d, conf, posted_before):
             "zero_links_since": (prev.get("zero_links_since") or now) if links == 0 else None,
             "posted": posted[:20], "duplicates_blocked": getattr(d, "dup_blocked", [])[:20],
             "post_errors": errors[:10], "check_error": d.last_error or "",
-            "channels": {k: bool(v) for k, v in conf.items()}}
+            "channels": {k: bool(v) for k, v in conf.items()},
+            "db_ok": bool(getattr(fb, "ok", True))}
     tok = (cfg.get("facebook") or {}).get("access_token")
     if tok:  # how long the Facebook/Instagram key still works (the Boss warns a week before)
         try:
