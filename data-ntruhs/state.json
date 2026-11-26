@@ -597,6 +597,50 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795854600000, \"detected_at\": \"2026-11-26T18:53:35+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"4377a6d253\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126183935627.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MDS CQ 2026-27 - Stray Round-1 College wise Allotments List\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T18:53:47+05:30"
+  },
+  "1888b60f82": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T19:35:23+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
+  },
+  "bc6a0ba672": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T19:35:23+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
+  },
+  "2b4116b783": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T19:35:23+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
+  },
+  "35007adecf": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T19:35:23+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
   }
  },
  "auto": {
@@ -610,7 +654,11 @@
   ],
   "log": [
    1795699427.3416421,
-   1795699427.3438654
+   1795699427.3438654,
+   1795701923.2837336,
+   1795701923.2861714,
+   1795701923.2886574,
+   1795701923.291181
   ],
   "target_since": {
    "app": 1795534573.20719
