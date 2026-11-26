@@ -350,6 +350,58 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:50:20+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0067ee1d8d\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:50:20+05:30\"}, \"published_at\": \"2026-11-26T17:50:20+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Merit-list-of-MD-MS-Ayu.-1st-Round-Counselling-2026-27-me.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Merit list of MD MS Ayu. 1st Round Counselling 2026 27 me\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T18:20:29+05:30"
+  },
+  "55a8430841": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T02:06:26+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"55a8430841\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Schedule-for-B.Sc_.-Paramedical.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Schedule for various B.Sc. Paramedical (MLT) Courses Examinations November/December 2026\", \"title\": \"Schedule for various B.Sc. Paramedical (MLT) Courses Examinations November/December 2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T02:06:26+05:30"
+  },
+  "f6017dcc78": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T02:06:26+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T02:06:24+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"f6017dcc78\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Datesheet-for-1st-year-B.Sc_.-Paramedical.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Datesheet of 1st Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"title\": \"Datesheet of 1st Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T02:06:26+05:30"
+  },
+  "183035541a": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T02:06:26+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T02:06:23+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"183035541a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Datesheet-for-2nd-year-B.Sc_.-Paramedical.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Datesheet of 2nd Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"title\": \"Datesheet of 2nd Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T02:06:26+05:30"
+  },
+  "e0c6efe22f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T02:06:26+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T02:06:21+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"e0c6efe22f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Datesheet-for-3rd-Year-B.Sc_.-Paramedical.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Datesheet of 3rd Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"title\": \"Datesheet of 3rd Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T02:06:26+05:30"
   }
  },
  "auto": {
@@ -361,7 +413,12 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795725386.7506762,
+   1795725386.7526,
+   1795725386.7545106,
+   1795725386.75644
+  ],
   "target_since": {
    "app": 1795589839.0614133
   },
