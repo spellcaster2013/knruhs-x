@@ -270,7 +270,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"7b3c4e0775\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/MDS-Part-I-Retotalling.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Medical College & Hospital Campus, Ner Chowk, N'landi, H.P.) Phone No. 01905-243967 Email: website:\", \"title\": \"Schedule for Retotalling of MDS Part-I held in the month of August ,2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:21:02+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"7b3c4e0775\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T16:21:02+05:30\"}, \"published_at\": \"2026-11-26T16:21:02+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/MDS-Part-I-Retotalling.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Medical College & Hospital Campus, Ner Chowk, N'landi, H.P.) Phone No. 01905-243967 Email: website:\", \"title\": \"Schedule for Retotalling of MDS Part-I held in the month of August ,2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-26T16:21:02+05:30"
   }
  },

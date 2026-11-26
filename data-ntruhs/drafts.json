@@ -1,5 +1,51 @@
 [
   {
+    "title": "PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (In-service)",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1796027400000,
+    "ref": "",
+    "pdf": "a0ac5f29_927.pdf",
+    "pages": 13,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261126161906927.pdf",
+      "published": "2026-11-26T16:19:06+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T16:37:47+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/a0ac5f29_927.pdf"
+    }
+  },
+  {
+    "title": "PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (Non-service)",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1796027400000,
+    "ref": "",
+    "pdf": "504fe3df_943.pdf",
+    "pages": 64,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261126161906943.pdf",
+      "published": "2026-11-26T16:19:06+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T16:37:28+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/504fe3df_943.pdf"
+    }
+  },
+  {
     "title": "Allied and Healthcare Courses 2026-27 - Notice regarding Phase-I Web Counselling",
     "summary": "Hence, the options for the said courses shall not be processed in the following Universities. The Apollo University, Chittoor Bachelor of Critical Care Technology - CCT 2.",
     "points": [],

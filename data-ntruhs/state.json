@@ -519,6 +519,32 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.93, \"deadline\": 0, \"detected_at\": \"2026-11-26T14:48:02+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"bb73174052\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T14:48:02+05:30\"}, \"published_at\": \"2026-11-26T14:48:02+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126143536860.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Hence, the options for the said courses shall not be processed in the following Universities. The Apollo University, Chittoor Bachelor of Critical Care Technology - CCT 2.\", \"title\": \"Allied and Healthcare Courses 2026-27 - Notice regarding Phase-I Web Counselling\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T14:48:02+05:30"
+  },
+  "a3c0378444": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T16:37:47+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1796027400000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"a3c0378444\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126161906927.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (In-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T16:37:47+05:30"
+  },
+  "1dd1928528": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T16:37:47+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1796027400000, \"detected_at\": \"2026-11-26T16:37:28+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1dd1928528\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126161906943.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (Non-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T16:37:47+05:30"
   }
  },
  "auto": {
@@ -530,7 +556,10 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795691267.7419996,
+   1795691267.7441914
+  ],
   "target_since": {
    "app": 1795534573.20719
   },

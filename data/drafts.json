@@ -1,5 +1,97 @@
 [
   {
+    "title": "Examinations results of BSC nursing first semester examinations july 2026 regular candidates",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "nursing",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "c3986124_Examinations_results_of_BSC_nursing_first_semester_examinations_july_2026_regular_candidat.pdf",
+    "pages": 37,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-FIRST-SEMESTER-EXAMINATIONS-JULY-2026-REGULAR-CANDIDATES.pdf",
+      "published": "2026-11-26T16:27:56+05:30",
+      "confidence": 0.75,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T16:31:25+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/c3986124_Examinations_results_of_BSC_nursing_first_semester_examinations_july_2026_regular_candidat.pdf"
+    }
+  },
+  {
+    "title": "Examinations results of BSC nursing first semester examinations july 2026 backlog candidates",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "nursing",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "dd316e6a_Examinations_results_of_BSC_nursing_first_semester_examinations_july_2026_backlog_candidat.pdf",
+    "pages": 8,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-FIRST-SEMESTER-EXAMINATIONS-JULY-2026-BACKLOG-CANDIDATES.pdf",
+      "published": "2026-11-26T16:28:08+05:30",
+      "confidence": 0.75,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T16:31:21+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/dd316e6a_Examinations_results_of_BSC_nursing_first_semester_examinations_july_2026_backlog_candidat.pdf"
+    }
+  },
+  {
+    "title": "Examinations results of MDS part II examinations september 2026 regular candidates",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "mds",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "1d9f2344_Examinations_results_of_MDS_part_II_examinations_september_2026_regular_candidates.pdf",
+    "pages": 6,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-MDS-PART-II-EXAMINATIONS-SEPTEMBER-2026-REGULAR-CANDIDATES.pdf",
+      "published": "2026-11-26T16:28:20+05:30",
+      "confidence": 0.75,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T16:31:19+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/1d9f2344_Examinations_results_of_MDS_part_II_examinations_september_2026_regular_candidates.pdf"
+    }
+  },
+  {
+    "title": "Examinations results of MDS part II examinations september 2026 backlog candidates",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "mds",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "c2198bbb_Examinations_results_of_MDS_part_II_examinations_september_2026_backlog_candidates.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-MDS-PART-II-EXAMINATIONS-SEPTEMBER-2026-BACKLOG-CANDIDATES.pdf",
+      "published": "2026-11-26T16:28:29+05:30",
+      "confidence": 0.75,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T16:31:16+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/c2198bbb_Examinations_results_of_MDS_part_II_examinations_september_2026_backlog_candidates.pdf"
+    }
+  },
+  {
     "title": "BDS admissions under competent authority quota for the AY 2026-27 - college wise allotments in additional special stray vacancy phase of counselling",
     "summary": "List released. Open the PDF and search for your name or roll number.",
     "points": [],
