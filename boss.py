@@ -1,40 +1,42 @@
-"""boss.py - the Boss bot: a watchdog over all the notice bots.
+"""boss.py - the Boss bot. It manages the worker bots; it never visits university websites itself.
 
-Runs on its own schedule (boss.yml), separate from the notice bots, and sends YOU a private Telegram message
-(OWNER_CHAT_ID) only when something is wrong - before you notice it yourself. Once a day it sends a short
-"all good" report so you know the Boss itself is alive.
+Every worker (one per university, run by pulse.yml) checks its own website on each run and files a report with the
+Boss (Firestore bot_health/<university>). The Boss runs on its own schedule (boss.yml), reads those reports and the
+workers' run records on GitHub, and sends YOU a private Telegram message (OWNER_CHAT_ID) only when something is wrong.
+Once a day (9 PM) it sends a short roll-call of all workers, so you also know the Boss itself is alive.
 
-What it checks
-  1. Runs     - the notice bot's recent runs: failed / cancelled / timed out, too slow, or no good run for a while
-  2. Doubles  - the same notice posted more than once on Instagram or the Facebook Page (Telegram follows the
-                same memory, so a double there shows up here too)
-  3. Tokens   - the Meta (Facebook + Instagram) token still works and is not about to expire
-  4. Sources  - each university's bot is still finding notice links (a redesigned website quietly gives 0),
-                and has found something new recently
-  5. Websites  - visits every university page the bots read and says WHY one fails: address gone (domain
-                changed/expired), not responding, server error / maintenance page, page moved (404), redirects
-                to a new website, blocking our bot, broken certificate. Reported after 2 failed checks in a row
-                (no alarm for a 1-minute blip), and you hear when it is back.
+What the Boss watches
+  Runs        a worker run failed / was cancelled / timed out / ran too long, or no good run for over an hour
+  Silence     a worker has not reported for over an hour
+  Websites    a worker says its university page will not open, and why: address gone (domain changed/expired),
+              not responding, server error / maintenance page, page moved (404), now redirects to another
+              website, blocking the bot, broken certificate - after 2 failed runs in a row (no alarm for a blip).
+              You also hear when it is back.
+  Redesign    the page opens but the worker finds 0 notice links (site redesigned - the worker needs a fix)
+  Quiet       a university with nothing new for many days
+  Posting     post errors, notices the duplicate guard stopped, the Facebook/Instagram key expiring
 Each problem is reported once, then again only if it is still there 12 hours later (no spam).
 
-Secrets (environment, never in files): TELEGRAM_BOT_TOKEN, OWNER_CHAT_ID, META_PAGE_TOKEN, GITHUB_TOKEN.
+Secrets (environment): TELEGRAM_BOT_TOKEN, OWNER_CHAT_ID, GITHUB_TOKEN, FIREBASE_SA.
 """
-import json, os, re, sqlite3, sys, time, urllib.error, urllib.parse, urllib.request
+import hashlib, json, os, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
 try:
     from firebase_sync import UNI_LABELS
 except Exception:
     UNI_LABELS = {}
 IST = timezone(timedelta(hours=5, minutes=30))
 STATE = os.path.join(HERE, "boss_state.json")
-GRAPH = "https://graph.facebook.com/v21.0"
 REPEAT_AFTER_H = 12
-DIGEST_HOUR_IST = 21          # daily "all good" report around 9 PM
-RUN_TOO_SLOW_MIN = 25         # a notice-bot run longer than this is close to its limit
-NO_GOOD_RUN_MIN = 75          # no successful run for this long = the bot has stopped
-QUIET_DAYS = {"knruhs": 4}    # alert if a university found nothing new for this many days (default below)
+DIGEST_HOUR_IST = 21
+RUN_TOO_SLOW_MIN = 25
+SILENT_MIN = 75
+PAGE_FAIL_RUNS = 2
+ZERO_LINKS_HOURS = 2
+QUIET_DAYS = {"knruhs": 4}
 QUIET_DAYS_DEFAULT = 12
 
 
@@ -58,255 +60,127 @@ def http_json(url, data=None, headers=None, timeout=30):
             return ex.code, {}
 
 
-# ----------------------------------------------------------------------------- checks
-
-def check_runs(repo, token):
-    """The notice bot's own health, from GitHub's record of its runs."""
-    out = []
-    if not (repo and token):
-        return out, {}
-    h = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
-    code, js = http_json(f"https://api.github.com/repos/{repo}/actions/workflows/pulse.yml/runs?per_page=12", headers=h)
-    if code != 200:
-        return [("runs-api", f"Could not read the bot's runs from GitHub (HTTP {code}).")], {}
-    runs = js.get("workflow_runs", [])
-    done = [r for r in runs if r.get("status") == "completed"]
-    stats = {"runs": len(done), "ok": sum(1 for r in done if r.get("conclusion") == "success")}
-    for r in done[:4]:  # the last ~hour
-        c = r.get("conclusion")
-        if c in ("failure", "cancelled", "timed_out", "startup_failure"):
-            t = datetime.fromisoformat(r["run_started_at"].replace("Z", "+00:00")).astimezone(IST)
-            out.append((f"run-{r['id']}", f"Notice-bot run at {t:%H:%M} ended as '{c}'. If it had posted something, "
-                                           f"check for doubles.\n{r['html_url']}"))
-    for r in done[:4]:
-        try:
-            a = datetime.fromisoformat(r["run_started_at"].replace("Z", "+00:00"))
-            b = datetime.fromisoformat(r["updated_at"].replace("Z", "+00:00"))
-            mins = (b - a).total_seconds() / 60
-        except Exception:
-            continue
-        if mins > RUN_TOO_SLOW_MIN:
-            out.append((f"slow-{r['id']}", f"A notice-bot run took {mins:.0f} min (limit 40). Something is slow - "
-                                            f"a university website may be hanging.\n{r['html_url']}"))
-    good = [r for r in done if r.get("conclusion") == "success"]
-    if good:
-        last = datetime.fromisoformat(good[0]["updated_at"].replace("Z", "+00:00"))
-        gap = (datetime.now(timezone.utc) - last).total_seconds() / 60
-        if gap > NO_GOOD_RUN_MIN:
-            out.append(("no-good-run", f"No successful notice-bot run for {gap:.0f} minutes. The bot may have stopped "
-                                       f"(GitHub sometimes pauses schedules). Open Actions and press Run workflow."))
-    elif done:
-        out.append(("no-good-run", "None of the recent notice-bot runs succeeded."))
-    return out, stats
+def h(text):
+    return hashlib.sha1(text.encode()).hexdigest()[:10]
 
 
-def norm(text):
-    first = (text or "").strip().split("\n")[0]
-    return re.sub(r"[^a-z0-9]+", " ", first.lower()).strip()[:140]
-
-
-def doubles(items, label):
-    """items: (caption, time, link). The same first line twice within 3 days = a double post."""
-    seen, out = {}, []
-    for cap, t, link in items:
-        k = norm(cap)
-        if len(k) < 12:
-            continue
-        seen.setdefault(k, []).append((t, link))
-    for k, hits in seen.items():
-        hits.sort()
-        if len(hits) > 1 and (hits[-1][0] - hits[0][0]) < timedelta(days=3):
-            out.append((f"dup-{label}-{k[:60]}", f"{label}: the same notice is posted {len(hits)} times:\n\"{k[:90]}\"\n"
-                                                 + "\n".join(l for _, l in hits[:5])))
+def workers():
+    """Every worker the notice bot runs: one per config file (config.cloud.json is KNRUHS)."""
+    out = {}
+    for fn in sorted(os.listdir(HERE)):
+        if fn.startswith("config.") and fn.endswith(".json") and fn != "config.json":
+            try:
+                cfg = json.load(open(os.path.join(HERE, fn), encoding="utf-8"))
+            except Exception:
+                continue
+            uni = cfg.get("university") or ("knruhs" if fn == "config.cloud.json" else fn.split(".")[1])
+            out[uni] = UNI_LABELS.get(uni, uni.upper())
     return out
 
 
-def check_meta(meta, token):
+# ----------------------------------------------------------------------------- 1. worker runs (GitHub's record)
+
+def check_runs(repo, token):
     out, stats = [], {}
-    if not token:
+    if not (repo and token):
         return out, stats
-    q = urllib.parse.quote(token)
-    # token still valid? (code 190 = expired / revoked)
-    code, js = http_json(f"{GRAPH}/me?fields=id,name&access_token={q}")
+    hd = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+    code, js = http_json(f"https://api.github.com/repos/{repo}/actions/workflows/pulse.yml/runs?per_page=12", headers=hd)
     if code != 200:
-        err = (js.get("error") or {})
-        out.append(("meta-token", f"The Facebook/Instagram token stopped working ({err.get('code')}: {err.get('message', '')[:120]}). "
-                                  f"Posting to Facebook and Instagram has stopped until it is renewed."))
-        return out, stats
-    code, js = http_json(f"{GRAPH}/debug_token?input_token={q}&access_token={q}")
-    exp = ((js or {}).get("data") or {}).get("expires_at") or 0
-    if exp:
-        left = (exp - time.time()) / 86400
-        if 0 < left < 7:
-            out.append(("meta-token-expiry", f"The Facebook/Instagram token expires in {left:.1f} days. Renew it before then."))
-    ig = meta.get("instagram_user_id")
-    since = now() - timedelta(days=4)
-    if ig:
-        code, js = http_json(f"{GRAPH}/{ig}/media?fields=caption,timestamp,permalink&limit=40&access_token={q}")
-        if code == 200:
-            items = []
-            for m in js.get("data", []):
-                t = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
-                if t >= since:
-                    items.append((m.get("caption", ""), t, m.get("permalink", "")))
-            stats["instagram_today"] = sum(1 for _, t, _ in items if t.astimezone(IST).date() == now().date())
-            out += doubles(items, "Instagram")
-        else:
-            out.append(("ig-read", f"Could not read the Instagram posts (HTTP {code}): {(js.get('error') or {}).get('message', '')[:120]}"))
-    page = meta.get("page_id")
-    if page:
-        code, js = http_json(f"{GRAPH}/{page}/posts?fields=message,created_time,permalink_url&limit=40&access_token={q}")
-        if code == 200:
-            items = []
-            for m in js.get("data", []):
-                t = datetime.strptime(m["created_time"], "%Y-%m-%dT%H:%M:%S%z")
-                if t >= since:
-                    items.append((m.get("message", ""), t, m.get("permalink_url", "")))
-            stats["facebook_today"] = sum(1 for _, t, _ in items if t.astimezone(IST).date() == now().date())
-            out += doubles(items, "Facebook")
+        return [("runs-api", f"Could not read the workers' runs from GitHub (HTTP {code}).")], stats
+    done = [r for r in js.get("workflow_runs", []) if r.get("status") == "completed"]
+    stats["runs"], stats["runs_ok"] = len(done), sum(1 for r in done if r.get("conclusion") == "success")
+    for r in done[:4]:
+        t = datetime.fromisoformat(r["run_started_at"].replace("Z", "+00:00")).astimezone(IST)
+        c = r.get("conclusion")
+        if c in ("failure", "cancelled", "timed_out", "startup_failure"):
+            out.append((f"run-{r['id']}", f"Worker run at {t:%H:%M} ended as '{c}'.\n{r['html_url']}"))
+        try:
+            mins = (datetime.fromisoformat(r["updated_at"].replace("Z", "+00:00")) - datetime.fromisoformat(r["run_started_at"].replace("Z", "+00:00"))).total_seconds() / 60
+        except Exception:
+            mins = 0
+        if mins > RUN_TOO_SLOW_MIN:
+            out.append((f"slow-{r['id']}", f"A worker run at {t:%H:%M} took {mins:.0f} min (limit 40) - a university website may be hanging.\n{r['html_url']}"))
+    good = [r for r in done if r.get("conclusion") == "success"]
+    if good:
+        gap = (datetime.now(timezone.utc) - datetime.fromisoformat(good[0]["updated_at"].replace("Z", "+00:00"))).total_seconds() / 60
+        if gap > SILENT_MIN:
+            out.append(("no-good-run", f"No successful worker run for {gap:.0f} minutes. GitHub may have paused the schedule - "
+                                       f"open Actions > KNRUHS notice bot > Run workflow."))
+    elif done:
+        out.append(("no-good-run", "None of the recent worker runs succeeded."))
     return out, stats
 
 
-def check_sources():
-    """Each university's bot: still finding links on its website, and finding new notices now and then."""
-    out, active = [], []
-    for fn in sorted(os.listdir(HERE)):
-        if not (fn.startswith("config.") and fn.endswith(".json")):
+# ----------------------------------------------------------------------------- 2. worker reports
+
+def read_reports(sa_json):
+    from firebase_sync import FirebaseSync, fields_of
+    fs = FirebaseSync(sa_json, log, os.environ.get("GITHUB_REPOSITORY"), HERE)
+    reps = {}
+    for doc in fs.list_all("bot_health"):
+        f = fields_of(doc)
+        reps[f.get("uni") or doc["name"].rsplit("/", 1)[-1]] = f
+    return reps
+
+
+def check_reports(reps, state):
+    out, back, roll = [], [], []
+    alerted = state.setdefault("page_alerted", {})
+    t_now = now()
+    for uni, label in workers().items():
+        r = reps.get(uni)
+        if not r:
+            roll.append(f"❔ {label}: no report yet")  # a brand-new worker; its first run will file one
             continue
         try:
-            cfg = json.load(open(os.path.join(HERE, fn), encoding="utf-8"))
+            age = (t_now - datetime.fromisoformat(r["last_run"])).total_seconds() / 60
         except Exception:
-            continue
-        uni = cfg.get("university") or ("knruhs" if fn == "config.cloud.json" else fn.split(".")[1])
-        if fn == "config.json":
-            continue  # the local Mac copy of KNRUHS
-        ddir = os.path.join(HERE, cfg.get("data_dir", "data"))
-        label = UNI_LABELS.get(uni, uni.upper())
-        health = {}
-        try:
-            health = json.load(open(os.path.join(ddir, "health.json"), encoding="utf-8"))
-        except Exception:
-            pass
-        z = health.get("zero_links_since")
-        if z:
+            age = 1e9
+        if age > SILENT_MIN:
+            out.append((f"silent-{uni}", f"{label}: the worker has not reported for {age / 60:.1f} hours - it may be crashing before it finishes."))
+        bad = [s for s in (r.get("sources") or []) if isinstance(s, dict) and not s.get("ok")]
+        for s in r.get("sources") or []:
+            if not isinstance(s, dict):
+                continue
+            key = f"page-{uni}-{h(s.get('url', ''))}"
+            if not s.get("ok") and int(s.get("fail_runs") or 0) >= PAGE_FAIL_RUNS:
+                alerted[key] = s.get("reason", "")
+                out.append((key, f"{label} - {s.get('name') or 'page'}: {s.get('reason')}.\n{s.get('url')}\n"
+                                 f"Failed {s.get('fail_runs')} runs in a row. Until it is fixed, new {label} notices are missed."))
+            elif s.get("ok") and alerted.pop(key, None) is not None:
+                back.append(f"✅ {label} - {s.get('name') or 'page'} is reachable again.")
+        z = r.get("zero_links_since")
+        if z and not bad:
             try:
-                hrs = (now() - datetime.fromisoformat(z)).total_seconds() / 3600
+                hrs = (t_now - datetime.fromisoformat(z)).total_seconds() / 3600
             except Exception:
                 hrs = 0
-            if hrs >= 2:
-                out.append((f"zero-{uni}", f"{label}: the bot has found NO notice links on the website for {hrs:.0f} hours. "
-                                           f"The site may be down, blocking us, or redesigned (the bot then needs fixing)."))
-        db = os.path.join(ddir, "seen.db")
-        if not os.path.exists(db):
-            continue
-        try:
-            last = sqlite3.connect(db).execute("SELECT MAX(first_seen) FROM seen WHERE processed=1").fetchone()[0]
-        except Exception:
-            last = None
-        if not last:
-            continue
-        days = (now() - datetime.fromisoformat(last)).total_seconds() / 86400
-        limit = QUIET_DAYS.get(uni, QUIET_DAYS_DEFAULT)
-        if days > limit:
-            out.append((f"quiet-{uni}", f"{label}: nothing new found for {days:.0f} days. Unusual - please check the website "
-                                        f"still lists notices where the bot looks."))
-        else:
-            active.append(label)
-    return out, {"active_unis": active}
-
-
-# ----------------------------------------------------------------------------- website connectivity
-
-MAINT = re.compile(r"under maintenance|site (?:is )?(?:down|under construction)|maintenance mode|temporarily unavailable|"
-                   r"be back soon|scheduled maintenance|account (?:has been )?suspended|domain (?:has )?expired|"
-                   r"this domain (?:is|may be) for sale|website is under construction", re.I)
-
-
-def probe(url, cfg):
-    """One quick visit to a university page, like the notice bot makes. Returns (ok, reason in plain words)."""
-    host = urllib.parse.urlsplit(url).hostname or ""
-    try:
-        import bot
-        ctx = bot.ssl_context(cfg)
-    except Exception:
-        ctx = None
-    req = urllib.request.Request(url, headers={"User-Agent": cfg.get("user_agent", "Mozilla/5.0"), "Accept": "*/*"})
-    try:
-        with urllib.request.urlopen(req, timeout=40, context=ctx) as r:
-            body = r.read(1_500_000).decode("utf-8", "ignore")
-            final = r.geturl()
-    except urllib.error.HTTPError as ex:
-        why = {403: "the website is now blocking our bot (403 Forbidden)", 404: "the page is gone (404) - the notices page has probably moved to a new address",
-               410: "the page was removed (410) - the notices page has moved", 429: "the website is limiting our visits (429 Too many requests)"}.get(ex.code)
-        if not why:
-            why = f"the website's server is failing ({ex.code}) - likely maintenance or an outage" if ex.code >= 500 else f"the website answered with error {ex.code}"
-        return False, why
-    except Exception as ex:
-        s = f"{type(ex).__name__}: {ex}"
-        if re.search(r"Name or service not known|nodename nor servname|getaddrinfo failed|No address associated|gaierror|NXDOMAIN", s):
-            return False, f"the address {host} no longer exists (domain changed, expired or DNS down)"
-        if "CERTIFICATE" in s or "SSL" in s:
-            return False, "the website's security certificate is broken or expired"
-        if "timed out" in s.lower() or "TimeoutError" in s:
-            return False, "the website is not responding (timed out) - down or overloaded"
-        if "refused" in s.lower():
-            return False, "the website refused the connection - server down"
-        return False, f"could not connect ({s[:120]})"
-    fh, oh = (urllib.parse.urlsplit(final).hostname or "").removeprefix("www."), host.removeprefix("www.")
-    if fh and fh != oh:
-        return False, f"the page now redirects to a different website: {final[:120]} (address changed?)"
-    if MAINT.search(body[:200_000]):
-        return False, "the website shows a maintenance / suspended page"
-    if len(body.strip()) < 300:
-        return False, "the page loads but is empty"
-    return True, ""
-
-
-def check_sites(state):
-    """Visit every university page the bots read. A problem is reported after it has been seen on two Boss runs in a row
-    (so a 1-minute blip does not wake you), and you get a message when the site is back."""
-    out, back = [], []
-    streak = state.setdefault("site_fail", {})
-    alerted = state.setdefault("site_alerted", {})
-    seen_now = set()
-    for fn in sorted(os.listdir(HERE)):
-        if not (fn.startswith("config.") and fn.endswith(".json")) or fn == "config.json":
-            continue
-        try:
-            cfg = json.load(open(os.path.join(HERE, fn), encoding="utf-8"))
-        except Exception:
-            continue
-        uni = cfg.get("university") or ("knruhs" if fn == "config.cloud.json" else fn.split(".")[1])
-        label = UNI_LABELS.get(uni, uni.upper())
-        for src in cfg.get("sources", []):
-            url = src.get("url")
-            if not url:
-                continue
-            key = f"{uni}|{url}"
-            seen_now.add(key)
-            ok, why = probe(url, cfg)
-            if ok:
-                streak.pop(key, None)
-                if alerted.pop(key, None):
-                    back.append(f"✅ {label}: {src.get('name', url)} is reachable again.")
-                continue
-            streak[key] = streak.get(key, 0) + 1
-            log("site problem:", label, url, "-", why, f"(x{streak[key]})")
-            if streak[key] >= 2:
-                alerted[key] = why
-                out.append((f"site-{key}", f"{label} - {src.get('name', 'page')}: {why}.\n{url}\n"
-                                           f"Until this is fixed, new {label} notices will be missed."))
-    for k in [k for k in streak if k not in seen_now]:
-        streak.pop(k, None)
-    failing_now = [k for k in seen_now if streak.get(k)]
-    if seen_now and len(failing_now) == len(seen_now):
-        # every single university failing at once = the Boss's own internet, not the universities
-        for k in failing_now:
-            streak[k] -= 1
-            alerted.pop(k, None) if streak[k] < 2 else None
-        return [("boss-network", "The Boss could not reach ANY university website this time - most likely a network problem "
-                                 "on GitHub's side, not the universities. Will check again.")], []
-    return out, back
+            if hrs >= ZERO_LINKS_HOURS:
+                out.append((f"zero-{uni}", f"{label}: the website opens, but the worker has found 0 notice links for {hrs:.0f} hours. "
+                                           f"The site was probably redesigned - the worker needs updating."))
+        if r.get("last_new"):
+            try:
+                days = (t_now - datetime.fromisoformat(r["last_new"])).total_seconds() / 86400
+            except Exception:
+                days = 0
+            if days > QUIET_DAYS.get(uni, QUIET_DAYS_DEFAULT):
+                out.append((f"quiet-{uni}", f"{label}: nothing new for {days:.0f} days. Unusual - check the website still lists notices where the worker looks."))
+        for e in r.get("post_errors") or []:
+            out.append((f"posterr-{uni}-{h(e)}", f"{label}: posting failed - {e}"))
+        if r.get("check_error"):
+            out.append((f"checkerr-{uni}-{h(r['check_error'])}", f"{label}: the worker hit an error - {r['check_error'][:200]}"))
+        for t in r.get("duplicates_blocked") or []:
+            out.append((f"dupblock-{uni}-{h(t)}", f"{label}: the duplicate guard stopped a repeat post (it was already on the channel): {t}. "
+                                                  f"Nothing to do - a run lost its memory and the guard caught it."))
+        if r.get("meta_token_ok") is False:
+            out.append(("meta-token", "The Facebook/Instagram key stopped working - nothing is being posted there until it is renewed."))
+        dl = r.get("meta_token_days_left")
+        if isinstance(dl, (int, float)) and 0 <= dl < 7:
+            out.append(("meta-token-expiry", f"The Facebook/Instagram key expires in {dl:.1f} days - renew it before then."))
+        mark = "✅" if not bad and age <= SILENT_MIN and not r.get("zero_links_since") else "⚠️"
+        roll.append(f"{mark} {label}: {r.get('links_found', 0)} links" + (f", {len(bad)} page problem(s)" if bad else ""))
+    return out, back, roll
 
 
 # ----------------------------------------------------------------------------- reporting
@@ -323,41 +197,36 @@ def tg(token, chat, text):
 
 def main():
     e = os.environ.get
-    state = {}
     try:
         state = json.load(open(STATE, encoding="utf-8"))
     except Exception:
-        pass
+        state = {}
     sent = state.setdefault("sent", {})
-    problems, stats = [], {}
-    cfg = json.load(open(os.path.join(HERE, "config.cloud.json"), encoding="utf-8"))
-    for name, fn in (("runs", lambda: check_runs(e("GITHUB_REPOSITORY"), e("GITHUB_TOKEN"))),
-                     ("meta", lambda: check_meta(cfg.get("meta", {}), (e("META_PAGE_TOKEN") or "").strip())),
-                     ("sources", check_sources)):
-        try:
-            p, s = fn()
-            problems += p
-            stats.update(s)
-        except Exception as ex:
-            problems.append((f"boss-{name}", f"The Boss could not run its '{name}' check: {type(ex).__name__}: {str(ex)[:150]}"))
+    problems, stats, back, roll = [], {}, [], []
     try:
-        p, back = check_sites(state)
+        p, stats = check_runs(e("GITHUB_REPOSITORY"), e("GITHUB_TOKEN"))
         problems += p
     except Exception as ex:
-        back = []
-        problems.append(("boss-sites", f"The Boss could not run its website check: {type(ex).__name__}: {str(ex)[:150]}"))
+        problems.append(("boss-runs", f"The Boss could not read the workers' runs: {type(ex).__name__}: {str(ex)[:150]}"))
+    if (e("FIREBASE_SA") or "").strip():
+        try:
+            p, back, roll = check_reports(read_reports(e("FIREBASE_SA")), state)
+            problems += p
+        except Exception as ex:
+            problems.append(("boss-reports", f"The Boss could not read the workers' reports: {type(ex).__name__}: {str(ex)[:150]}"))
+    else:
+        problems.append(("boss-reports", "The Boss has no access to the workers' reports (FIREBASE_SA secret missing)."))
     log(f"{len(problems)} problem(s):", [k for k, _ in problems])
 
-    fresh = []
-    t = time.time()
+    fresh, t = [], time.time()
     for key, msg in problems:
-        if key.startswith(("dup-", "run-", "slow-")) and key in sent:
-            continue  # one-off events: tell once, never repeat
+        if key.startswith(("run-", "slow-", "dupblock-")) and key in sent:
+            continue  # one-off events: tell once
         if t - sent.get(key, 0) > REPEAT_AFTER_H * 3600:
             fresh.append(msg)
             sent[key] = t
     for k in [k for k, v in sent.items() if t - v > 7 * 86400]:
-        del sent[k]  # forget very old alerts
+        del sent[k]
     token, owner = (e("TELEGRAM_BOT_TOKEN") or "").strip(), (e("OWNER_CHAT_ID") or "").strip()
     if back:
         tg(token, owner, "\n".join(back))
@@ -365,20 +234,16 @@ def main():
         tg(token, owner, "🚨 BOSS BOT - needs your attention\n\n" + "\n\n".join(f"{i + 1}. {m}" for i, m in enumerate(fresh)))
 
     today = now().strftime("%Y-%m-%d")
-    if now().hour >= DIGEST_HOUR_IST and state.get("digest_day") != today:
-        lines = [f"📋 BOSS BOT - daily report {now():%d %b}",
-                 f"Notice-bot runs (last {stats.get('runs', 0)}): {stats.get('ok', 0)} OK",
-                 f"Posted today: Instagram {stats.get('instagram_today', '?')}, Facebook {stats.get('facebook_today', '?')}",
-                 f"Universities finding notices: {len(stats.get('active_unis', []))}",
-                 ("Open problems: " + str(len(problems))) if problems else "No problems. All good ✅"]
+    if (now().hour >= DIGEST_HOUR_IST and state.get("digest_day") != today) or e("BOSS_TEST") == "true":
+        head = "📋 BOSS BOT - test report" if e("BOSS_TEST") == "true" else f"📋 BOSS BOT - daily report {now():%d %b}"
+        lines = [head, f"Worker runs (last {stats.get('runs', 0)}): {stats.get('runs_ok', 0)} OK", ""] + roll
+        lines += ["", f"Open problems: {len(problems)}" if problems else "No problems. All good ✅"]
         tg(token, owner, "\n".join(lines))
-        state["digest_day"] = today
-    if e("BOSS_TEST") == "true":
-        tg(token, owner, "Test from the Boss bot: I'm watching your notice bots and will message you here if anything goes wrong.\n"
-                         f"Right now: {len(problems)} open problem(s).")
+        if e("BOSS_TEST") != "true":
+            state["digest_day"] = today
     new = json.dumps(state, indent=1, sort_keys=True)
     old = open(STATE, encoding="utf-8").read() if os.path.exists(STATE) else ""
-    if new != old:  # only when an alert or the daily report was sent: no commit noise
+    if new != old:
         open(STATE, "w", encoding="utf-8").write(new)
 
 

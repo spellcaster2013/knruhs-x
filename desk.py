@@ -103,13 +103,25 @@ class Desk:
             }
 
     # ---------------------------------------------------------------- actions
-    def post(self, pid, targets, auto=False):
+    def post(self, pid, targets, auto=False, force=False):
         pk = next((p for p in self.packs() if p["id"] == pid), None)
         if not pk:
             raise ValueError("unknown post")
         folder = os.path.join(self.outbox, pid)
         results, errors = {}, {}
         conf = publish.configured(self.cfg)
+        st = self.item_state(pid)
+        social = [t for t in targets if t in ("telegram", "facebook", "instagram") and conf.get(t)]
+        if social and not force and not any(t in st["posted"] for t in social):
+            # duplicate guard: never post a notice that is already on our Instagram / Facebook (memory lost mid-run)
+            where = publish.find_existing(self.cfg, pk)
+            if where:
+                for t in social:
+                    st["posted"][t] = {"at": now_iso(), "by": "duplicate-guard", "found_on": where}
+                self.dup_blocked = getattr(self, "dup_blocked", []) + [pk["title"][:80]]
+                self.log(f"duplicate guard: already on {', '.join(where)} - NOT posting again: {pk['title'][:60]}")
+                self.save()
+                return {"posted": [], "errors": {}, "duplicate": where}
         for t in targets:
             st = self.item_state(pid)
             if t in st["posted"]:

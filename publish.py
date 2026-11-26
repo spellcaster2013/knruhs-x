@@ -4,6 +4,8 @@ Telegram: official Bot API (needs a bot token from @BotFather and your channel).
 Instagram: official Instagram Graph API (needs a Professional account linked to a Facebook Page, a Meta app and an access token).
            Instagram downloads each image from a public URL, so slides are first uploaded to a public host (GitHub repo or your own URL).
 """
+from datetime import datetime
+import re
 import base64
 import json
 import mimetypes
@@ -207,6 +209,50 @@ def post_facebook(cfg, pack, folder):
 def post_app(cfg, pack, folder):
     """App-only universities: 'posting' just marks the notice published, so it goes into the app's feed and phone alerts."""
     return {"to": "app"}
+
+
+# ----------------------------------------------------------------------------- duplicate guard
+def _first_line(text):
+    first = (text or "").strip().split("\n")[0]
+    return re.sub(r"[^a-z0-9]+", " ", first.lower()).strip()[:140]
+
+
+def find_existing(cfg, pack, days=7):
+    """Before posting: is this exact notice (same headline) already on Instagram or the Facebook Page from the last
+    few days? Then the bot lost its memory somehow (a run cut off half-way) - do NOT post it again.
+    Returns where it was found, e.g. {"instagram": "<link>"}; {} when it is genuinely new or nothing can be checked."""
+    want = _first_line(pack["captions"].get("instagram") or "")
+    if len(want) < 12:
+        return {}
+    since = time.time() - days * 86400
+    found = {}
+    checks = []
+    ig = cfg.get("instagram") or {}
+    if ig.get("user_id") and ig.get("access_token"):
+        api = ig.get("api_base", "https://graph.facebook.com/v23.0").rstrip("/")
+        checks.append(("instagram", f"{api}/{ig['user_id']}/media?fields=caption,timestamp,permalink&limit=40&access_token={urllib.parse.quote(ig['access_token'])}",
+                       "caption", "timestamp", "permalink"))
+    fb = cfg.get("facebook") or {}
+    if fb.get("page_id") and fb.get("access_token"):
+        api = fb.get("api_base", "https://graph.facebook.com/v23.0").rstrip("/")
+        checks.append(("facebook", f"{api}/{fb['page_id']}/posts?fields=message,created_time,permalink_url&limit=40&access_token={urllib.parse.quote(fb['access_token'])}",
+                       "message", "created_time", "permalink_url"))
+    for name, url, ktext, ktime, klink in checks:
+        try:
+            code, js = _http(urllib.request.Request(url), timeout=30)
+        except Exception:
+            continue
+        if code != 200 or not isinstance(js, dict):
+            continue
+        for m in js.get("data", []):
+            try:
+                ts = datetime.strptime(m[ktime], "%Y-%m-%dT%H:%M:%S%z").timestamp()
+            except Exception:
+                continue
+            if ts >= since and _first_line(m.get(ktext, "")) == want:
+                found[name] = m.get(klink, "")
+                break
+    return found
 
 
 TARGETS = {"telegram": post_telegram, "facebook": post_facebook, "instagram": post_instagram, "app": post_app}

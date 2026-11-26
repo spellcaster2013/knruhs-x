@@ -1,8 +1,8 @@
 name: Boss bot (watchdog)
 
-# Watches the notice bots and messages the owner on Telegram when something is wrong:
-# failed/cancelled/slow runs, double posts, an expiring Facebook/Instagram token, a university website that is
-# down / moved / under maintenance / blocking us, or a university that has gone quiet. Plus a daily report at 9 PM.
+# The Boss manages the worker bots (one per university, pulse.yml). Workers check their own websites and report to
+# the Boss after every run; the Boss reads those reports + the workers' run records and messages the owner on
+# Telegram when something is wrong. It never visits university websites itself. Daily roll-call at 9 PM.
 on:
   schedule:
     - cron: "17,47 * * * *"    # every 30 minutes, between the notice bot's runs
@@ -38,7 +38,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
-          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BOSS_TEST: ${{ inputs.test }}
         run: python boss.py

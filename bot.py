@@ -111,6 +111,8 @@ def http_get(url, cfg, max_bytes=30_000_000):
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=30, context=ssl_context(cfg)) as r:
+                global LAST_FINAL_URL
+                LAST_FINAL_URL = r.geturl()
                 return r.read(max_bytes), r.headers
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             last = e
@@ -118,7 +120,7 @@ def http_get(url, cfg, max_bytes=30_000_000):
     hint = ""
     if "CERTIFICATE_VERIFY_FAILED" in str(last):
         hint = "  [HINT: run  pip3 install certifi  and try again; if it still fails set \"verify_ssl\": false in config.json]"
-    raise RuntimeError(f"could not fetch {url}: {last}{hint}")
+    raise RuntimeError(f"could not fetch {url}: {last}{hint}") from last
 
 
 def robots_ok(url, cfg):
@@ -327,6 +329,38 @@ def upload_month(url):
     return None
 
 
+# ----------------------------------------------------------------------------- health report for the Boss bot
+LAST_FINAL_URL = ""
+REPORT = {"sources": {}}
+MAINT = re.compile(r"under maintenance|site (?:is )?(?:down|under construction)|maintenance mode|temporarily unavailable|"
+                   r"be back soon|scheduled maintenance|account (?:has been )?suspended|domain (?:has )?expired|"
+                   r"this domain (?:is|may be) for sale|website is under construction", re.I)
+
+
+def plain_reason(err, host=""):
+    """Turn a fetch error into words the owner understands."""
+    e = getattr(err, "__cause__", None) or err
+    code = getattr(e, "code", None)
+    if isinstance(code, int):
+        return {403: "the website is now blocking our bot (403)", 404: "the page is gone (404) - the notices page probably moved to a new address",
+                410: "the page was removed (410) - moved", 429: "the website is limiting our visits (429)"}.get(code) or (
+            f"the website's server is failing ({code}) - likely maintenance or an outage" if code >= 500 else f"the website answered with error {code}")
+    s = f"{type(e).__name__}: {e}"
+    if re.search(r"Name or service not known|nodename nor servname|getaddrinfo failed|No address associated|gaierror|NXDOMAIN", s):
+        return f"the address {host} no longer exists (domain changed, expired or DNS down)"
+    if "CERTIFICATE" in s or "SSL" in s:
+        return "the website's security certificate is broken or expired"
+    if "timed out" in s.lower() or "Timeout" in s:
+        return "the website is not responding (timed out) - down or overloaded"
+    if "refused" in s.lower():
+        return "the website refused the connection - server down"
+    return f"could not connect ({s[:140]})"
+
+
+def note_source(src, ok, reason="", links=0):
+    REPORT["sources"][src["url"]] = {"name": src.get("name", ""), "ok": ok, "reason": reason, "links": links}
+
+
 def discover(cfg):
     found = {}
     for src in cfg["sources"]:
@@ -337,17 +371,31 @@ def discover(cfg):
             body, _ = http_get(src["url"], cfg)
         except Exception as e:
             log(f"could not open {src['url']}: {e}")
+            note_source(src, False, plain_reason(e, urllib.parse.urlsplit(src["url"]).hostname or ""))
             continue
+        before = len(found)
+        page = body[:300_000].decode("utf-8", "ignore")
+        fh = (urllib.parse.urlsplit(LAST_FINAL_URL).hostname or "").removeprefix("www.")
+        oh = (urllib.parse.urlsplit(src["url"]).hostname or "").removeprefix("www.")
+        if fh and oh and fh != oh:
+            problem = f"the page now redirects to a different website ({LAST_FINAL_URL[:100]}) - address changed?"
+        elif MAINT.search(page):
+            problem = "the website shows a maintenance / suspended page"
+        else:
+            problem = ""
         if src.get("rows"):
             row_items(src, body, found, cfg)
+            note_source(src, not problem, problem, len(found) - before)
             time.sleep(cfg["delay_seconds"])
             continue
         if src.get("grid"):
             grid_items(src, body, found)
+            note_source(src, not problem, problem, len(found) - before)
             time.sleep(cfg["delay_seconds"])
             continue
         if src.get("json") == "rguhs":
             json_items(src, body, found)
+            note_source(src, not problem, problem, len(found) - before)
             time.sleep(cfg["delay_seconds"])
             continue
         p = LinkParser()
@@ -362,6 +410,7 @@ def discover(cfg):
             if text and not GENERIC_ANCHOR.match(text) and len(text) > len(item["anchor"]):
                 item["anchor"] = text
             item["hint"] = item["hint"] or anchor_date(text) or upload_month(absu) or name_date(absu)
+        note_source(src, not problem, problem, len(found) - before)
         time.sleep(cfg["delay_seconds"])
     # a source with "include" keeps only notices whose link text matches it (NMC posts much that is not for students)
     # and "exclude" drops notices meant for colleges, not students (affiliation applications and the like)
@@ -690,24 +739,6 @@ def notify(title, body):
         subprocess.run(["osascript", "-e", f'display notification "{b}" with title "{t}"'], check=False)
 
 
-def note_health(data_dir, n_links):
-    """For the Boss bot: remember since when a website has given 0 notice links (a redesign or a block).
-    The file only changes when that state flips, so it does not add a commit to every run."""
-    p = os.path.join(data_dir, "health.json")
-    try:
-        h = json.load(open(p, encoding="utf-8"))
-    except Exception:
-        h = {}
-    was = h.get("zero_links_since")
-    if n_links == 0 and not was:
-        h["zero_links_since"] = datetime.now(IST).isoformat(timespec="minutes")
-    elif n_links > 0 and was:
-        h.pop("zero_links_since", None)
-    else:
-        return
-    json.dump(h, open(p, "w", encoding="utf-8"), indent=1)
-
-
 def run_once(cfg, args):
     global STAMP_IN_IST, FILE_STAMPS
     STAMP_IN_IST = bool(cfg.get("stamp_in_ist"))
@@ -716,9 +747,10 @@ def run_once(cfg, args):
     os.makedirs(os.path.join(data_dir, "pdfs"), exist_ok=True)
     db = open_db(data_dir)
     first_run = db.execute("SELECT COUNT(*) FROM seen").fetchone()[0] == 0
+    REPORT.clear(); REPORT["sources"] = {}
     links = discover(cfg)
     log(f"found {len(links)} notice links on the page(s)")
-    note_health(data_dir, len(links))
+    REPORT["links_found"] = len(links)
     new = [l for l in links if not db.execute("SELECT 1 FROM seen WHERE url=?", (l["url"],)).fetchone()]
     if first_run and not args.backfill:
         keep = cfg["first_run_limit"]
@@ -789,6 +821,11 @@ def run_once(cfg, args):
         log(f"   drafted: [{post['stream']}/{post['type']}] conf={d['confidence']} flags={d['flags']} deadline={d['deadline']}")
         if args.notify:
             notify("New KNRUHS notice drafted", post["title"])
+    REPORT["new_found"] = len(new)
+    try:
+        REPORT["last_new"] = db.execute("SELECT MAX(first_seen) FROM seen WHERE processed=1").fetchone()[0] or ""
+    except Exception:
+        REPORT["last_new"] = ""
     json.dump(drafts, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     out = write_outputs(data_dir, cfg)
     log(f"review page: {os.path.join(data_dir, 'review.html')}  ({len(out)} drafts total)")

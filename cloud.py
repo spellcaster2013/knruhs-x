@@ -124,6 +124,61 @@ def meta_check(cfg):
     alert_owner(cfg, f"Meta check: {kind}, expires {'never' if exp == 0 else 'on a date (see log)' if exp else 'unknown'}.")
 
 
+def report_to_boss(fb, cfg, d, conf, posted_before):
+    """Every worker run ends by filing a short report for the Boss bot (Firestore bot_health/<university>):
+    did each website page open (and if not, why, and for how many runs in a row), how many notice links were found,
+    what was posted, what the duplicate guard blocked, and any error. The Boss reads these; it never visits websites."""
+    uni = cfg.get("university", "knruhs")
+    prev = {}
+    try:
+        import firebase_sync
+        doc = fb.get(f"bot_health/{uni}")
+        prev = firebase_sync.fields_of(doc) if doc else {}
+    except Exception:
+        pass
+    prev_fail = {s.get("url"): int(s.get("fail_runs") or 0) for s in (prev.get("sources") or []) if isinstance(s, dict)}
+    rep = bot.REPORT
+    sources = []
+    for url, s in rep.get("sources", {}).items():
+        sources.append({"url": url, "name": s.get("name", ""), "ok": bool(s.get("ok")), "reason": s.get("reason", ""),
+                        "links": int(s.get("links") or 0), "fail_runs": 0 if s.get("ok") else prev_fail.get(url, 0) + 1})
+    now = bot.datetime.now(bot.IST).isoformat(timespec="seconds")
+    links = int(rep.get("links_found") or 0)
+    posted, errors = [], []
+    for pk in d.packs():
+        st = d.item_state(pk["id"])
+        for t, info in st["posted"].items():
+            if t not in posted_before.get(pk["id"], set()) and isinstance(info, dict) and info.get("by") in ("auto", "you"):
+                posted.append(f"{t}: {pk['title'][:70]}")
+        for t, e in (st.get("errors") or {}).items():
+            errors.append(f"{t}: {str(e)[:150]}")
+    run_url = ""
+    if os.environ.get("GITHUB_RUN_ID"):
+        run_url = f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+    data = {"uni": uni, "last_run": now, "run_url": run_url, "links_found": links, "new_found": int(rep.get("new_found") or 0),
+            "last_new": rep.get("last_new") or prev.get("last_new") or "", "sources": sources,
+            "zero_links_since": (prev.get("zero_links_since") or now) if links == 0 else None,
+            "posted": posted[:20], "duplicates_blocked": getattr(d, "dup_blocked", [])[:20],
+            "post_errors": errors[:10], "check_error": d.last_error or "",
+            "channels": {k: bool(v) for k, v in conf.items()}}
+    tok = (cfg.get("facebook") or {}).get("access_token")
+    if tok:  # how long the Facebook/Instagram key still works (the Boss warns a week before)
+        try:
+            q = urllib.parse.quote(tok)
+            with urllib.request.urlopen(f"https://graph.facebook.com/v21.0/debug_token?input_token={q}&access_token={q}", timeout=20) as r:
+                info = json.loads(r.read()).get("data") or {}
+            exp = info.get("expires_at") or 0
+            data["meta_token_ok"] = bool(info.get("is_valid", True))
+            data["meta_token_days_left"] = round((exp - time.time()) / 86400, 1) if exp else -1  # -1 = never expires
+        except urllib.error.HTTPError as ex:
+            data["meta_token_ok"] = ex.code != 190 and ex.code != 400
+        except Exception:
+            pass
+    fb.patch(f"bot_health/{uni}", data)
+    bad = [s for s in sources if not s["ok"]]
+    bot.log("reported to the Boss:", f"{links} links, {len(bad)} page problem(s), {len(posted)} posted, {len(errors)} error(s)")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default=os.path.join(HERE, "config.cloud.json"))
@@ -166,6 +221,7 @@ def main():
     a["all"] = (mode == "auto_all")
     if mode == "auto_all":
         mode = "auto"
+    posted_before = {pk["id"]: set(d.item_state(pk["id"])["posted"]) for pk in d.packs()}
     read_commands(cfg, d, a["targets"], skip=first)  # first run: ignore old chat messages
     d.check_now()
     if d.last_error:
@@ -217,7 +273,7 @@ def main():
             st["status"], st["errors"], st["alerted"] = "new", {}, True
             if os.environ.get("REPOST") == "true":
                 st["posted"] = {}  # test: post this notice again on every channel
-            r = d.post(code, a["targets"])
+            r = d.post(code, a["targets"], force=os.environ.get("REPOST") == "true")
             bot.log("manual post:", code, r)
             if not r["posted"] and r["errors"]:
                 alert_owner(cfg, "Could not post to the channel: " + "; ".join(r["errors"].values()))
@@ -248,6 +304,11 @@ def main():
                                   "channels": {k: bool(v) for k, v in conf.items()}, "notices_total": len(d.drafts())})
         except Exception as ex:
             bot.log("firebase: sync failed:", type(ex).__name__, str(ex)[:200])
+    if fb:
+        try:
+            report_to_boss(fb, cfg, d, conf, posted_before)
+        except Exception as ex:
+            bot.log("could not report to the Boss:", type(ex).__name__, str(ex)[:150])
     bot.log("run finished")
 
 
