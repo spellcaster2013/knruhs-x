@@ -93,6 +93,12 @@ def check_runs(repo, token):
     for r in done[:4]:
         t = datetime.fromisoformat(r["run_started_at"].replace("Z", "+00:00")).astimezone(IST)
         c = r.get("conclusion")
+        try:
+            ran = (datetime.fromisoformat(r["updated_at"].replace("Z", "+00:00")) - datetime.fromisoformat(r["run_started_at"].replace("Z", "+00:00"))).total_seconds()
+        except Exception:
+            ran = 999
+        if c == "cancelled" and ran < 90:
+            continue  # a queued run that GitHub replaced with a newer one - it never did anything
         if c in ("failure", "cancelled", "timed_out", "startup_failure"):
             out.append((f"run-{r['id']}", f"Worker run at {t:%H:%M} ended as '{c}'.\n{r['html_url']}"))
         try:
