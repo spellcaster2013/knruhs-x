@@ -28,7 +28,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     steps:
       # Always start from the newest saved memory. (A run that waited in the queue would otherwise start
       # from the copy at the moment it was triggered, and could post a notice a second time.)
@@ -52,6 +52,15 @@ jobs:
           POST_CODE: ${{ inputs.post_code }}
           REPOST: ${{ inputs.repost }}
         run: python cloud.py
+      # Save KNRUHS's memory straight away: posting is done, and if a later (slow) university step makes the run
+      # time out or get cancelled, the next run must still know these notices were posted - otherwise it posts them again.
+      - name: Save KNRUHS memory (right after posting)
+        if: always()
+        run: |
+          git config user.name "pulse-bot"
+          git config user.email "pulse-bot@users.noreply.github.com"
+          git add -A data site
+          git diff --cached --quiet || (git commit -m "update notices (KNRUHS posted)" && git pull --rebase -q && git push -q) || true
       # Other universities only go to the app (no Telegram / Facebook / Instagram yet).
       # A problem here never stops KNRUHS: this step may fail without failing the run.
       - name: Check Dr. NTR UHS (app only)
@@ -139,6 +148,7 @@ jobs:
           FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
         run: python cloud.py --config config.national.json
       - name: Save memory (so old notices are never posted twice)
+        if: always()
         run: |
           git config user.name "pulse-bot"
           git config user.email "pulse-bot@users.noreply.github.com"
