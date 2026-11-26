@@ -84,6 +84,17 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T09:46:40+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"f296cc2a49\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T09:46:53+05:30\"}, \"published_at\": \"2026-11-25T09:46:53+05:30\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.tnmgrmu.ac.in/wp-content/uploads/2026/11/Academic_EC_cutoff_Nursing-1.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Extend EC cut-off upto 30.11.2026 for Nursing Courses\", \"title\": \"Extend EC cut-off upto 30.11.2026 for Nursing Courses\", \"type\": \"circular\", \"university\": \"tnmgrmu\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
+  },
+  "1f09f2c6f2": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T11:48:18+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
   }
  },
  "auto": {
@@ -95,7 +106,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795673898.8837328
+  ],
   "target_since": {
    "app": 1795580191.1864884
   },
