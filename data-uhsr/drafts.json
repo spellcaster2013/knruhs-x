@@ -1,5 +1,85 @@
 [
   {
+    "title": "Merit List cum Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana,",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mds",
+    "type": "counselling",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "786113b7_261126mdsallotment.pdf",
+    "pages": 3,
+    "meta": {
+      "source_url": "https://uhsr.ac.in/sites/default/files/2026-11/261126mdsallotment.pdf",
+      "published": "2026-11-26T09:09:40+05:30",
+      "confidence": 0.89,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T09:19:44+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/786113b7_261126mdsallotment.pdf"
+    }
+  },
+  {
+    "title": "Public notice for stray round (MDS courses) physical documents verfication",
+    "summary": "UHSR/Acad/A-IV/ 2026/ 11056 Dated: 25.11.2026 PUBLIC NOTICE FOR STRAY ROUND (MDS COURSES) Courses Date / Reporting Time Venue of Physical Document Verification 1 All MDS courses candidates 27.11.2026 (11.00AM to 12:00 Noon)",
+    "points": [
+      "UHSR/Acad./A-IV/2026/Spl-4 & Spl-3 dated 10.09.2026 regarding document verification.",
+      "Last date of reporting in the allotted institutes is 16.11.2026 upto 04:00PM.",
+      "It is informed that the aspiring candidates should regularly visit the website of Pt."
+    ],
+    "stream": "mds",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "5d84c7bf_261126pnoticemds.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://uhsr.ac.in/sites/default/files/2026-11/261126pnoticemds.pdf",
+      "published": "2026-11-26T09:12:17+05:30",
+      "confidence": 0.73,
+      "flags": [
+        "deadline-words-but-no-date"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T09:19:42+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/5d84c7bf_261126pnoticemds.pdf"
+    }
+  },
+  {
+    "title": "Revised public notice for round – 2 (md/ms/dnb/diploma courses)",
+    "summary": "UHSR/Acad/A-IV/ 2026/ 11055 Dated: 25.11.2026 REVISED PUBLIC NOTICE FOR ROUND – 2 (MD/MS/DNB/DIPLOMA COURSES) Counseling Schedule (MD/MS/DNB/Diploma courses Round-2)",
+    "points": [
+      "Dates 1 Online deposition of Provisional tuition fee through admission web portal only 25.11.2026 to 27.11.2026 Upto 08:00 PM 2 Physical Document…",
+      "UHSR/Acad./A-IV/2026/10305 & 10306 dated 05.11.2026 regarding document verification.",
+      "All following group of candidates who have participated in Round–2 should appear before admission committee for document verification:- •…",
+      "Note:- The candidates with no change/not upgraded(College/Course/Category) of seats in Round-2 does not need to appear before the admission commitee."
+    ],
+    "stream": "mdms",
+    "type": "admission",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1796034600000,
+    "ref": "",
+    "pdf": "edf80b6d_261126revisedround2.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://uhsr.ac.in/sites/default/files/2026-11/261126revisedround2.pdf",
+      "published": "2026-11-26T09:11:18+05:30",
+      "confidence": 0.7,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T09:19:42+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/edf80b6d_261126revisedround2.pdf"
+    }
+  },
+  {
     "title": "Result gazette of M.SC. nursing final year (annual) EXAM. DEC.-2025",
     "summary": "Result list released. Open the PDF and search for your register number.",
     "points": [],
