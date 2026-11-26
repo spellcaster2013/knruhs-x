@@ -259,6 +259,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.94, \"deadline\": 1795768200000, \"detected_at\": \"2026-11-26T14:36:15+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"7faf426d10\", \"points\": [\"Candidates are required to report at their respective allotted institutes on or before 27.11.2026 (02:00 PM).\", \"Candidates claiming the benefit of any reserved category/quota are required to ensure that all the certificates/documents submitted by them are\\u2026\", \"Candidates are advised to get their certificates/documents updated or prepared in the prescribed format, wherever required, before the\\u2026\", \"In case of any discrepancy, outdated/invalid certificate, or non-submission of the prescribed document, the candidate shall not be entitled to\\u2026\"], \"posted\": {\"app\": \"2026-11-26T14:36:15+05:30\"}, \"published_at\": \"2026-11-26T14:36:15+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Seat-Allocation-of-MDS-Stray-Round-Counselling-2026_merged.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"AMRU/COE-Admission- 121/2026-27(MDS)-7430 Dated: 26.11.2026 NOTICE Urgent Attention: It is for information to all candidates that the Seat Allocation MDS Stray round counselling based on NEET MDS PG- 2026 is now available.\", \"title\": \"Seat-Allocation-of-MDS-Stray-Round-Counselling-2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T14:36:15+05:30"
+  },
+  "7b3c4e0775": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T16:21:02+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"7b3c4e0775\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/MDS-Part-I-Retotalling.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Medical College & Hospital Campus, Ner Chowk, N'landi, H.P.) Phone No. 01905-243967 Email: website:\", \"title\": \"Schedule for Retotalling of MDS Part-I held in the month of August ,2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T16:21:02+05:30"
   }
  },
  "auto": {
@@ -270,7 +283,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795690262.9076154
+  ],
   "target_since": {
    "app": 1795589839.0614133
   },
