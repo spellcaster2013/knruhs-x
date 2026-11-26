@@ -1,5 +1,51 @@
 [
   {
+    "title": "MDS MQ 2026-27 - Stray Round-1 College wise Allotments List",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mds",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795854600000,
+    "ref": "",
+    "pdf": "c1dd79cc_610.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261126183935610.pdf",
+      "published": "2026-11-26T18:39:35+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T18:53:47+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/c1dd79cc_610.pdf"
+    }
+  },
+  {
+    "title": "MDS CQ 2026-27 - Stray Round-1 College wise Allotments List",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mds",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795854600000,
+    "ref": "",
+    "pdf": "2c808cf9_627.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261126183935627.pdf",
+      "published": "2026-11-26T18:39:35+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T18:53:35+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/2c808cf9_627.pdf"
+    }
+  },
+  {
     "title": "MD(Ayurveda) Addendum to Final Merit List 2026-27",
     "summary": "List released. Open the PDF and search for your name or roll number.",
     "points": [],
