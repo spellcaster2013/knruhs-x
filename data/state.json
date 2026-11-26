@@ -1429,8 +1429,9 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:25+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1236e1a939\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-FIRST-SEMESTER-EXAMINATIONS-JULY-2026-REGULAR-CANDIDATES.pdf\", \"status\": \"pending\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of BSC nursing first semester examinations july 2026 regular candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:25+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1236e1a939\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T17:30:00+05:30\", \"instagram\": \"2026-11-26T17:30:00+05:30\", \"telegram\": \"2026-11-26T17:30:00+05:30\"}, \"published_at\": \"2026-11-26T17:30:00+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1236e1a939/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1236e1a939/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1236e1a939/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1236e1a939/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/1236e1a939/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-FIRST-SEMESTER-EXAMINATIONS-JULY-2026-REGULAR-CANDIDATES.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of BSC nursing first semester examinations july 2026 regular candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T18:08:59+05:30"
   },
   "d2692c81a9": {
    "status": "new",
@@ -1452,8 +1453,9 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:21+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"d2692c81a9\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-FIRST-SEMESTER-EXAMINATIONS-JULY-2026-BACKLOG-CANDIDATES.pdf\", \"status\": \"pending\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of BSC nursing first semester examinations july 2026 backlog candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:21+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"d2692c81a9\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T17:30:00+05:30\", \"instagram\": \"2026-11-26T17:30:00+05:30\", \"telegram\": \"2026-11-26T17:30:00+05:30\"}, \"published_at\": \"2026-11-26T17:30:00+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/d2692c81a9/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/d2692c81a9/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/d2692c81a9/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/d2692c81a9/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/d2692c81a9/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-BSC-NURSING-FIRST-SEMESTER-EXAMINATIONS-JULY-2026-BACKLOG-CANDIDATES.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of BSC nursing first semester examinations july 2026 backlog candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T18:08:59+05:30"
   },
   "9fdc4078fd": {
    "status": "new",
@@ -1475,8 +1477,9 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:19+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9fdc4078fd\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-MDS-PART-II-EXAMINATIONS-SEPTEMBER-2026-REGULAR-CANDIDATES.pdf\", \"status\": \"pending\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of MDS part II examinations september 2026 regular candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:19+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"9fdc4078fd\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T17:30:00+05:30\", \"instagram\": \"2026-11-26T17:30:00+05:30\", \"telegram\": \"2026-11-26T17:30:00+05:30\"}, \"published_at\": \"2026-11-26T17:30:00+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9fdc4078fd/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9fdc4078fd/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9fdc4078fd/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9fdc4078fd/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/9fdc4078fd/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-MDS-PART-II-EXAMINATIONS-SEPTEMBER-2026-REGULAR-CANDIDATES.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of MDS part II examinations september 2026 regular candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T18:08:59+05:30"
   },
   "b3718a3960": {
    "status": "new",
@@ -1498,18 +1501,73 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:16+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b3718a3960\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-MDS-PART-II-EXAMINATIONS-SEPTEMBER-2026-BACKLOG-CANDIDATES.pdf\", \"status\": \"pending\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of MDS part II examinations september 2026 backlog candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T16:31:16+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"b3718a3960\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T17:30:00+05:30\", \"instagram\": \"2026-11-26T17:30:00+05:30\", \"telegram\": \"2026-11-26T17:30:00+05:30\"}, \"published_at\": \"2026-11-26T17:30:00+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b3718a3960/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b3718a3960/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b3718a3960/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/b3718a3960/slide-4.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-MDS-PART-II-EXAMINATIONS-SEPTEMBER-2026-BACKLOG-CANDIDATES.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Examinations results of MDS part II examinations september 2026 backlog candidates\", \"type\": \"result\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T18:08:59+05:30"
   },
   "68506f18a3": {
    "status": "new",
-   "posted": {},
-   "errors": {}
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      276,
+      277,
+      278,
+      279,
+      280
+     ],
+     "at": "2026-11-26T18:07:47+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122106113811554374",
+     "at": "2026-11-26T18:08:03+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18139032427570058",
+     "at": "2026-11-26T18:08:59+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.99, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T17:46:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"68506f18a3\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T18:08:03+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-26T18:07:47+05:30\"}, \"published_at\": \"2026-11-26T18:07:47+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/CQ-College_Wise_P5.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"UG ayush admissions under competent authority quota for the A.Y. 2026-27 -college wise allotment list in special stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T18:08:59+05:30"
   },
   "73eeb2d1d9": {
    "status": "new",
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      272,
+      273,
+      274,
+      275
+     ],
+     "at": "2026-11-26T18:06:35+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122106112677554374",
+     "at": "2026-11-26T18:06:48+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18228320464354217",
+     "at": "2026-11-26T18:07:43+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T17:46:56+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"73eeb2d1d9\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T18:06:48+05:30\", \"instagram\": \"2026-11-26T18:07:43+05:30\", \"telegram\": \"2026-11-26T18:06:35+05:30\"}, \"published_at\": \"2026-11-26T18:06:35+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/73eeb2d1d9/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/73eeb2d1d9/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/73eeb2d1d9/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/73eeb2d1d9/slide-4.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG-MQ-College_Wise_P4.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"BHMS course admissions under management quota for the academic year 2026-27-college wise allotments in stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T18:08:59+05:30"
+  },
+  "60b7634131": {
+   "status": "new",
    "posted": {},
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.99, \"deadline\": 1795890540000, \"detected_at\": \"2026-11-26T18:06:24+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"60b7634131\", \"points\": [\"G.O.Ms.No. 151 Dated:13.10.2026, Health Medical and Family Welfare Dept.\", \"Provisional and final merit list will be notified after scrutiny of all original certificates uploaded at the time of online registration.\", \"Note: If any new college/Institution is permitted for above courses, the same will be considered for admissions.\", \"No fresh registrations shall be done or notifications will be issued.\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/AHS-BPT-AND-MLT-ADMISSIONS-NOTIFICATION-2026-27-REVISED-NOTIFICATION.pdf\", \"status\": \"pending\", \"stream\": \"allied\", \"summary\": \"ALLIED HEALTH SCIENCES COURSES UNDER COMPETENT AUTHORITY QUOTA FOR THE ACADEMIC YEAR 2026-27 Applications through online are invited from eligible candidates for admission into the BPT, B.Sc. (MLS) and B.Sc. Allied Health Sciences courses for the academic year 2026-27 under Competent Authority\\u2026\", \"title\": \"Admissions into BPT, BSC MLT and BSC allied and health sciences courses under competent authority quota for the academic year 2026-27 - revised notifi\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true
   }
  },
  "auto": {
@@ -1523,7 +1581,10 @@
    "facebook",
    "instagram"
   ],
-  "log": [],
+  "log": [
+   1795696588.1711414,
+   1795696663.4293196
+  ],
   "all": true,
   "target_since": {
    "telegram": 0,
