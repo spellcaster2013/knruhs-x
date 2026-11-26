@@ -530,7 +530,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1796027400000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"a3c0378444\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126161906927.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (In-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1796027400000, \"detected_at\": \"2026-11-26T16:37:47+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"a3c0378444\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T16:37:47+05:30\"}, \"published_at\": \"2026-11-26T16:37:47+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126161906927.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (In-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T16:37:47+05:30"
   },
   "1dd1928528": {
@@ -543,7 +543,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1796027400000, \"detected_at\": \"2026-11-26T16:37:28+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1dd1928528\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126161906943.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (Non-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1796027400000, \"detected_at\": \"2026-11-26T16:37:28+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1dd1928528\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T16:37:47+05:30\"}, \"published_at\": \"2026-11-26T16:37:47+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126161906943.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (Non-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T16:37:47+05:30"
   },
   "f1e4251849": {
@@ -555,7 +555,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.74, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:33:09+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f1e4251849\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:33:09+05:30\"}, \"published_at\": \"2026-11-26T17:33:09+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126163609497.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Ayurveda) Addendum to Final Merit List 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T18:09:32+05:30"
   },
   "89674b74a0": {
    "status": "new",
@@ -566,7 +568,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T17:33:07+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"89674b74a0\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:33:09+05:30\"}, \"published_at\": \"2026-11-26T17:33:09+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126165813830.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"BDS-2026-27-MQ- College WiseAllotments under Special Stray Round-2\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T18:09:32+05:30"
   }
  },
  "auto": {

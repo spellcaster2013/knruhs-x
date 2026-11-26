@@ -282,7 +282,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.8, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:35:56+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3d7a5e8489\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:35:56+05:30\"}, \"published_at\": \"2026-11-26T17:35:56+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Provisional-seat-vacancy-for-allied-and-Healthcare-and-B.pharmacy-ayurved-2026.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Provisional seat vacancy for allied and Healthcare and B.pharmacy ayurved 2026\", \"title\": \"Provisional seat vacancy for allied and Healthcare and B.pharmacy ayurved 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T18:20:29+05:30"
   },
   "62d9055e60": {
    "status": "new",
@@ -293,7 +295,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:35:54+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"62d9055e60\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:35:56+05:30\"}, \"published_at\": \"2026-11-26T17:35:56+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Provisional-seat-vacancy-for-allied-and-healthcare-college-hamirpur-2026.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Provisional seat vacancy for allied and healthcare college hamirpur 2026\", \"title\": \"Provisional seat vacancy for allied and healthcare college hamirpur 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T18:20:29+05:30"
   },
   "bf988c8029": {
    "status": "new",
@@ -304,7 +308,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:35:52+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"bf988c8029\", \"points\": [\"Dated:26.11.2026 &oCopy to: 1. 2. 3. 4.\", \"Note 2: For All India Quota (AIQ) seats, candidates are advised to visit the official MCC website.\"], \"posted\": {\"app\": \"2026-11-26T17:35:56+05:30\"}, \"published_at\": \"2026-11-26T17:35:56+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Revised-seat-matix-for-PG-MD-MS-for-increased-seats-2026-1.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Website:- amruhp.ac.in, Email: Phone No. 01905-243967 Notice Revised State Quota Seat matrix for Post MBBS DNB and increased PG MD/MS/DNB Seats for Counselling 2026 (on 26.11.2026) Note 1: The seat matrix given below is tentative.\", \"title\": \"Revised seat matix for PG MD MS for increased seats 2026 1\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T18:20:29+05:30"
   },
   "250c545df6": {
    "status": "new",
@@ -315,7 +321,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.88, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:35:49+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"250c545df6\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:35:56+05:30\"}, \"published_at\": \"2026-11-26T17:35:56+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Schedule-for-BAMS-BHMS-2nd-Stray-round-Counselling-2026.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"AMRU/(COE)-Admission-131/2026-27(BAMS/BHMS)-7481 Dated: 26.11.2026 Copy forwarded to the following for information: 1. The Director, Medical Education & Research, H.\", \"title\": \"Schedule for BAMS BHMS 2nd Stray round Counselling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T18:20:29+05:30"
   },
   "bc732bfb6d": {
    "status": "new",
@@ -326,7 +334,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.97, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:35:47+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"bc732bfb6d\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:35:56+05:30\"}, \"published_at\": \"2026-11-26T17:35:56+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Seat-vacancy-for-BAMS-BHMS-2nd-Stray-Round-2026.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Seat vacancy for BAMS BHMS 2nd Stray Round 2026\", \"title\": \"Seat vacancy for BAMS BHMS 2nd Stray Round 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T18:20:29+05:30"
   },
   "0067ee1d8d": {
    "status": "new",
@@ -337,7 +347,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:50:20+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0067ee1d8d\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:50:20+05:30\"}, \"published_at\": \"2026-11-26T17:50:20+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Merit-list-of-MD-MS-Ayu.-1st-Round-Counselling-2026-27-me.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Merit list of MD MS Ayu. 1st Round Counselling 2026 27 me\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T18:20:29+05:30"
   }
  },
  "auto": {
