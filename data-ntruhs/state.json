@@ -517,7 +517,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.93, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"bb73174052\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126143536860.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Hence, the options for the said courses shall not be processed in the following Universities. The Apollo University, Chittoor Bachelor of Critical Care Technology - CCT 2.\", \"title\": \"Allied and Healthcare Courses 2026-27 - Notice regarding Phase-I Web Counselling\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.93, \"deadline\": 0, \"detected_at\": \"2026-11-26T14:48:02+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"bb73174052\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T14:48:02+05:30\"}, \"published_at\": \"2026-11-26T14:48:02+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126143536860.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Hence, the options for the said courses shall not be processed in the following Universities. The Apollo University, Chittoor Bachelor of Critical Care Technology - CCT 2.\", \"title\": \"Allied and Healthcare Courses 2026-27 - Notice regarding Phase-I Web Counselling\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T14:48:02+05:30"
   }
  },
