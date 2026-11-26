@@ -1,5 +1,30 @@
 [
   {
+    "title": "MBBS 2nd Prof result, ND-26 session (notification 3)",
+    "summary": "MBBS 2nd Prof result, ND-26 session (notification 3)",
+    "points": [],
+    "stream": "mbbs",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "",
+    "pages": 0,
+    "meta": {
+      "source_url": "https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5031",
+      "published": "2026-11-26T12:00:00+05:30",
+      "confidence": 1.0,
+      "flags": [
+        "link-only"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T17:34:50+05:30",
+      "status": "needs-review",
+      "pdf_path": ""
+    }
+  },
+  {
     "title": "Theory Examination Centers of BAOTT and DAOTT for session May-June 2026",
     "summary": "Theory Examination Centers of BAOTT and DAOTT for session May-June 2026",
     "points": [],

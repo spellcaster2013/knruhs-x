@@ -545,6 +545,28 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1796027400000, \"detected_at\": \"2026-11-26T16:37:28+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1dd1928528\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126161906943.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (Non-service)\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T16:37:47+05:30"
+  },
+  "f1e4251849": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T17:33:09+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
+  },
+  "89674b74a0": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T17:33:09+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {}
   }
  },
  "auto": {
@@ -558,7 +580,9 @@
   ],
   "log": [
    1795691267.7419996,
-   1795691267.7441914
+   1795691267.7441914,
+   1795694589.6072786,
+   1795694589.6087158
   ],
   "target_since": {
    "app": 1795534573.20719

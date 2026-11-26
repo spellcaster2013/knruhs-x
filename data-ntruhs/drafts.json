@@ -1,5 +1,51 @@
 [
   {
+    "title": "MD(Ayurveda) Addendum to Final Merit List 2026-27",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "ayush",
+    "type": "counselling",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "d78797a0_497.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261126163609497.pdf",
+      "published": "2026-11-26T16:36:09+05:30",
+      "confidence": 0.74,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T17:33:09+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/d78797a0_497.pdf"
+    }
+  },
+  {
+    "title": "BDS-2026-27-MQ- College WiseAllotments under Special Stray Round-2",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "bds",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795861800000,
+    "ref": "",
+    "pdf": "55034781_830.pdf",
+    "pages": 3,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261126165813830.pdf",
+      "published": "2026-11-26T16:58:13+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-26T17:33:07+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/55034781_830.pdf"
+    }
+  },
+  {
     "title": "PG (Medical) CQ 2026-27 - Phase-II College Wise Final Allotments List (In-service)",
     "summary": "List released. Open the PDF and search for your name or roll number.",
     "points": [],
