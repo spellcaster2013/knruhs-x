@@ -1531,7 +1531,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.99, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T17:46:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"68506f18a3\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T18:08:03+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-26T18:07:47+05:30\"}, \"published_at\": \"2026-11-26T18:07:47+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/CQ-College_Wise_P5.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"UG ayush admissions under competent authority quota for the A.Y. 2026-27 -college wise allotment list in special stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"action\": null, \"confidence\": 0.99, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T17:46:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"68506f18a3\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T18:08:03+05:30\", \"instagram\": \"2026-11-26T18:08:59+05:30\", \"telegram\": \"2026-11-26T18:07:47+05:30\"}, \"published_at\": \"2026-11-26T18:07:47+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/68506f18a3/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/CQ-College_Wise_P5.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"UG ayush admissions under competent authority quota for the A.Y. 2026-27 -college wise allotment list in special stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T18:08:59+05:30"
   },
   "73eeb2d1d9": {
@@ -1564,10 +1564,34 @@
   },
   "60b7634131": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      281,
+      282,
+      283,
+      284,
+      285,
+      286
+     ],
+     "at": "2026-11-26T18:23:09+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122106124203554374",
+     "at": "2026-11-26T18:23:22+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "17965314504256552",
+     "at": "2026-11-26T18:24:26+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.99, \"deadline\": 1795890540000, \"detected_at\": \"2026-11-26T18:06:24+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"60b7634131\", \"points\": [\"G.O.Ms.No. 151 Dated:13.10.2026, Health Medical and Family Welfare Dept.\", \"Provisional and final merit list will be notified after scrutiny of all original certificates uploaded at the time of online registration.\", \"Note: If any new college/Institution is permitted for above courses, the same will be considered for admissions.\", \"No fresh registrations shall be done or notifications will be issued.\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/AHS-BPT-AND-MLT-ADMISSIONS-NOTIFICATION-2026-27-REVISED-NOTIFICATION.pdf\", \"status\": \"pending\", \"stream\": \"allied\", \"summary\": \"ALLIED HEALTH SCIENCES COURSES UNDER COMPETENT AUTHORITY QUOTA FOR THE ACADEMIC YEAR 2026-27 Applications through online are invited from eligible candidates for admission into the BPT, B.Sc. (MLS) and B.Sc. Allied Health Sciences courses for the academic year 2026-27 under Competent Authority\\u2026\", \"title\": \"Admissions into BPT, BSC MLT and BSC allied and health sciences courses under competent authority quota for the academic year 2026-27 - revised notifi\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.99, \"deadline\": 1795890540000, \"detected_at\": \"2026-11-26T18:06:24+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"60b7634131\", \"points\": [\"G.O.Ms.No. 151 Dated:13.10.2026, Health Medical and Family Welfare Dept.\", \"Provisional and final merit list will be notified after scrutiny of all original certificates uploaded at the time of online registration.\", \"Note: If any new college/Institution is permitted for above courses, the same will be considered for admissions.\", \"No fresh registrations shall be done or notifications will be issued.\"], \"posted\": {\"facebook\": \"2026-11-26T18:23:22+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-26T18:23:09+05:30\"}, \"published_at\": \"2026-11-26T18:23:09+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/60b7634131/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/60b7634131/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/60b7634131/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/60b7634131/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/60b7634131/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/60b7634131/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/AHS-BPT-AND-MLT-ADMISSIONS-NOTIFICATION-2026-27-REVISED-NOTIFICATION.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"ALLIED HEALTH SCIENCES COURSES UNDER COMPETENT AUTHORITY QUOTA FOR THE ACADEMIC YEAR 2026-27 Applications through online are invited from eligible candidates for admission into the BPT, B.Sc. (MLS) and B.Sc. Allied Health Sciences courses for the academic year 2026-27 under Competent Authority\\u2026\", \"title\": \"Admissions into BPT, BSC MLT and BSC allied and health sciences courses under competent authority quota for the academic year 2026-27 - revised notifi\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T18:24:26+05:30"
   }
  },
  "auto": {
@@ -1583,7 +1607,8 @@
   ],
   "log": [
    1795696588.1711414,
-   1795696663.4293196
+   1795696663.4293196,
+   1795697585.114769
   ],
   "all": true,
   "target_since": {
