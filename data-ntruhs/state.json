@@ -506,6 +506,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795692600000, \"detected_at\": \"2026-11-25T20:02:53+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"d751223f78\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T20:03:10+05:30\"}, \"published_at\": \"2026-11-25T20:03:10+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261125194651210.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"UG AYUSH Courses 2026-27 - MQ - Stray Vacancy Round College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "skipped-old"
+  },
+  "bb73174052": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T14:48:02+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.93, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"bb73174052\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126143536860.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Hence, the options for the said courses shall not be processed in the following Universities. The Apollo University, Chittoor Bachelor of Critical Care Technology - CCT 2.\", \"title\": \"Allied and Healthcare Courses 2026-27 - Notice regarding Phase-I Web Counselling\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T14:48:02+05:30"
   }
  },
  "auto": {
@@ -517,7 +530,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795684682.4371812
+  ],
   "target_since": {
    "app": 1795534573.20719
   },

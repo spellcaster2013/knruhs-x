@@ -298,6 +298,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-26T11:49:50+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"2cfe4e8e13\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T11:49:50+05:30\"}, \"published_at\": \"2026-11-26T11:49:50+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/261126gnmrechecking.PDF\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Rechecking result of GNM Final year July, 2026\", \"type\": \"result\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-26T13:35:35+05:30"
+  },
+  "458be46ae1": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T14:50:14+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.72, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"458be46ae1\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/261126mscnsgannual.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Fwd: result gazette of M.SC. nursing final (annual) EXAM. DEC.-2025\", \"type\": \"result\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T14:50:14+05:30"
   }
  },
  "auto": {
@@ -309,7 +322,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795684814.793823
+  ],
   "target_since": {
    "app": 1795588683.4377007
   },
