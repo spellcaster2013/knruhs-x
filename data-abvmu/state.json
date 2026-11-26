@@ -166,8 +166,47 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"74321d1d17\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://abvmuup.edu.in/downloads/21104.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Fee Notice Regarding MBBS prof. part-I (Main Ex. Exam) Batch 2023-242022-23 & 2021-22\", \"title\": \"Fee Notice Regarding MBBS prof. part-I (Main Ex. Exam) Batch 2023-242022-23 & 2021-22\", \"type\": \"exam\", \"university\": \"abvmu\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-26T13:34:04+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"74321d1d17\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T13:34:04+05:30\"}, \"published_at\": \"2026-11-26T13:34:04+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://abvmuup.edu.in/downloads/21104.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Fee Notice Regarding MBBS prof. part-I (Main Ex. Exam) Batch 2023-242022-23 & 2021-22\", \"title\": \"Fee Notice Regarding MBBS prof. part-I (Main Ex. Exam) Batch 2023-242022-23 & 2021-22\", \"type\": \"exam\", \"university\": \"abvmu\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-26T13:34:04+05:30"
+  },
+  "10132a1d9b": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T13:51:34+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"10132a1d9b\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://abvmuup.edu.in/downloads/21101.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Fee Notice Regarding MBBS Prof. (Supplementary Exam) Batch 2024-25, 2023-24,2022-23 & 2021-22\", \"title\": \"Fee Notice Regarding MBBS Prof. (Supplementary Exam) Batch 2024-25, 2023-24,2022-23 & 2021-22\", \"type\": \"exam\", \"university\": \"abvmu\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:51:34+05:30"
+  },
+  "bed00c16b3": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T13:51:34+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"bed00c16b3\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://abvmuup.edu.in/downloads/21102.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Fee Notice Regarding MBBS 2nd Prof. (Main EX Exam) Batch 2024-25, 2023-242022-23 & 2021-22\", \"title\": \"Fee Notice Regarding MBBS 2nd Prof. (Main EX Exam) Batch 2024-25, 2023-242022-23 & 2021-22\", \"type\": \"exam\", \"university\": \"abvmu\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:51:34+05:30"
+  },
+  "1b0ca1051f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T13:51:34+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"1b0ca1051f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://abvmuup.edu.in/downloads/21103.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Fee Notice Regarding MBBS 3\\\" Prof. Part-I (Supplementary Exam) Batch 2023-24.2022-23 & 2021-22\", \"title\": \"Fee Notice Regarding MBBS 3\\\" Prof. Part-I (Supplementary Exam) Batch 2023-24.2022-23 & 2021-22\", \"type\": \"exam\", \"university\": \"abvmu\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:51:34+05:30"
   }
  },
  "auto": {
@@ -180,7 +219,10 @@
    "app"
   ],
   "log": [
-   1795680244.277258
+   1795680244.277258,
+   1795681294.5076745,
+   1795681294.5087688,
+   1795681294.5099335
   ],
   "target_since": {
    "app": 1795585000.6786623

@@ -1321,24 +1321,93 @@
   },
   "df2de787b2": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      218,
+      219,
+      220,
+      221,
+      222
+     ],
+     "at": "2026-11-26T13:49:44+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105916141554374",
+     "at": "2026-11-26T13:49:54+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18453592876133868",
+     "at": "2026-11-26T13:50:35+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T13:31:19+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"df2de787b2\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"bds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"BDS admissions under competent authority quota for the AY 2026-27 - college wise allotments in additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T13:31:19+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"df2de787b2\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T13:49:54+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-26T13:49:44+05:30\"}, \"published_at\": \"2026-11-26T13:49:44+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df2de787b2/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df2de787b2/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df2de787b2/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df2de787b2/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/df2de787b2/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"BDS admissions under competent authority quota for the AY 2026-27 - college wise allotments in additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T13:50:35+05:30"
   },
   "6f83de07a5": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      213,
+      214,
+      215,
+      216,
+      217
+     ],
+     "at": "2026-11-26T13:48:41+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105915409554374",
+     "at": "2026-11-26T13:48:52+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18649115215027855",
+     "at": "2026-11-26T13:49:42+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T13:31:16+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6f83de07a5\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"bds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"BDS admissions under management quota for the AY 2026-27 - college wise allotments in additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T13:31:16+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6f83de07a5\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T13:48:52+05:30\", \"instagram\": \"2026-11-26T13:49:42+05:30\", \"telegram\": \"2026-11-26T13:48:41+05:30\"}, \"published_at\": \"2026-11-26T13:48:41+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6f83de07a5/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6f83de07a5/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6f83de07a5/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6f83de07a5/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/6f83de07a5/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-BDS-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-ADDITIONAL-SPECIAL-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"BDS admissions under management quota for the AY 2026-27 - college wise allotments in additional special stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T13:50:35+05:30"
   },
   "dc08fefd23": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      208,
+      209,
+      210,
+      211,
+      212
+     ],
+     "at": "2026-11-26T13:47:34+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122105914593554374",
+     "at": "2026-11-26T13:47:46+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18025337678943087",
+     "at": "2026-11-26T13:48:38+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.97, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T13:31:13+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"dc08fefd23\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - college wise allotments in stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.97, \"deadline\": 1795861800000, \"detected_at\": \"2026-11-26T13:31:13+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"dc08fefd23\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-26T13:47:46+05:30\", \"instagram\": \"2026-11-26T13:48:38+05:30\", \"telegram\": \"2026-11-26T13:47:34+05:30\"}, \"published_at\": \"2026-11-26T13:47:34+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/dc08fefd23/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/dc08fefd23/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/dc08fefd23/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/dc08fefd23/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/dc08fefd23/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MDS-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-ALLOTMENTS-IN-STRAY-VACANCY-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MDS admissions under competent authority quota for the AY 2026-27 - college wise allotments in stray vacancy phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-26T13:50:35+05:30"
   }
  },
  "auto": {
@@ -1352,7 +1421,11 @@
    "facebook",
    "instagram"
   ],
-  "log": [],
+  "log": [
+   1795681051.8956547,
+   1795681118.9014118,
+   1795681182.3270352
+  ],
   "all": true,
   "target_since": {
    "telegram": 0,
