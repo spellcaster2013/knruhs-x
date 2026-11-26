@@ -230,7 +230,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.96, \"deadline\": 1795692600000, \"detected_at\": \"2026-11-26T11:20:39+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"541c07e73f\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T11:20:39+05:30\"}, \"published_at\": \"2026-11-26T11:20:39+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Choice-filling-date-extend-due-to-technical-issue.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"All concerned candidates are advised to complete their choice filling within the extended deadline Sd/- (Dr. AMRU/(COE)-Admission-129/2026-27 PG (MD/MS7425-7427 Dated:26.11.2026 Copy to: 1.\", \"title\": \"Choice filling date extend due to technical issue\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T13:36:18+05:30"
   },
   "0496ceffe0": {
    "status": "new",
@@ -241,7 +243,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.77, \"deadline\": 0, \"detected_at\": \"2026-11-26T11:35:39+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0496ceffe0\", \"points\": [\"Those Candidates reporting upto 02:00 will be allotted seats as per combined merit of Combined Entrance Test for Allied and Healthcare college,\\u2026\", \"Note: Candidates will be required to show the original documents and deposit full admission fee on the spot. (Facility for online Payment will be\\u2026\"], \"posted\": {\"app\": \"2026-11-26T11:35:39+05:30\"}, \"published_at\": \"2026-11-26T11:35:39+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Notice-for-allied-and-healthcare-hamirpur-regarding-stray-round-counselling-2026.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"The latest vacancy status will be uploaded on the University's website. All interested candidates who fulfill the eligibility criteria laid down in the prospectus issued by this university are directed to attend stray round counseling with their original documents (as per prospectus).\", \"title\": \"Notice for allied and healthcare hamirpur regarding stray round counselling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:36:18+05:30"
   }
  },
  "auto": {

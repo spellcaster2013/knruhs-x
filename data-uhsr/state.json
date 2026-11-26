@@ -230,7 +230,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.72, \"deadline\": 0, \"detected_at\": \"2026-11-25T19:49:43+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"f558a8ae24\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T19:49:43+05:30\"}, \"published_at\": \"2026-11-25T19:49:43+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/251126mscnsgfinal.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result gazette of M.SC. nursing final year (annual) EXAM. DEC.-2025\", \"type\": \"result\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "skipped-old"
   },
   "bf0fc5f945": {
    "status": "new",
@@ -241,7 +243,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.89, \"deadline\": 0, \"detected_at\": \"2026-11-26T09:19:44+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"bf0fc5f945\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T09:19:44+05:30\"}, \"published_at\": \"2026-11-26T09:19:44+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/261126mdsallotment.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Merit List cum Provisional Allotment of seats of the Candidates who have applied for MDS in Govt. and Private Dental Colleges in the State of Haryana,\", \"type\": \"counselling\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:35:35+05:30"
   },
   "e2c0b6118c": {
    "status": "new",
@@ -252,7 +256,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.73, \"deadline\": 0, \"detected_at\": \"2026-11-26T09:19:42+05:30\", \"errors\": {}, \"flags\": [\"deadline-words-but-no-date\"], \"id\": \"e2c0b6118c\", \"points\": [\"UHSR/Acad./A-IV/2026/Spl-4 & Spl-3 dated 10.09.2026 regarding document verification.\", \"Last date of reporting in the allotted institutes is 16.11.2026 upto 04:00PM.\", \"It is informed that the aspiring candidates should regularly visit the website of Pt.\"], \"posted\": {\"app\": \"2026-11-26T09:19:44+05:30\"}, \"published_at\": \"2026-11-26T09:19:44+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/261126pnoticemds.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"UHSR/Acad/A-IV/ 2026/ 11056 Dated: 25.11.2026 PUBLIC NOTICE FOR STRAY ROUND (MDS COURSES) Courses Date / Reporting Time Venue of Physical Document Verification 1 All MDS courses candidates 27.11.2026 (11.00AM to 12:00 Noon)\", \"title\": \"Public notice for stray round (MDS courses) physical documents verfication\", \"type\": \"counselling\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T13:35:35+05:30"
   },
   "2e4c42661a": {
    "status": "new",
@@ -263,7 +269,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.7, \"deadline\": 1796034600000, \"detected_at\": \"2026-11-26T09:19:42+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"2e4c42661a\", \"points\": [\"Dates 1 Online deposition of Provisional tuition fee through admission web portal only 25.11.2026 to 27.11.2026 Upto 08:00 PM 2 Physical Document\\u2026\", \"UHSR/Acad./A-IV/2026/10305 & 10306 dated 05.11.2026 regarding document verification.\", \"All following group of candidates who have participated in Round\\u20132 should appear before admission committee for document verification:- \\u2022\\u2026\", \"Note:- The candidates with no change/not upgraded(College/Course/Category) of seats in Round-2 does not need to appear before the admission commitee.\"], \"posted\": {\"app\": \"2026-11-26T09:19:44+05:30\"}, \"published_at\": \"2026-11-26T09:19:44+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/261126revisedround2.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"UHSR/Acad/A-IV/ 2026/ 11055 Dated: 25.11.2026 REVISED PUBLIC NOTICE FOR ROUND \\u2013 2 (MD/MS/DNB/DIPLOMA COURSES) Counseling Schedule (MD/MS/DNB/Diploma courses Round-2)\", \"title\": \"Revised public notice for round \\u2013 2 (md/ms/dnb/diploma courses)\", \"type\": \"admission\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T13:35:35+05:30"
   },
   "1949cbfbcd": {
    "status": "new",
@@ -274,7 +282,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.88, \"deadline\": 1795865400000, \"detected_at\": \"2026-11-26T10:19:46+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1949cbfbcd\", \"points\": [\"UHSR/Acad./A-IV/2026/Spl-4 & Spl-3 dated 10.09.2026 regarding document verification.\", \"Last date of reporting in the allotted institutes is 28.11.2026 upto 05:00PM.\", \"It is informed that the aspiring candidates should regularly visit the website of Pt.\"], \"posted\": {\"app\": \"2026-11-26T10:19:46+05:30\"}, \"published_at\": \"2026-11-26T10:19:46+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/261126pnoticedv.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"UHSR/Acad/A-IV/ 2026/ 11056 Dated: 25.11.2026 PUBLIC NOTICE FOR STRAY ROUND (MDS COURSES) Courses Date / Reporting Time Venue of Physical Document Verification 1 All MDS courses candidates 27.11.2026 (11.00AM to 12:00 Noon)\", \"title\": \"Public notice for stray round (MDS courses) physical documents verfication\", \"type\": \"counselling\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T13:35:35+05:30"
   },
   "2cfe4e8e13": {
    "status": "new",
@@ -285,7 +295,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-26T11:49:50+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"2cfe4e8e13\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T11:49:50+05:30\"}, \"published_at\": \"2026-11-26T11:49:50+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/261126gnmrechecking.PDF\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Rechecking result of GNM Final year July, 2026\", \"type\": \"result\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:35:35+05:30"
   }
  },
  "auto": {

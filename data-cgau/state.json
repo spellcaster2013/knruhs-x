@@ -243,7 +243,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:56:27+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5343ac0441\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:56:27+05:30\"}, \"published_at\": \"2026-11-25T17:56:27+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795608586_qrsRdnQp.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.D.S. Part-II Examination Oct-2026 (04 Subjects)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "skipped-old"
   }
  },
  "auto": {

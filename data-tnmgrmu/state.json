@@ -94,7 +94,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-26T11:48:18+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1f09f2c6f2\", \"points\": [\"Course Fee : Rs.3,000/- (Rupees Three thousand only) + along with 18% GST .\", \"Fee for Reassessment (Failure Candidate can apply at every end on the 6th week) : Rs.1,000/- (Rupees One thousand only) + along with 18% GST .\", \"The Examination will be conducted after completion of all modules.\", \"All columns in the application must be filled-up legibly and signed only by the candidate. 2.\"], \"posted\": {\"app\": \"2026-11-26T11:48:18+05:30\"}, \"published_at\": \"2026-11-26T11:48:18+05:30\", \"published_day\": \"13 Jul 2026\", \"slides\": [], \"source_url\": \"https://www.tnmgrmu.ac.in/wp-content/uploads/2026/07/Application-2026-DigitalHealthPLEX.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical University is proud to invite applications from the aspiring eligible / interested candidates to be admitted into \\u201cOnline Certificate Course on DIGITAL HEALTH\\u201d. This Online Certificate Course is the first of such online training programme on this topic in this University.\", \"title\": \"Online Certificate Course on Digital Health and Online Certificate Course in Plasma Exchange in Rodenticide Poisoning\", \"type\": \"circular\", \"university\": \"tnmgrmu\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:33:56+05:30"
   }
  },
  "auto": {

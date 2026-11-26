@@ -256,7 +256,9 @@
      "by": "auto"
     }
    },
-   "errors": {}
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-26T10:34:32+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"83e7be1f0c\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T10:34:32+05:30\"}, \"published_at\": \"2026-11-26T10:34:32+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/exam-date-sheet/#bfuhs_datesheet-3759\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Theory Examination Centers of BAOTT and DAOTT for session May-June 2026\", \"title\": \"Theory Examination Centers of BAOTT and DAOTT for session May-June 2026\", \"type\": \"exam\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:35:13+05:30"
   }
  },
  "auto": {

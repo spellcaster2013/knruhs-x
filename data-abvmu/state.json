@@ -155,6 +155,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T11:09:21+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"19c0442b47\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T11:09:21+05:30\"}, \"published_at\": \"2026-11-25T11:09:21+05:30\", \"published_day\": \"21 Nov 2026\", \"slides\": [], \"source_url\": \"https://abvmuup.edu.in/downloads/Letter No-4017.pdf\", \"status\": \"published\", \"stream\": \"general\", \"summary\": \"\\u0909\\u0924\\u094d\\u0924\\u0930 \\u092a\\u094d\\u0930\\u0926\\u0947\\u0936 \\u092e\\u0947\\u0902 \\u090f\\u0928\\u090f\\u0938\\u090f\\u0938 \\u0915\\u093e \\u0928\\u092f\\u093e \\u0935\\u093f\\u0938\\u094d\\u0924\\u093e\\u0930 :\\u092e\\u0947\\u0921\\u093f\\u0915\\u0932 \\u092f\\u0941\\u0935\\u093e \\u0935\\u093f\\u0926\\u094d\\u092f\\u093e\\u0930\\u094d\\u0925\\u093f\\u092f\\u094b\\u0902 \\u0915\\u094b \\u092d\\u0940 \\u092e\\u093f\\u0932\\u0947\\u0917\\u093e \\u0930\\u093e\\u0937\\u094d\\u091f\\u094d\\u0930\\u0938\\u0947\\u0935\\u093e \\u0915\\u093e \\u092e\\u0902\\u091a\\u0964\", \"title\": \"\\u0909\\u0924\\u094d\\u0924\\u0930 \\u092a\\u094d\\u0930\\u0926\\u0947\\u0936 \\u092e\\u0947\\u0902 \\u090f\\u0928\\u090f\\u0938\\u090f\\u0938 \\u0915\\u093e \\u0928\\u092f\\u093e \\u0935\\u093f\\u0938\\u094d\\u0924\\u093e\\u0930 :\\u092e\\u0947\\u0921\\u093f\\u0915\\u0932 \\u092f\\u0941\\u0935\\u093e \\u0935\\u093f\\u0926\\u094d\\u092f\\u093e\\u0930\\u094d\\u0925\\u093f\\u092f\\u094b\\u0902 \\u0915\\u094b \\u092d\\u0940 \\u092e\\u093f\\u0932\\u0947\\u0917\\u093e \\u0930\\u093e\\u0937\\u094d\\u091f\\u094d\\u0930\\u0938\\u0947\\u0935\\u093e \\u0915\\u093e \\u092e\\u0902\\u091a\\u0964\", \"type\": \"circular\", \"university\": \"abvmu\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T11:09:21+05:30"
+  },
+  "74321d1d17": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T13:34:04+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"74321d1d17\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://abvmuup.edu.in/downloads/21104.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Fee Notice Regarding MBBS prof. part-I (Main Ex. Exam) Batch 2023-242022-23 & 2021-22\", \"title\": \"Fee Notice Regarding MBBS prof. part-I (Main Ex. Exam) Batch 2023-242022-23 & 2021-22\", \"type\": \"exam\", \"university\": \"abvmu\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-26T13:34:04+05:30"
   }
  },
  "auto": {
@@ -166,7 +179,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795680244.277258
+  ],
   "target_since": {
    "app": 1795585000.6786623
   },
