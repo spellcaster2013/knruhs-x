@@ -246,6 +246,19 @@
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.77, \"deadline\": 0, \"detected_at\": \"2026-11-26T11:35:39+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0496ceffe0\", \"points\": [\"Those Candidates reporting upto 02:00 will be allotted seats as per combined merit of Combined Entrance Test for Allied and Healthcare college,\\u2026\", \"Note: Candidates will be required to show the original documents and deposit full admission fee on the spot. (Facility for online Payment will be\\u2026\"], \"posted\": {\"app\": \"2026-11-26T11:35:39+05:30\"}, \"published_at\": \"2026-11-26T11:35:39+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Notice-for-allied-and-healthcare-hamirpur-regarding-stray-round-counselling-2026.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"The latest vacancy status will be uploaded on the University's website. All interested candidates who fulfill the eligibility criteria laid down in the prospectus issued by this university are directed to attend stray round counseling with their original documents (as per prospectus).\", \"title\": \"Notice for allied and healthcare hamirpur regarding stray round counselling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-26T13:36:18+05:30"
+  },
+  "7faf426d10": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-26T14:36:15+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"action\": null, \"confidence\": 0.94, \"deadline\": 1795768200000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"7faf426d10\", \"points\": [\"Candidates are required to report at their respective allotted institutes on or before 27.11.2026 (02:00 PM).\", \"Candidates claiming the benefit of any reserved category/quota are required to ensure that all the certificates/documents submitted by them are\\u2026\", \"Candidates are advised to get their certificates/documents updated or prepared in the prescribed format, wherever required, before the\\u2026\", \"In case of any discrepancy, outdated/invalid certificate, or non-submission of the prescribed document, the candidate shall not be entitled to\\u2026\"], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Seat-Allocation-of-MDS-Stray-Round-Counselling-2026_merged.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"AMRU/COE-Admission- 121/2026-27(MDS)-7430 Dated: 26.11.2026 NOTICE Urgent Attention: It is for information to all candidates that the Seat Allocation MDS Stray round counselling based on NEET MDS PG- 2026 is now available.\", \"title\": \"Seat-Allocation-of-MDS-Stray-Round-Counselling-2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-26T14:36:15+05:30"
   }
  },
  "auto": {
@@ -257,7 +270,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795683975.4659986
+  ],
   "target_since": {
    "app": 1795589839.0614133
   },
