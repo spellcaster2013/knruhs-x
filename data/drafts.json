@@ -1,5 +1,51 @@
 [
   {
+    "title": "Examinations results of superspeciality examinations october 2026 regular canidates",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "ss",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "e086d601_Examinations_results_of_superspeciality_examinations_october_2026_regular_canidates.pdf",
+    "pages": 5,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-SUPERSPECIALITY-EXAMINATIONS-OCTOBER-2026-REGULAR-CANIDATES.pdf",
+      "published": "2026-11-27T13:31:17+05:30",
+      "confidence": 0.78,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T13:33:03+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/e086d601_Examinations_results_of_superspeciality_examinations_october_2026_regular_canidates.pdf"
+    }
+  },
+  {
+    "title": "Examinations results of superspeciality examinations october 2026 backlog canidates",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "ss",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "2160eee9_Examinations_results_of_superspeciality_examinations_october_2026_backlog_canidates.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-EXAMINATIONS-RESULTS-OF-SUPERSPECIALITY-EXAMINATIONS-OCTOBER-2026-BACKLOG-CANIDATES.pdf",
+      "published": "2026-11-27T13:31:26+05:30",
+      "confidence": 0.75,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T13:33:01+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/2160eee9_Examinations_results_of_superspeciality_examinations_october_2026_backlog_canidates.pdf"
+    }
+  },
+  {
     "title": "Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling",
     "summary": "Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling",
     "points": [],
