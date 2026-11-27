@@ -1625,32 +1625,7 @@
   },
   "85164f610a": {
    "status": "new",
-   "posted": {
-    "telegram": {
-     "at": "2026-11-27T06:18:59+05:30",
-     "by": "duplicate-guard",
-     "found_on": {
-      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
-      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
-     }
-    },
-    "facebook": {
-     "at": "2026-11-27T06:18:59+05:30",
-     "by": "duplicate-guard",
-     "found_on": {
-      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
-      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
-     }
-    },
-    "instagram": {
-     "at": "2026-11-27T06:18:59+05:30",
-     "by": "duplicate-guard",
-     "found_on": {
-      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
-      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
-     }
-    }
-   },
+   "posted": {},
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T06:02:25+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"85164f610a\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-27T06:18:59+05:30\", \"instagram\": \"2026-11-27T06:18:59+05:30\", \"telegram\": \"2026-11-27T06:18:59+05:30\"}, \"published_at\": \"2026-11-27T06:18:59+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-FIRST-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - list of not reported candidates in first phase of counselling\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - list of not reported candidates in first phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
    "admin_alerted": true,
@@ -1658,32 +1633,7 @@
   },
   "98f9997ac0": {
    "status": "new",
-   "posted": {
-    "telegram": {
-     "at": "2026-11-27T06:18:58+05:30",
-     "by": "duplicate-guard",
-     "found_on": {
-      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
-      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
-     }
-    },
-    "facebook": {
-     "at": "2026-11-27T06:18:58+05:30",
-     "by": "duplicate-guard",
-     "found_on": {
-      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
-      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
-     }
-    },
-    "instagram": {
-     "at": "2026-11-27T06:18:58+05:30",
-     "by": "duplicate-guard",
-     "found_on": {
-      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
-      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
-     }
-    }
-   },
+   "posted": {},
    "errors": {},
    "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T06:02:24+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"98f9997ac0\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-27T06:18:58+05:30\", \"instagram\": \"2026-11-27T06:18:58+05:30\", \"telegram\": \"2026-11-27T06:18:58+05:30\"}, \"published_at\": \"2026-11-27T06:18:58+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
    "admin_alerted": true,
