@@ -205,8 +205,34 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"6ba6f896d9\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-B.-PHARM-1st2nd4th5th6th7th-8th-semester-DECEMBER-2026-JANUARY-2027.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Schedule of B. Pharm 1st,2nd,4th,5th,6th,7th & 8th Semester December, 2026 \\u2013 January, 2027 Examination\", \"title\": \"Schedule of B. Pharm 1st,2nd,4th,5th,6th,7th & 8th Semester December, 2026 \\u2013 January, 2027 Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T12:34:49+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"6ba6f896d9\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T12:34:49+05:30\"}, \"published_at\": \"2026-11-27T12:34:49+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-B.-PHARM-1st2nd4th5th6th7th-8th-semester-DECEMBER-2026-JANUARY-2027.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Schedule of B. Pharm 1st,2nd,4th,5th,6th,7th & 8th Semester December, 2026 \\u2013 January, 2027 Examination\", \"title\": \"Schedule of B. Pharm 1st,2nd,4th,5th,6th,7th & 8th Semester December, 2026 \\u2013 January, 2027 Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T12:34:49+05:30"
+  },
+  "21762bf1f5": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T12:50:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"21762bf1f5\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-4th-BDS-OLD-DECEMBER-2026-JANUARY-2027.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Schedule of 4th BDS (Old Regulation) December, 2026-January, 2027 Examination\", \"title\": \"Schedule of 4th BDS (Old Regulation) December, 2026-January, 2027 Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T12:50:10+05:30"
+  },
+  "324514e5aa": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T12:50:10+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T12:50:08+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"324514e5aa\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/REVISED-Schedule-of-4th-BDS-DECEMBER-2026-JANUARY-2027.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Revised Schedule of 4th BDS December, 2026-January, 2027 Examination\", \"title\": \"Revised Schedule of 4th BDS December, 2026-January, 2027 Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T12:50:10+05:30"
   }
  },
  "auto": {
@@ -219,7 +245,9 @@
    "app"
   ],
   "log": [
-   1795763089.979543
+   1795763089.979543,
+   1795764010.6039782,
+   1795764010.60499
   ],
   "target_since": {
    "app": 1795586684.093776
