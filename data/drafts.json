@@ -1,5 +1,30 @@
 [
   {
+    "title": "PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat",
+    "summary": "PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat",
+    "points": [],
+    "stream": "ayush",
+    "type": "admission",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "53174c10_PWD_Notification.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/PWD-Notification.pdf",
+      "published": "2026-11-27T17:22:51+05:30",
+      "confidence": 1.0,
+      "flags": [
+        "no-text-scanned-pdf"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T17:33:16+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/53174c10_PWD_Notification.pdf"
+    }
+  },
+  {
     "title": "Medical PG degree diploma admissions under management quota for the AY 2026-27 - corrigendum to merit list",
     "summary": "List released. Open the PDF and search for your name or roll number.",
     "points": [],
