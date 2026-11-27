@@ -1625,24 +1625,101 @@
   },
   "85164f610a": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "at": "2026-11-27T06:18:59+05:30",
+     "by": "duplicate-guard",
+     "found_on": {
+      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
+      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
+     }
+    },
+    "facebook": {
+     "at": "2026-11-27T06:18:59+05:30",
+     "by": "duplicate-guard",
+     "found_on": {
+      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
+      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
+     }
+    },
+    "instagram": {
+     "at": "2026-11-27T06:18:59+05:30",
+     "by": "duplicate-guard",
+     "found_on": {
+      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
+      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
+     }
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T06:02:25+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"85164f610a\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-FIRST-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - list of not reported candidates in first phase of counselling\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - list of not reported candidates in first phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T06:02:25+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"85164f610a\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-27T06:18:59+05:30\", \"instagram\": \"2026-11-27T06:18:59+05:30\", \"telegram\": \"2026-11-27T06:18:59+05:30\"}, \"published_at\": \"2026-11-27T06:18:59+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/85164f610a/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-LIST-OF-NOT-REPORTED-CANDIDATES-IN-FIRST-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - list of not reported candidates in first phase of counselling\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - list of not reported candidates in first phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-27T06:19:00+05:30"
   },
   "98f9997ac0": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "at": "2026-11-27T06:18:58+05:30",
+     "by": "duplicate-guard",
+     "found_on": {
+      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
+      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
+     }
+    },
+    "facebook": {
+     "at": "2026-11-27T06:18:58+05:30",
+     "by": "duplicate-guard",
+     "found_on": {
+      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
+      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
+     }
+    },
+    "instagram": {
+     "at": "2026-11-27T06:18:58+05:30",
+     "by": "duplicate-guard",
+     "found_on": {
+      "instagram": "https://www.instagram.com/p/DgObewojZ6l/",
+      "facebook": "https://www.facebook.com/122106086691554374/posts/122106664305554374"
+     }
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T06:02:24+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"98f9997ac0\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T06:02:24+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"98f9997ac0\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-27T06:18:58+05:30\", \"instagram\": \"2026-11-27T06:18:58+05:30\", \"telegram\": \"2026-11-27T06:18:58+05:30\"}, \"published_at\": \"2026-11-27T06:18:58+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/98f9997ac0/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-VACANCIES-FOR-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - vacancies for second phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-27T06:19:00+05:30"
   },
   "4c66b4cb25": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298
+     ],
+     "at": "2026-11-27T06:17:44+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122106664305554374",
+     "at": "2026-11-27T06:17:58+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18143332261628656",
+     "at": "2026-11-27T06:18:57+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795843800000, \"detected_at\": \"2026-11-27T06:02:22+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"4c66b4cb25\", \"points\": [\"All the eligible candidates whose names are displayed in the final merit list & subsequent addendums for PG Medical Degree/ Diploma admissions\\u2026\", \"For eligibility criteria and regulations refer to notifications dated: 22.10.2026.\", \"The candidates who were allotted PG seats in the first phase of counselling and joined the course are eligible to exercise web options and are\\u2026\", \"NOTE: Candidates are informed that they will be considered only to the category / categories to which they have registered.\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"The Candidates who were allotted seats in the first phase of counselling and have not reported/discontinued the course at the respective college are not eligible for exercising web options. Candidates who have not exercised web options in the first phase of counselling are also not eligible to\\u2026\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - notification for exercising web options for second phase of counselli\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
-   "admin_alerted": true
+   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 1795843800000, \"detected_at\": \"2026-11-27T06:02:22+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"4c66b4cb25\", \"points\": [\"All the eligible candidates whose names are displayed in the final merit list & subsequent addendums for PG Medical Degree/ Diploma admissions\\u2026\", \"For eligibility criteria and regulations refer to notifications dated: 22.10.2026.\", \"The candidates who were allotted PG seats in the first phase of counselling and joined the course are eligible to exercise web options and are\\u2026\", \"NOTE: Candidates are informed that they will be considered only to the category / categories to which they have registered.\"], \"posted\": {\"facebook\": \"2026-11-27T06:17:58+05:30\", \"instagram\": \"2026-11-27T06:18:57+05:30\", \"telegram\": \"2026-11-27T06:17:44+05:30\"}, \"published_at\": \"2026-11-27T06:17:44+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4c66b4cb25/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4c66b4cb25/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4c66b4cb25/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4c66b4cb25/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4c66b4cb25/slide-5.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/4c66b4cb25/slide-6.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-EXERCISING-WEB-OPTIONS-FOR-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"The Candidates who were allotted seats in the first phase of counselling and have not reported/discontinued the course at the respective college are not eligible for exercising web options. Candidates who have not exercised web options in the first phase of counselling are also not eligible to\\u2026\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - notification for exercising web options for second phase of counselli\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-27T06:19:00+05:30"
   }
  },
  "auto": {
@@ -1656,7 +1733,11 @@
    "facebook",
    "instagram"
   ],
-  "log": [],
+  "log": [
+   1795740452.6654663,
+   1795740537.6924226,
+   1795740538.368754
+  ],
   "all": true,
   "target_since": {
    "telegram": 0,
