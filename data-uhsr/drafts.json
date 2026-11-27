@@ -1,5 +1,61 @@
 [
   {
+    "title": "Revised roster of MBBS 2023 Batch (04 Students)",
+    "summary": "They are hereby directed to attend MBBS Phase- III (Part I) clinical postings & Small group teaching (as per 2023 curriculum) as per schedule mentioned below :- Clinical postings Existing schedule Revised Schedule Surgery (17.02.2027 to 03.03.2027) Dermatology (17.02.2027 to 03.03.2027)…",
+    "points": [
+      "Ophthalmology (24.05.2027 to 10.06.2027)",
+      "Paediatrics (11.06.2027 to 22.06.2027)",
+      "Small group teaching Existing Schedule Revised schedule Medicine Medicine 27.11.2026 to 01.12.2026 Ophthalmology (24.05.2027 to 22.06.2027)",
+      "Ophthalmology 24.05.2027 to 03.06.2027 Surgery : 04.06.2027 to 12.06.2027 Obst & Gynae : 14.06.2027 to 22.06.2027 Note : Paediatrics Department to…"
+    ],
+    "stream": "mbbs",
+    "type": "circular",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "ac1344b3_roster_2023.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://uhsr.ac.in/sites/default/files/2026-11/roster-2023.pdf",
+      "published": "2026-11-27T14:29:40+05:30",
+      "confidence": 0.44,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T14:35:33+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/ac1344b3_roster_2023.pdf"
+    }
+  },
+  {
+    "title": "Public Notice for Fresh Round-3 for admission to MPT Courses for the Academic Session 2026-27",
+    "summary": "I admissions to MPT Courses in Government and Private Institutions affiliated to Pt. The tentative schedule of counseling is as under:",
+    "points": [
+      "The detailed process explaining the procedure for admission to MPT courses has been notified by the State Government 6HBIV dated 11.09.2026 and…",
+      "Kindly check the public notice No.UHSR/Acad./A-II/2026/8622 dated 16.09.2026 regarding list of documents required at the time of Physical…",
+      "Grievances (if any) on the provisional allocation list (through Admiss & Display of final allocation list after redressal of grievances. 4.",
+      "Deposition of Provisional Tuition Fee Online (through admission web portal only). 5."
+    ],
+    "stream": "allied",
+    "type": "admission",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795951800000,
+    "ref": "",
+    "pdf": "d8a54657_271126mpt3round.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://uhsr.ac.in/sites/default/files/2026-11/271126mpt3round.pdf",
+      "published": "2026-11-27T14:31:33+05:30",
+      "confidence": 0.98,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T14:35:31+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/d8a54657_271126mpt3round.pdf"
+    }
+  },
+  {
     "title": "Public Notice for withdrawn of Round-3 allocation of seats for admission to MPT Course for the Academic Session 2026-27",
     "summary": "Fresh Registration and choice filling for Round-3 is open on the Admission Web Portal f Courses in Government and Private Physiotherapy Institutions affiliated to Pt. Sd/- Dean Academic Affairs Chairman Admission Committee PT.",
     "points": [],
