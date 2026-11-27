@@ -1,5 +1,55 @@
 [
   {
+    "title": "Reassessment Result of B.H.M.S. 2nd Year Examination June-2026 (R.No. 24310002)",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "ayush",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "f0d0b6d0_1795778602_GQheSTYl.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://results.ddumhsaucg.ac.in/storage/files/result/1795778602_GQheSTYl.pdf",
+      "published": "2026-11-27T16:53:22+05:30",
+      "confidence": 0.75,
+      "flags": [
+        "no-text-scanned-pdf"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T17:05:56+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/f0d0b6d0_1795778602_GQheSTYl.pdf"
+    }
+  },
+  {
+    "title": "Result of M.D.S. Part-II Examination Oct-2026 (05 Subjects)",
+    "summary": "Result list released. Open the PDF and search for your register number.",
+    "points": [],
+    "stream": "mds",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "65121d13_1795778739_bGimJfTS.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://results.ddumhsaucg.ac.in/storage/files/result/1795778739_bGimJfTS.pdf",
+      "published": "2026-11-27T16:55:39+05:30",
+      "confidence": 0.75,
+      "flags": [
+        "no-text-scanned-pdf"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T17:05:54+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/65121d13_1795778739_bGimJfTS.pdf"
+    }
+  },
+  {
     "title": "Result of M.D.S. Part-II Examination Oct-2026 (04 Subjects)",
     "summary": "Result list released. Open the PDF and search for your register number.",
     "points": [],

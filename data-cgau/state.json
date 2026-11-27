@@ -246,6 +246,32 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:56:27+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5343ac0441\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:56:27+05:30\"}, \"published_at\": \"2026-11-25T17:56:27+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795608586_qrsRdnQp.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.D.S. Part-II Examination Oct-2026 (04 Subjects)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "skipped-old"
+  },
+  "0808c66a40": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T17:05:56+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"0808c66a40\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795778602_GQheSTYl.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Reassessment Result of B.H.M.S. 2nd Year Examination June-2026 (R.No. 24310002)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T17:05:56+05:30"
+  },
+  "1a64f73f43": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T17:05:56+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T17:05:54+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"1a64f73f43\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795778739_bGimJfTS.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.D.S. Part-II Examination Oct-2026 (05 Subjects)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T17:05:56+05:30"
   }
  },
  "auto": {
@@ -257,7 +283,10 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795779356.6792142,
+   1795779356.680244
+  ],
   "target_since": {
    "app": 1795589751.5500526
   },
