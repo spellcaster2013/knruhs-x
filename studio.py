@@ -362,9 +362,22 @@ def cut_clause(t, limit):
     return head.rstrip(" ,;:-–·(") + "…"
 
 
-def headline(p):
+def headline(p, limit=90):
+    """Short title for posts and slides. When a long title is "<topic> - <the specific notice>" (KNRUHS often puts out
+    several notices with the same topic on one day), lead with the specific part and keep a short topic tag, so the
+    posts are not three identical "Medical PG admissions under MQ 2026-27..." lines."""
     t = clean_title(p.get("title"), p.get("deadline"), p.get("published_day"))
-    return cut_clause(t, 90)
+    if len(t) <= limit or " - " not in t:
+        return cut_clause(t, limit)
+    topic, spec = t.split(" - ", 1)
+    spec = spec.rstrip("…").strip()
+    if len(spec) < 12:
+        return cut_clause(t, limit)
+    tag = re.sub(r"\b(?:admissions?|courses?)\s+(?:into|under|for|in)\s+", "", topic, flags=re.I)
+    tag = re.sub(r"\s{2,}", " ", tag).strip(" ,-")
+    tag = cut_clause(tag, 40)
+    budget = limit - len(tag) - 3
+    return f"{cut_clause(spec[:1].upper() + spec[1:], max(budget, 30))} · {tag}"
 
 
 # ----------------------------------------------------------------------------- what a post shows

@@ -212,27 +212,38 @@ def post_app(cfg, pack, folder):
 
 
 # ----------------------------------------------------------------------------- duplicate guard
-def _first_line(text):
-    first = (text or "").strip().split("\n")[0]
-    return re.sub(r"[^a-z0-9]+", " ", first.lower()).strip()[:140]
+def _body_key(text):
+    """Headline + summary + points of a caption (everything before the PDF / alerts / hashtags lines), normalised.
+    Different notices often share a headline (e.g. three KNRUHS PG notices the same morning), so the headline alone
+    is NOT enough to call something a duplicate."""
+    keep = []
+    for line in (text or "").split("\n"):
+        if line.startswith(("📄", "🔔", "#")) or "Not affiliated" in line or "Unofficial" in line:
+            break
+        keep.append(line)
+    return re.sub(r"[^a-z0-9]+", " ", " ".join(keep).lower()).strip()[:900]
 
 
 def find_existing(cfg, pack, days=7):
-    """Before posting: is this exact notice (same headline) already on Instagram or the Facebook Page from the last
-    few days? Then the bot lost its memory somehow (a run cut off half-way) - do NOT post it again.
-    Returns where it was found, e.g. {"instagram": "<link>"}; {} when it is genuinely new or nothing can be checked."""
-    want = _first_line(pack["captions"].get("instagram") or "")
-    if len(want) < 12:
+    """Before posting: is this exact notice already on Instagram or the Facebook Page from the last few days?
+    (That only happens when a run lost its memory half-way.) Same notice = the same official PDF link on Facebook,
+    or the same full caption (headline + summary + points) on Instagram. Returns where it was found, else {}."""
+    ig_cap = pack["captions"].get("instagram") or ""
+    fb_cap = pack["captions"].get("facebook") or ""
+    want = _body_key(ig_cap)
+    m = re.search(r"Official PDF: (\S+)", fb_cap)
+    src = m.group(1) if m else ""
+    if len(want) < 40 and not src:
         return {}
     since = time.time() - days * 86400
     found = {}
-    checks = []
     ig = cfg.get("instagram") or {}
+    fb = cfg.get("facebook") or {}
+    checks = []
     if ig.get("user_id") and ig.get("access_token"):
         api = ig.get("api_base", "https://graph.facebook.com/v23.0").rstrip("/")
         checks.append(("instagram", f"{api}/{ig['user_id']}/media?fields=caption,timestamp,permalink&limit=40&access_token={urllib.parse.quote(ig['access_token'])}",
                        "caption", "timestamp", "permalink"))
-    fb = cfg.get("facebook") or {}
     if fb.get("page_id") and fb.get("access_token"):
         api = fb.get("api_base", "https://graph.facebook.com/v23.0").rstrip("/")
         checks.append(("facebook", f"{api}/{fb['page_id']}/posts?fields=message,created_time,permalink_url&limit=40&access_token={urllib.parse.quote(fb['access_token'])}",
@@ -244,13 +255,20 @@ def find_existing(cfg, pack, days=7):
             continue
         if code != 200 or not isinstance(js, dict):
             continue
-        for m in js.get("data", []):
+        for item in js.get("data", []):
             try:
-                ts = datetime.strptime(m[ktime], "%Y-%m-%dT%H:%M:%S%z").timestamp()
+                ts = datetime.strptime(item[ktime], "%Y-%m-%dT%H:%M:%S%z").timestamp()
             except Exception:
                 continue
-            if ts >= since and _first_line(m.get(ktext, "")) == want:
-                found[name] = m.get(klink, "")
+            if ts < since:
+                continue
+            text = item.get(ktext, "") or ""
+            if name == "facebook" and src:
+                same = src in text
+            else:
+                same = len(want) >= 40 and _body_key(text) == want
+            if same:
+                found[name] = item.get(klink, "")
                 break
     return found
 
