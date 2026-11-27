@@ -272,6 +272,32 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-26T17:34:50+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"0de9a51640\", \"points\": [], \"posted\": {\"app\": \"2026-11-26T17:34:50+05:30\"}, \"published_at\": \"2026-11-26T17:34:50+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5031\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"MBBS 2nd Prof result, ND-26 session (notification 3)\", \"title\": \"MBBS 2nd Prof result, ND-26 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-26T18:19:22+05:30"
+  },
+  "65079aa43a": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T16:19:48+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"65079aa43a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5033\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 7th Semester result, ND-25 session (notification 7)\", \"title\": \"BSc Nursing (new scheme) 7th Semester result, ND-25 session (notification 7)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T16:19:48+05:30"
+  },
+  "0ef5c41ad6": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T16:19:48+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"0ef5c41ad6\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5032\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (Post Basic) 2nd Year result, ND-25 session (notification 8)\", \"title\": \"BSc Nursing (Post Basic) 2nd Year result, ND-25 session (notification 8)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T16:19:48+05:30"
   }
  },
  "auto": {
@@ -283,7 +309,10 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795776588.89262,
+   1795776588.8933673
+  ],
   "target_since": {
    "app": 1795588135.1644757
   },
