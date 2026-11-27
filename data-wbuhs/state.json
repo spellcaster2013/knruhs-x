@@ -244,7 +244,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"7d1efd04ef\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-4th-BAMS-DECEMBER_2026-1.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Schedule of 4th BAMS DECEMBER, 2026 Examination\", \"title\": \"Schedule of 4th BAMS DECEMBER, 2026 Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T13:40:54+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"7d1efd04ef\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T13:40:54+05:30\"}, \"published_at\": \"2026-11-27T13:40:54+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-4th-BAMS-DECEMBER_2026-1.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Schedule of 4th BAMS DECEMBER, 2026 Examination\", \"title\": \"Schedule of 4th BAMS DECEMBER, 2026 Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T13:40:54+05:30"
   }
  },
@@ -258,8 +258,6 @@
    "app"
   ],
   "log": [
-   1795764010.6039782,
-   1795764010.60499,
    1795767054.7286952
   ],
   "target_since": {
