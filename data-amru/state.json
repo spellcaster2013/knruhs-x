@@ -402,6 +402,19 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T02:06:21+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"e0c6efe22f\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T02:06:26+05:30\"}, \"published_at\": \"2026-11-27T02:06:26+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Datesheet-for-3rd-Year-B.Sc_.-Paramedical.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Datesheet of 3rd Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"title\": \"Datesheet of 3rd Year for B.Sc Paramedical (MLT) Courses Examinations November/December 2026\", \"type\": \"exam\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T02:06:26+05:30"
+  },
+  "1bec1551f0": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T17:21:30+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.81, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"1bec1551f0\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Schedule-for-MDS-2nd-Stray-round-Counselling-2026.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"AMRU/(COE)-Admission-121/2026-27(MDS)- 7494 Dated: 27.11.2026 Copy forwarded to the following for information: 1. The Director, Medical Education & Research, H.\", \"title\": \"Schedule for MDS 2nd Stray round Counselling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T17:21:30+05:30"
   }
  },
  "auto": {
@@ -413,7 +426,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795780290.5244942
+  ],
   "target_since": {
    "app": 1795589839.0614133
   },
