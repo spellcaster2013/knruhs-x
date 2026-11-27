@@ -428,6 +428,19 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 0.95, \"deadline\": 0, \"detected_at\": \"2026-11-27T17:36:46+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"11416ab212\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T17:36:46+05:30\"}, \"published_at\": \"2026-11-27T17:36:46+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Seat-vacancy-for-MDS-2nd-Stray-Round-Counselling-2026-for-check.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Seat vacancy for MDS 2nd Stray Round Counselling 2026 for check\", \"title\": \"Seat vacancy for MDS 2nd Stray Round Counselling 2026 for check\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T17:36:46+05:30"
+  },
+  "96afbabe94": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T18:06:35+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.85, \"deadline\": 1795847400000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"96afbabe94\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Choice-filling-date-extend-noting-for-1st-round-counelling-2026.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"AMRU/(COE)-Admission-112/2025-26/PG(MD/MS Ayu.)7498 Dated:27-11-2026 Notice It is information to all concerned that the last date for submission of choices/preference for the 1st Round of PG MD/MS (Ayurveda) Counselling \\u2013 2026 has been extended up to 28.11.2026 (12:00 NOON). All eligible\\u2026\", \"title\": \"Choice filling date extend noting for 1st round counelling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-27T18:06:35+05:30"
   }
  },
  "auto": {
@@ -441,7 +454,8 @@
   ],
   "log": [
    1795780290.5244942,
-   1795781206.461337
+   1795781206.461337,
+   1795782995.8859348
   ],
   "target_since": {
    "app": 1795589839.0614133
