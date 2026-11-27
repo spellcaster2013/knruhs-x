@@ -389,6 +389,19 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 0.58, \"deadline\": 1795976940000, \"detected_at\": \"2026-11-27T14:50:58+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3a4642d82c\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T14:50:58+05:30\"}, \"published_at\": \"2026-11-27T14:50:58+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/mbbs-2026-batch-required-documents.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Student Name & Roll no. should be mention in the subject of Email message and also ensure that name of the JPG/JPEG file must be on the name of the document. ST-I/26/ Dated Copy of the above is forwarded to the following for information and necessary action please. 1.\", \"title\": \"Provide scanned documents of MBBS 2026 Batch students\", \"type\": \"circular\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-27T14:50:58+05:30"
+  },
+  "e5489fcb12": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T15:35:41+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.83, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"e5489fcb12\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://uhsr.ac.in/sites/default/files/2026-11/271126listeligible.pdf\", \"status\": \"published\", \"stream\": \"bds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"List of Eligible Candidates after Successfully Physical Document Verification (Round - 6 (BDS)) on 27/11/2026 for the Academic Session 2026\", \"type\": \"result\", \"university\": \"uhsr\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T15:35:41+05:30"
   }
  },
  "auto": {
@@ -401,9 +414,8 @@
    "app"
   ],
   "log": [
-   1795770333.833661,
-   1795770333.8347116,
-   1795771258.2252035
+   1795771258.2252035,
+   1795773941.3695085
   ],
   "target_since": {
    "app": 1795588683.4377007
