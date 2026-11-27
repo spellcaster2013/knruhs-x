@@ -10,7 +10,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:21+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"8d96dccd17\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"15 Oct 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1792052161_JQnJk1R3.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"B.Sc Nursing Semester System 1st, 2nd, 3rd & 4th Semester Exam October-November 2026 Time-Table Exam Form Submission Date Extend\", \"title\": \"B.Sc Nursing Semester System 1st, 2nd, 3rd & 4th Semester Exam October-November 2026 Time-Table Exam Form Submission Date Extend\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:21+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"8d96dccd17\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"15 Oct 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1792052161_JQnJk1R3.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"B.Sc Nursing Semester System 1st, 2nd, 3rd & 4th Semester Exam October-November 2026 Time-Table Exam Form Submission Date Extend\", \"title\": \"B.Sc Nursing Semester System 1st, 2nd, 3rd & 4th Semester Exam October-November 2026 Time-Table Exam Form Submission Date Extend\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "8dd26685c3": {
@@ -23,7 +23,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:20+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"8dd26685c3\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"16 Oct 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1792150268_LmNIYdHr.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"M.B.B.S. Final Part-I Supplementary Exam Time-Table October-November 2026 Exam Form Date & Exam Date Extend, Amended Notification\", \"title\": \"M.B.B.S. Final Part-I Supplementary Exam Time-Table October-November 2026 Exam Form Date & Exam Date Extend, Amended Notification\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:20+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"8dd26685c3\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"16 Oct 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1792150268_LmNIYdHr.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"M.B.B.S. Final Part-I Supplementary Exam Time-Table October-November 2026 Exam Form Date & Exam Date Extend, Amended Notification\", \"title\": \"M.B.B.S. Final Part-I Supplementary Exam Time-Table October-November 2026 Exam Form Date & Exam Date Extend, Amended Notification\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "9e4882383a": {
@@ -36,7 +36,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:18+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"9e4882383a\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"22 Oct 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1792664253_6tkXfbW4.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"M.D. Ayurved ( Ayurved Vachaspati ) / M.S. Ayurved (Ayurved Dhanwantari) Final Year Main Exam November 2026 Time-Table\", \"title\": \"M.D. Ayurved ( Ayurved Vachaspati ) / M.S. Ayurved (Ayurved Dhanwantari) Final Year Main Exam November 2026 Time-Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:18+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"9e4882383a\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"22 Oct 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1792664253_6tkXfbW4.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"M.D. Ayurved ( Ayurved Vachaspati ) / M.S. Ayurved (Ayurved Dhanwantari) Final Year Main Exam November 2026 Time-Table\", \"title\": \"M.D. Ayurved ( Ayurved Vachaspati ) / M.S. Ayurved (Ayurved Dhanwantari) Final Year Main Exam November 2026 Time-Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "d8b46821ed": {
@@ -49,7 +49,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:16+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d8b46821ed\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"12 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794480210_IKzYaHFH.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"P.B.B.Sc. Nursing & M.S.c. Nursing Time Table Dec 2026\", \"title\": \"P.B.B.Sc. Nursing & M.S.c. Nursing Time Table Dec 2026\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:16+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d8b46821ed\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"12 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794480210_IKzYaHFH.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"P.B.B.Sc. Nursing & M.S.c. Nursing Time Table Dec 2026\", \"title\": \"P.B.B.Sc. Nursing & M.S.c. Nursing Time Table Dec 2026\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "849299b2ff": {
@@ -62,7 +62,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:14+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"849299b2ff\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794554743_ebCb4DOo.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"B.A.S.L.P 2nd Semester Exam December 2026 Time- Table\", \"title\": \"B.A.S.L.P 2nd Semester Exam December 2026 Time- Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:14+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"849299b2ff\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794554743_ebCb4DOo.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"B.A.S.L.P 2nd Semester Exam December 2026 Time- Table\", \"title\": \"B.A.S.L.P 2nd Semester Exam December 2026 Time- Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "60433bba59": {
@@ -75,7 +75,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:12+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"60433bba59\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794567281_FCe9agfR.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"P.B.BSc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026, P.B.BSc Nursing 1st, 2nd Year Amended Exam Date Time -Table\", \"title\": \"P.B.BSc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026, P.B.BSc Nursing 1st, 2nd Year Amended Exam Date Time -Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:12+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"60433bba59\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"13 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794567281_FCe9agfR.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"P.B.BSc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026, P.B.BSc Nursing 1st, 2nd Year Amended Exam Date Time -Table\", \"title\": \"P.B.BSc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026, P.B.BSc Nursing 1st, 2nd Year Amended Exam Date Time -Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "5ce11d635c": {
@@ -88,7 +88,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:11+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"5ce11d635c\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794990830_cLpKXRCZ.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"B.H.M.S. 2nd Year (NEW COURSE) & B.H.M.S. 3rd Year (NEW COURSE) Supplementary Exam & B.H.M.S. 4th Year (NEW COURSE) Main Exam December 2026 Time-Table\", \"title\": \"B.H.M.S. 2nd Year (NEW COURSE) & B.H.M.S. 3rd Year (NEW COURSE) Supplementary Exam & B.H.M.S. 4th Year (NEW COURSE) Main Exam December 2026 Time-Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:11+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"5ce11d635c\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794990830_cLpKXRCZ.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"B.H.M.S. 2nd Year (NEW COURSE) & B.H.M.S. 3rd Year (NEW COURSE) Supplementary Exam & B.H.M.S. 4th Year (NEW COURSE) Main Exam December 2026 Time-Table\", \"title\": \"B.H.M.S. 2nd Year (NEW COURSE) & B.H.M.S. 3rd Year (NEW COURSE) Supplementary Exam & B.H.M.S. 4th Year (NEW COURSE) Main Exam December 2026 Time-Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "203b23d954": {
@@ -101,7 +101,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:09+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"203b23d954\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794991032_UXiWPmhJ.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"B.H.M.S. (C.B.D.C. BATCH) 1st Year & 2nd Year Supplementary & B.H.M.S. (C.B.D.C.BATCH) 3rd Year Main Exam December 2026 Time-Table\", \"title\": \"B.H.M.S. (C.B.D.C. BATCH) 1st Year & 2nd Year Supplementary & B.H.M.S. (C.B.D.C.BATCH) 3rd Year Main Exam December 2026 Time-Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.5, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:09+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"203b23d954\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"18 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1794991032_UXiWPmhJ.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"B.H.M.S. (C.B.D.C. BATCH) 1st Year & 2nd Year Supplementary & B.H.M.S. (C.B.D.C.BATCH) 3rd Year Main Exam December 2026 Time-Table\", \"title\": \"B.H.M.S. (C.B.D.C. BATCH) 1st Year & 2nd Year Supplementary & B.H.M.S. (C.B.D.C.BATCH) 3rd Year Main Exam December 2026 Time-Table\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "6ee8274e49": {
@@ -114,7 +114,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:07+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"6ee8274e49\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795088344_slS1mghY.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Revised Result of Retotalling MBBS Third Prof Part-II Exam July-Aug-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:07+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"6ee8274e49\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795088344_slS1mghY.pdf\", \"status\": \"published\", \"stream\": \"mbbs\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Revised Result of Retotalling MBBS Third Prof Part-II Exam July-Aug-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "412e5d1b21": {
@@ -127,7 +127,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:06+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"412e5d1b21\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795088544_ZsjL0Kzc.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Retotalling Result of BAMS 1st Prof Exam April-May-2026 (18 Month)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:06+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"412e5d1b21\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795088544_ZsjL0Kzc.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Retotalling Result of BAMS 1st Prof Exam April-May-2026 (18 Month)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "e771106656": {
@@ -140,7 +140,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:05+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"e771106656\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795088708_TbNX1HFm.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Retotalling Result of BAMS 2nd Year Exam May-June-2026 (18 Month)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:05+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"e771106656\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"19 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795088708_TbNX1HFm.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Retotalling Result of BAMS 2nd Year Exam May-June-2026 (18 Month)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "f7277cac9f": {
@@ -153,7 +153,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:03+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"f7277cac9f\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795428032_lygtH2eS.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.D.S. Part-I Examination Sep/Oct-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:03+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"f7277cac9f\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795428032_lygtH2eS.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.D.S. Part-I Examination Sep/Oct-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "3dab152831": {
@@ -166,7 +166,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:02+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"3dab152831\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1795432822_jkBlUWLM.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"P.B.B.Sc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026 Exam Centre List\", \"title\": \"P.B.B.Sc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026 Exam Centre List\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:02+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"3dab152831\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/timetable/1795432822_jkBlUWLM.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"P.B.B.Sc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026 Exam Centre List\", \"title\": \"P.B.B.Sc Nursing 1st, 2nd Year & M.Sc Nursing 1st, 2nd Year Main Exam December 2026 Exam Centre List\", \"type\": \"exam\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "0e08afb93d": {
@@ -179,7 +179,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.25, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:00+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"0e08afb93d\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795433673_m7zMbPQ9.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of B.P.T. 4th Year Examination July-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.25, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:26:00+05:30\", \"errors\": {}, \"flags\": [\"stream-unsure\", \"no-text-scanned-pdf\"], \"id\": \"0e08afb93d\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795433673_m7zMbPQ9.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of B.P.T. 4th Year Examination July-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "4b47dde783": {
@@ -192,7 +192,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:25:58+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"4b47dde783\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795434376_1uXpQBs8.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.Sc. Nursing First (1st) Year Examination Aug/Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T12:25:58+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"4b47dde783\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T12:26:21+05:30\"}, \"published_at\": \"2026-11-25T12:26:21+05:30\", \"published_day\": \"23 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795434376_1uXpQBs8.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.Sc. Nursing First (1st) Year Examination Aug/Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "before-app"
   },
   "d0c385b228": {
@@ -205,7 +205,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T14:49:18+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d0c385b228\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T14:49:18+05:30\"}, \"published_at\": \"2026-11-25T14:49:18+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795597819_rVxN6pvZ.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of P.B.B.Sc. Nursing Second (2nd) Year Examination Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T14:49:18+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"d0c385b228\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T14:49:18+05:30\"}, \"published_at\": \"2026-11-25T14:49:18+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795597819_rVxN6pvZ.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of P.B.B.Sc. Nursing Second (2nd) Year Examination Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T14:49:18+05:30"
   },
   "643f40b03e": {
@@ -218,7 +218,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:39:31+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"643f40b03e\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T16:39:31+05:30\"}, \"published_at\": \"2026-11-25T16:39:31+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795604094_bRHyc9EL.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of P.B.B.Sc. Nursing First (1st) Year Examination Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T16:39:31+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"643f40b03e\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T16:39:31+05:30\"}, \"published_at\": \"2026-11-25T16:39:31+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795604094_bRHyc9EL.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of P.B.B.Sc. Nursing First (1st) Year Examination Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T16:39:31+05:30"
   },
   "8bf38615b4": {
@@ -231,7 +231,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:19:42+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"8bf38615b4\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:19:42+05:30\"}, \"published_at\": \"2026-11-25T17:19:42+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795606557_7UwQf767.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Retotalling Result of MD/MS Medical Exam Aug-Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:19:42+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"8bf38615b4\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:19:42+05:30\"}, \"published_at\": \"2026-11-25T17:19:42+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795606557_7UwQf767.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Retotalling Result of MD/MS Medical Exam Aug-Sep-2026\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-25T17:19:42+05:30"
   },
   "5343ac0441": {
@@ -244,7 +244,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"action\": null, \"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:56:27+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5343ac0441\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:56:27+05:30\"}, \"published_at\": \"2026-11-25T17:56:27+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795608586_qrsRdnQp.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.D.S. Part-II Examination Oct-2026 (04 Subjects)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-25T17:56:27+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"5343ac0441\", \"points\": [], \"posted\": {\"app\": \"2026-11-25T17:56:27+05:30\"}, \"published_at\": \"2026-11-25T17:56:27+05:30\", \"published_day\": \"25 Nov 2026\", \"slides\": [], \"source_url\": \"https://results.ddumhsaucg.ac.in/storage/files/result/1795608586_qrsRdnQp.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Result list released. Open the PDF and search for your register number.\", \"title\": \"Result of M.D.S. Part-II Examination Oct-2026 (04 Subjects)\", \"type\": \"result\", \"university\": \"cgau\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "skipped-old"
   }
  },
