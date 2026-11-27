@@ -1,5 +1,97 @@
 [
   {
+    "title": "MD ayurveda course admissions under competent authority quota for the academic year 2026-27- provisional merit list",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795941000000,
+    "ref": "",
+    "pdf": "16ee877d_MD_ayurveda_eligible.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/MD-AYURVEDA-ELIGIBLE.pdf",
+      "published": "2026-11-27T18:43:50+05:30",
+      "confidence": 0.65,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T18:48:03+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/16ee877d_MD_ayurveda_eligible.pdf"
+    }
+  },
+  {
+    "title": "MD ayurveda course admissions under competent authority quota for the academic year 2026-27-not eligible list of the candidates",
+    "summary": "MD ayurveda course admissions under competent authority quota for the academic year 2026-27-not eligible list of the candidates",
+    "points": [],
+    "stream": "ayush",
+    "type": "admission",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "2cbe61f3_Not_eligible_MD_ayurveda.pdf",
+    "pages": 1,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/NOT-ELIGIBLE-MD-AYURVEDA.pdf",
+      "published": "2026-11-27T18:44:20+05:30",
+      "confidence": 0.82,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T18:48:01+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/2cbe61f3_Not_eligible_MD_ayurveda.pdf"
+    }
+  },
+  {
+    "title": "MD unani course admissions under competent authority quota for the academic year 2026-27- provisional merit list",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "ayush",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795941000000,
+    "ref": "",
+    "pdf": "4dd11648_MD_unani_eligible.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/MD-UNANI-ELIGIBLE.pdf",
+      "published": "2026-11-27T18:45:43+05:30",
+      "confidence": 0.84,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T18:47:59+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/4dd11648_MD_unani_eligible.pdf"
+    }
+  },
+  {
+    "title": "MD homoeopathy course admissions under competent authority quota for the academic year 2026-27- provisional merit list",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1795941000000,
+    "ref": "",
+    "pdf": "c4288b87_MD_homoeopathy_eligible.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/MD-HOMOEOPATHY-ELIGIBLE.pdf",
+      "published": "2026-11-27T18:46:29+05:30",
+      "confidence": 0.65,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T18:47:58+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/c4288b87_MD_homoeopathy_eligible.pdf"
+    }
+  },
+  {
     "title": "PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat",
     "summary": "PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat",
     "points": [],
