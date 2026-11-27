@@ -1954,10 +1954,31 @@
   },
   "c28ea95eef": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      329,
+      330,
+      331
+     ],
+     "at": "2026-11-27T17:48:14+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122107118847554374",
+     "at": "2026-11-27T17:48:21+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18122286454772575",
+     "at": "2026-11-27T17:48:51+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T17:33:16+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"c28ea95eef\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/PWD-Notification.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat\", \"title\": \"PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T17:33:16+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"c28ea95eef\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-27T17:48:21+05:30\", \"instagram\": \"2026-11-27T17:48:51+05:30\", \"telegram\": \"2026-11-27T17:48:14+05:30\"}, \"published_at\": \"2026-11-27T17:48:14+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/c28ea95eef/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/c28ea95eef/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/c28ea95eef/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/PWD-Notification.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat\", \"title\": \"PG ayush admissions under competent authority quota for the academic year 2026-27- assessment for applicants under persons with disabilities (pwd) cat\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-27T17:48:52+05:30"
   }
  },
  "auto": {
@@ -1972,7 +1993,7 @@
    "instagram"
   ],
   "log": [
-   1795777399.078983
+   1795781890.4717624
   ],
   "all": true,
   "target_since": {
