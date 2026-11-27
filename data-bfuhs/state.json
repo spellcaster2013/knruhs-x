@@ -309,7 +309,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"b75f1c6939\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5036\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 3)\", \"title\": \"BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T16:35:39+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"b75f1c6939\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T16:35:39+05:30\"}, \"published_at\": \"2026-11-27T16:35:39+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5036\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 3)\", \"title\": \"BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 3)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T16:35:39+05:30"
   },
   "acc032709b": {
@@ -322,7 +322,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"acc032709b\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5035\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 5)\", \"title\": \"BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 5)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T16:35:39+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"acc032709b\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T16:35:39+05:30\"}, \"published_at\": \"2026-11-27T16:35:39+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5035\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 5)\", \"title\": \"BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 5)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T16:35:39+05:30"
   },
   "58a1294887": {
@@ -335,7 +335,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"58a1294887\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5034\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 4)\", \"title\": \"BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 4)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-27T16:35:39+05:30\", \"errors\": {}, \"flags\": [\"link-only\"], \"id\": \"58a1294887\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T16:35:39+05:30\"}, \"published_at\": \"2026-11-27T16:35:39+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5034\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 4)\", \"title\": \"BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 4)\", \"type\": \"result\", \"university\": \"bfuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T16:35:39+05:30"
   }
  },

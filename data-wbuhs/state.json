@@ -270,7 +270,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"e79b9b3397\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-1st-BHMS-New-Regulation-CBDC-December-January-2026-2027-Theoretical-Examination.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Schedule of 1st BHMS (CBDC) December-January, 2026-2027 Theoretical Examination\", \"title\": \"Schedule of 1st BHMS (CBDC) December-January, 2026-2027 Theoretical Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T16:35:02+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"e79b9b3397\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T16:35:02+05:30\"}, \"published_at\": \"2026-11-27T16:35:02+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-1st-BHMS-New-Regulation-CBDC-December-January-2026-2027-Theoretical-Examination.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Schedule of 1st BHMS (CBDC) December-January, 2026-2027 Theoretical Examination\", \"title\": \"Schedule of 1st BHMS (CBDC) December-January, 2026-2027 Theoretical Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T16:35:02+05:30"
   }
  },
