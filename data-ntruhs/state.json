@@ -649,6 +649,32 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1795768200000, \"detected_at\": \"2026-11-26T19:35:06+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"35007adecf\", \"points\": [\"In continuation of earlier notification dated 08.09.2026, University hereby notifies the Stray Vacancy Round 2 of web-based counselling for BAMS,\\u2026\", \"Date of issue of Notification for exercising web options 26.11.2026 2.\", \"Who are Eligible to Participate in Stray Vacancy Round 2 1.\", \"Candidates who are not holding any seat of BHMS/BAMS/BUMS of Central quota or State quota are only eligible to apply under this notification.\"], \"posted\": {\"app\": \"2026-11-26T19:35:23+05:30\"}, \"published_at\": \"2026-11-26T19:35:23+05:30\", \"published_day\": \"26 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261126192433081.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"\\u075e .\\u0c2f\\u07e4.\\u073d.\\u0c06\\u085b. \\u0c06\\u0857\\u0c17\\u0919 \\u0891\\u0709\\u0925 \\u0c28 \\u0891\\u0c36\\u091b \\u07b3\\u0891\\u0919 \\u0c32\\u0c2f\\u0c02, \\u0891\\u0c1c\\u0c2f\\u0890\\u0c21 Dr. Notification for exercising web options for Stray Vacancy Round 2 of web-based counseling for admission into BAMS, BHMS & BUMS Courses under Competent Authority Quota Seats in Government, Private Un-aided Non-Minority BAMS, BHMS & BUMS colleges under Dr.\", \"title\": \"UG AYUSH Courses 2026-27 - CQ - Stray Vacancy Round 2 Web Options Notification\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-26T20:17:45+05:30"
+  },
+  "0066eb0686": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T15:04:17+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796031000000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"0066eb0686\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261127144726213.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"PG (Medical) MQ 2026-27 - Phase-II College wise Final Allotment List\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-27T15:04:17+05:30"
+  },
+  "c45269fb5f": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T15:04:17+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796193000000, \"detected_at\": \"2026-11-27T15:04:00+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"c45269fb5f\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261127144958437.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Allied and Healthcare Courses 2026-27 - CQ - Phase-I College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-27T15:04:17+05:30"
   }
  },
  "auto": {
@@ -660,7 +686,10 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795772057.4842625,
+   1795772057.4868608
+  ],
   "target_since": {
    "app": 1795534573.20719
   },

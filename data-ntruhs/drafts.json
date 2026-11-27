@@ -1,5 +1,51 @@
 [
   {
+    "title": "PG (Medical) MQ 2026-27 - Phase-II College wise Final Allotment List",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "mdms",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1796031000000,
+    "ref": "",
+    "pdf": "a7994b63_213.pdf",
+    "pages": 34,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261127144726213.pdf",
+      "published": "2026-11-27T14:47:26+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T15:04:17+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/a7994b63_213.pdf"
+    }
+  },
+  {
+    "title": "Allied and Healthcare Courses 2026-27 - CQ - Phase-I College Wise Allotments",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "allied",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1796193000000,
+    "ref": "",
+    "pdf": "87f7f35f_437.pdf",
+    "pages": 162,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261127144958437.pdf",
+      "published": "2026-11-27T14:49:58+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T15:04:00+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/87f7f35f_437.pdf"
+    }
+  },
+  {
     "title": "UG AYUSH Courses 2026-27 - MQ - Merit List of Applied Candidates in response to Notification dated 25.11.2026",
     "summary": "List released. Open the PDF and search for your name or roll number.",
     "points": [],
