@@ -413,8 +413,21 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.81, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"1bec1551f0\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Schedule-for-MDS-2nd-Stray-round-Counselling-2026.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"AMRU/(COE)-Admission-121/2026-27(MDS)- 7494 Dated: 27.11.2026 Copy forwarded to the following for information: 1. The Director, Medical Education & Research, H.\", \"title\": \"Schedule for MDS 2nd Stray round Counselling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "fs_sig": "{\"confidence\": 0.81, \"deadline\": 0, \"detected_at\": \"2026-11-27T17:21:30+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"1bec1551f0\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T17:21:30+05:30\"}, \"published_at\": \"2026-11-27T17:21:30+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Schedule-for-MDS-2nd-Stray-round-Counselling-2026.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"AMRU/(COE)-Admission-121/2026-27(MDS)- 7494 Dated: 27.11.2026 Copy forwarded to the following for information: 1. The Director, Medical Education & Research, H.\", \"title\": \"Schedule for MDS 2nd Stray round Counselling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T17:21:30+05:30"
+  },
+  "11416ab212": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T17:36:46+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.95, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"11416ab212\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Seat-vacancy-for-MDS-2nd-Stray-Round-Counselling-2026-for-check.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"Seat vacancy for MDS 2nd Stray Round Counselling 2026 for check\", \"title\": \"Seat vacancy for MDS 2nd Stray Round Counselling 2026 for check\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T17:36:46+05:30"
   }
  },
  "auto": {
@@ -427,7 +440,8 @@
    "app"
   ],
   "log": [
-   1795780290.5244942
+   1795780290.5244942,
+   1795781206.461337
   ],
   "target_since": {
    "app": 1795589839.0614133
