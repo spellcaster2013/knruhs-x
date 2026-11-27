@@ -259,6 +259,19 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"2026-11-27T14:34:30+05:30\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"8df560d8c2\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T14:34:30+05:30\"}, \"published_at\": \"2026-11-27T14:34:30+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-B.SC-Nursing-2nd-sem-january-february-2027.pdf\", \"status\": \"published\", \"stream\": \"nursing\", \"summary\": \"Schedule of B.Sc Nursing 2nd Semester January-February, 2027 Examination\", \"title\": \"Schedule of B.Sc Nursing 2nd Semester January-February, 2027 Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
    "pushed": "2026-11-27T14:34:30+05:30"
+  },
+  "e79b9b3397": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-27T16:35:02+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [\"no-text-scanned-pdf\"], \"id\": \"e79b9b3397\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://wbuhs.ac.in/wp-content/uploads/2026/11/Schedule-of-1st-BHMS-New-Regulation-CBDC-December-January-2026-2027-Theoretical-Examination.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Schedule of 1st BHMS (CBDC) December-January, 2026-2027 Theoretical Examination\", \"title\": \"Schedule of 1st BHMS (CBDC) December-January, 2026-2027 Theoretical Examination\", \"type\": \"exam\", \"university\": \"wbuhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "pushed": "2026-11-27T16:35:02+05:30"
   }
  },
  "auto": {
@@ -270,7 +283,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795777502.8151453
+  ],
   "target_since": {
    "app": 1795586684.093776
   },

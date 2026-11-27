@@ -1,5 +1,80 @@
 [
   {
+    "title": "BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 3)",
+    "summary": "BSc Nursing (new scheme) 5th Semester result, ND-25 session (notification 3)",
+    "points": [],
+    "stream": "nursing",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "",
+    "pages": 0,
+    "meta": {
+      "source_url": "https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5036",
+      "published": "2026-11-27T12:00:00+05:30",
+      "confidence": 0.75,
+      "flags": [
+        "link-only"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T16:35:39+05:30",
+      "status": "needs-review",
+      "pdf_path": ""
+    }
+  },
+  {
+    "title": "BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 5)",
+    "summary": "BSc Nursing (new scheme) 3rd Semester result, ND-25 session (notification 5)",
+    "points": [],
+    "stream": "nursing",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "",
+    "pages": 0,
+    "meta": {
+      "source_url": "https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5035",
+      "published": "2026-11-27T12:00:00+05:30",
+      "confidence": 0.75,
+      "flags": [
+        "link-only"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T16:35:39+05:30",
+      "status": "needs-review",
+      "pdf_path": ""
+    }
+  },
+  {
+    "title": "BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 4)",
+    "summary": "BSc Nursing (new scheme) 6th Semester result, ND-25 session (notification 4)",
+    "points": [],
+    "stream": "nursing",
+    "type": "result",
+    "urgent": false,
+    "early": 0,
+    "deadline": null,
+    "ref": "",
+    "pdf": "",
+    "pages": 0,
+    "meta": {
+      "source_url": "https://bfuhs.ggsmch.org/university-regular-exam/#bfuhs_result-5034",
+      "published": "2026-11-27T12:00:00+05:30",
+      "confidence": 0.75,
+      "flags": [
+        "link-only"
+      ],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-27T16:35:39+05:30",
+      "status": "needs-review",
+      "pdf_path": ""
+    }
+  },
+  {
     "title": "BSc Nursing (new scheme) 7th Semester result, ND-25 session (notification 7)",
     "summary": "BSc Nursing (new scheme) 7th Semester result, ND-25 session (notification 7)",
     "points": [],
