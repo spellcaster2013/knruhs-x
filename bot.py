@@ -577,7 +577,9 @@ def tidy_title(s):
 
 def rule_draft(item, text, pages, published, meta_title=""):
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    sub = next((l for l in lines if re.match(r"(sub(ject)?)\s*[:\-–]", l, re.I)), "")
+    # the letter's subject line: "Sub:", "Sub.-", "Subject - ..." near the top. NOT words like "Sub-Group", "Sub-rule"
+    # inside the body (a prospectus once gave "Group ie., BC A to BC B..." as its title).
+    sub = next((l for l in lines[:45] if re.match(r"sub(?:ject)?\s*(?::|\.|[-–](?=\s))", l, re.I)), "")
     if sub:
         k = lines.index(sub)  # the subject wraps over several lines; stop at "Reg." or after 3 lines
         j = k

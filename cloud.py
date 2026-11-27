@@ -228,6 +228,7 @@ def main():
     if d.last_error:
         bot.log("check problem:", d.last_error)
     if fb:
+        d.precheck = fb.fresh_action  # re-read the admin's Drop / Hold just before each automatic post
         fb.import_manual(data_dir, studio.pack_id)
         fb.apply_edits(data_dir, studio.pack_id)
         mine = {pk["id"] for pk in d.packs()}

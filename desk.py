@@ -112,6 +112,14 @@ class Desk:
         conf = publish.configured(self.cfg)
         st = self.item_state(pid)
         social = [t for t in targets if t in ("telegram", "facebook", "instagram") and conf.get(t)]
+        if social and auto and getattr(self, "precheck", None):
+            # last look at the admin app: a Drop / Hold pressed while the notice was waiting stops the post here
+            act = self.precheck(pid)
+            if act in ("dismiss", "hold"):
+                st["status"] = "dismissed" if act == "dismiss" else "held"
+                self.log(f"not posting - you pressed {'Drop' if act == 'dismiss' else 'Hold'} in the admin app: {pk['title'][:60]}")
+                self.save()
+                return {"posted": [], "errors": {}, "stopped_by_admin": act}
         if social and not force and not any(t in st["posted"] for t in social):
             # duplicate guard: never post a notice that is already on our Instagram / Facebook (memory lost mid-run)
             where = publish.find_existing(self.cfg, pk)

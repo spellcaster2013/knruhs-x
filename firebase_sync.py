@@ -135,6 +135,15 @@ class FirebaseSync:
         if r.status_code >= 300:
             raise RuntimeError(f"Firestore write {path} failed: HTTP {r.status_code} {r.text[:200]}")
 
+    def fresh_action(self, nid):
+        """The admin's button for one notice right now (one read) - checked just before posting it anywhere."""
+        try:
+            doc = self.get(f"notices/{nid}")
+            return (fields_of(doc).get("action") if doc else None) or None
+        except Exception as e:
+            self.log("firebase: could not re-check the admin action:", e)
+            return None
+
     def query(self, coll, field, op, value):
         """Only the documents that match (each match costs one read) - instead of reading the whole collection."""
         if op == "IS_NOT_NULL":
@@ -293,8 +302,11 @@ class FirebaseSync:
                 "detected_at": pk.get("detected_at") or "", "published_at": first_post, "status": status,
                 "posted": {k: v.get("at", "") for k, v in st.get("posted", {}).items()},
                 "errors": st.get("errors") or {}, "flags": pk.get("flags") or [], "confidence": float(pk.get("confidence") or 0),
-                "slides": slides, "updated_at": now, "action": None, "university": self.uni,
+                "slides": slides, "updated_at": now, "university": self.uni,
             }
+            if pk["id"] in self.actions:
+                doc["action"] = None  # this run applied the admin's button press - clear it. Otherwise never touch
+                # "action": a Drop / Hold pressed while this run was busy must survive until the next run reads it.
             sig = json.dumps(doc, sort_keys=True, default=str).replace(now, "")
             if st.get("fs_sig") != sig or pk["id"] in self.actions:
                 try:
