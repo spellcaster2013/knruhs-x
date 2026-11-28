@@ -1,5 +1,51 @@
 [
   {
+    "title": "MD(Homoeo) Phase-I College wise allotments 2026-27",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "ayush",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1796189400000,
+    "ref": "",
+    "pdf": "b75e8b69_120.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261128201108120.pdf",
+      "published": "2026-11-28T20:11:08+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-28T20:18:49+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/b75e8b69_120.pdf"
+    }
+  },
+  {
+    "title": "MD(Ayurveda) Phase-I College wise allotments 2026-27",
+    "summary": "List released. Open the PDF and search for your name or roll number.",
+    "points": [],
+    "stream": "ayush",
+    "type": "counselling",
+    "urgent": true,
+    "early": 0,
+    "deadline": 1796189400000,
+    "ref": "",
+    "pdf": "ba1803dc_150.pdf",
+    "pages": 2,
+    "meta": {
+      "source_url": "https://drntr.uhsap.in/index/notification/20261128201108150.pdf",
+      "published": "2026-11-28T20:11:08+05:30",
+      "confidence": 1.0,
+      "flags": [],
+      "drafted_by": "rules",
+      "detected_at": "2026-11-28T20:18:47+05:30",
+      "status": "needs-review",
+      "pdf_path": "pdfs/ba1803dc_150.pdf"
+    }
+  },
+  {
     "title": "PG (Medical) Admissions 2026-27 - Extension Notification for Joining Time of Phase-II Allotted candidates",
     "summary": "All the Principals concerned shall make necessary arrangements to admit the students up to 05.00 PM on 01.12.2026 and shall freeze the data of Not Reported/Reported candidates by 06.00 PM on 01.12.2026 without fail.",
     "points": [],

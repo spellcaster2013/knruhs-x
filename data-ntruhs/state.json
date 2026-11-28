@@ -753,6 +753,32 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796236140000, \"detected_at\": \"2026-11-28T16:18:04+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6cf5d1a6bd\", \"points\": [\"Date of issue of Notification 28.11.2026 2.\", \"Availability of online Application forms website https://apuhs- pgadmissions.aptonline.in/PGMPT/Home/Stud entLogin From 4.00 P.M. on 28.11.2026 to\\u2026\", \"Dept, dt.31-08-2023 \\uf0b7 G.O.Ms.No,184 HM & FW (C2)\", \"Dept., dt.21.10.2023 \\uf0b7 G.O.Ms.No,892, HM & FW (C2)\"], \"posted\": {\"app\": \"2026-11-28T16:18:26+05:30\"}, \"published_at\": \"2026-11-28T16:18:26+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128161335153.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"\\u0000\\u0000. \\u0c2f\\u0000.\\u0c1f\\u0000.\\u0c06\\u0000. \\u0c06\\u0000\\u0000\\u0c17\\u0000 \\u0000\\u0c1c\\u0000\\u0000 \\u0c28 \\u0000\\u0c36\\u0000\\u0000\\u0000\\u0000\\u0000\\u0c32\\u0c2f\\u0c02, \\u0000\\u0c1c\\u0c2f\\u0000\\u0c3e\\u0c21 Dr. Inviting online application forms and Uploading of Original scanned documents for Verification Online application forms are invited from the eligible MPTCET-2026 Rank holders for admission into MPT courses under Competent Authority Quota Seats\\u2026\", \"title\": \"MPT Notification for Competent Authority Quota seats 2026-27\", \"type\": \"admission\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-28T16:18:26+05:30"
+  },
+  "6b739fd803": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-28T20:18:49+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796189400000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"6b739fd803\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128201108120.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Homoeo) Phase-I College wise allotments 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-28T20:18:49+05:30"
+  },
+  "6e96e88b1e": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-28T20:18:49+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796189400000, \"detected_at\": \"2026-11-28T20:18:47+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6e96e88b1e\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128201108150.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Ayurveda) Phase-I College wise allotments 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-28T20:18:49+05:30"
   }
  },
  "auto": {
@@ -764,7 +790,10 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795877329.7837722,
+   1795877329.7866046
+  ],
   "target_since": {
    "app": 1795534573.20719
   },
