@@ -2277,9 +2277,39 @@
   },
   "3d846555dc": {
    "status": "new",
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      376,
+      377,
+      378,
+      379,
+      380
+     ],
+     "at": "2026-11-28T18:17:57+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122108209341554374",
+     "at": "2026-11-28T18:18:08+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18402007516202543",
+     "at": "2026-11-28T18:18:50+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.98, \"deadline\": 1796373000000, \"detected_at\": \"2026-11-28T18:02:42+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3d846555dc\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-28T18:18:08+05:30\", \"instagram\": \"\", \"telegram\": \"2026-11-28T18:17:57+05:30\"}, \"published_at\": \"2026-11-28T18:17:57+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d846555dc/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d846555dc/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d846555dc/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d846555dc/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d846555dc/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-REVISED-ALLOTMENTS-IN-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - college wise revised allotments in second phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-28T18:18:50+05:30"
+  },
+  "836e189344": {
+   "status": "new",
    "posted": {},
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.98, \"deadline\": 1796373000000, \"detected_at\": \"2026-11-28T18:02:42+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3d846555dc\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-MANAGEMENT-QUOTA-FOR-THE-AY-2026-27-COLLEGE-WISE-REVISED-ALLOTMENTS-IN-SECOND-PHASE-OF-COUNSELLING.pdf\", \"status\": \"pending\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Medical PG degree diploma admissions under management quota for the AY 2026-27 - college wise revised allotments in second phase of counselling\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"confidence\": 0.72, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:17:51+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"836e189344\", \"points\": [\"For eligibility criteria and regulations refer to notification dated: 16/09/2026.\", \"Counseling, for admission to ASU & H UG-courses for the A.Y. 2026-27, communicated by Ayush Admissions Central Counseling Committee (AACCC) are\\u2026\", \"Candidates who have been allotted seats in UG AYUSH (BAMS, BHMS, BUMS and BNYS) courses under Competent Authority Quota in the previous phases of\\u2026\", \"Candidates who have discontinued the UG AYUSH (BAMS, BHMS, BUMS and BNYS) courses after joining in the previous phases of counselling under CQ,\\u2026\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG-AYUSH-SPOT-ADMISSION-NOTIFICATION-2026-27.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"Candidates who have already been admitted into MBBS & BDS courses under Competent Authority Quota (CQ), Management Quota (MQ) & All India Quota (AIQ) in affiliated colleges of KNRUHS are not eligible to exercise web options. 2. Candidates who are included in the List of In-eligible candidates to\\u2026\", \"title\": \"UG ayush admissions under competent authority quota for the academic year 2026-27- notification for spot admissions\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "admin_alerted": true
   }
  },
@@ -2295,7 +2325,8 @@
    "instagram"
   ],
   "log": [
-   1795867392.7255092
+   1795867392.7255092,
+   1795870073.8933692
   ],
   "all": true,
   "target_since": {
