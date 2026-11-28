@@ -467,6 +467,19 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 0.98, \"deadline\": 1795865400000, \"detected_at\": \"2026-11-28T13:21:54+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"d03d549dfc\", \"points\": [], \"posted\": {\"app\": \"2026-11-28T13:21:54+05:30\"}, \"published_at\": \"2026-11-28T13:21:54+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Provisional-Seat-allocation-of-MD-MS-DNB-2nd-Round-Counselling-2026-merged.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Provisional Seat allocation of MD MS DNB 2nd Round Counselling 2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-28T13:21:54+05:30"
+  },
+  "a6e5744ae0": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-28T15:24:39+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.94, \"deadline\": 1795869000000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"a6e5744ae0\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/seat-allocation-of-MDS-2nd-Stray-Round-Counselling-2026-merged.pdf\", \"status\": \"published\", \"stream\": \"mds\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Seat allocation of MDS 2nd Stray Round Counselling 2026 merged\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-28T15:24:39+05:30"
   }
  },
  "auto": {
@@ -478,7 +491,9 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795859679.0253596
+  ],
   "target_since": {
    "app": 1795589839.0614133
   },
