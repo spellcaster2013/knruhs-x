@@ -2368,17 +2368,59 @@
   },
   "0ef8e3bab1": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      395,
+      396,
+      397
+     ],
+     "at": "2026-11-28T19:03:57+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122108249331554374",
+     "at": "2026-11-28T19:04:09+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18475615504184871",
+     "at": "2026-11-28T19:04:41+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:48:01+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0ef8e3bab1\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG_Ayush_CQ_Phase_5_Not_Reported.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"UG ayush admissions under competent authority quota for the academic year 2026-27-list of not reported candidates in special stray vacancy phase\", \"title\": \"UG ayush admissions under competent authority quota for the academic year 2026-27-list of not reported candidates in special stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:48:01+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0ef8e3bab1\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-28T19:04:09+05:30\", \"instagram\": \"2026-11-28T19:04:41+05:30\", \"telegram\": \"2026-11-28T19:03:57+05:30\"}, \"published_at\": \"2026-11-28T19:03:57+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/0ef8e3bab1/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/0ef8e3bab1/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/0ef8e3bab1/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG_Ayush_CQ_Phase_5_Not_Reported.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"UG ayush admissions under competent authority quota for the academic year 2026-27-list of not reported candidates in special stray vacancy phase\", \"title\": \"UG ayush admissions under competent authority quota for the academic year 2026-27-list of not reported candidates in special stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-28T19:04:43+05:30"
   },
   "3d57afbdb2": {
    "status": "new",
-   "posted": {},
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      392,
+      393,
+      394
+     ],
+     "at": "2026-11-28T19:03:11+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122108248191554374",
+     "at": "2026-11-28T19:03:22+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18185797618661505",
+     "at": "2026-11-28T19:03:54+05:30",
+     "by": "auto"
+    }
+   },
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:47:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3d57afbdb2\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG_MQ_Phase_4_Not_Reported_28-11-2026.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"BHMS course admissions under management quota for the academic year 2026-27-list of not reported candidates in stray vacancy phase\", \"title\": \"BHMS course admissions under management quota for the academic year 2026-27-list of not reported candidates in stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
-   "admin_alerted": true
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:47:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3d57afbdb2\", \"points\": [], \"posted\": {\"facebook\": \"2026-11-28T19:03:22+05:30\", \"instagram\": \"2026-11-28T19:03:54+05:30\", \"telegram\": \"2026-11-28T19:03:11+05:30\"}, \"published_at\": \"2026-11-28T19:03:11+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d57afbdb2/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d57afbdb2/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/3d57afbdb2/slide-3.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG_MQ_Phase_4_Not_Reported_28-11-2026.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"BHMS course admissions under management quota for the academic year 2026-27-list of not reported candidates in stray vacancy phase\", \"title\": \"BHMS course admissions under management quota for the academic year 2026-27-list of not reported candidates in stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true,
+   "pushed": "2026-11-28T19:04:43+05:30"
   }
  },
  "auto": {
@@ -2395,7 +2437,9 @@
   "log": [
    1795870073.8933692,
    1795871004.7782514,
-   1795871885.5320587
+   1795871885.5320587,
+   1795872788.889707,
+   1795872834.9466593
   ],
   "all": true,
   "target_since": {
