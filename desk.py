@@ -120,7 +120,10 @@ class Desk:
                 self.log(f"not posting - you pressed {'Drop' if act == 'dismiss' else 'Hold'} in the admin app: {pk['title'][:60]}")
                 self.save()
                 return {"posted": [], "errors": {}, "stopped_by_admin": act}
-        if social and not force and not any(t in st["posted"] for t in social):
+        if False and social and not force and not any(t in st["posted"] for t in social):
+            # Duplicate guard switched OFF (28 Nov): KNRUHS re-issues notices (corrigendum 5, addendum 1...) whose
+            # captions are identical to earlier ones, and the guard blocked real notices twice. The real cause of
+            # double posts (memory lost when a run was cut off) is fixed by saving right after posting.
             # duplicate guard: never post a notice that is already on our Instagram / Facebook (memory lost mid-run)
             where = publish.find_existing(self.cfg, pk)
             if where:
