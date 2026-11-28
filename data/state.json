@@ -2338,9 +2338,46 @@
   },
   "8c1ecc8853": {
    "status": "new",
+   "posted": {
+    "telegram": {
+     "message_ids": [
+      387,
+      388,
+      389,
+      390,
+      391
+     ],
+     "at": "2026-11-28T18:48:09+05:30",
+     "by": "auto"
+    },
+    "facebook": {
+     "post_id": "1513327875190364_122108237607554374",
+     "at": "2026-11-28T18:48:23+05:30",
+     "by": "auto"
+    },
+    "instagram": {
+     "media_id": "18103990121552118",
+     "at": "2026-11-28T18:49:21+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.72, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:33:21+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8c1ecc8853\", \"points\": [\"For eligibility criteria and regulations refer to notification dated: 19/10/2026.\", \"Candidates who have already been admitted into MBBS & BDS courses under Competent Authority Quota (CQ), Management Quota (MQ) & All India Quota\\u2026\", \"Candidates who were admitted into UG AYUSH (BAMS, BHMS, BUMS and BNYS) courses seats in the previous phases of counseling under Competent\\u2026\", \"Candidates who are admitted into BHMS course under All India Quota & Management Quota in the previous phases of counseling and continuing in the\\u2026\"], \"posted\": {\"facebook\": \"2026-11-28T18:48:23+05:30\", \"instagram\": \"2026-11-28T18:49:21+05:30\", \"telegram\": \"2026-11-28T18:48:09+05:30\"}, \"published_at\": \"2026-11-28T18:48:09+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [\"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8c1ecc8853/slide-1.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8c1ecc8853/slide-2.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8c1ecc8853/slide-3.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8c1ecc8853/slide-4.jpg\", \"https://raw.githubusercontent.com/spellcaster2013/knruhs-x/main/site/slides/8c1ecc8853/slide-5.jpg\"], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/BHMS-COURSE-SPOT-ADMISSION-NOTIFICATION-2026-27.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"Candidates who are included in the List of In-eligible candidates to participate in Central/State /UT/ Institutional/Central Pool Quota/ AIQ (Private Institute) Counseling, for admission to ASU&H UG-courses for the A.Y. 2026-27, communicated by Ayush Admissions Central Counseling Committee\\u2026\", \"title\": \"BHMS course admissions under management quota for the academic year 2026-27-notification for spot admissions\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "admin_alerted": true,
+   "pushed": "2026-11-28T18:49:22+05:30"
+  },
+  "0ef8e3bab1": {
+   "status": "new",
    "posted": {},
    "errors": {},
-   "fs_sig": "{\"confidence\": 0.72, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:33:21+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"8c1ecc8853\", \"points\": [\"For eligibility criteria and regulations refer to notification dated: 19/10/2026.\", \"Candidates who have already been admitted into MBBS & BDS courses under Competent Authority Quota (CQ), Management Quota (MQ) & All India Quota\\u2026\", \"Candidates who were admitted into UG AYUSH (BAMS, BHMS, BUMS and BNYS) courses seats in the previous phases of counseling under Competent\\u2026\", \"Candidates who are admitted into BHMS course under All India Quota & Management Quota in the previous phases of counseling and continuing in the\\u2026\"], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/BHMS-COURSE-SPOT-ADMISSION-NOTIFICATION-2026-27.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"Candidates who are included in the List of In-eligible candidates to participate in Central/State /UT/ Institutional/Central Pool Quota/ AIQ (Private Institute) Counseling, for admission to ASU&H UG-courses for the A.Y. 2026-27, communicated by Ayush Admissions Central Counseling Committee\\u2026\", \"title\": \"BHMS course admissions under management quota for the academic year 2026-27-notification for spot admissions\", \"type\": \"admission\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:48:01+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"0ef8e3bab1\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG_Ayush_CQ_Phase_5_Not_Reported.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"UG ayush admissions under competent authority quota for the academic year 2026-27-list of not reported candidates in special stray vacancy phase\", \"title\": \"UG ayush admissions under competent authority quota for the academic year 2026-27-list of not reported candidates in special stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
+   "admin_alerted": true
+  },
+  "3d57afbdb2": {
+   "status": "new",
+   "posted": {},
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.75, \"deadline\": 0, \"detected_at\": \"2026-11-28T18:47:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"3d57afbdb2\", \"points\": [], \"posted\": {}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/UG_MQ_Phase_4_Not_Reported_28-11-2026.pdf\", \"status\": \"pending\", \"stream\": \"ayush\", \"summary\": \"BHMS course admissions under management quota for the academic year 2026-27-list of not reported candidates in stray vacancy phase\", \"title\": \"BHMS course admissions under management quota for the academic year 2026-27-list of not reported candidates in stray vacancy phase\", \"type\": \"counselling\", \"university\": \"knruhs\", \"updated_at\": \"\", \"urgent\": false}",
    "admin_alerted": true
   }
  },
@@ -2357,7 +2394,8 @@
   ],
   "log": [
    1795870073.8933692,
-   1795871004.7782514
+   1795871004.7782514,
+   1795871885.5320587
   ],
   "all": true,
   "target_since": {
