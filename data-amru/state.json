@@ -506,6 +506,19 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 0.66, \"deadline\": 0, \"detected_at\": \"2026-11-28T16:21:29+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"60b6f5f618\", \"points\": [], \"posted\": {\"app\": \"2026-11-28T16:21:29+05:30\"}, \"published_at\": \"2026-11-28T16:21:29+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Revised-Final-Merit-list-of-MD-MS-Ayurveda-1st-Round-Counselling-2026-27.pdf\", \"status\": \"published\", \"stream\": \"mdms\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Revised Final Merit list of MD MS Ayurveda 1st Round Counselling 2026 27\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-28T16:21:29+05:30"
+  },
+  "d412aab26e": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-28T17:06:52+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 0.79, \"deadline\": 0, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"d412aab26e\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://amruhp.ac.in/wp-content/uploads/2026/11/Final-Seat-Allocation-of-BAMS-BHMS-Stray-round-counselling-2026.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Final Seat Allocation of BAMS BHMS Stray round counselling 2026\", \"type\": \"counselling\", \"university\": \"amru\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-28T17:06:52+05:30"
   }
  },
  "auto": {
@@ -518,8 +531,8 @@
    "app"
   ],
   "log": [
-   1795861444.2743776,
-   1795863089.525124
+   1795863089.525124,
+   1795865812.4620059
   ],
   "target_since": {
    "app": 1795589839.0614133
