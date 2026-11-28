@@ -675,6 +675,45 @@
    "errors": {},
    "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796193000000, \"detected_at\": \"2026-11-27T15:04:00+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"c45269fb5f\", \"points\": [], \"posted\": {\"app\": \"2026-11-27T15:04:17+05:30\"}, \"published_at\": \"2026-11-27T15:04:17+05:30\", \"published_day\": \"27 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261127144958437.pdf\", \"status\": \"published\", \"stream\": \"allied\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"Allied and Healthcare Courses 2026-27 - CQ - Phase-I College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-27T15:04:17+05:30"
+  },
+  "c74a22c59a": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-28T13:34:01+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796034600000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"c74a22c59a\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128132130457.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"UG AYUSH Courses 2026-27 - MQ - Stray Vacancy Round 2 College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-28T13:34:01+05:30"
+  },
+  "00adc315b8": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-28T13:34:01+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796034600000, \"detected_at\": \"2026-11-28T13:33:59+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"00adc315b8\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128132130470.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"UG AYUSH Courses 2026-27 - CQ - Stray Vacancy Round 2 College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-28T13:34:01+05:30"
+  },
+  "331e5283ff": {
+   "status": "new",
+   "posted": {
+    "app": {
+     "to": "app",
+     "at": "2026-11-28T13:34:01+05:30",
+     "by": "auto"
+    }
+   },
+   "errors": {},
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796034600000, \"detected_at\": \"2026-11-28T13:33:57+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"331e5283ff\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128132130471.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"UG AYUSH Courses 2026-27 - AIQ- Stray Vacancy Round 2 College Wise Allotments\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "pushed": "2026-11-28T13:34:01+05:30"
   }
  },
  "auto": {
@@ -686,7 +725,11 @@
   "targets": [
    "app"
   ],
-  "log": [],
+  "log": [
+   1795853041.1885993,
+   1795853041.1906712,
+   1795853041.1927962
+  ],
   "target_since": {
    "app": 1795534573.20719
   },
