@@ -764,7 +764,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796189400000, \"detected_at\": \"\", \"errors\": {}, \"flags\": [], \"id\": \"6b739fd803\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128201108120.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Homoeo) Phase-I College wise allotments 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796189400000, \"detected_at\": \"2026-11-28T20:18:49+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6b739fd803\", \"points\": [], \"posted\": {\"app\": \"2026-11-28T20:18:49+05:30\"}, \"published_at\": \"2026-11-28T20:18:49+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128201108120.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Homoeo) Phase-I College wise allotments 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-28T20:18:49+05:30"
   },
   "6e96e88b1e": {
@@ -777,7 +777,7 @@
     }
    },
    "errors": {},
-   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796189400000, \"detected_at\": \"2026-11-28T20:18:47+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6e96e88b1e\", \"points\": [], \"posted\": {\"app\": \"\"}, \"published_at\": \"\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128201108150.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Ayurveda) Phase-I College wise allotments 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
+   "fs_sig": "{\"confidence\": 1.0, \"deadline\": 1796189400000, \"detected_at\": \"2026-11-28T20:18:47+05:30\", \"errors\": {}, \"flags\": [], \"id\": \"6e96e88b1e\", \"points\": [], \"posted\": {\"app\": \"2026-11-28T20:18:49+05:30\"}, \"published_at\": \"2026-11-28T20:18:49+05:30\", \"published_day\": \"28 Nov 2026\", \"slides\": [], \"source_url\": \"https://drntr.uhsap.in/index/notification/20261128201108150.pdf\", \"status\": \"published\", \"stream\": \"ayush\", \"summary\": \"List released. Open the PDF and search for your name or roll number.\", \"title\": \"MD(Ayurveda) Phase-I College wise allotments 2026-27\", \"type\": \"counselling\", \"university\": \"ntruhs\", \"updated_at\": \"\", \"urgent\": true}",
    "pushed": "2026-11-28T20:18:49+05:30"
   }
  },
